@@ -1,1 +1,602 @@
-[]
+[
+  {
+    "id": "c1-davon-auszugehen",
+    "level": "C1",
+    "priority": 1,
+    "pattern": "Es ist davon auszugehen, dass …",
+    "meaning": "…diği varsayılabilir, …mesi beklenmektedir",
+    "note": "sein + zu + Infinitiv ile kurulan akademik ve resmî ifade; bir varsayımı bildirir. Dass-cümlesinde fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Es ist davon auszugehen, dass die Preise weiter steigen.",
+        "tr": "Fiyatların yükselmeye devam edeceği varsayılabilir."
+      },
+      {
+        "de": "Es ist davon auszugehen, dass die Verhandlungen noch Wochen dauern.",
+        "tr": "Müzakerelerin daha haftalarca süreceği öngörülebilir."
+      },
+      {
+        "de": "Es ist davon auszugehen, dass die Zahl der Betroffenen deutlich höher liegt.",
+        "tr": "Etkilenenlerin sayısının çok daha yüksek olduğu varsayılabilir."
+      },
+      {
+        "de": "Nach heutigem Stand ist davon auszugehen, dass das Gesetz im Herbst in Kraft tritt.",
+        "tr": "Bugünkü duruma göre yasanın sonbaharda yürürlüğe gireceği varsayılabilir."
+      },
+      {
+        "de": "Es ist nicht davon auszugehen, dass sich die Lage kurzfristig entspannt.",
+        "tr": "Durumun kısa vadede yatışacağı beklenmemeli."
+      }
+    ]
+  },
+  {
+    "id": "c1-im-hinblick-auf",
+    "level": "C1",
+    "priority": 2,
+    "pattern": "Im Hinblick auf … (Akkusativ), …",
+    "meaning": "…i göz önünde bulundurarak, …e ilişkin",
+    "note": "\"auf\" Akkusativ ister. Aynı anlamda hinsichtlich + Genitiv ve in Bezug auf + Akkusativ kullanılır.",
+    "examples": [
+      {
+        "de": "Im Hinblick auf die steigenden Kosten müssen wir sparen.",
+        "tr": "Artan maliyetler göz önüne alındığında tasarruf etmeliyiz."
+      },
+      {
+        "de": "Im Hinblick auf die Prüfung habe ich einen Lernplan erstellt.",
+        "tr": "Sınavı göz önünde bulundurarak bir çalışma planı hazırladım."
+      },
+      {
+        "de": "Im Hinblick auf den Klimawandel sind neue Maßnahmen erforderlich.",
+        "tr": "İklim değişikliği bakımından yeni önlemler gerekli."
+      },
+      {
+        "de": "Im Hinblick auf die Sicherheit der Mitarbeiter wurde das Gebäude gesperrt.",
+        "tr": "Çalışanların güvenliği göz önüne alınarak bina kapatıldı."
+      },
+      {
+        "de": "Im Hinblick auf die Qualität gibt es keine Beschwerden.",
+        "tr": "Kalite açısından herhangi bir şikâyet yok."
+      }
+    ]
+  },
+  {
+    "id": "c1-in-betracht-ziehen",
+    "level": "C1",
+    "priority": 3,
+    "pattern": "… in Betracht ziehen",
+    "meaning": "…i göz önünde bulundurmak, değerlendirmek",
+    "note": "Funktionsverbgefüge: asıl anlam isimdedir (Betracht), fiil (ziehen) yalnızca işlevseldir. \"erwägen\" ile eş anlamlıdır. Edilgen: in Betracht gezogen werden.",
+    "examples": [
+      {
+        "de": "Wir ziehen mehrere Lösungen in Betracht.",
+        "tr": "Birkaç çözümü değerlendiriyoruz."
+      },
+      {
+        "de": "Hast du schon in Betracht gezogen, das Angebot abzulehnen?",
+        "tr": "Teklifi reddetmeyi hiç düşündün mü?"
+      },
+      {
+        "de": "Die Firma zieht in Betracht, ihren Standort zu verlagern.",
+        "tr": "Şirket merkezini taşımayı değerlendiriyor."
+      },
+      {
+        "de": "Bei der Planung müssen auch die Risiken in Betracht gezogen werden.",
+        "tr": "Planlamada riskler de hesaba katılmalı."
+      },
+      {
+        "de": "Er zog einen Berufswechsel in Betracht.",
+        "tr": "Meslek değiştirmeyi düşündü."
+      }
+    ]
+  },
+  {
+    "id": "c1-in-frage-stellen",
+    "level": "C1",
+    "priority": 4,
+    "pattern": "… in Frage stellen",
+    "meaning": "…i sorgulamak, şüpheye düşürmek",
+    "note": "Funktionsverbgefüge: Nesne araya girer (etwas in Frage stellen). Tek sözcük yazımı \"infrage\" da kabul edilir.",
+    "examples": [
+      {
+        "de": "Die Studie stellt die bisherigen Annahmen in Frage.",
+        "tr": "Araştırma şimdiye kadarki varsayımları sorguluyor."
+      },
+      {
+        "de": "Niemand stellt seine Kompetenz in Frage.",
+        "tr": "Kimse onun yetkinliğini sorgulamıyor."
+      },
+      {
+        "de": "Der Skandal stellt das Vertrauen in die Politik in Frage.",
+        "tr": "Skandal siyasete duyulan güveni sarsıyor."
+      },
+      {
+        "de": "Man sollte nicht alles sofort in Frage stellen.",
+        "tr": "Her şeyi hemen sorgulamamak gerekir."
+      },
+      {
+        "de": "Durch die Kündigung wurde das ganze Projekt in Frage gestellt.",
+        "tr": "İstifa nedeniyle projenin tamamı tehlikeye girdi."
+      }
+    ]
+  },
+  {
+    "id": "c1-in-kauf-nehmen",
+    "level": "C1",
+    "priority": 5,
+    "pattern": "… in Kauf nehmen",
+    "meaning": "…i göze almak, …e katlanmak",
+    "note": "Funktionsverbgefüge: bir sakıncayı, bir maliyeti bilerek kabullenmek anlamındadır. Nesne Akkusativ'dedir.",
+    "examples": [
+      {
+        "de": "Für den Erfolg nimmt sie lange Arbeitszeiten in Kauf.",
+        "tr": "Başarı için uzun çalışma saatlerini göze alıyor."
+      },
+      {
+        "de": "Wir nehmen die höheren Kosten in Kauf, weil die Qualität besser ist.",
+        "tr": "Kalite daha iyi olduğu için daha yüksek maliyetlere katlanıyoruz."
+      },
+      {
+        "de": "Viele Pendler nehmen täglich zwei Stunden Fahrtzeit in Kauf.",
+        "tr": "Birçok işe gidip gelen kişi günde iki saatlik yolu göze alıyor."
+      },
+      {
+        "de": "Er nahm das Risiko bewusst in Kauf.",
+        "tr": "Riski bilerek göze aldı."
+      },
+      {
+        "de": "Sie nehmen Umwege in Kauf, um Mautgebühren zu sparen.",
+        "tr": "Geçiş ücretinden tasarruf etmek için dolambaçlı yolları göze alıyorlar."
+      }
+    ]
+  },
+  {
+    "id": "c1-zur-verfuegung-stehen",
+    "level": "C1",
+    "priority": 6,
+    "pattern": "… zur Verfügung stehen / stellen",
+    "meaning": "…in kullanımına açık olmak / sunmak",
+    "note": "Funktionsverbgefüge: stehen \"mevcut olmak\", stellen \"sunmak, tahsis etmek\" anlamı verir. Kişi Dativ'de durur.",
+    "examples": [
+      {
+        "de": "Den Studierenden steht eine große Bibliothek zur Verfügung.",
+        "tr": "Öğrencilerin kullanımına büyük bir kütüphane açık."
+      },
+      {
+        "de": "Die Firma stellt ihren Mitarbeitern Dienstwagen zur Verfügung.",
+        "tr": "Şirket çalışanlarına hizmet aracı tahsis ediyor."
+      },
+      {
+        "de": "Für Rückfragen stehe ich Ihnen jederzeit zur Verfügung.",
+        "tr": "Sorularınız için her zaman emrinizdeyim."
+      },
+      {
+        "de": "Es stehen nur begrenzte Mittel zur Verfügung.",
+        "tr": "Yalnızca sınırlı kaynaklar mevcut."
+      },
+      {
+        "de": "Die Stadt hat zusätzliche Räume zur Verfügung gestellt.",
+        "tr": "Belediye ek mekânlar tahsis etti."
+      }
+    ]
+  },
+  {
+    "id": "c1-zum-ausdruck-bringen",
+    "level": "C1",
+    "priority": 7,
+    "pattern": "… zum Ausdruck bringen",
+    "meaning": "…i ifade etmek, dile getirmek",
+    "note": "Funktionsverbgefüge: \"ausdrücken\" fiilinin resmî karşılığıdır. Edilgen: zum Ausdruck gebracht werden.",
+    "examples": [
+      {
+        "de": "Er brachte seine Enttäuschung deutlich zum Ausdruck.",
+        "tr": "Hayal kırıklığını açıkça ifade etti."
+      },
+      {
+        "de": "Mit dem Brief möchte ich meinen Dank zum Ausdruck bringen.",
+        "tr": "Bu mektupla teşekkürlerimi iletmek istiyorum."
+      },
+      {
+        "de": "Die Demonstranten brachten ihre Forderungen zum Ausdruck.",
+        "tr": "Göstericiler taleplerini dile getirdi."
+      },
+      {
+        "de": "Der Text bringt die Unsicherheit der Autorin zum Ausdruck.",
+        "tr": "Metin yazarın kararsızlığını yansıtıyor."
+      },
+      {
+        "de": "Sie brachte ihre Sorge um die Zukunft zum Ausdruck.",
+        "tr": "Geleceğe dair kaygısını dile getirdi."
+      }
+    ]
+  },
+  {
+    "id": "c1-es-laesst-sich-nicht-leugnen",
+    "level": "C1",
+    "priority": 8,
+    "pattern": "Es lässt sich nicht leugnen, dass …",
+    "meaning": "…diği inkâr edilemez",
+    "note": "\"sich lassen + Infinitiv\" (B2) akademik bir kabul formülü olarak kullanılır. Benzerleri: Es lässt sich nicht bestreiten, dass …; Es lässt sich feststellen, dass …",
+    "examples": [
+      {
+        "de": "Es lässt sich nicht leugnen, dass das Klima sich verändert.",
+        "tr": "İklimin değiştiği inkâr edilemez."
+      },
+      {
+        "de": "Es lässt sich nicht leugnen, dass soziale Medien unser Leben prägen.",
+        "tr": "Sosyal medyanın hayatımızı biçimlendirdiği inkâr edilemez."
+      },
+      {
+        "de": "Es lässt sich nicht leugnen, dass die Reform Schwächen hat.",
+        "tr": "Reformun zayıf yönleri olduğu inkâr edilemez."
+      },
+      {
+        "de": "Es lässt sich nicht leugnen, dass die Digitalisierung viele Arbeitsplätze verändert hat.",
+        "tr": "Dijitalleşmenin birçok işi değiştirdiği inkâr edilemez."
+      },
+      {
+        "de": "Es lässt sich nicht leugnen, dass beide Seiten Fehler gemacht haben.",
+        "tr": "Her iki tarafın da hata yaptığı inkâr edilemez."
+      }
+    ]
+  },
+  {
+    "id": "c1-infolgedessen",
+    "level": "C1",
+    "priority": 9,
+    "pattern": "…, infolgedessen …",
+    "meaning": "…, bunun sonucunda …",
+    "note": "Sonuç bildiren resmî bir zarftır; ana cümlede fiil infolgedessen'den hemen sonra gelir. \"deshalb\" ve \"folglich\" ile eş anlamlıdır.",
+    "examples": [
+      {
+        "de": "Die Nachfrage ist stark gesunken, infolgedessen mussten viele Geschäfte schließen.",
+        "tr": "Talep keskin biçimde düştü, bunun sonucunda birçok mağaza kapanmak zorunda kaldı."
+      },
+      {
+        "de": "Es gab Probleme bei der Lieferung, infolgedessen verzögerte sich das Projekt.",
+        "tr": "Teslimatta sorunlar yaşandı, bunun sonucunda proje gecikti."
+      },
+      {
+        "de": "Der Fluss trat über die Ufer, infolgedessen wurden mehrere Dörfer evakuiert.",
+        "tr": "Nehir taştı, bunun sonucunda birkaç köy tahliye edildi."
+      },
+      {
+        "de": "Er hat mehrmals gefehlt, infolgedessen bekam er eine Abmahnung.",
+        "tr": "Birkaç kez işe gelmedi, bunun sonucunda uyarı aldı."
+      },
+      {
+        "de": "Die Regeln wurden gelockert, infolgedessen stieg die Zahl der Besucher deutlich.",
+        "tr": "Kurallar gevşetildi, bunun sonucunda ziyaretçi sayısı belirgin biçimde arttı."
+      }
+    ]
+  },
+  {
+    "id": "c1-zumal",
+    "level": "C1",
+    "priority": 10,
+    "pattern": "…, zumal … (Verb am Ende)",
+    "meaning": "…, hele ki …diği için",
+    "note": "Zaten geçerli bir gerekçeye ek, güçlendirici bir gerekçe getirir. Yan cümlede fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Ich bleibe lieber zu Hause, zumal es draußen stürmt.",
+        "tr": "Evde kalmayı tercih ederim, hele ki dışarıda fırtına varken."
+      },
+      {
+        "de": "Das Angebot ist attraktiv, zumal die Konditionen sehr günstig sind.",
+        "tr": "Teklif çekici, hele ki koşullar çok uygunken."
+      },
+      {
+        "de": "Sie sollte sich ausruhen, zumal sie seit Tagen krank ist.",
+        "tr": "Dinlenmeli, hele ki günlerdir hastayken."
+      },
+      {
+        "de": "Die Reise lohnt sich, zumal der Flug nicht teuer ist.",
+        "tr": "Seyahate değer, hele ki uçuş pahalı değilken."
+      },
+      {
+        "de": "Er hat gute Chancen, zumal er die Sprache perfekt beherrscht.",
+        "tr": "Şansı yüksek, hele ki dili mükemmel bildiği için."
+      }
+    ]
+  },
+  {
+    "id": "c1-wohingegen",
+    "level": "C1",
+    "priority": 11,
+    "pattern": "…, wohingegen … (Verb am Ende)",
+    "meaning": "…, oysa …; buna karşılık …",
+    "note": "Karşıtlık bildirir (\"während\" gibi ama zamansal değil). Virgülle ayrılır, fiil yan cümlede sonda durur.",
+    "examples": [
+      {
+        "de": "Im Norden regnet es oft, wohingegen im Süden meist die Sonne scheint.",
+        "tr": "Kuzeyde sık sık yağmur yağarken güneyde çoğunlukla güneş açıyor."
+      },
+      {
+        "de": "Der Umsatz stieg im Inland, wohingegen er im Ausland zurückging.",
+        "tr": "Satışlar yurt içinde artarken yurt dışında geriledi."
+      },
+      {
+        "de": "Mein Bruder liebt Großstädte, wohingegen ich lieber auf dem Land lebe.",
+        "tr": "Ağabeyim büyük şehirleri severken ben kırsalda yaşamayı tercih ediyorum."
+      },
+      {
+        "de": "Die Älteren bevorzugen Zeitungen, wohingegen die Jüngeren sich online informieren.",
+        "tr": "Yaşlılar gazeteyi tercih ederken gençler internetten haber alıyor."
+      },
+      {
+        "de": "Das erste Modell ist sparsam, wohingegen das zweite viel Energie verbraucht.",
+        "tr": "İlk model tasarruflu, buna karşılık ikincisi çok enerji tüketiyor."
+      }
+    ]
+  },
+  {
+    "id": "c1-wenngleich",
+    "level": "C1",
+    "priority": 12,
+    "pattern": "…, wenngleich … (Verb am Ende)",
+    "meaning": "…, her ne kadar … olsa da",
+    "note": "\"Obwohl\"dan daha yazılı ve seçkin bir ifadedir; \"obgleich\" ve \"wenn auch\" ile eş anlamlıdır. Fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Das Ergebnis ist positiv, wenngleich es nicht perfekt ist.",
+        "tr": "Sonuç olumlu, her ne kadar kusursuz olmasa da."
+      },
+      {
+        "de": "Die Maßnahme war notwendig, wenngleich sie unpopulär ist.",
+        "tr": "Önlem gerekliydi, her ne kadar popüler olmasa da."
+      },
+      {
+        "de": "Sie lächelte, wenngleich ihr nicht danach zumute war.",
+        "tr": "Gülümsedi, canı pek öyle istemese de."
+      },
+      {
+        "de": "Der Plan ist realistisch, wenngleich er einigen Mut erfordert.",
+        "tr": "Plan gerçekçi, her ne kadar biraz cesaret gerektirse de."
+      },
+      {
+        "de": "Die Studie ist aufschlussreich, wenngleich die Stichprobe klein war.",
+        "tr": "Araştırma aydınlatıcı, her ne kadar örneklem küçük olsa da."
+      }
+    ]
+  },
+  {
+    "id": "c1-vorausgesetzt",
+    "level": "C1",
+    "priority": 13,
+    "pattern": "…, vorausgesetzt, dass … (Verb am Ende)",
+    "meaning": "…, …mesi koşuluyla",
+    "note": "Bir koşulu vurgular; \"sofern\"den daha güçlüdür. \"dass\" olmadan kullanılırsa yan cümle düz sıra alır (vorausgesetzt, er kommt pünktlich).",
+    "examples": [
+      {
+        "de": "Wir können starten, vorausgesetzt, dass alle Unterlagen vorliegen.",
+        "tr": "Tüm belgelerin hazır olması koşuluyla başlayabiliriz."
+      },
+      {
+        "de": "Du darfst das Auto nehmen, vorausgesetzt, dass du vorsichtig fährst.",
+        "tr": "Dikkatli sürmen koşuluyla arabayı alabilirsin."
+      },
+      {
+        "de": "Die Stelle ist ihm sicher, vorausgesetzt, dass er die Probezeit besteht.",
+        "tr": "Deneme sürecini geçmesi koşuluyla iş onun."
+      },
+      {
+        "de": "Das Projekt wird gefördert, vorausgesetzt, dass die Finanzierung gesichert ist.",
+        "tr": "Finansmanın güvence altında olması koşuluyla proje destekleniyor."
+      },
+      {
+        "de": "Ich unterschreibe, vorausgesetzt, dass der Vertrag keine versteckten Kosten enthält.",
+        "tr": "Sözleşmede gizli maliyet bulunmaması koşuluyla imzalarım."
+      }
+    ]
+  },
+  {
+    "id": "c1-geschweige-denn",
+    "level": "C1",
+    "priority": 14,
+    "pattern": "…, geschweige denn …",
+    "meaning": "…, …i bırak …",
+    "note": "Olumsuz veya sınırlayıcı bir cümleden sonra gelir; daha da zor, daha da uç durumu belirtir.",
+    "examples": [
+      {
+        "de": "Ich kann kaum Spanisch, geschweige denn Portugiesisch.",
+        "tr": "Zar zor İspanyolca biliyorum, Portekizceyi bırak."
+      },
+      {
+        "de": "Er hat keine Zeit zum Essen, geschweige denn für ein Hobby.",
+        "tr": "Yemeye bile vakti yok, hobiyi bırak."
+      },
+      {
+        "de": "Sie hat noch nie ein Rennen gewonnen, geschweige denn eine Meisterschaft.",
+        "tr": "Hiç yarış kazanmadı, şampiyonluğu bırak."
+      },
+      {
+        "de": "Wir können uns kein Auto leisten, geschweige denn ein Haus.",
+        "tr": "Araba almaya gücümüz yetmiyor, evi bırak."
+      },
+      {
+        "de": "Er kann kaum laufen, geschweige denn Treppen steigen.",
+        "tr": "Zar zor yürüyor, merdiven çıkmayı bırak."
+      }
+    ]
+  },
+  {
+    "id": "c1-haette-sollen",
+    "level": "C1",
+    "priority": 15,
+    "pattern": "Ich hätte … (Infinitiv) sollen/können/müssen",
+    "meaning": "…meliydim, …ebilirdim (yapmadım)",
+    "note": "Konjunktiv II Vergangenheit + modal fiil: hätte + Infinitiv + Modalverb (Ersatzinfinitiv; \"gesollt\" denmez). Yan cümlede hätte, çift fiilin önünde durur: …, dass ich früher hätte kommen sollen.",
+    "examples": [
+      {
+        "de": "Ich hätte früher kommen sollen.",
+        "tr": "Daha erken gelmeliydim."
+      },
+      {
+        "de": "Du hättest mir das sagen müssen.",
+        "tr": "Bunu bana söylemen gerekirdi."
+      },
+      {
+        "de": "Wir hätten den Termin verschieben können.",
+        "tr": "Randevuyu erteleyebilirdik."
+      },
+      {
+        "de": "Er hätte nicht so viel trinken dürfen.",
+        "tr": "O kadar çok içmemeliydi."
+      },
+      {
+        "de": "Ich weiß, dass ich früher hätte reagieren müssen.",
+        "tr": "Daha erken tepki vermem gerektiğini biliyorum."
+      }
+    ]
+  },
+  {
+    "id": "c1-soll-haben",
+    "level": "C1",
+    "priority": 16,
+    "pattern": "… soll/will … (Partizip II) haben",
+    "meaning": "…miş (söylentiye / kendi iddiasına göre)",
+    "note": "Öznel kullanım: soll \"söylendiğine göre\", will \"kendi iddiasına göre\". Geçmiş için Partizip II + haben/sein kullanılır.",
+    "examples": [
+      {
+        "de": "Der Politiker soll Geld angenommen haben.",
+        "tr": "Siyasetçinin para aldığı söyleniyor."
+      },
+      {
+        "de": "Das Hotel soll vor einigen Jahren den Besitzer gewechselt haben.",
+        "tr": "Otelin birkaç yıl önce sahip değiştirdiği söyleniyor."
+      },
+      {
+        "de": "Er will den Täter gesehen haben.",
+        "tr": "Faili gördüğünü iddia ediyor."
+      },
+      {
+        "de": "Die Firma soll im letzten Jahr hohe Verluste gemacht haben.",
+        "tr": "Şirketin geçen yıl yüksek zarar ettiği söyleniyor."
+      },
+      {
+        "de": "Sie will nichts von dem Plan gewusst haben.",
+        "tr": "Plandan haberi olmadığını iddia ediyor."
+      }
+    ]
+  },
+  {
+    "id": "c1-duerfte",
+    "level": "C1",
+    "priority": 17,
+    "pattern": "… dürfte … (Infinitiv)",
+    "meaning": "…dir herhalde, …mesi muhtemel",
+    "note": "Öznel \"dürfte\" yüksek bir olasılığı bildirir (≈ wahrscheinlich). İzin anlamı taşımaz.",
+    "examples": [
+      {
+        "de": "Er dürfte schon zu Hause sein.",
+        "tr": "Şimdiden evde olmalı."
+      },
+      {
+        "de": "Die Verhandlung dürfte bis zum Abend dauern.",
+        "tr": "Müzakerenin akşama kadar sürmesi muhtemel."
+      },
+      {
+        "de": "Das dürfte kein Problem sein.",
+        "tr": "Bu muhtemelen sorun olmaz."
+      },
+      {
+        "de": "Sie dürfte die Nachricht inzwischen gelesen haben.",
+        "tr": "Haberi şimdiye kadar okumuş olmalı."
+      },
+      {
+        "de": "Der Zug dürfte bald ankommen.",
+        "tr": "Trenin yakında gelmesi bekleniyor."
+      }
+    ]
+  },
+  {
+    "id": "c1-muss-haben",
+    "level": "C1",
+    "priority": 18,
+    "pattern": "… muss/kann … (Partizip II) haben/sein",
+    "meaning": "…miş olmalı / …miş olamaz (çıkarım)",
+    "note": "müssen neredeyse kesin bir çıkarım, \"nicht können\" ise \"olamaz\" anlamı verir. Geçmiş çıkarım: Partizip II + haben/sein.",
+    "examples": [
+      {
+        "de": "Er muss den Termin vergessen haben.",
+        "tr": "Randevuyu unutmuş olmalı."
+      },
+      {
+        "de": "Das muss ein Missverständnis gewesen sein.",
+        "tr": "Bu bir yanlış anlaşılma olmuş olmalı."
+      },
+      {
+        "de": "Sie kann den Brief nicht erhalten haben.",
+        "tr": "Mektubu almış olamaz."
+      },
+      {
+        "de": "Es muss in der Nacht geschneit haben.",
+        "tr": "Gece kar yağmış olmalı."
+      },
+      {
+        "de": "Der Dieb muss durch das Fenster eingestiegen sein.",
+        "tr": "Hırsız pencereden girmiş olmalı."
+      }
+    ]
+  },
+  {
+    "id": "c1-erweitertes-partizip",
+    "level": "C1",
+    "priority": 19,
+    "pattern": "die von … (Dativ) … -ten/-enen Nomen (erweitertes Partizipialattribut)",
+    "meaning": "…tarafından …ilmiş … (genişletilmiş sıfat-fiil)",
+    "note": "Artikel ile isim arasına Partizip ve eklemeleri girer; açılınca yan cümle olur: die Maßnahmen, die von der Regierung beschlossen wurden. Yazılı dilde ve akademik metinlerde sıktır.",
+    "examples": [
+      {
+        "de": "Die von der Regierung beschlossenen Maßnahmen treten morgen in Kraft.",
+        "tr": "Hükümetin kararlaştırdığı önlemler yarın yürürlüğe giriyor."
+      },
+      {
+        "de": "Das seit Jahren geplante Projekt wurde endlich genehmigt.",
+        "tr": "Yıllardır planlanan proje sonunda onaylandı."
+      },
+      {
+        "de": "Die am Montag begonnenen Bauarbeiten dauern zwei Wochen.",
+        "tr": "Pazartesi başlayan inşaat çalışmaları iki hafta sürecek."
+      },
+      {
+        "de": "Der im Vertrag festgelegte Preis darf nicht überschritten werden.",
+        "tr": "Sözleşmede belirlenen fiyat aşılamaz."
+      },
+      {
+        "de": "Die kürzlich veröffentlichte Studie hat große Beachtung gefunden.",
+        "tr": "Yakın zamanda yayımlanan araştırma büyük ilgi gördü."
+      }
+    ]
+  },
+  {
+    "id": "c1-verkuerzter-nebensatz",
+    "level": "C1",
+    "priority": 20,
+    "pattern": "… (Partizip II), … (verkürzter Nebensatz)",
+    "meaning": "…ince, …erek (kısaltılmış yan cümle)",
+    "note": "Partizip II ile yan cümle kısaltılır; Partizip'in öznesi ana cümlenin öznesidir. Yazılı dilde kullanılır.",
+    "examples": [
+      {
+        "de": "Zu Hause angekommen, rief er sofort seine Mutter an.",
+        "tr": "Eve varınca hemen annesini aradı."
+      },
+      {
+        "de": "Von der Arbeit erschöpft, ging sie früh schlafen.",
+        "tr": "İşten bitkin düştüğü için erkenden yattı."
+      },
+      {
+        "de": "Gut vorbereitet, bestand er die Prüfung mit Bestnote.",
+        "tr": "İyi hazırlandığı için sınavı en yüksek notla geçti."
+      },
+      {
+        "de": "Auf den ersten Blick betrachtet, wirkt das Angebot günstig.",
+        "tr": "İlk bakışta bakıldığında teklif uygun görünüyor."
+      },
+      {
+        "de": "Vom Lärm geweckt, stand er auf und sah aus dem Fenster.",
+        "tr": "Gürültüyle uyanınca kalkıp pencereden baktı."
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { exampleFor, gradePattern, planDay } from '../core/scheduler';
 import { studyStreak } from '../core/stats';
 import type { AppState, Grade, Pattern, QueueItem } from '../core/types';
@@ -91,6 +91,7 @@ function Card({ item, pattern, state, today, onGrade }: {
   const [step, setStep] = useState<Step>(item.kind === 'new' ? 'intro' : 'practice');
   const [attempt, setAttempt] = useState('');
   const [own, setOwn] = useState('');
+  useEffect(() => { window.scrollTo({ top: 0 }); }, [item.id, step]);
   const example = exampleFor(pattern, state.progress[item.id]);
   const kindLabel = item.kind === 'new' ? 'Yeni' : item.kind === 'learning' ? 'Öğreniliyor' : 'Kalıcı tekrar';
 

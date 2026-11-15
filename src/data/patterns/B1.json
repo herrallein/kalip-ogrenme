@@ -1,1 +1,902 @@
-[]
+[
+  {
+    "id": "b1-als-vergangenheit",
+    "level": "B1",
+    "priority": 1,
+    "pattern": "Als …, … (Verb am Ende)",
+    "meaning": "…dığında, …dığı zaman (geçmişte tek olay)",
+    "note": "Geçmişteki tek seferlik olay veya belirli bir dönem için \"als\", tekrarlanan olay için \"wenn\" kullanılır. Yan cümlede fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Als ich ein Kind war, habe ich auf dem Land gewohnt.",
+        "tr": "Çocukken kırsalda yaşadım."
+      },
+      {
+        "de": "Als wir ankamen, regnete es schon.",
+        "tr": "Vardığımızda yağmur çoktan başlamıştı."
+      },
+      {
+        "de": "Als er die Nachricht hörte, wurde er ganz blass.",
+        "tr": "Haberi duyunca yüzü bembeyaz oldu."
+      },
+      {
+        "de": "Als ich gestern nach Hause kam, war meine Schwester schon da.",
+        "tr": "Dün eve geldiğimde kız kardeşim çoktan oradaydı."
+      },
+      {
+        "de": "Als das Telefon klingelte, schlief das Baby gerade.",
+        "tr": "Telefon çaldığında bebek tam uyuyordu."
+      }
+    ]
+  },
+  {
+    "id": "b1-wenn-haette-wuerde",
+    "level": "B1",
+    "priority": 2,
+    "pattern": "Wenn ich … hätte, würde ich … (Infinitiv)",
+    "meaning": "… olsaydı, … yapardım (gerçek dışı şimdiki durum)",
+    "note": "Şimdiki zamana ait gerçek dışı koşul: yan cümlede hätte, wäre veya Präteritum, ana cümlede würde + Infinitiv kullanılır.",
+    "examples": [
+      {
+        "de": "Wenn ich mehr Geld hätte, würde ich eine große Reise machen.",
+        "tr": "Daha çok param olsaydı büyük bir gezi yapardım."
+      },
+      {
+        "de": "Wenn ich du wäre, würde ich den Job annehmen.",
+        "tr": "Senin yerinde olsam o işi kabul ederdim."
+      },
+      {
+        "de": "Wenn es nicht so kalt wäre, würden wir spazieren gehen.",
+        "tr": "Hava bu kadar soğuk olmasa yürüyüşe çıkardık."
+      },
+      {
+        "de": "Wenn wir ein Auto hätten, würden wir öfter aufs Land fahren.",
+        "tr": "Arabamız olsa daha sık kırsala giderdik."
+      },
+      {
+        "de": "Wenn er mehr Zeit hätte, würde er ein Instrument lernen.",
+        "tr": "Daha çok vakti olsa bir enstrüman öğrenirdi."
+      }
+    ]
+  },
+  {
+    "id": "b1-um-zu",
+    "level": "B1",
+    "priority": 3,
+    "pattern": "…, um … zu (Infinitiv)",
+    "meaning": "…mek için",
+    "note": "Ana cümle ile zu-cümlesinin öznesi aynıdır. Ayrılabilen fiillerde zu araya girer (aufzustehen).",
+    "examples": [
+      {
+        "de": "Ich fahre nach Berlin, um meine Freundin zu besuchen.",
+        "tr": "Kız arkadaşımı ziyaret etmek için Berlin'e gidiyorum."
+      },
+      {
+        "de": "Er spart Geld, um ein Auto zu kaufen.",
+        "tr": "Araba almak için para biriktiriyor."
+      },
+      {
+        "de": "Er geht früh schlafen, um morgen fit aufzustehen.",
+        "tr": "Yarın dinç kalkmak için erken yatıyor."
+      },
+      {
+        "de": "Sie lernt jeden Tag, um die Prüfung zu bestehen.",
+        "tr": "Sınavı geçmek için her gün çalışıyor."
+      },
+      {
+        "de": "Ich rufe an, um einen Termin zu vereinbaren.",
+        "tr": "Randevu almak için arıyorum."
+      }
+    ]
+  },
+  {
+    "id": "b1-obwohl",
+    "level": "B1",
+    "priority": 4,
+    "pattern": "…, obwohl … (Verb am Ende)",
+    "meaning": "…diği halde, …e rağmen",
+    "note": "Beklenen sonucun gerçekleşmediğini bildirir. Obwohl-cümlesi başa gelirse ana cümle fiille başlar.",
+    "examples": [
+      {
+        "de": "Ich gehe zur Arbeit, obwohl ich krank bin.",
+        "tr": "Hasta olduğum halde işe gidiyorum."
+      },
+      {
+        "de": "Obwohl es regnet, gehen wir spazieren.",
+        "tr": "Yağmur yağmasına rağmen yürüyüşe çıkıyoruz."
+      },
+      {
+        "de": "Er kauft sich ein neues Handy, obwohl sein altes noch funktioniert.",
+        "tr": "Eskisi hâlâ çalıştığı halde yeni bir telefon alıyor."
+      },
+      {
+        "de": "Obwohl sie müde war, hat sie noch das Essen gekocht.",
+        "tr": "Yorgun olmasına rağmen yemeği yine de pişirdi."
+      },
+      {
+        "de": "Wir bleiben zu Hause, obwohl das Wetter schön ist.",
+        "tr": "Hava güzel olduğu halde evde kalıyoruz."
+      }
+    ]
+  },
+  {
+    "id": "b1-damit",
+    "level": "B1",
+    "priority": 5,
+    "pattern": "…, damit … (Verb am Ende)",
+    "meaning": "…sın diye, …sin diye",
+    "note": "Ana ve yan cümlenin öznesi farklıysa \"damit\" kullanılır. Özne aynıysa \"um … zu\" tercih edilir.",
+    "examples": [
+      {
+        "de": "Ich schreibe es auf, damit du es nicht vergisst.",
+        "tr": "Unutmayasın diye yazıyorum."
+      },
+      {
+        "de": "Sie spricht langsam, damit alle sie verstehen.",
+        "tr": "Herkes anlasın diye yavaş konuşuyor."
+      },
+      {
+        "de": "Wir kaufen ein größeres Sofa, damit die Kinder mehr Platz haben.",
+        "tr": "Çocukların daha çok yeri olsun diye daha büyük bir koltuk alıyoruz."
+      },
+      {
+        "de": "Ich lasse das Licht an, damit ihr den Weg findet.",
+        "tr": "Yolu bulasınız diye ışığı açık bırakıyorum."
+      },
+      {
+        "de": "Der Lehrer erklärt es noch einmal, damit niemand Fragen hat.",
+        "tr": "Kimsenin sorusu kalmasın diye öğretmen bir kez daha açıklıyor."
+      }
+    ]
+  },
+  {
+    "id": "b1-relativsatz",
+    "level": "B1",
+    "priority": 6,
+    "pattern": "…, der/die/das … (Relativsatz)",
+    "meaning": "…en/…an (ilgi cümlesi)",
+    "note": "Relativpronomen cinsiyet ve sayıyı ön isimden, hâli yan cümledeki göreve göre alır (Nom.: der/die/das, Akk.: den/die/das). Fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Das ist der Mann, der neben uns wohnt.",
+        "tr": "Bu, yanımızda oturan adam."
+      },
+      {
+        "de": "Die Frau, die dort steht, ist meine Lehrerin.",
+        "tr": "Orada duran kadın benim öğretmenim."
+      },
+      {
+        "de": "Das Buch, das ich gerade lese, ist sehr spannend.",
+        "tr": "Şu an okuduğum kitap çok sürükleyici."
+      },
+      {
+        "de": "Der Film, den wir gestern gesehen haben, war langweilig.",
+        "tr": "Dün izlediğimiz film sıkıcıydı."
+      },
+      {
+        "de": "Ich kenne ein Restaurant, das sehr günstig ist.",
+        "tr": "Çok ucuz bir restoran biliyorum."
+      }
+    ]
+  },
+  {
+    "id": "b1-passiv-praesens",
+    "level": "B1",
+    "priority": 7,
+    "pattern": "… wird/werden … (Partizip II)",
+    "meaning": "…ilir, …ılır (edilgen, şimdiki zaman)",
+    "note": "Eylem önemlidir, yapan kişi değil. Yapan gerekirse \"von + Dativ\" ile eklenir. werden çekimlenir, Partizip II sonda durur.",
+    "examples": [
+      {
+        "de": "In Deutschland wird viel Bier getrunken.",
+        "tr": "Almanya'da çok bira içilir."
+      },
+      {
+        "de": "Das Haus wird gerade renoviert.",
+        "tr": "Ev şu an yenileniyor."
+      },
+      {
+        "de": "Die Kinder werden von der Oma abgeholt.",
+        "tr": "Çocukları büyükanne alıyor."
+      },
+      {
+        "de": "Hier wird nicht geraucht.",
+        "tr": "Burada sigara içilmez."
+      },
+      {
+        "de": "Die Tickets werden online verkauft.",
+        "tr": "Biletler internetten satılıyor."
+      }
+    ]
+  },
+  {
+    "id": "b1-du-solltest",
+    "level": "B1",
+    "priority": 8,
+    "pattern": "Du solltest / könntest … (Infinitiv)",
+    "meaning": "…melisin / …ebilirsin (tavsiye)",
+    "note": "sollen ve können Konjunktiv II biçiminde (solltest, könntest) kibar tavsiye ve öneri bildirir.",
+    "examples": [
+      {
+        "de": "Du solltest mehr schlafen.",
+        "tr": "Daha çok uyumalısın."
+      },
+      {
+        "de": "Du könntest ihn einfach fragen.",
+        "tr": "Ona sadece sorabilirsin."
+      },
+      {
+        "de": "Ihr solltet früher losfahren, sonst kommt ihr zu spät.",
+        "tr": "Daha erken yola çıkmalısınız, yoksa geç kalırsınız."
+      },
+      {
+        "de": "Sie könnten einen Termin beim Arzt machen.",
+        "tr": "Doktordan randevu alabilirsiniz."
+      },
+      {
+        "de": "Wir sollten langsam nach Hause gehen.",
+        "tr": "Artık yavaş yavaş eve gitmeliyiz."
+      }
+    ]
+  },
+  {
+    "id": "b1-es-ist-wichtig-zu",
+    "level": "B1",
+    "priority": 9,
+    "pattern": "Es ist wichtig, … zu (Infinitiv)",
+    "meaning": "…mek önemli",
+    "note": "Es ist + sıfat + zu + Infinitiv yapısı leicht, schwer, schön, möglich, nötig ile de kurulur. Ayrılabilen fiilde zu araya girer (aufzustehen).",
+    "examples": [
+      {
+        "de": "Es ist wichtig, jeden Tag Deutsch zu sprechen.",
+        "tr": "Her gün Almanca konuşmak önemli."
+      },
+      {
+        "de": "Es ist nicht leicht, eine passende Wohnung zu finden.",
+        "tr": "Uygun bir daire bulmak kolay değil."
+      },
+      {
+        "de": "Es ist schön, dich wiederzusehen.",
+        "tr": "Seni yeniden görmek güzel."
+      },
+      {
+        "de": "Es ist nötig, die Rechnung bis Freitag zu bezahlen.",
+        "tr": "Faturayı cuma gününe kadar ödemek gerekli."
+      },
+      {
+        "de": "Es ist gesund, jeden Morgen früh aufzustehen.",
+        "tr": "Her sabah erken kalkmak sağlıklı."
+      }
+    ]
+  },
+  {
+    "id": "b1-meinung",
+    "level": "B1",
+    "priority": 10,
+    "pattern": "Ich bin der Meinung, dass … (Verb am Ende)",
+    "meaning": "…diği kanısındayım, bana göre …",
+    "note": "Görüş bildirmenin biraz resmî yoludur; \"Ich finde, dass\" ile aynı anlamdadır. dass-cümlesinde fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Ich bin der Meinung, dass jeder Mensch eine zweite Chance verdient.",
+        "tr": "Bence herkes ikinci bir şansı hak ediyor."
+      },
+      {
+        "de": "Ich bin der Meinung, dass man mehr für die Umwelt tun sollte.",
+        "tr": "Çevre için daha çok şey yapılması gerektiği kanısındayım."
+      },
+      {
+        "de": "Wir sind der Meinung, dass die Preise zu hoch sind.",
+        "tr": "Fiyatların çok yüksek olduğu kanısındayız."
+      },
+      {
+        "de": "Ich bin nicht der Meinung, dass das eine gute Idee ist.",
+        "tr": "Bunun iyi bir fikir olduğunu düşünmüyorum."
+      },
+      {
+        "de": "Mein Vater ist der Meinung, dass Kinder früh Fremdsprachen lernen sollten.",
+        "tr": "Babam çocukların erken yaşta yabancı dil öğrenmesi gerektiği kanısında."
+      }
+    ]
+  },
+  {
+    "id": "b1-nachdem",
+    "level": "B1",
+    "priority": 11,
+    "pattern": "Nachdem … (Verb am Ende), …",
+    "meaning": "…dikten sonra",
+    "note": "Nachdem-cümlesi daha önceki olayı anlatır. Ana cümle Präteritum ise yan cümle Plusquamperfekt, ana cümle Präsens ise yan cümle Perfekt olur.",
+    "examples": [
+      {
+        "de": "Nachdem ich gegessen hatte, ging ich spazieren.",
+        "tr": "Yemek yedikten sonra yürüyüşe çıktım."
+      },
+      {
+        "de": "Nachdem sie die Prüfung bestanden hatte, feierte sie mit ihren Freunden.",
+        "tr": "Sınavı geçtikten sonra arkadaşlarıyla kutladı."
+      },
+      {
+        "de": "Nachdem wir angekommen sind, rufe ich dich an.",
+        "tr": "Vardıktan sonra seni arayacağım."
+      },
+      {
+        "de": "Nachdem er den Brief gelesen hatte, wurde er sehr traurig.",
+        "tr": "Mektubu okuduktan sonra çok üzüldü."
+      },
+      {
+        "de": "Nachdem ich geduscht habe, frühstücke ich.",
+        "tr": "Duş aldıktan sonra kahvaltı yapıyorum."
+      }
+    ]
+  },
+  {
+    "id": "b1-bevor",
+    "level": "B1",
+    "priority": 12,
+    "pattern": "Bevor … (Verb am Ende), …",
+    "meaning": "…meden önce",
+    "note": "Yan cümlede fiil sonda durur. Aynı anlamı isimle de kurabilirsin (vor dem Essen).",
+    "examples": [
+      {
+        "de": "Bevor ich zur Arbeit gehe, trinke ich einen Kaffee.",
+        "tr": "İşe gitmeden önce bir kahve içerim."
+      },
+      {
+        "de": "Ruf mich an, bevor du losfährst.",
+        "tr": "Yola çıkmadan önce beni ara."
+      },
+      {
+        "de": "Bevor wir essen, waschen wir uns die Hände.",
+        "tr": "Yemekten önce ellerimizi yıkıyoruz."
+      },
+      {
+        "de": "Er hat noch schnell eingekauft, bevor die Geschäfte geschlossen haben.",
+        "tr": "Dükkânlar kapanmadan önce çabucak alışveriş yaptı."
+      },
+      {
+        "de": "Bevor du die Wohnung mietest, solltest du den Vertrag genau lesen.",
+        "tr": "Daireyi kiralamadan önce sözleşmeyi dikkatle okumalısın."
+      }
+    ]
+  },
+  {
+    "id": "b1-waehrend",
+    "level": "B1",
+    "priority": 13,
+    "pattern": "Während … (Verb am Ende), …",
+    "meaning": "…ken, …diği sırada",
+    "note": "İki olayın aynı anda gerçekleştiğini bildirir. Ayrıca karşıtlık için de kullanılır (…ken, oysa).",
+    "examples": [
+      {
+        "de": "Während ich koche, hört mein Mann Musik.",
+        "tr": "Ben yemek yaparken eşim müzik dinliyor."
+      },
+      {
+        "de": "Sie liest Zeitung, während sie auf den Bus wartet.",
+        "tr": "Otobüsü beklerken gazete okuyor."
+      },
+      {
+        "de": "Während wir in Italien waren, hat es zu Hause nur geregnet.",
+        "tr": "Biz İtalya'dayken evde hep yağmur yağdı."
+      },
+      {
+        "de": "Mein Bruder ist sehr ordentlich, während ich eher chaotisch bin.",
+        "tr": "Ağabeyim çok düzenli, bense daha çok dağınığım."
+      },
+      {
+        "de": "Während er arbeitet, spielen die Kinder im Garten.",
+        "tr": "O çalışırken çocuklar bahçede oynuyor."
+      }
+    ]
+  },
+  {
+    "id": "b1-sobald",
+    "level": "B1",
+    "priority": 14,
+    "pattern": "Sobald … (Verb am Ende), …",
+    "meaning": "…ir …mez, …er etmez",
+    "note": "Gelecekteki bir olay için de Präsens kullanılır. Yan cümlede fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Sobald ich Zeit habe, rufe ich dich an.",
+        "tr": "Vaktim olur olmaz seni ararım."
+      },
+      {
+        "de": "Sobald der Bus kommt, steigen wir ein.",
+        "tr": "Otobüs gelir gelmez bineriz."
+      },
+      {
+        "de": "Ich schicke dir das Foto, sobald ich zu Hause bin.",
+        "tr": "Eve varır varmaz sana fotoğrafı gönderirim."
+      },
+      {
+        "de": "Sobald es aufhört zu regnen, gehen wir raus.",
+        "tr": "Yağmur diner dinmez dışarı çıkıyoruz."
+      },
+      {
+        "de": "Sie fängt an zu kochen, sobald die Gäste da sind.",
+        "tr": "Misafirler gelir gelmez yemek yapmaya başlıyor."
+      }
+    ]
+  },
+  {
+    "id": "b1-seitdem",
+    "level": "B1",
+    "priority": 15,
+    "pattern": "Seitdem … (Verb am Ende), …",
+    "meaning": "…dığından beri",
+    "note": "Geçmişte başlayıp bugüne süren durumu anlatır. Ana cümlede çoğunlukla Präsens veya Perfekt kullanılır.",
+    "examples": [
+      {
+        "de": "Seitdem ich in Berlin wohne, fahre ich nur noch mit dem Fahrrad.",
+        "tr": "Berlin'de oturduğumdan beri yalnızca bisikletle gidiyorum."
+      },
+      {
+        "de": "Seitdem er Sport macht, fühlt er sich viel besser.",
+        "tr": "Spor yapmaya başladığından beri kendini çok daha iyi hissediyor."
+      },
+      {
+        "de": "Wir sind Freunde, seitdem wir zusammen studiert haben.",
+        "tr": "Birlikte okuduğumuzdan beri arkadaşız."
+      },
+      {
+        "de": "Seitdem sie eine neue Arbeit hat, ist sie viel zufriedener.",
+        "tr": "Yeni bir işi olduğundan beri çok daha memnun."
+      },
+      {
+        "de": "Seitdem es den Supermarkt gibt, müssen wir nicht mehr weit fahren.",
+        "tr": "Süpermarket açıldığından beri uzağa gitmek zorunda kalmıyoruz."
+      }
+    ]
+  },
+  {
+    "id": "b1-passiv-praeteritum",
+    "level": "B1",
+    "priority": 16,
+    "pattern": "… wurde/wurden … (Partizip II)",
+    "meaning": "…ildi, …ıldı (edilgen, geçmiş zaman)",
+    "note": "Yazılı dilde ve haberlerde sık kullanılır. Perfekt biçimi \"ist … worden\" şeklindedir.",
+    "examples": [
+      {
+        "de": "Das Rathaus wurde im Jahr 1890 gebaut.",
+        "tr": "Belediye binası 1890'da inşa edildi."
+      },
+      {
+        "de": "Mein Fahrrad wurde gestern gestohlen.",
+        "tr": "Bisikletim dün çalındı."
+      },
+      {
+        "de": "Die Mauer wurde 1989 geöffnet.",
+        "tr": "Duvar 1989'da açıldı."
+      },
+      {
+        "de": "Wir wurden freundlich empfangen.",
+        "tr": "Güler yüzle karşılandık."
+      },
+      {
+        "de": "Der Brief wurde gestern abgeschickt.",
+        "tr": "Mektup dün gönderildi."
+      }
+    ]
+  },
+  {
+    "id": "b1-relativsatz-praeposition",
+    "level": "B1",
+    "priority": 17,
+    "pattern": "…, mit dem/der/denen … (Relativsatz mit Präposition)",
+    "meaning": "…-le/…-in içinde … (edatlı ilgi cümlesi)",
+    "note": "Präposition Relativpronomen'den önce gelir ve hâli (Dativ/Akkusativ) belirler. Pronomen cinsiyet ve sayıyı ön isimden alır.",
+    "examples": [
+      {
+        "de": "Das ist die Kollegin, mit der ich zusammenarbeite.",
+        "tr": "Bu, birlikte çalıştığım iş arkadaşı."
+      },
+      {
+        "de": "Der Stuhl, auf dem du sitzt, ist kaputt.",
+        "tr": "Üzerinde oturduğun sandalye bozuk."
+      },
+      {
+        "de": "Das ist das Café, in dem wir uns kennengelernt haben.",
+        "tr": "Burası tanıştığımız kafe."
+      },
+      {
+        "de": "Die Freunde, auf die ich warte, kommen aus Wien.",
+        "tr": "Beklediğim arkadaşlar Viyana'dan geliyor."
+      },
+      {
+        "de": "Wo ist der Ordner, in den ich die Rechnungen gelegt habe?",
+        "tr": "Faturaları koyduğum klasör nerede?"
+      }
+    ]
+  },
+  {
+    "id": "b1-an-deiner-stelle",
+    "level": "B1",
+    "priority": 18,
+    "pattern": "An deiner Stelle würde ich … (Infinitiv)",
+    "meaning": "Senin yerinde olsam … yapardım",
+    "note": "Tavsiye vermenin kibar yolu. Sahip zamiri değişir: an Ihrer Stelle, an seiner Stelle, an eurer Stelle.",
+    "examples": [
+      {
+        "de": "An deiner Stelle würde ich den Vertrag nicht unterschreiben.",
+        "tr": "Senin yerinde olsam sözleşmeyi imzalamazdım."
+      },
+      {
+        "de": "An Ihrer Stelle würde ich zuerst mit dem Chef sprechen.",
+        "tr": "Sizin yerinizde olsam önce patronla konuşurdum."
+      },
+      {
+        "de": "An seiner Stelle würde ich die Stadt verlassen.",
+        "tr": "Onun yerinde olsam şehri terk ederdim."
+      },
+      {
+        "de": "An eurer Stelle würde ich nicht so lange warten.",
+        "tr": "Sizin yerinizde olsam bu kadar beklemezdim."
+      },
+      {
+        "de": "Ich würde an deiner Stelle ein Taxi nehmen.",
+        "tr": "Senin yerinde olsam taksiye binerdim."
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-habe-vor-zu",
+    "level": "B1",
+    "priority": 19,
+    "pattern": "Ich habe vor, … zu (Infinitiv)",
+    "meaning": "…meyi planlıyorum (…meye canım var, …meye karar verdim)",
+    "note": "vorhaben, Lust haben, keine Zeit haben, beschließen, versuchen gibi fiil ve ifadelerden sonra virgül + zu + Infinitiv gelir.",
+    "examples": [
+      {
+        "de": "Ich habe vor, nächstes Jahr umzuziehen.",
+        "tr": "Gelecek yıl taşınmayı planlıyorum."
+      },
+      {
+        "de": "Hast du Lust, heute Abend ins Kino zu gehen?",
+        "tr": "Bu akşam sinemaya gitmeye canın ister mi?"
+      },
+      {
+        "de": "Ich habe keine Zeit, jetzt einzukaufen.",
+        "tr": "Şimdi alışverişe çıkacak vaktim yok."
+      },
+      {
+        "de": "Wir haben beschlossen, ein Haus zu kaufen.",
+        "tr": "Bir ev almaya karar verdik."
+      },
+      {
+        "de": "Sie hat versucht, ihn anzurufen, aber er hat nicht abgenommen.",
+        "tr": "Onu aramayı denedi ama açmadı."
+      }
+    ]
+  },
+  {
+    "id": "b1-nicht-nur-sondern-auch",
+    "level": "B1",
+    "priority": 20,
+    "pattern": "Nicht nur …, sondern auch …",
+    "meaning": "Yalnızca … değil, … da",
+    "note": "İki öğeyi birbirine ekler. Ana cümlede fiil ikinci sırada kalır.",
+    "examples": [
+      {
+        "de": "Sie spricht nicht nur Deutsch, sondern auch Spanisch.",
+        "tr": "Yalnızca Almanca değil, İspanyolca da konuşuyor."
+      },
+      {
+        "de": "Das Hotel ist nicht nur günstig, sondern auch sehr sauber.",
+        "tr": "Otel yalnızca ucuz değil, aynı zamanda çok temiz."
+      },
+      {
+        "de": "Nicht nur die Kinder, sondern auch die Eltern haben viel Spaß.",
+        "tr": "Yalnızca çocuklar değil, anne babalar da çok eğleniyor."
+      },
+      {
+        "de": "Er hat nicht nur gekocht, sondern auch gleich aufgeräumt.",
+        "tr": "Yalnızca yemek yapmadı, hemen ortalığı da topladı."
+      },
+      {
+        "de": "Wir fahren nicht nur im Sommer, sondern auch im Winter ans Meer.",
+        "tr": "Yalnızca yazın değil, kışın da denize gidiyoruz."
+      }
+    ]
+  },
+  {
+    "id": "b1-entweder-oder",
+    "level": "B1",
+    "priority": 21,
+    "pattern": "Entweder … oder …",
+    "meaning": "Ya … ya da …",
+    "note": "İki seçenek birbirini dışlar. Entweder ve oder cümlenin sırasını değiştirmez (Position 0).",
+    "examples": [
+      {
+        "de": "Entweder wir nehmen den Bus, oder wir gehen zu Fuß.",
+        "tr": "Ya otobüse bineriz ya da yürürüz."
+      },
+      {
+        "de": "Ich bestelle entweder eine Pizza oder einen Salat.",
+        "tr": "Ya pizza ya da salata sipariş vereceğim."
+      },
+      {
+        "de": "Entweder du lernst jetzt, oder du fällst durch.",
+        "tr": "Ya şimdi çalışırsın ya da kalırsın."
+      },
+      {
+        "de": "Wir treffen uns entweder am Samstag oder am Sonntag.",
+        "tr": "Ya cumartesi ya da pazar buluşuyoruz."
+      },
+      {
+        "de": "Er fährt im Urlaub entweder nach Spanien oder nach Italien.",
+        "tr": "Tatilde ya İspanya'ya ya da İtalya'ya gidiyor."
+      }
+    ]
+  },
+  {
+    "id": "b1-es-kommt-darauf-an",
+    "level": "B1",
+    "priority": 22,
+    "pattern": "Es kommt darauf an, ob/wie/was … (Verb am Ende)",
+    "meaning": "…ip …mediğine / nasıl olduğuna bağlı",
+    "note": "\"darauf\" bir Präpositionaladverb'dir (ankommen auf). Ardından ob veya bir soru sözcüğüyle yan cümle gelir.",
+    "examples": [
+      {
+        "de": "Es kommt darauf an, wie das Wetter wird.",
+        "tr": "Havanın nasıl olacağına bağlı."
+      },
+      {
+        "de": "Es kommt darauf an, ob du Zeit hast.",
+        "tr": "Vaktin olup olmamasına bağlı."
+      },
+      {
+        "de": "„Kommst du mit?\" – „Es kommt darauf an, wohin ihr fahrt.\"",
+        "tr": "\"Geliyor musun?\" \"Nereye gittiğinize bağlı.\""
+      },
+      {
+        "de": "Es kommt darauf an, was du studieren möchtest.",
+        "tr": "Ne okumak istediğine bağlı."
+      },
+      {
+        "de": "Es kommt darauf an, wie viel das kostet.",
+        "tr": "Ne kadar tuttuğuna bağlı."
+      }
+    ]
+  },
+  {
+    "id": "b1-sodass",
+    "level": "B1",
+    "priority": 23,
+    "pattern": "…, sodass … (Verb am Ende)",
+    "meaning": "…, bu yüzden / böylece …",
+    "note": "Sonuç bildirir. \"so …, dass\" biçimiyle de kurulur (so heiß, dass …). Yan cümlede fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Ich habe mein Handy zu Hause vergessen, sodass ich dich nicht anrufen konnte.",
+        "tr": "Telefonumu evde unuttum, bu yüzden seni arayamadım."
+      },
+      {
+        "de": "Die Straße war gesperrt, sodass wir einen Umweg fahren mussten.",
+        "tr": "Yol kapalıydı, bu yüzden dolambaçlı bir yoldan gitmek zorunda kaldık."
+      },
+      {
+        "de": "Sie hat viel geübt, sodass sie die Prüfung leicht bestanden hat.",
+        "tr": "Çok alıştırma yaptı, böylece sınavı kolayca geçti."
+      },
+      {
+        "de": "Der Aufzug ist kaputt, sodass wir zu Fuß gehen müssen.",
+        "tr": "Asansör bozuk, bu yüzden yürüyerek çıkmak zorundayız."
+      },
+      {
+        "de": "Es war so heiß, dass wir den ganzen Tag im Schatten saßen.",
+        "tr": "O kadar sıcaktı ki bütün gün gölgede oturduk."
+      }
+    ]
+  },
+  {
+    "id": "b1-darueber-dass",
+    "level": "B1",
+    "priority": 24,
+    "pattern": "Ich ärgere mich darüber, dass … (Verb am Ende)",
+    "meaning": "…mesine kızıyorum",
+    "note": "Fiil + Präposition birleşimlerinde dass-cümlesinden önce da(r) + Präposition konur: sich ärgern über → darüber, sich freuen auf → darauf, warten auf → darauf.",
+    "examples": [
+      {
+        "de": "Ich ärgere mich darüber, dass der Zug schon wieder Verspätung hat.",
+        "tr": "Trenin yine rötar yapmasına kızıyorum."
+      },
+      {
+        "de": "Wir freuen uns darauf, dass ihr uns besucht.",
+        "tr": "Bizi ziyaret edeceğinize seviniyoruz."
+      },
+      {
+        "de": "Er wundert sich darüber, dass niemand angerufen hat.",
+        "tr": "Kimsenin aramamasına şaşırıyor."
+      },
+      {
+        "de": "Ich warte darauf, dass der Handwerker endlich kommt.",
+        "tr": "Tamircinin nihayet gelmesini bekliyorum."
+      },
+      {
+        "de": "Sie ist stolz darauf, dass ihr Sohn die Prüfung bestanden hat.",
+        "tr": "Oğlunun sınavı geçmesiyle gurur duyuyor."
+      }
+    ]
+  },
+  {
+    "id": "b1-plusquamperfekt",
+    "level": "B1",
+    "priority": 25,
+    "pattern": "… hatte/war … (Partizip II)",
+    "meaning": "…mıştı (geçmişte önce tamamlanan eylem)",
+    "note": "Plusquamperfekt: hatte/war + Partizip II. Geçmişteki başka bir olaydan önce bitmiş eylemi anlatır.",
+    "examples": [
+      {
+        "de": "Ich hatte schon gegessen, als er anrief.",
+        "tr": "O aradığında ben çoktan yemek yemiştim."
+      },
+      {
+        "de": "Der Zug war schon abgefahren, als wir am Bahnhof ankamen.",
+        "tr": "İstasyona vardığımızda tren çoktan kalkmıştı."
+      },
+      {
+        "de": "Sie hatte ihren Schlüssel vergessen, deshalb musste sie klingeln.",
+        "tr": "Anahtarını unutmuştu, bu yüzden zil çalmak zorunda kaldı."
+      },
+      {
+        "de": "Wir hatten alles vorbereitet, aber niemand kam.",
+        "tr": "Her şeyi hazırlamıştık ama kimse gelmedi."
+      },
+      {
+        "de": "Als ich in Wien ankam, war mein Freund schon weggefahren.",
+        "tr": "Viyana'ya vardığımda arkadaşım çoktan yola çıkmıştı."
+      }
+    ]
+  },
+  {
+    "id": "b1-was-relativ",
+    "level": "B1",
+    "priority": 26,
+    "pattern": "Alles/Nichts/Das Beste, was … (Verb am Ende)",
+    "meaning": "…diği her şey / hiçbir şey",
+    "note": "alles, nichts, etwas, vieles ve üstünlük derecesindeki isimlerden (das Beste) sonra \"das\" değil \"was\" kullanılır.",
+    "examples": [
+      {
+        "de": "Das ist alles, was ich weiß.",
+        "tr": "Bildiğim her şey bu kadar."
+      },
+      {
+        "de": "Er hat nichts gesagt, was ich nicht schon wusste.",
+        "tr": "Bilmediğim hiçbir şey söylemedi."
+      },
+      {
+        "de": "Das Beste, was du tun kannst, ist abzuwarten.",
+        "tr": "Yapabileceğin en iyi şey beklemek."
+      },
+      {
+        "de": "Es gibt vieles, was ich noch lernen möchte.",
+        "tr": "Öğrenmek istediğim daha çok şey var."
+      },
+      {
+        "de": "Ich habe etwas gefunden, was dir gefallen wird.",
+        "tr": "Hoşuna gidecek bir şey buldum."
+      }
+    ]
+  },
+  {
+    "id": "b1-es-faellt-mir-schwer",
+    "level": "B1",
+    "priority": 27,
+    "pattern": "Es fällt mir schwer/leicht, … zu (Infinitiv)",
+    "meaning": "…mek bana zor/kolay geliyor",
+    "note": "fallen + Dativ ile kurulur (mir, ihm, den Kindern). zu-cümlesi virgülle ayrılır; ayrılabilen fiilde zu araya girer (aufzustehen).",
+    "examples": [
+      {
+        "de": "Es fällt mir schwer, früh aufzustehen.",
+        "tr": "Erken kalkmak bana zor geliyor."
+      },
+      {
+        "de": "Es fällt ihm leicht, neue Leute kennenzulernen.",
+        "tr": "Yeni insanlarla tanışmak ona kolay geliyor."
+      },
+      {
+        "de": "Es fällt vielen Menschen schwer, nein zu sagen.",
+        "tr": "Birçok insana hayır demek zor geliyor."
+      },
+      {
+        "de": "Es fällt mir nicht leicht, eine Entscheidung zu treffen.",
+        "tr": "Karar vermek benim için kolay değil."
+      },
+      {
+        "de": "Es fällt den Kindern leicht, eine neue Sprache zu lernen.",
+        "tr": "Çocuklar için yeni bir dil öğrenmek kolay."
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-wuenschte",
+    "level": "B1",
+    "priority": 28,
+    "pattern": "Ich wünschte, ich hätte/wäre … (Konjunktiv II)",
+    "meaning": "Keşke … olsaydı",
+    "note": "Şu andaki gerçek dışı dilek Konjunktiv II ile bildirilir: haben/sein/modal fiillerde hätte, wäre, könnte; diğer fiillerde würde + Infinitiv.",
+    "examples": [
+      {
+        "de": "Ich wünschte, ich hätte mehr Zeit.",
+        "tr": "Keşke daha çok vaktim olsaydı."
+      },
+      {
+        "de": "Ich wünschte, ich wäre schon im Urlaub.",
+        "tr": "Keşke şimdiden tatilde olsaydım."
+      },
+      {
+        "de": "Er wünschte, er könnte besser singen.",
+        "tr": "Keşke daha iyi şarkı söyleyebilseydi."
+      },
+      {
+        "de": "Ich wünschte, du würdest öfter anrufen.",
+        "tr": "Keşke daha sık arasaydın."
+      },
+      {
+        "de": "Sie wünscht sich, es wäre nicht so kalt.",
+        "tr": "Havanın bu kadar soğuk olmamasını diliyor."
+      }
+    ]
+  },
+  {
+    "id": "b1-es-lohnt-sich",
+    "level": "B1",
+    "priority": 29,
+    "pattern": "Es lohnt sich, … zu (Infinitiv)",
+    "meaning": "…meye değer",
+    "note": "Sabit bir kalıptır; zu-cümlesi virgülle ayrılır. Olumsuz: Es lohnt sich nicht. Perfekt: Es hat sich gelohnt.",
+    "examples": [
+      {
+        "de": "Es lohnt sich, die Altstadt zu besuchen.",
+        "tr": "Eski şehri gezmeye değer."
+      },
+      {
+        "de": "Es lohnt sich nicht, das Handy reparieren zu lassen.",
+        "tr": "Telefonu tamir ettirmeye değmez."
+      },
+      {
+        "de": "Es lohnt sich, früh zu buchen.",
+        "tr": "Erken rezervasyon yaptırmaya değer."
+      },
+      {
+        "de": "Es lohnt sich, eine zweite Sprache zu lernen.",
+        "tr": "İkinci bir dil öğrenmeye değer."
+      },
+      {
+        "de": "Es hat sich gelohnt, so lange zu warten.",
+        "tr": "Bu kadar uzun beklemeye değdi."
+      }
+    ]
+  },
+  {
+    "id": "b1-wenn-gehabt-haette",
+    "level": "B1",
+    "priority": 30,
+    "pattern": "Wenn ich … gehabt hätte, hätte ich … (Partizip II)",
+    "meaning": "… olsaydı, … yapardım (geçmişte gerçekleşmeyen)",
+    "note": "Geçmişe ait gerçek dışı koşul: hem yan hem ana cümlede hätte/wäre + Partizip II kullanılır. Hareket ve durum değişikliği bildiren fiiller wäre alır (gefahren wäre).",
+    "examples": [
+      {
+        "de": "Wenn ich mehr Zeit gehabt hätte, hätte ich dich besucht.",
+        "tr": "Daha çok vaktim olsaydı seni ziyaret ederdim."
+      },
+      {
+        "de": "Wenn wir früher losgefahren wären, hätten wir den Zug nicht verpasst.",
+        "tr": "Daha erken yola çıksaydık treni kaçırmazdık."
+      },
+      {
+        "de": "Wenn es nicht geregnet hätte, wären wir an den See gefahren.",
+        "tr": "Yağmur yağmasaydı göle giderdik."
+      },
+      {
+        "de": "Wenn du mir gesagt hättest, dass du Hilfe brauchst, hätte ich dir geholfen.",
+        "tr": "Yardıma ihtiyacın olduğunu söyleseydin sana yardım ederdim."
+      },
+      {
+        "de": "Wenn sie den Job bekommen hätte, wäre sie nach Hamburg gezogen.",
+        "tr": "O işi alsaydı Hamburg'a taşınırdı."
+      }
+    ]
+  }
+]

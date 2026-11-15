@@ -1,1 +1,902 @@
-[]
+[
+  {
+    "id": "a1-ich-heisse",
+    "level": "A1",
+    "priority": 1,
+    "pattern": "Ich heiße …",
+    "meaning": "Benim adım …",
+    "note": "Fiil ikinci sırada. Soru: Wie heißt du? Resmî: Wie heißen Sie?",
+    "examples": [
+      {
+        "de": "Ich heiße Anna Müller.",
+        "tr": "Adım Anna Müller."
+      },
+      {
+        "de": "Hallo, ich heiße Leyla.",
+        "tr": "Merhaba, adım Leyla."
+      },
+      {
+        "de": "Guten Tag, ich heiße Schmidt.",
+        "tr": "İyi günler, adım Schmidt."
+      },
+      {
+        "de": "Ich heiße Can, und du?",
+        "tr": "Adım Can, ya senin?"
+      },
+      {
+        "de": "Ich heiße Elif.",
+        "tr": "Adım Elif."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-komme-aus",
+    "level": "A1",
+    "priority": 2,
+    "pattern": "Ich komme aus …",
+    "meaning": "… lıyım / … 'dan geliyorum",
+    "note": "aus her zaman Dativ ister: aus der Türkei, aus der Schweiz. Şehir ve çoğu ülke adı artikelsiz kullanılır: aus Berlin.",
+    "examples": [
+      {
+        "de": "Ich komme aus der Türkei.",
+        "tr": "Türkiye'denim."
+      },
+      {
+        "de": "Ich komme aus Istanbul.",
+        "tr": "İstanbul'dan geliyorum."
+      },
+      {
+        "de": "Ich komme aus Deutschland.",
+        "tr": "Almanya'dan geliyorum."
+      },
+      {
+        "de": "Ich komme aus Österreich.",
+        "tr": "Avusturya'dan geliyorum."
+      },
+      {
+        "de": "Ich komme aus einer kleinen Stadt.",
+        "tr": "Küçük bir şehirden geliyorum."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-wohne-in",
+    "level": "A1",
+    "priority": 3,
+    "pattern": "Ich wohne in …",
+    "meaning": "… 'de oturuyorum",
+    "note": "Yer için in + Dativ: in der Stadt, in einer Wohnung. Şehir adlarında artikel yoktur.",
+    "examples": [
+      {
+        "de": "Ich wohne in Berlin.",
+        "tr": "Berlin'de oturuyorum."
+      },
+      {
+        "de": "Ich wohne in einer kleinen Wohnung.",
+        "tr": "Küçük bir dairede oturuyorum."
+      },
+      {
+        "de": "Ich wohne in der Nähe vom Bahnhof.",
+        "tr": "İstasyonun yakınında oturuyorum."
+      },
+      {
+        "de": "Ich wohne in der Hauptstraße.",
+        "tr": "Hauptstraße'de oturuyorum."
+      },
+      {
+        "de": "Ich wohne in Köln, aber ich arbeite in Bonn.",
+        "tr": "Köln'de oturuyorum ama Bonn'da çalışıyorum."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-bin-jahre-alt",
+    "level": "A1",
+    "priority": 4,
+    "pattern": "Ich bin … Jahre alt",
+    "meaning": "… yaşındayım",
+    "note": "Yaş, sayı + Jahre alt ile söylenir. Soru: Wie alt bist du?",
+    "examples": [
+      {
+        "de": "Ich bin 25 Jahre alt.",
+        "tr": "25 yaşındayım."
+      },
+      {
+        "de": "Ich bin dreißig Jahre alt.",
+        "tr": "Otuz yaşındayım."
+      },
+      {
+        "de": "Ich bin zwölf Jahre alt.",
+        "tr": "On iki yaşındayım."
+      },
+      {
+        "de": "Ich bin erst 18 Jahre alt.",
+        "tr": "Daha 18 yaşındayım."
+      },
+      {
+        "de": "Ich bin neunundzwanzig Jahre alt.",
+        "tr": "Yirmi dokuz yaşındayım."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-moechte",
+    "level": "A1",
+    "priority": 5,
+    "pattern": "Ich möchte … (Infinitiv am Ende)",
+    "meaning": "… istiyorum (kibar)",
+    "note": "möchte ikinci sırada durur, ana fiil mastar olarak cümle sonuna gider. Nesneyle de kullanılır: Ich möchte einen Tee.",
+    "examples": [
+      {
+        "de": "Ich möchte nach Hause gehen.",
+        "tr": "Eve gitmek istiyorum."
+      },
+      {
+        "de": "Ich möchte einen Kaffee trinken.",
+        "tr": "Bir kahve içmek istiyorum."
+      },
+      {
+        "de": "Ich möchte heute Abend kochen.",
+        "tr": "Bu akşam yemek yapmak istiyorum."
+      },
+      {
+        "de": "Ich möchte Deutsch lernen.",
+        "tr": "Almanca öğrenmek istiyorum."
+      },
+      {
+        "de": "Ich möchte meinen Freund besuchen.",
+        "tr": "Arkadaşımı ziyaret etmek istiyorum."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-haette-gern",
+    "level": "A1",
+    "priority": 6,
+    "pattern": "Ich hätte gern … (Akkusativ)",
+    "meaning": "… rica ediyorum / … alabilir miyim?",
+    "note": "Sipariş ve alışverişte kibar istek. Nesne Akkusativ'dedir: einen Tee, ein Brötchen, eine Fahrkarte.",
+    "examples": [
+      {
+        "de": "Ich hätte gern einen Tee.",
+        "tr": "Bir çay rica ediyorum."
+      },
+      {
+        "de": "Ich hätte gern ein Brötchen mit Käse.",
+        "tr": "Peynirli bir ekmek (Brötchen) rica ediyorum."
+      },
+      {
+        "de": "Ich hätte gern die Speisekarte.",
+        "tr": "Menüyü rica ediyorum."
+      },
+      {
+        "de": "Ich hätte gern zwei Kilo Äpfel.",
+        "tr": "İki kilo elma rica ediyorum."
+      },
+      {
+        "de": "Ich hätte gern eine Fahrkarte nach München.",
+        "tr": "Münih'e bir bilet rica ediyorum."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-nehme",
+    "level": "A1",
+    "priority": 7,
+    "pattern": "Ich nehme … (Akkusativ)",
+    "meaning": "… alıyorum / … alayım",
+    "note": "Seçim yaparken kullanılır; nehmen Akkusativ ister. ich nehme, du nimmst.",
+    "examples": [
+      {
+        "de": "Ich nehme die Suppe.",
+        "tr": "Çorbayı alayım."
+      },
+      {
+        "de": "Ich nehme einen Orangensaft.",
+        "tr": "Bir portakal suyu alayım."
+      },
+      {
+        "de": "Ich nehme das blaue Hemd.",
+        "tr": "Mavi gömleği alıyorum."
+      },
+      {
+        "de": "Ich nehme den Bus um acht Uhr.",
+        "tr": "Saat sekizdeki otobüse biniyorum."
+      },
+      {
+        "de": "Ich nehme das Fleisch mit Reis.",
+        "tr": "Pilavlı eti alayım."
+      }
+    ]
+  },
+  {
+    "id": "a1-was-kostet",
+    "level": "A1",
+    "priority": 8,
+    "pattern": "Was kostet …? / Was kosten …?",
+    "meaning": "… ne kadar? (fiyat)",
+    "note": "Tekil için kostet, çoğul için kosten kullanılır. Cevap: Das kostet fünf Euro.",
+    "examples": [
+      {
+        "de": "Was kostet das Brot?",
+        "tr": "Ekmek ne kadar?"
+      },
+      {
+        "de": "Was kostet ein Kaffee?",
+        "tr": "Bir kahve ne kadar?"
+      },
+      {
+        "de": "Was kosten die Tomaten?",
+        "tr": "Domatesler ne kadar?"
+      },
+      {
+        "de": "Was kostet die Fahrkarte nach Hamburg?",
+        "tr": "Hamburg'a bilet ne kadar?"
+      },
+      {
+        "de": "Was kosten die Schuhe?",
+        "tr": "Ayakkabılar ne kadar?"
+      }
+    ]
+  },
+  {
+    "id": "a1-wie-geht-es",
+    "level": "A1",
+    "priority": 9,
+    "pattern": "Wie geht es …?",
+    "meaning": "… nasıl? / Nasılsın?",
+    "note": "Kişi Dativ'dedir: dir, Ihnen, euch, ihr. Cevap: Mir geht es gut, danke.",
+    "examples": [
+      {
+        "de": "Wie geht es dir?",
+        "tr": "Nasılsın?"
+      },
+      {
+        "de": "Wie geht es Ihnen?",
+        "tr": "Nasılsınız?"
+      },
+      {
+        "de": "Wie geht es deiner Mutter?",
+        "tr": "Annen nasıl?"
+      },
+      {
+        "de": "Wie geht es euch?",
+        "tr": "Siz nasılsınız?"
+      },
+      {
+        "de": "Wie geht es Ihrer Familie?",
+        "tr": "Aileniz nasıl?"
+      }
+    ]
+  },
+  {
+    "id": "a1-um-uhr",
+    "level": "A1",
+    "priority": 10,
+    "pattern": "Um … Uhr …",
+    "meaning": "Saat … 'de …",
+    "note": "Saat için um kullanılır. Zaman ifadesi başta olsa bile fiil ikinci sırada kalır: Um acht Uhr beginnt der Kurs.",
+    "examples": [
+      {
+        "de": "Um acht Uhr frühstücke ich.",
+        "tr": "Saat sekizde kahvaltı ederim."
+      },
+      {
+        "de": "Um neun Uhr beginnt der Kurs.",
+        "tr": "Kurs saat dokuzda başlıyor."
+      },
+      {
+        "de": "Um halb eins essen wir zu Mittag.",
+        "tr": "Saat on iki buçukta öğle yemeği yiyoruz."
+      },
+      {
+        "de": "Um sieben Uhr kommt der Bus.",
+        "tr": "Otobüs saat yedide geliyor."
+      },
+      {
+        "de": "Um Viertel nach drei trinke ich Tee.",
+        "tr": "Üçü çeyrek geçe çay içerim."
+      }
+    ]
+  },
+  {
+    "id": "a1-am-wochentag",
+    "level": "A1",
+    "priority": 11,
+    "pattern": "Am … (Wochentag) …",
+    "meaning": "… günü …",
+    "note": "Gün adlarıyla am kullanılır: am Montag. Başta durunca fiil ikinci sırada, özne fiilden sonra gelir.",
+    "examples": [
+      {
+        "de": "Am Montag arbeite ich.",
+        "tr": "Pazartesi günü çalışıyorum."
+      },
+      {
+        "de": "Am Samstag besuche ich meine Oma.",
+        "tr": "Cumartesi günü büyükannemi ziyaret ediyorum."
+      },
+      {
+        "de": "Am Mittwoch habe ich Deutschkurs.",
+        "tr": "Çarşamba günü Almanca kursum var."
+      },
+      {
+        "de": "Am Sonntag schlafe ich lange.",
+        "tr": "Pazar günü uzun uyurum."
+      },
+      {
+        "de": "Am Freitag gehe ich ins Kino.",
+        "tr": "Cuma günü sinemaya giderim."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-habe-kein",
+    "level": "A1",
+    "priority": 12,
+    "pattern": "Ich habe kein / keine … (Akkusativ)",
+    "meaning": "… yok / …m yok",
+    "note": "İsimleri olumsuz yapmak için kein kullanılır: kein (n), keinen (m, Akkusativ), keine (f, çoğul).",
+    "examples": [
+      {
+        "de": "Ich habe keine Zeit.",
+        "tr": "Vaktim yok."
+      },
+      {
+        "de": "Ich habe kein Auto.",
+        "tr": "Arabam yok."
+      },
+      {
+        "de": "Ich habe keinen Hunger.",
+        "tr": "Acıkmadım."
+      },
+      {
+        "de": "Ich habe keine Geschwister.",
+        "tr": "Kardeşim yok."
+      },
+      {
+        "de": "Ich habe heute keine Schule.",
+        "tr": "Bugün okul yok."
+      }
+    ]
+  },
+  {
+    "id": "a1-kannst-du",
+    "level": "A1",
+    "priority": 13,
+    "pattern": "Kannst du … ? / Können Sie …?",
+    "meaning": "… yapabilir misin / misiniz? (rica)",
+    "note": "Rica için kullanılır. Ana fiil mastar olarak sonda durur. du samimi, Sie resmîdir.",
+    "examples": [
+      {
+        "de": "Kannst du mir helfen?",
+        "tr": "Bana yardım edebilir misin?"
+      },
+      {
+        "de": "Können Sie das bitte wiederholen?",
+        "tr": "Bunu tekrar edebilir misiniz?"
+      },
+      {
+        "de": "Kannst du bitte das Fenster öffnen?",
+        "tr": "Pencereyi açabilir misin lütfen?"
+      },
+      {
+        "de": "Können Sie bitte langsamer sprechen?",
+        "tr": "Lütfen daha yavaş konuşabilir misiniz?"
+      },
+      {
+        "de": "Kannst du morgen kommen?",
+        "tr": "Yarın gelebilir misin?"
+      }
+    ]
+  },
+  {
+    "id": "a1-darf-ich",
+    "level": "A1",
+    "priority": 14,
+    "pattern": "Darf ich … (Infinitiv)?",
+    "meaning": "… yapabilir miyim? (izin)",
+    "note": "İzin isterken kullanılır. Fiil başta, ana fiil mastar olarak sonda. Cevap: Ja, gern. / Nein, das geht nicht.",
+    "examples": [
+      {
+        "de": "Darf ich hereinkommen?",
+        "tr": "İçeri girebilir miyim?"
+      },
+      {
+        "de": "Darf ich Ihnen eine Frage stellen?",
+        "tr": "Size bir soru sorabilir miyim?"
+      },
+      {
+        "de": "Darf ich hier sitzen?",
+        "tr": "Burada oturabilir miyim?"
+      },
+      {
+        "de": "Darf ich das Fenster aufmachen?",
+        "tr": "Pencereyi açabilir miyim?"
+      },
+      {
+        "de": "Darf ich telefonieren?",
+        "tr": "Telefon edebilir miyim?"
+      }
+    ]
+  },
+  {
+    "id": "a1-gibt-es-hier",
+    "level": "A1",
+    "priority": 15,
+    "pattern": "Gibt es hier …?",
+    "meaning": "Burada … var mı?",
+    "note": "Es gibt + Akkusativ. Evet/hayır sorusunda fiil başta. Cevap: Ja, es gibt … / Nein, hier gibt es keinen …",
+    "examples": [
+      {
+        "de": "Gibt es hier ein Café?",
+        "tr": "Burada bir kafe var mı?"
+      },
+      {
+        "de": "Gibt es hier einen Supermarkt?",
+        "tr": "Burada bir süpermarket var mı?"
+      },
+      {
+        "de": "Gibt es hier eine Bank?",
+        "tr": "Burada bir banka var mı?"
+      },
+      {
+        "de": "Gibt es hier eine Toilette?",
+        "tr": "Burada bir tuvalet var mı?"
+      },
+      {
+        "de": "Gibt es hier einen Bäcker?",
+        "tr": "Burada bir fırın var mı?"
+      }
+    ]
+  },
+  {
+    "id": "a1-es-gibt",
+    "level": "A1",
+    "priority": 16,
+    "pattern": "Es gibt … (Akkusativ)",
+    "meaning": "… var",
+    "note": "Bir şeyin var olduğunu söyler. Nesne Akkusativ'dedir; tekil ya da çoğul olsun fiil hep gibt kalır.",
+    "examples": [
+      {
+        "de": "Es gibt einen Park in meiner Stadt.",
+        "tr": "Şehrimde bir park var."
+      },
+      {
+        "de": "In der Stadt gibt es viele Geschäfte.",
+        "tr": "Şehirde çok dükkân var."
+      },
+      {
+        "de": "Heute gibt es Fisch zum Mittagessen.",
+        "tr": "Bugün öğle yemeğinde balık var."
+      },
+      {
+        "de": "Es gibt keine Milch mehr.",
+        "tr": "Süt kalmadı."
+      },
+      {
+        "de": "Im Kühlschrank gibt es Käse und Eier.",
+        "tr": "Buzdolabında peynir ve yumurta var."
+      }
+    ]
+  },
+  {
+    "id": "a1-wie-komme-ich",
+    "level": "A1",
+    "priority": 17,
+    "pattern": "Wie komme ich zum / zur / zu …?",
+    "meaning": "… 'e nasıl gidebilirim?",
+    "note": "zu her zaman Dativ ister: zum (m, n), zur (f), zu den (çoğul). Yol sorarken kullanılır.",
+    "examples": [
+      {
+        "de": "Wie komme ich zum Bahnhof?",
+        "tr": "İstasyona nasıl gidebilirim?"
+      },
+      {
+        "de": "Wie komme ich zur Post?",
+        "tr": "Postaneye nasıl gidebilirim?"
+      },
+      {
+        "de": "Wie komme ich zum Rathaus?",
+        "tr": "Belediyeye nasıl gidebilirim?"
+      },
+      {
+        "de": "Wie komme ich zur Schule?",
+        "tr": "Okula nasıl gidebilirim?"
+      },
+      {
+        "de": "Wie komme ich zu Ihnen?",
+        "tr": "Size nasıl gelebilirim?"
+      }
+    ]
+  },
+  {
+    "id": "a1-wo-ist",
+    "level": "A1",
+    "priority": 18,
+    "pattern": "Wo ist …? / Wo sind …?",
+    "meaning": "… nerede?",
+    "note": "Tekil için ist, çoğul için sind kullanılır. Fiil soru kelimesinden hemen sonra gelir.",
+    "examples": [
+      {
+        "de": "Wo ist die Toilette?",
+        "tr": "Tuvalet nerede?"
+      },
+      {
+        "de": "Wo ist mein Handy?",
+        "tr": "Telefonum nerede?"
+      },
+      {
+        "de": "Wo sind die Kinder?",
+        "tr": "Çocuklar nerede?"
+      },
+      {
+        "de": "Wo ist der Ausgang?",
+        "tr": "Çıkış nerede?"
+      },
+      {
+        "de": "Wo sind meine Schlüssel?",
+        "tr": "Anahtarlarım nerede?"
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-muss",
+    "level": "A1",
+    "priority": 19,
+    "pattern": "Ich muss … (Infinitiv am Ende)",
+    "meaning": "… zorundayım / … gerekiyor",
+    "note": "müssen: ich muss, du musst. Ana fiil mastar olarak cümlenin sonuna gider.",
+    "examples": [
+      {
+        "de": "Ich muss heute arbeiten.",
+        "tr": "Bugün çalışmam gerekiyor."
+      },
+      {
+        "de": "Ich muss einkaufen gehen.",
+        "tr": "Alışverişe gitmem gerekiyor."
+      },
+      {
+        "de": "Ich muss früh aufstehen.",
+        "tr": "Erken kalkmam gerekiyor."
+      },
+      {
+        "de": "Ich muss mein Zimmer aufräumen.",
+        "tr": "Odamı toplamam gerekiyor."
+      },
+      {
+        "de": "Ich muss zum Arzt gehen.",
+        "tr": "Doktora gitmem gerekiyor."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-kann",
+    "level": "A1",
+    "priority": 20,
+    "pattern": "Ich kann … (Infinitiv am Ende)",
+    "meaning": "… yapabilirim / … biliyorum",
+    "note": "können: ich kann, du kannst. Ana fiil mastar olarak sonda durur. Olumsuz: nicht.",
+    "examples": [
+      {
+        "de": "Ich kann gut schwimmen.",
+        "tr": "İyi yüzebilirim."
+      },
+      {
+        "de": "Ich kann ein bisschen Deutsch sprechen.",
+        "tr": "Biraz Almanca konuşabiliyorum."
+      },
+      {
+        "de": "Ich kann heute nicht kommen.",
+        "tr": "Bugün gelemem."
+      },
+      {
+        "de": "Ich kann Fahrrad fahren.",
+        "tr": "Bisiklet sürebilirim."
+      },
+      {
+        "de": "Ich kann dir morgen helfen.",
+        "tr": "Yarın sana yardım edebilirim."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-gern",
+    "level": "A1",
+    "priority": 21,
+    "pattern": "Ich … gern (Verb)",
+    "meaning": "… yapmayı severim",
+    "note": "Fiil + gern, bir şeyi yapmaktan hoşlandığını anlatır. Tersi: nicht gern. gern fiilden sonra gelir.",
+    "examples": [
+      {
+        "de": "Ich lese gern Bücher.",
+        "tr": "Kitap okumayı severim."
+      },
+      {
+        "de": "Ich koche gern.",
+        "tr": "Yemek yapmayı severim."
+      },
+      {
+        "de": "Ich spiele gern Fußball.",
+        "tr": "Futbol oynamayı severim."
+      },
+      {
+        "de": "Ich höre gern Musik.",
+        "tr": "Müzik dinlemeyi severim."
+      },
+      {
+        "de": "Ich gehe nicht gern früh ins Bett.",
+        "tr": "Erken yatmayı sevmem."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-mag",
+    "level": "A1",
+    "priority": 22,
+    "pattern": "Ich mag … (Akkusativ)",
+    "meaning": "… severim / … hoşlanırım",
+    "note": "mögen: ich mag, du magst. Nesne Akkusativ'dedir; olumsuzda kein kullanılır: Ich mag keinen Fisch.",
+    "examples": [
+      {
+        "de": "Ich mag Schokolade.",
+        "tr": "Çikolatayı severim."
+      },
+      {
+        "de": "Ich mag deinen Bruder.",
+        "tr": "Erkek kardeşini severim."
+      },
+      {
+        "de": "Ich mag den Sommer.",
+        "tr": "Yazı severim."
+      },
+      {
+        "de": "Ich mag keinen Fisch.",
+        "tr": "Balık sevmem."
+      },
+      {
+        "de": "Ich mag diese Stadt.",
+        "tr": "Bu şehri seviyorum."
+      }
+    ]
+  },
+  {
+    "id": "a1-das-ist",
+    "level": "A1",
+    "priority": 23,
+    "pattern": "Das ist … / Das sind …",
+    "meaning": "Bu … / Bunlar …",
+    "note": "Bir kişiyi veya şeyi tanıtır. Tekil ist, çoğul sind. Olumsuz: Das ist kein …",
+    "examples": [
+      {
+        "de": "Das ist mein Bruder.",
+        "tr": "Bu benim erkek kardeşim."
+      },
+      {
+        "de": "Das ist ein Fahrrad.",
+        "tr": "Bu bir bisiklet."
+      },
+      {
+        "de": "Das sind meine Eltern.",
+        "tr": "Bunlar benim anne babam."
+      },
+      {
+        "de": "Das ist kein Hund, das ist eine Katze.",
+        "tr": "Bu köpek değil, kedi."
+      },
+      {
+        "de": "Das ist meine Kollegin Anna.",
+        "tr": "Bu iş arkadaşım Anna."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-arbeite-als",
+    "level": "A1",
+    "priority": 24,
+    "pattern": "Ich arbeite als …",
+    "meaning": "… olarak çalışıyorum",
+    "note": "Meslek adı als'tan sonra artikelsiz gelir. Başka yol: Ich bin Lehrer.",
+    "examples": [
+      {
+        "de": "Ich arbeite als Verkäufer.",
+        "tr": "Satış elemanı olarak çalışıyorum."
+      },
+      {
+        "de": "Ich arbeite als Krankenschwester.",
+        "tr": "Hemşire olarak çalışıyorum."
+      },
+      {
+        "de": "Ich arbeite als Fahrer.",
+        "tr": "Şoför olarak çalışıyorum."
+      },
+      {
+        "de": "Ich arbeite als Lehrerin in einer Schule.",
+        "tr": "Bir okulda öğretmen olarak çalışıyorum."
+      },
+      {
+        "de": "Ich arbeite als Koch in einem Restaurant.",
+        "tr": "Bir restoranda aşçı olarak çalışıyorum."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-verstehe-nicht",
+    "level": "A1",
+    "priority": 25,
+    "pattern": "Ich verstehe … nicht",
+    "meaning": "… anlamıyorum",
+    "note": "nicht, nesneden sonra gelir. Hiç anlamadığında kısa söylenir: Wie bitte?",
+    "examples": [
+      {
+        "de": "Ich verstehe das nicht.",
+        "tr": "Bunu anlamıyorum."
+      },
+      {
+        "de": "Ich verstehe die Frage nicht.",
+        "tr": "Soruyu anlamıyorum."
+      },
+      {
+        "de": "Ich verstehe Sie nicht.",
+        "tr": "Sizi anlamıyorum."
+      },
+      {
+        "de": "Ich verstehe das Wort nicht.",
+        "tr": "Kelimeyi anlamıyorum."
+      },
+      {
+        "de": "Ich verstehe dich nicht gut.",
+        "tr": "Seni iyi anlamıyorum."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-brauche",
+    "level": "A1",
+    "priority": 26,
+    "pattern": "Ich brauche … (Akkusativ)",
+    "meaning": "… ihtiyacım var",
+    "note": "brauchen Akkusativ ister: einen Stift, eine Tasche, ein Wörterbuch.",
+    "examples": [
+      {
+        "de": "Ich brauche ein Wörterbuch.",
+        "tr": "Bir sözlüğe ihtiyacım var."
+      },
+      {
+        "de": "Ich brauche Hilfe.",
+        "tr": "Yardıma ihtiyacım var."
+      },
+      {
+        "de": "Ich brauche einen Stift.",
+        "tr": "Bir kaleme ihtiyacım var."
+      },
+      {
+        "de": "Ich brauche mehr Zeit.",
+        "tr": "Daha fazla zamana ihtiyacım var."
+      },
+      {
+        "de": "Ich brauche eine Tasche.",
+        "tr": "Bir çantaya ihtiyacım var."
+      }
+    ]
+  },
+  {
+    "id": "a1-mit-dem",
+    "level": "A1",
+    "priority": 27,
+    "pattern": "Ich fahre mit dem / der … (Dativ)",
+    "meaning": "… ile gidiyorum (araç)",
+    "note": "mit her zaman Dativ ister: mit dem (m, n), mit der (f), mit den (çoğul).",
+    "examples": [
+      {
+        "de": "Ich fahre mit dem Bus zur Arbeit.",
+        "tr": "İşe otobüsle gidiyorum."
+      },
+      {
+        "de": "Ich fahre mit der U-Bahn.",
+        "tr": "Metroyla gidiyorum."
+      },
+      {
+        "de": "Ich fahre mit dem Fahrrad zur Schule.",
+        "tr": "Okula bisikletle gidiyorum."
+      },
+      {
+        "de": "Ich fahre mit dem Zug nach Berlin.",
+        "tr": "Berlin'e trenle gidiyorum."
+      },
+      {
+        "de": "Ich fahre mit dem Auto.",
+        "tr": "Arabayla gidiyorum."
+      }
+    ]
+  },
+  {
+    "id": "a1-trennbares-verb",
+    "level": "A1",
+    "priority": 28,
+    "pattern": "Ich … … auf / an / ein / mit (trennbares Verb)",
+    "meaning": "… (ayrılabilen fiil)",
+    "note": "Ayrılabilen fiillerde ön ek (auf, an, ein, mit) cümlenin sonuna gider. Mastarda birleşiktir: aufstehen, einkaufen.",
+    "examples": [
+      {
+        "de": "Ich stehe um sieben Uhr auf.",
+        "tr": "Saat yedide kalkıyorum."
+      },
+      {
+        "de": "Ich kaufe im Supermarkt ein.",
+        "tr": "Süpermarketten alışveriş yapıyorum."
+      },
+      {
+        "de": "Ich rufe dich heute Abend an.",
+        "tr": "Seni bu akşam arıyorum."
+      },
+      {
+        "de": "Ich fange um neun Uhr an.",
+        "tr": "Saat dokuzda başlıyorum."
+      },
+      {
+        "de": "Ich mache das Licht aus.",
+        "tr": "Işığı kapatıyorum."
+      }
+    ]
+  },
+  {
+    "id": "a1-ich-gehe-zum",
+    "level": "A1",
+    "priority": 29,
+    "pattern": "Ich gehe zum / zur …",
+    "meaning": "… 'e gidiyorum",
+    "note": "zu her zaman Dativ ister: zum (m, n), zur (f). Şehir ve ülkelerde nach kullanılır: nach Berlin.",
+    "examples": [
+      {
+        "de": "Ich gehe zum Arzt.",
+        "tr": "Doktora gidiyorum."
+      },
+      {
+        "de": "Ich gehe zur Bank.",
+        "tr": "Bankaya gidiyorum."
+      },
+      {
+        "de": "Ich gehe zum Bäcker.",
+        "tr": "Fırına gidiyorum."
+      },
+      {
+        "de": "Ich gehe zur Schule.",
+        "tr": "Okula gidiyorum."
+      },
+      {
+        "de": "Ich gehe zum Bahnhof.",
+        "tr": "İstasyona gidiyorum."
+      }
+    ]
+  },
+  {
+    "id": "a1-haben-sie",
+    "level": "A1",
+    "priority": 30,
+    "pattern": "Haben Sie …? / Hast du …?",
+    "meaning": "… var mı?",
+    "note": "Evet/hayır sorusunda fiil başta durur; nesne Akkusativ'dedir (einen, eine, ein).",
+    "examples": [
+      {
+        "de": "Haben Sie Brötchen?",
+        "tr": "Sizde küçük ekmek var mı?"
+      },
+      {
+        "de": "Hast du einen Stift?",
+        "tr": "Kalemin var mı?"
+      },
+      {
+        "de": "Haben Sie ein Zimmer frei?",
+        "tr": "Boş odanız var mı?"
+      },
+      {
+        "de": "Hast du morgen Zeit?",
+        "tr": "Yarın vaktin var mı?"
+      },
+      {
+        "de": "Haben Sie eine Speisekarte?",
+        "tr": "Menünüz var mı?"
+      }
+    ]
+  }
+]

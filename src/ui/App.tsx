@@ -27,6 +27,8 @@ export function App() {
     if (!state.days[today]) setState(planDay(state, patterns, today).state);
   }, [state, today]);
 
+  useEffect(() => { window.scrollTo({ top: 0 }); }, [tab]);
+
   useEffect(() => { saveState(state); }, [state]);
 
   useEffect(() => {

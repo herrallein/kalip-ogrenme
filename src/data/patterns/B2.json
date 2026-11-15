@@ -1,1 +1,752 @@
-[]
+[
+  {
+    "id": "b2-meiner-meinung-nach",
+    "level": "B2",
+    "priority": 1,
+    "pattern": "Meiner Meinung nach … / Meines Erachtens …",
+    "meaning": "Bana göre … / Kanaatimce …",
+    "note": "Cümle başına gelince fiil ikinci sırada kalır (Meiner Meinung nach ist …). \"Meines Erachtens\" daha resmîdir.",
+    "examples": [
+      {
+        "de": "Meiner Meinung nach sollte die Stadt mehr Radwege bauen.",
+        "tr": "Bence şehir daha çok bisiklet yolu yapmalı."
+      },
+      {
+        "de": "Meines Erachtens ist die Entscheidung zu früh gefallen.",
+        "tr": "Kanaatimce karar çok erken verildi."
+      },
+      {
+        "de": "Meiner Meinung nach hängt der Erfolg vor allem vom Team ab.",
+        "tr": "Bence başarı her şeyden önce ekibe bağlı."
+      },
+      {
+        "de": "Meiner Meinung nach ist Homeoffice für viele Beschäftigte die bessere Lösung.",
+        "tr": "Bence evden çalışma, birçok çalışan için daha iyi bir çözüm."
+      },
+      {
+        "de": "Meines Erachtens braucht das Projekt mehr Zeit.",
+        "tr": "Kanaatimce proje daha çok zamana ihtiyaç duyuyor."
+      }
+    ]
+  },
+  {
+    "id": "b2-zwar-aber",
+    "level": "B2",
+    "priority": 2,
+    "pattern": "Zwar …, aber …",
+    "meaning": "Doğru, … ama …",
+    "note": "\"Zwar\" bir kabulü, \"aber\" ona karşı çıkan görüşü getirir. Zwar'dan sonra fiil ikinci sırada kalır.",
+    "examples": [
+      {
+        "de": "Das Auto ist zwar teuer, aber es ist sehr zuverlässig.",
+        "tr": "Araba pahalı gerçi ama çok güvenilir."
+      },
+      {
+        "de": "Ich habe zwar Hunger, aber ich habe keine Lust zu kochen.",
+        "tr": "Karnım aç gerçi ama yemek yapmaya canım yok."
+      },
+      {
+        "de": "Er hat zwar viel Erfahrung, aber ihm fehlt die Ausbildung.",
+        "tr": "Çok deneyimi var gerçi ama eğitimi eksik."
+      },
+      {
+        "de": "Zwar ist die Wohnung klein, aber sie liegt mitten in der Stadt.",
+        "tr": "Daire küçük gerçi ama şehrin tam ortasında."
+      },
+      {
+        "de": "Wir haben zwar lange gesucht, aber nichts Passendes gefunden.",
+        "tr": "Uzun uzun aradık gerçi ama uygun bir şey bulamadık."
+      }
+    ]
+  },
+  {
+    "id": "b2-je-desto",
+    "level": "B2",
+    "priority": 3,
+    "pattern": "Je …, desto/umso … (Komparativ)",
+    "meaning": "…dikçe …",
+    "note": "Je-cümlesinde fiil sonda durur; desto-cümlesinde fiil, desto + Komparativ'den hemen sonra gelir. İki yerde de Komparativ kullanılır.",
+    "examples": [
+      {
+        "de": "Je mehr ich übe, desto besser spreche ich.",
+        "tr": "Çalıştıkça daha iyi konuşuyorum."
+      },
+      {
+        "de": "Je früher du anfängst, desto früher bist du fertig.",
+        "tr": "Ne kadar erken başlarsan o kadar erken biter."
+      },
+      {
+        "de": "Je länger ich hier wohne, umso mehr gefällt es mir.",
+        "tr": "Burada ne kadar uzun yaşarsam o kadar hoşuma gidiyor."
+      },
+      {
+        "de": "Je höher die Miete ist, desto weniger bleibt vom Gehalt übrig.",
+        "tr": "Kira ne kadar yüksekse maaştan o kadar az şey kalıyor."
+      },
+      {
+        "de": "Je mehr Menschen im Homeoffice arbeiten, desto leerer werden die Büros.",
+        "tr": "Evden çalışan insan sayısı arttıkça ofisler daha da boşalıyor."
+      }
+    ]
+  },
+  {
+    "id": "b2-passiv-modalverb",
+    "level": "B2",
+    "priority": 4,
+    "pattern": "… muss/kann/soll … (Partizip II) werden",
+    "meaning": "…ilmeli / …ilebilir (edilgen + modal fiil)",
+    "note": "Modalverb çekimlenir; Partizip II + werden cümle sonunda durur. Yan cümlede sıra: … gemacht werden muss.",
+    "examples": [
+      {
+        "de": "Das Formular muss bis Montag ausgefüllt werden.",
+        "tr": "Form pazartesiye kadar doldurulmalı."
+      },
+      {
+        "de": "Die Aufgabe kann nur im Team gelöst werden.",
+        "tr": "Görev yalnızca ekip halinde çözülebilir."
+      },
+      {
+        "de": "Müll soll in den richtigen Behältern entsorgt werden.",
+        "tr": "Çöpler doğru kutulara atılmalı."
+      },
+      {
+        "de": "Der Vertrag darf nicht ohne Zustimmung geändert werden.",
+        "tr": "Sözleşme onay olmadan değiştirilemez."
+      },
+      {
+        "de": "Ich finde, dass Kinder früh gefördert werden sollten.",
+        "tr": "Bence çocuklar erken yaşta desteklenmeli."
+      }
+    ]
+  },
+  {
+    "id": "b2-einerseits-andererseits",
+    "level": "B2",
+    "priority": 5,
+    "pattern": "Einerseits …, andererseits …",
+    "meaning": "Bir yandan …, öte yandan …",
+    "note": "İki yönlü değerlendirmede kullanılır. Her iki bölümde de fiil ikinci sırada kalır.",
+    "examples": [
+      {
+        "de": "Einerseits möchte ich im Ausland arbeiten, andererseits vermisse ich meine Familie.",
+        "tr": "Bir yandan yurtdışında çalışmak istiyorum, öte yandan ailemi özlüyorum."
+      },
+      {
+        "de": "Einerseits ist das Stadtleben spannend, andererseits ist es sehr laut.",
+        "tr": "Bir yandan şehir hayatı heyecan verici, öte yandan çok gürültülü."
+      },
+      {
+        "de": "Einerseits spart man mit dem Auto Zeit, andererseits belastet es die Umwelt.",
+        "tr": "Bir yandan arabayla zaman kazanılıyor, öte yandan çevreye zarar veriyor."
+      },
+      {
+        "de": "Einerseits bietet das Internet viele Chancen, andererseits entstehen neue Gefahren.",
+        "tr": "Bir yandan internet birçok fırsat sunuyor, öte yandan yeni tehlikeler ortaya çıkıyor."
+      },
+      {
+        "de": "Einerseits verdient er gut, andererseits hat er kaum Freizeit.",
+        "tr": "Bir yandan iyi kazanıyor, öte yandan neredeyse hiç boş zamanı yok."
+      }
+    ]
+  },
+  {
+    "id": "b2-davon-ueberzeugt",
+    "level": "B2",
+    "priority": 6,
+    "pattern": "Ich bin davon überzeugt, dass … (Verb am Ende)",
+    "meaning": "…diğine inanıyorum, …diğinden eminim",
+    "note": "\"davon\" bir Präpositionaladverb'dir (überzeugt sein von). \"Ich bin der Meinung\"dan daha güçlü bir inancı bildirir.",
+    "examples": [
+      {
+        "de": "Ich bin davon überzeugt, dass erneuerbare Energien die Zukunft sind.",
+        "tr": "Yenilenebilir enerjilerin gelecek olduğuna inanıyorum."
+      },
+      {
+        "de": "Sie ist davon überzeugt, dass ihr Plan funktioniert.",
+        "tr": "Planının işe yarayacağından emin."
+      },
+      {
+        "de": "Wir sind davon überzeugt, dass sich die Investition lohnt.",
+        "tr": "Yatırımın karşılığını vereceğine inanıyoruz."
+      },
+      {
+        "de": "Viele Experten sind davon überzeugt, dass sich das Klima weiter erwärmen wird.",
+        "tr": "Birçok uzman iklimin ısınmaya devam edeceğine inanıyor."
+      },
+      {
+        "de": "Ich bin nicht davon überzeugt, dass der Vorschlag praktikabel ist.",
+        "tr": "Önerinin uygulanabilir olduğuna ikna olmuş değilim."
+      }
+    ]
+  },
+  {
+    "id": "b2-falls-sofern",
+    "level": "B2",
+    "priority": 7,
+    "pattern": "Falls / Sofern … (Verb am Ende), …",
+    "meaning": "Eğer …, …mesi durumunda",
+    "note": "\"Falls\" olası bir durumu, \"sofern\" bir koşulu vurgular (daha resmî). Yan cümlede fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Falls es regnet, bleiben wir zu Hause.",
+        "tr": "Yağmur yağarsa evde kalırız."
+      },
+      {
+        "de": "Rufen Sie mich an, falls Sie Fragen haben.",
+        "tr": "Sorunuz olursa beni arayın."
+      },
+      {
+        "de": "Sofern keine Einwände vorliegen, beginnen wir morgen.",
+        "tr": "İtiraz yoksa yarın başlıyoruz."
+      },
+      {
+        "de": "Nimm einen Schirm mit, falls es später regnet.",
+        "tr": "Daha sonra yağmur yağarsa diye şemsiye al."
+      },
+      {
+        "de": "Die Kosten werden übernommen, sofern ein ärztliches Attest vorliegt.",
+        "tr": "Doktor raporu sunulması koşuluyla masraflar karşılanır."
+      }
+    ]
+  },
+  {
+    "id": "b2-lassen",
+    "level": "B2",
+    "priority": 8,
+    "pattern": "Ich lasse … (Akkusativ) … (Infinitiv)",
+    "meaning": "…tırıyorum / …mesine izin veriyorum",
+    "note": "\"lassen\" hem yaptırmak hem izin vermek anlamına gelir. Perfekt'te Ersatzinfinitiv kullanılır: Ich habe … reparieren lassen.",
+    "examples": [
+      {
+        "de": "Ich lasse meine Haare schneiden.",
+        "tr": "Saçımı kestiriyorum."
+      },
+      {
+        "de": "Er hat sein Auto reparieren lassen.",
+        "tr": "Arabasını tamir ettirdi."
+      },
+      {
+        "de": "Lass mich bitte ausreden!",
+        "tr": "Lütfen sözümü bitirmeme izin ver!"
+      },
+      {
+        "de": "Wir lassen uns die Pizza nach Hause liefern.",
+        "tr": "Pizzayı eve getirtiyoruz."
+      },
+      {
+        "de": "Sie lässt ihre Kinder abends nicht allein draußen spielen.",
+        "tr": "Çocuklarının akşamları dışarıda tek başına oynamasına izin vermiyor."
+      }
+    ]
+  },
+  {
+    "id": "b2-sowohl-als-auch",
+    "level": "B2",
+    "priority": 9,
+    "pattern": "Sowohl … als auch …",
+    "meaning": "Hem … hem de …",
+    "note": "Aynı türden iki öğeyi bağlar. Özne olduklarında fiil çoğul çekimlenir.",
+    "examples": [
+      {
+        "de": "Sie spricht sowohl Englisch als auch Französisch fließend.",
+        "tr": "Hem İngilizceyi hem Fransızcayı akıcı konuşuyor."
+      },
+      {
+        "de": "Sowohl die Eltern als auch die Kinder freuen sich auf den Urlaub.",
+        "tr": "Hem anne baba hem çocuklar tatili iple çekiyor."
+      },
+      {
+        "de": "Das Programm ist sowohl für Anfänger als auch für Profis geeignet.",
+        "tr": "Program hem yeni başlayanlar hem profesyoneller için uygun."
+      },
+      {
+        "de": "Wir bieten sowohl Vollzeit- als auch Teilzeitstellen an.",
+        "tr": "Hem tam zamanlı hem yarı zamanlı pozisyonlar sunuyoruz."
+      },
+      {
+        "de": "Er ist sowohl intelligent als auch humorvoll.",
+        "tr": "Hem zeki hem esprili biri."
+      }
+    ]
+  },
+  {
+    "id": "b2-weder-noch",
+    "level": "B2",
+    "priority": 10,
+    "pattern": "Weder … noch …",
+    "meaning": "Ne … ne de …",
+    "note": "Olumsuzluk \"weder … noch\" içinde zaten vardır; ayrıca \"nicht\" eklenmez. Fiil olumlu çekimlenir.",
+    "examples": [
+      {
+        "de": "Ich habe weder Zeit noch Lust, heute auszugehen.",
+        "tr": "Bugün dışarı çıkmaya ne vaktim ne de canım var."
+      },
+      {
+        "de": "Er isst weder Fleisch noch Fisch.",
+        "tr": "Ne et yiyor ne de balık."
+      },
+      {
+        "de": "Weder der Chef noch die Kollegen wussten von dem Problem.",
+        "tr": "Ne patron ne de iş arkadaşları sorundan haberdardı."
+      },
+      {
+        "de": "Das Hotel hat weder einen Pool noch ein Restaurant.",
+        "tr": "Otelde ne havuz ne de restoran var."
+      },
+      {
+        "de": "Sie hat sich weder gemeldet noch eine Nachricht hinterlassen.",
+        "tr": "Ne haber verdi ne de mesaj bıraktı."
+      }
+    ]
+  },
+  {
+    "id": "b2-ohne-zu",
+    "level": "B2",
+    "priority": 11,
+    "pattern": "…, ohne … zu (Infinitiv)",
+    "meaning": "…meden, …meksizin",
+    "note": "Özne aynıysa zu-cümlesi, farklıysa \"ohne dass\" kullanılır. Ayrılabilen fiilde zu araya girer (aufzusetzen).",
+    "examples": [
+      {
+        "de": "Er ist gegangen, ohne sich zu verabschieden.",
+        "tr": "Vedalaşmadan gitti."
+      },
+      {
+        "de": "Sie kann lesen, ohne eine Brille aufzusetzen.",
+        "tr": "Gözlük takmadan okuyabiliyor."
+      },
+      {
+        "de": "Man kann hier parken, ohne dafür zu bezahlen.",
+        "tr": "Burada ücret ödemeden park edilebiliyor."
+      },
+      {
+        "de": "Ich habe den ganzen Tag gearbeitet, ohne eine Pause zu machen.",
+        "tr": "Bütün gün hiç mola vermeden çalıştım."
+      },
+      {
+        "de": "Wir sind nach Hause gefahren, ohne etwas gegessen zu haben.",
+        "tr": "Hiçbir şey yemeden eve gittik."
+      }
+    ]
+  },
+  {
+    "id": "b2-statt-zu",
+    "level": "B2",
+    "priority": 12,
+    "pattern": "…, statt … zu (Infinitiv)",
+    "meaning": "…mek yerine",
+    "note": "\"anstatt … zu\" ile aynıdır; özne farklıysa \"statt dass\" kullanılır. Cümle başında da durabilir.",
+    "examples": [
+      {
+        "de": "Statt zu arbeiten, hat er den ganzen Tag ferngesehen.",
+        "tr": "Çalışmak yerine bütün gün televizyon izledi."
+      },
+      {
+        "de": "Wir sollten miteinander reden, statt uns zu streiten.",
+        "tr": "Kavga etmek yerine birbirimizle konuşmalıyız."
+      },
+      {
+        "de": "Sie nimmt den Bus, statt mit dem Auto zu fahren.",
+        "tr": "Arabayla gitmek yerine otobüse biniyor."
+      },
+      {
+        "de": "Statt mir zu helfen, hat er nur zugeschaut.",
+        "tr": "Bana yardım etmek yerine sadece seyretti."
+      },
+      {
+        "de": "Er hat noch eine Stunde geschlafen, anstatt aufzustehen.",
+        "tr": "Kalkmak yerine bir saat daha uyudu."
+      }
+    ]
+  },
+  {
+    "id": "b2-trotz",
+    "level": "B2",
+    "priority": 13,
+    "pattern": "Trotz … (Genitiv), …",
+    "meaning": "…e rağmen",
+    "note": "\"Obwohl\"un isimleştirilmiş biçimidir: Obwohl es regnete → Trotz des Regens. Genitiv ister (konuşma dilinde Dativ de duyulur).",
+    "examples": [
+      {
+        "de": "Trotz des Regens sind wir wandern gegangen.",
+        "tr": "Yağmura rağmen yürüyüşe çıktık."
+      },
+      {
+        "de": "Trotz seiner Krankheit geht er jeden Tag zur Arbeit.",
+        "tr": "Hastalığına rağmen her gün işe gidiyor."
+      },
+      {
+        "de": "Trotz der hohen Preise war das Restaurant voll.",
+        "tr": "Yüksek fiyatlara rağmen restoran doluydu."
+      },
+      {
+        "de": "Trotz aller Bemühungen konnten wir das Problem nicht lösen.",
+        "tr": "Tüm çabalara rağmen sorunu çözemedik."
+      },
+      {
+        "de": "Trotz des Verbots rauchen viele Menschen im Park.",
+        "tr": "Yasağa rağmen birçok kişi parkta sigara içiyor."
+      }
+    ]
+  },
+  {
+    "id": "b2-aufgrund",
+    "level": "B2",
+    "priority": 14,
+    "pattern": "Aufgrund … (Genitiv), …",
+    "meaning": "…den dolayı, …den ötürü",
+    "note": "Resmî bir neden bildirir ve Genitiv ister. Aynı anlamda wegen + Genitiv kullanılır; olumlu neden için dank.",
+    "examples": [
+      {
+        "de": "Aufgrund des schlechten Wetters wurde das Konzert abgesagt.",
+        "tr": "Kötü hava nedeniyle konser iptal edildi."
+      },
+      {
+        "de": "Aufgrund der hohen Nachfrage sind die Tickets ausverkauft.",
+        "tr": "Yoğun talep nedeniyle biletler tükendi."
+      },
+      {
+        "de": "Aufgrund eines technischen Fehlers fiel der Zug aus.",
+        "tr": "Teknik bir arıza nedeniyle tren seferi iptal oldu."
+      },
+      {
+        "de": "Aufgrund seiner Erfahrung bekam er die Stelle.",
+        "tr": "Deneyimi sayesinde işi o aldı."
+      },
+      {
+        "de": "Aufgrund der Bauarbeiten ist die Straße bis Montag gesperrt.",
+        "tr": "İnşaat çalışmaları nedeniyle yol pazartesiye kadar kapalı."
+      }
+    ]
+  },
+  {
+    "id": "b2-nominalisierung",
+    "level": "B2",
+    "priority": 15,
+    "pattern": "Nach/Bei/Vor … (Nominalisierung), …",
+    "meaning": "…dikten sonra / …ken / …meden önce (isimleştirilmiş)",
+    "note": "Zaman yan cümlesi isim tamlamasına dönüşür: Nachdem er angekommen war → Nach seiner Ankunft. Nach, bei, vor Dativ ister.",
+    "examples": [
+      {
+        "de": "Nach der Ankunft meldet sich der Gast an der Rezeption.",
+        "tr": "Varışın ardından misafir resepsiyonda kayıt yaptırır."
+      },
+      {
+        "de": "Bei der Arbeit trage ich immer Schutzkleidung.",
+        "tr": "Çalışırken her zaman koruyucu kıyafet giyerim."
+      },
+      {
+        "de": "Vor dem Abflug muss man das Gepäck aufgeben.",
+        "tr": "Kalkıştan önce bagaj teslim edilmeli."
+      },
+      {
+        "de": "Nach dem Abschluss des Studiums suchte sie eine Stelle im Ausland.",
+        "tr": "Öğrenimini bitirdikten sonra yurtdışında bir iş aradı."
+      },
+      {
+        "de": "Bei der Anmeldung ist ein Ausweis vorzulegen.",
+        "tr": "Kayıt sırasında kimlik gösterilmeli."
+      }
+    ]
+  },
+  {
+    "id": "b2-je-nachdem",
+    "level": "B2",
+    "priority": 16,
+    "pattern": "Je nachdem, ob/wie/was … (Verb am Ende), …",
+    "meaning": "…ip …mediğine / nasıl olduğuna göre",
+    "note": "\"Es kommt darauf an\" ile yakın anlamlıdır. Je-nachdem-cümlesi başta ise ana cümle fiille başlar.",
+    "examples": [
+      {
+        "de": "Je nachdem, wie das Wetter wird, fahren wir ans Meer oder bleiben zu Hause.",
+        "tr": "Havanın nasıl olacağına göre denize gideriz ya da evde kalırız."
+      },
+      {
+        "de": "Je nachdem, ob du Zeit hast, können wir uns früher oder später treffen.",
+        "tr": "Vaktin olup olmadığına göre daha erken ya da daha geç buluşabiliriz."
+      },
+      {
+        "de": "Der Preis ist unterschiedlich, je nachdem, welches Modell man wählt.",
+        "tr": "Fiyat, hangi modeli seçtiğinize göre değişir."
+      },
+      {
+        "de": "Je nachdem, was der Arzt sagt, muss ich operiert werden.",
+        "tr": "Doktor ne derse ona göre ameliyat olmam gerekecek."
+      },
+      {
+        "de": "Wir entscheiden spontan, je nachdem, wie wir uns fühlen.",
+        "tr": "Nasıl hissettiğimize göre anında karar veriyoruz."
+      }
+    ]
+  },
+  {
+    "id": "b2-es-handelt-sich-um",
+    "level": "B2",
+    "priority": 17,
+    "pattern": "Es handelt sich um … (Akkusativ)",
+    "meaning": "Söz konusu olan …",
+    "note": "Bir şeyin ne olduğunu ya da neyle ilgili olduğunu bildirir. \"um\" Akkusativ ister; çoğul isimlerde de \"es\" değişmez.",
+    "examples": [
+      {
+        "de": "Es handelt sich um ein Missverständnis.",
+        "tr": "Bu bir yanlış anlaşılmadan ibaret."
+      },
+      {
+        "de": "Es handelt sich um einen wichtigen Notfall.",
+        "tr": "Önemli bir acil durum söz konusu."
+      },
+      {
+        "de": "Bei dem Buch handelt es sich um einen Roman über eine Auswanderin.",
+        "tr": "Kitap, bir göçmen kadını anlatan bir roman."
+      },
+      {
+        "de": "Handelt es sich dabei um ein Angebot oder um eine Bestellung?",
+        "tr": "Bu bir teklif mi yoksa sipariş mi?"
+      },
+      {
+        "de": "Es handelt sich dabei nicht um einen Einzelfall.",
+        "tr": "Bu tek bir vaka değil."
+      }
+    ]
+  },
+  {
+    "id": "b2-laut",
+    "level": "B2",
+    "priority": 18,
+    "pattern": "Laut … (Dativ/Genitiv), …",
+    "meaning": "…e göre (kaynak belirterek)",
+    "note": "Kaynak göstermenin kısa yoludur. Çoğunlukla artikelsiz kullanılır (laut Bericht); artikelle Dativ veya Genitiv gelir.",
+    "examples": [
+      {
+        "de": "Laut Wetterbericht wird es morgen schneien.",
+        "tr": "Hava durumuna göre yarın kar yağacak."
+      },
+      {
+        "de": "Laut einer neuen Studie schlafen viele Jugendliche zu wenig.",
+        "tr": "Yeni bir araştırmaya göre birçok genç yeterince uyumuyor."
+      },
+      {
+        "de": "Laut Polizei gab es keine Verletzten.",
+        "tr": "Polise göre yaralı yok."
+      },
+      {
+        "de": "Laut dem Vertrag muss die Miete am Monatsanfang gezahlt werden.",
+        "tr": "Sözleşmeye göre kira ay başında ödenmeli."
+      },
+      {
+        "de": "Laut Umfrage ist die Mehrheit gegen die Erhöhung.",
+        "tr": "Ankete göre çoğunluk zamma karşı."
+      }
+    ]
+  },
+  {
+    "id": "b2-sein-zu",
+    "level": "B2",
+    "priority": 19,
+    "pattern": "… ist/sind zu … (Infinitiv)",
+    "meaning": "…ilmeli / …ilebilir",
+    "note": "sein + zu + Infinitiv hem zorunluluk (muss werden) hem olasılık (kann werden) bildirir; anlam bağlama göre anlaşılır.",
+    "examples": [
+      {
+        "de": "Das Formular ist bis Freitag abzugeben.",
+        "tr": "Form cumaya kadar teslim edilmeli."
+      },
+      {
+        "de": "Die Aufgabe ist leicht zu lösen.",
+        "tr": "Görev kolayca çözülebilir."
+      },
+      {
+        "de": "Dieser Fehler ist nicht zu übersehen.",
+        "tr": "Bu hata gözden kaçırılamaz."
+      },
+      {
+        "de": "Die Fenster sind täglich zu schließen.",
+        "tr": "Pencereler her gün kapatılmalıdır."
+      },
+      {
+        "de": "Der Gipfel ist nur mit guter Ausrüstung zu erreichen.",
+        "tr": "Zirveye ancak iyi bir ekipmanla ulaşılabilir."
+      }
+    ]
+  },
+  {
+    "id": "b2-laesst-sich",
+    "level": "B2",
+    "priority": 20,
+    "pattern": "… lässt sich … (Infinitiv)",
+    "meaning": "…ilebilir, …ilir (kolayca)",
+    "note": "\"sich lassen + Infinitiv\" edilgen + können anlamı taşır: Das lässt sich machen = Das kann gemacht werden.",
+    "examples": [
+      {
+        "de": "Das Problem lässt sich leicht lösen.",
+        "tr": "Sorun kolayca çözülebilir."
+      },
+      {
+        "de": "Dieser Text lässt sich nur schwer übersetzen.",
+        "tr": "Bu metin ancak zorlukla çevrilebilir."
+      },
+      {
+        "de": "Der Termin lässt sich leider nicht verschieben.",
+        "tr": "Maalesef randevu ertelenemiyor."
+      },
+      {
+        "de": "Die Tür lässt sich nicht öffnen.",
+        "tr": "Kapı açılmıyor."
+      },
+      {
+        "de": "Das lässt sich nicht so einfach sagen.",
+        "tr": "Bu öyle kolay söylenemez."
+      }
+    ]
+  },
+  {
+    "id": "b2-partizip-i",
+    "level": "B2",
+    "priority": 21,
+    "pattern": "der/die/das … -ende Nomen (Partizip I)",
+    "meaning": "…en/…an (süren eylem sıfatı)",
+    "note": "Partizip I = fiil kökü + -end; sıfat gibi çekimlenir. Süren eylemi anlatır: die steigenden Preise = die Preise, die steigen.",
+    "examples": [
+      {
+        "de": "Die steigenden Preise machen vielen Familien Sorgen.",
+        "tr": "Yükselen fiyatlar birçok ailenin kaygısına yol açıyor."
+      },
+      {
+        "de": "Das weinende Kind suchte seine Mutter.",
+        "tr": "Ağlayan çocuk annesini arıyordu."
+      },
+      {
+        "de": "Wir haben ein überzeugendes Argument gehört.",
+        "tr": "İkna edici bir argüman duyduk."
+      },
+      {
+        "de": "Der schlafende Hund lag vor der Tür.",
+        "tr": "Uyuyan köpek kapının önünde yatıyordu."
+      },
+      {
+        "de": "Die zunehmende Digitalisierung verändert die Arbeitswelt.",
+        "tr": "Artan dijitalleşme iş dünyasını değiştiriyor."
+      }
+    ]
+  },
+  {
+    "id": "b2-partizip-ii-attribut",
+    "level": "B2",
+    "priority": 22,
+    "pattern": "der/die/das … -te/-ene Nomen (Partizip II)",
+    "meaning": "…miş, …ilmiş (tamamlanmış eylem sıfatı)",
+    "note": "Partizip II sıfat olarak edilgen ve tamamlanmış anlam taşır: das gestohlene Fahrrad = das Fahrrad, das gestohlen wurde.",
+    "examples": [
+      {
+        "de": "Das gestohlene Fahrrad wurde gefunden.",
+        "tr": "Çalınan bisiklet bulundu."
+      },
+      {
+        "de": "Die geschlossene Tür war nicht zu öffnen.",
+        "tr": "Kapalı kapı açılamıyordu."
+      },
+      {
+        "de": "Ich lese gerade ein geliehenes Buch.",
+        "tr": "Şu an ödünç aldığım bir kitabı okuyorum."
+      },
+      {
+        "de": "Der verspätete Zug kam erst um acht an.",
+        "tr": "Rötarlı tren ancak sekizde geldi."
+      },
+      {
+        "de": "Die gekochten Kartoffeln sind noch warm.",
+        "tr": "Haşlanmış patatesler hâlâ sıcak."
+      }
+    ]
+  },
+  {
+    "id": "b2-konjunktiv-i",
+    "level": "B2",
+    "priority": 23,
+    "pattern": "Er sagt, er habe/sei … (Konjunktiv I)",
+    "meaning": "…diğini söylüyor (dolaylı anlatım)",
+    "note": "Haber dilinde dolaylı anlatımda kullanılır. 3. tekil: habe, sei, könne, werde. Biçim indikatifle aynıysa Konjunktiv II kullanılır.",
+    "examples": [
+      {
+        "de": "Der Minister sagte, er habe von nichts gewusst.",
+        "tr": "Bakan hiçbir şeyden haberi olmadığını söyledi."
+      },
+      {
+        "de": "Die Zeitung berichtet, der Zug sei entgleist.",
+        "tr": "Gazete trenin raydan çıktığını yazıyor."
+      },
+      {
+        "de": "Sie erklärte, sie könne nicht kommen.",
+        "tr": "Gelemeyeceğini açıkladı."
+      },
+      {
+        "de": "Er behauptet, er sei zu Hause gewesen.",
+        "tr": "Evde olduğunu iddia ediyor."
+      },
+      {
+        "de": "Die Sprecherin sagte, die Firma werde neue Mitarbeiter einstellen.",
+        "tr": "Sözcü, şirketin yeni çalışanlar alacağını söyledi."
+      }
+    ]
+  },
+  {
+    "id": "b2-haben-zu",
+    "level": "B2",
+    "priority": 24,
+    "pattern": "… hat/haben … zu (Infinitiv)",
+    "meaning": "…mesi gerekiyor (resmî)",
+    "note": "haben + zu + Infinitiv \"müssen\" anlamındadır ve etken cümle kurar. Talimat ve resmî metinlerde yaygındır.",
+    "examples": [
+      {
+        "de": "Sie haben die Unterlagen bis Montag einzureichen.",
+        "tr": "Belgeleri pazartesiye kadar sunmanız gerekiyor."
+      },
+      {
+        "de": "Ich habe noch viel zu erledigen.",
+        "tr": "Yapacak daha çok işim var."
+      },
+      {
+        "de": "Die Mieter haben die Hausordnung zu beachten.",
+        "tr": "Kiracılar ev düzenine uymak zorundadır."
+      },
+      {
+        "de": "Wir haben uns an die Regeln zu halten.",
+        "tr": "Kurallara uymamız gerekiyor."
+      },
+      {
+        "de": "Der Fahrer hat den Fahrgästen beim Einsteigen zu helfen.",
+        "tr": "Şoförün yolculara binerken yardım etmesi gerekiyor."
+      }
+    ]
+  },
+  {
+    "id": "b2-es-sei-denn",
+    "level": "B2",
+    "priority": 25,
+    "pattern": "…, es sei denn, … (Satz)",
+    "meaning": "…, …madıkça, …medikçe",
+    "note": "İstisna koşulu bildirir. \"Es sei denn\"den sonra cümle normal sıradadır (es sei denn, es regnet); \"dass\" eklenirse fiil sonda gider.",
+    "examples": [
+      {
+        "de": "Wir gehen morgen wandern, es sei denn, es regnet.",
+        "tr": "Yağmur yağmadığı sürece yarın yürüyüşe çıkıyoruz."
+      },
+      {
+        "de": "Ich komme zur Party, es sei denn, ich muss arbeiten.",
+        "tr": "Çalışmak zorunda kalmadıkça partiye geleceğim."
+      },
+      {
+        "de": "Der Flug findet statt, es sei denn, der Nebel wird zu dicht.",
+        "tr": "Sis çok yoğunlaşmadıkça uçuş gerçekleşecek."
+      },
+      {
+        "de": "Du bekommst kein Geld zurück, es sei denn, du hast den Kassenbon.",
+        "tr": "Fişin olmadıkça paranı geri alamazsın."
+      },
+      {
+        "de": "Sie bleibt bei ihrer Meinung, es sei denn, man überzeugt sie mit guten Argumenten.",
+        "tr": "Güçlü argümanlarla ikna edilmedikçe fikrinden dönmez."
+      }
+    ]
+  }
+]

@@ -1,1 +1,902 @@
-[]
+[
+  {
+    "id": "a2-ich-habe-partizip",
+    "level": "A2",
+    "priority": 1,
+    "pattern": "Ich habe … (Partizip II)",
+    "meaning": "… -dim / -ti (geçmiş, haben ile)",
+    "note": "Perfekt: haben + Partizip II cümle sonunda. Çoğu fiil haben alır: gemacht, gekauft, gegessen, gelesen.",
+    "examples": [
+      {
+        "de": "Ich habe gestern Pizza gegessen.",
+        "tr": "Dün pizza yedim."
+      },
+      {
+        "de": "Ich habe meine Mutter angerufen.",
+        "tr": "Annemi aradım."
+      },
+      {
+        "de": "Ich habe das Buch gelesen.",
+        "tr": "Kitabı okudum."
+      },
+      {
+        "de": "Ich habe am Wochenende viel geschlafen.",
+        "tr": "Hafta sonu çok uyudum."
+      },
+      {
+        "de": "Ich habe die Hausaufgaben schon gemacht.",
+        "tr": "Ödevleri çoktan yaptım."
+      }
+    ]
+  },
+  {
+    "id": "a2-ich-bin-partizip",
+    "level": "A2",
+    "priority": 2,
+    "pattern": "Ich bin … (Partizip II)",
+    "meaning": "… -dim / -ti (geçmiş, sein ile)",
+    "note": "Hareket ve durum değişimi bildiren fiiller sein alır: gegangen, gefahren, gekommen, geblieben. Partizip II sonda.",
+    "examples": [
+      {
+        "de": "Ich bin gestern nach Hause gegangen.",
+        "tr": "Dün eve gittim."
+      },
+      {
+        "de": "Ich bin mit dem Zug nach Köln gefahren.",
+        "tr": "Köln'e trenle gittim."
+      },
+      {
+        "de": "Ich bin um sieben Uhr aufgestanden.",
+        "tr": "Saat yedide kalktım."
+      },
+      {
+        "de": "Ich bin zu Hause geblieben.",
+        "tr": "Evde kaldım."
+      },
+      {
+        "de": "Ich bin spät angekommen.",
+        "tr": "Geç vardım."
+      }
+    ]
+  },
+  {
+    "id": "a2-weil",
+    "level": "A2",
+    "priority": 3,
+    "pattern": "…, weil … (Verb am Ende)",
+    "meaning": "…, çünkü … / … -diği için",
+    "note": "weil yan cümle açar ve çekimli fiil cümlenin sonuna gider. Önüne virgül konur.",
+    "examples": [
+      {
+        "de": "Ich bleibe zu Hause, weil ich krank bin.",
+        "tr": "Hasta olduğum için evde kalıyorum."
+      },
+      {
+        "de": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+        "tr": "Almanya'da çalışmak istediğim için Almanca öğreniyorum."
+      },
+      {
+        "de": "Ich komme zu spät, weil der Bus Verspätung hat.",
+        "tr": "Otobüs rötar yaptığı için geç kalıyorum."
+      },
+      {
+        "de": "Ich nehme einen Schirm, weil es regnet.",
+        "tr": "Yağmur yağdığı için şemsiye alıyorum."
+      },
+      {
+        "de": "Ich esse nur Salat, weil ich keinen Hunger habe.",
+        "tr": "Acıkmadığım için sadece salata yiyorum."
+      }
+    ]
+  },
+  {
+    "id": "a2-dass",
+    "level": "A2",
+    "priority": 4,
+    "pattern": "…, dass … (Verb am Ende)",
+    "meaning": "… -diğini / -eceğini …",
+    "note": "denken, glauben, wissen, hoffen, sagen gibi fiillerden sonra gelir. Yan cümlede çekimli fiil sonda, virgül şart.",
+    "examples": [
+      {
+        "de": "Ich denke, dass das Wetter morgen schön ist.",
+        "tr": "Yarın havanın güzel olacağını düşünüyorum."
+      },
+      {
+        "de": "Ich glaube, dass er zu Hause ist.",
+        "tr": "Evde olduğunu sanıyorum."
+      },
+      {
+        "de": "Ich weiß, dass du heute Geburtstag hast.",
+        "tr": "Bugün doğum günün olduğunu biliyorum."
+      },
+      {
+        "de": "Ich hoffe, dass du bald kommst.",
+        "tr": "Yakında geleceğini umuyorum."
+      },
+      {
+        "de": "Sie sagt, dass sie keine Zeit hat.",
+        "tr": "Vaktinin olmadığını söylüyor."
+      }
+    ]
+  },
+  {
+    "id": "a2-wenn",
+    "level": "A2",
+    "priority": 5,
+    "pattern": "Wenn …, (dann) … (Verb am Ende)",
+    "meaning": "Eğer … -rsa, …",
+    "note": "wenn yan cümlesi başta ise ana cümlede fiil hemen gelir (Wenn es regnet, bleibe ich …). Gerçek koşul ve tekrarlayan durumlar için kullanılır.",
+    "examples": [
+      {
+        "de": "Wenn es regnet, bleibe ich zu Hause.",
+        "tr": "Yağmur yağarsa evde kalırım."
+      },
+      {
+        "de": "Wenn ich Zeit habe, rufe ich dich an.",
+        "tr": "Vaktim olursa seni ararım."
+      },
+      {
+        "de": "Wenn du Hunger hast, koche ich etwas.",
+        "tr": "Acıkırsan bir şey pişiririm."
+      },
+      {
+        "de": "Wenn ich müde bin, trinke ich einen Kaffee.",
+        "tr": "Yorgun olduğumda kahve içerim."
+      },
+      {
+        "de": "Wenn das Wetter schön ist, gehen wir spazieren.",
+        "tr": "Hava güzel olursa yürüyüşe çıkarız."
+      }
+    ]
+  },
+  {
+    "id": "a2-deshalb",
+    "level": "A2",
+    "priority": 6,
+    "pattern": "…, deshalb … (Verb an Position 2)",
+    "meaning": "…, bu yüzden …",
+    "note": "deshalb sonucu bildirir; fiil hemen deshalb'dan sonra gelir, özne ondan sonra: deshalb nehme ich …",
+    "examples": [
+      {
+        "de": "Es regnet, deshalb nehme ich einen Schirm.",
+        "tr": "Yağmur yağıyor, bu yüzden şemsiye alıyorum."
+      },
+      {
+        "de": "Ich bin müde, deshalb gehe ich früh ins Bett.",
+        "tr": "Yorgunum, bu yüzden erken yatıyorum."
+      },
+      {
+        "de": "Er ist krank, deshalb kommt er nicht zur Arbeit.",
+        "tr": "O hasta, bu yüzden işe gelmiyor."
+      },
+      {
+        "de": "Das Essen ist teuer, deshalb koche ich zu Hause.",
+        "tr": "Yemek pahalı, bu yüzden evde pişiriyorum."
+      },
+      {
+        "de": "Ich habe wenig Geld, deshalb kaufe ich nichts.",
+        "tr": "Param az, bu yüzden bir şey almıyorum."
+      }
+    ]
+  },
+  {
+    "id": "a2-ich-wuerde-gern",
+    "level": "A2",
+    "priority": 7,
+    "pattern": "Ich würde gern … (Infinitiv)",
+    "meaning": "… yapmak isterdim",
+    "note": "würde + gern + mastar (sonda). möchte'den daha nazik, çoğu zaman bir istek ya da hayal anlatır.",
+    "examples": [
+      {
+        "de": "Ich würde gern im Sommer nach Italien fahren.",
+        "tr": "Yazın İtalya'ya gitmek isterdim."
+      },
+      {
+        "de": "Ich würde gern ein Zimmer buchen.",
+        "tr": "Bir oda ayırtmak isterdim."
+      },
+      {
+        "de": "Ich würde gern mehr Sport machen.",
+        "tr": "Daha çok spor yapmak isterdim."
+      },
+      {
+        "de": "Ich würde gern einen Tisch für zwei Personen reservieren.",
+        "tr": "İki kişilik bir masa ayırtmak isterdim."
+      },
+      {
+        "de": "Ich würde gern Gitarre lernen.",
+        "tr": "Gitar öğrenmek isterdim."
+      }
+    ]
+  },
+  {
+    "id": "a2-koennten-sie",
+    "level": "A2",
+    "priority": 8,
+    "pattern": "Könnten Sie mir … (Infinitiv)?",
+    "meaning": "Bana … yapabilir misiniz? (kibar)",
+    "note": "Können Sie'nin daha kibar hâli. mir = bana; ana fiil mastar olarak sonda.",
+    "examples": [
+      {
+        "de": "Könnten Sie mir bitte helfen?",
+        "tr": "Bana yardım edebilir misiniz, lütfen?"
+      },
+      {
+        "de": "Könnten Sie mir den Weg zeigen?",
+        "tr": "Bana yolu gösterebilir misiniz?"
+      },
+      {
+        "de": "Könnten Sie mir die Rechnung bringen?",
+        "tr": "Bana hesabı getirebilir misiniz?"
+      },
+      {
+        "de": "Könnten Sie mir das bitte erklären?",
+        "tr": "Bunu bana açıklayabilir misiniz?"
+      },
+      {
+        "de": "Könnten Sie mir ein Taxi rufen?",
+        "tr": "Bana bir taksi çağırabilir misiniz?"
+      }
+    ]
+  },
+  {
+    "id": "a2-wollen-wir",
+    "level": "A2",
+    "priority": 9,
+    "pattern": "Wollen wir … (Infinitiv)?",
+    "meaning": "… yapalım mı?",
+    "note": "Öneri kalıbı. Fiil başta, özne wir, ana fiil mastar olarak sonda. Cevap: Ja, gern! / Gute Idee!",
+    "examples": [
+      {
+        "de": "Wollen wir ins Kino gehen?",
+        "tr": "Sinemaya gidelim mi?"
+      },
+      {
+        "de": "Wollen wir zusammen kochen?",
+        "tr": "Birlikte yemek yapalım mı?"
+      },
+      {
+        "de": "Wollen wir am Samstag Fußball spielen?",
+        "tr": "Cumartesi futbol oynayalım mı?"
+      },
+      {
+        "de": "Wollen wir einen Kaffee trinken?",
+        "tr": "Bir kahve içelim mi?"
+      },
+      {
+        "de": "Wollen wir morgen ein Picknick machen?",
+        "tr": "Yarın piknik yapalım mı?"
+      }
+    ]
+  },
+  {
+    "id": "a2-wie-waere-es-mit",
+    "level": "A2",
+    "priority": 10,
+    "pattern": "Wie wäre es mit …? (Dativ)",
+    "meaning": "… ne dersin? / … nasıl olur?",
+    "note": "Öneri kalıbı. mit her zaman Dativ ister: mit einem Kaffee, mit dem Park.",
+    "examples": [
+      {
+        "de": "Wie wäre es mit einem Spaziergang?",
+        "tr": "Bir yürüyüşe ne dersin?"
+      },
+      {
+        "de": "Wie wäre es mit Pizza zum Abendessen?",
+        "tr": "Akşam yemeği için pizzaya ne dersin?"
+      },
+      {
+        "de": "Wie wäre es mit Samstagabend?",
+        "tr": "Cumartesi akşamı nasıl olur?"
+      },
+      {
+        "de": "Wie wäre es mit einem Kaffee?",
+        "tr": "Bir kahveye ne dersin?"
+      },
+      {
+        "de": "Wie wäre es mit dem Park?",
+        "tr": "Parka ne dersin?"
+      }
+    ]
+  },
+  {
+    "id": "a2-man-kann-hier",
+    "level": "A2",
+    "priority": 11,
+    "pattern": "Man kann hier … (Infinitiv)",
+    "meaning": "Burada … yapılabilir",
+    "note": "man genel bir öznedir (insan, herkes) ve fiil 3. tekil kişi gibi çekimlenir. Ana fiil mastar olarak sonda.",
+    "examples": [
+      {
+        "de": "Man kann hier gut essen.",
+        "tr": "Burada iyi yemek yenir."
+      },
+      {
+        "de": "Man kann hier Fahrräder mieten.",
+        "tr": "Burada bisiklet kiralanabilir."
+      },
+      {
+        "de": "Man kann hier kostenlos parken.",
+        "tr": "Burada ücretsiz park edilebilir."
+      },
+      {
+        "de": "Man kann hier Briefmarken kaufen.",
+        "tr": "Burada pul alınabilir."
+      },
+      {
+        "de": "Man kann im Internet viel lernen.",
+        "tr": "İnternetten çok şey öğrenilebilir."
+      }
+    ]
+  },
+  {
+    "id": "a2-man-darf-nicht",
+    "level": "A2",
+    "priority": 12,
+    "pattern": "Man darf hier nicht … (Infinitiv)",
+    "meaning": "Burada … yapmak yasak",
+    "note": "nicht dürfen yasak anlamı verir. Ana fiil mastar olarak sonda. Dikkat: nicht müssen “gerekmez” demektir, yasak değil.",
+    "examples": [
+      {
+        "de": "Man darf hier nicht rauchen.",
+        "tr": "Burada sigara içmek yasak."
+      },
+      {
+        "de": "Man darf hier nicht parken.",
+        "tr": "Burada park etmek yasak."
+      },
+      {
+        "de": "Man darf hier nicht fotografieren.",
+        "tr": "Burada fotoğraf çekmek yasak."
+      },
+      {
+        "de": "Man darf hier nicht laut sprechen.",
+        "tr": "Burada yüksek sesle konuşmak yasak."
+      },
+      {
+        "de": "Man darf im Museum nicht essen.",
+        "tr": "Müzede yemek yemek yasak."
+      }
+    ]
+  },
+  {
+    "id": "a2-wie-sagt-man",
+    "level": "A2",
+    "priority": 13,
+    "pattern": "Wie sagt man … auf Deutsch?",
+    "meaning": "… Almanca nasıl söylenir?",
+    "note": "Dil adı auf ile kullanılır: auf Deutsch, auf Türkisch. Benzer sorular: Was bedeutet …? Wie schreibt man …?",
+    "examples": [
+      {
+        "de": "Wie sagt man „Kahvaltı“ auf Deutsch?",
+        "tr": "„Kahvaltı“ Almanca nasıl söylenir?"
+      },
+      {
+        "de": "Wie sagt man „Bilgisayar“ auf Deutsch?",
+        "tr": "„Bilgisayar“ Almanca nasıl söylenir?"
+      },
+      {
+        "de": "Wie sagt man „Arkadaş“ auf Deutsch?",
+        "tr": "„Arkadaş“ Almanca nasıl söylenir?"
+      },
+      {
+        "de": "Wie sagt man „Günaydın“ auf Deutsch?",
+        "tr": "„Günaydın“ Almanca nasıl söylenir?"
+      },
+      {
+        "de": "Wie sagt man „Hoşça kal“ auf Deutsch?",
+        "tr": "„Hoşça kal“ Almanca nasıl söylenir?"
+      }
+    ]
+  },
+  {
+    "id": "a2-ich-interessiere-mich",
+    "level": "A2",
+    "priority": 14,
+    "pattern": "Ich interessiere mich für … (Akkusativ)",
+    "meaning": "… ile ilgileniyorum",
+    "note": "sich interessieren für + Akkusativ. mich, ben için yansıma zamiridir (du: dich, er: sich).",
+    "examples": [
+      {
+        "de": "Ich interessiere mich für Musik.",
+        "tr": "Müzikle ilgileniyorum."
+      },
+      {
+        "de": "Ich interessiere mich für Geschichte.",
+        "tr": "Tarihle ilgileniyorum."
+      },
+      {
+        "de": "Ich interessiere mich für den Kurs.",
+        "tr": "Kursla ilgileniyorum."
+      },
+      {
+        "de": "Ich interessiere mich für moderne Kunst.",
+        "tr": "Modern sanatla ilgileniyorum."
+      },
+      {
+        "de": "Ich interessiere mich sehr für Fußball.",
+        "tr": "Futbolla çok ilgileniyorum."
+      }
+    ]
+  },
+  {
+    "id": "a2-ich-freue-mich-auf",
+    "level": "A2",
+    "priority": 15,
+    "pattern": "Ich freue mich auf … (Akkusativ)",
+    "meaning": "… dört gözle bekliyorum",
+    "note": "Gelecekteki bir şey için sich freuen auf + Akkusativ kullanılır. Olmuş bir şey için: sich freuen über.",
+    "examples": [
+      {
+        "de": "Ich freue mich auf das Wochenende.",
+        "tr": "Hafta sonunu dört gözle bekliyorum."
+      },
+      {
+        "de": "Ich freue mich auf den Urlaub.",
+        "tr": "Tatili dört gözle bekliyorum."
+      },
+      {
+        "de": "Ich freue mich auf deinen Besuch.",
+        "tr": "Ziyaretini dört gözle bekliyorum."
+      },
+      {
+        "de": "Ich freue mich auf die Party.",
+        "tr": "Partiyi dört gözle bekliyorum."
+      },
+      {
+        "de": "Ich freue mich auf das Essen heute Abend.",
+        "tr": "Bu akşamki yemeği dört gözle bekliyorum."
+      }
+    ]
+  },
+  {
+    "id": "a2-ich-wasche-mir",
+    "level": "A2",
+    "priority": 16,
+    "pattern": "Ich wasche / putze mir … (Körperteil)",
+    "meaning": "… yıkıyorum / … fırçalıyorum (kendi vücudum)",
+    "note": "Vücut parçasında sahiplik zamiri yerine mir (Dativ) + artikel kullanılır: mir die Hände, mir die Zähne.",
+    "examples": [
+      {
+        "de": "Ich wasche mir die Hände.",
+        "tr": "Ellerimi yıkıyorum."
+      },
+      {
+        "de": "Ich putze mir die Zähne.",
+        "tr": "Dişlerimi fırçalıyorum."
+      },
+      {
+        "de": "Ich wasche mir das Gesicht.",
+        "tr": "Yüzümü yıkıyorum."
+      },
+      {
+        "de": "Ich wasche mir die Haare.",
+        "tr": "Saçlarımı yıkıyorum."
+      },
+      {
+        "de": "Ich putze mir die Nase.",
+        "tr": "Burnumu siliyorum."
+      }
+    ]
+  },
+  {
+    "id": "a2-ich-fuehle-mich",
+    "level": "A2",
+    "priority": 17,
+    "pattern": "Ich fühle mich … (Adjektiv)",
+    "meaning": "Kendimi … hissediyorum",
+    "note": "sich fühlen + sıfat. mich yansıma zamiridir (Akkusativ); sıfat çekimsiz kalır.",
+    "examples": [
+      {
+        "de": "Ich fühle mich heute müde.",
+        "tr": "Bugün kendimi yorgun hissediyorum."
+      },
+      {
+        "de": "Ich fühle mich nicht gut.",
+        "tr": "Kendimi iyi hissetmiyorum."
+      },
+      {
+        "de": "Ich fühle mich hier wohl.",
+        "tr": "Burada kendimi rahat hissediyorum."
+      },
+      {
+        "de": "Ich fühle mich einsam.",
+        "tr": "Kendimi yalnız hissediyorum."
+      },
+      {
+        "de": "Ich fühle mich viel besser.",
+        "tr": "Kendimi çok daha iyi hissediyorum."
+      }
+    ]
+  },
+  {
+    "id": "a2-ich-finde",
+    "level": "A2",
+    "priority": 18,
+    "pattern": "Ich finde … (Adjektiv)",
+    "meaning": "… buluyorum / bence …",
+    "note": "Görüş bildirir: finden + Akkusativ nesne + sıfat. Sıfat çekimsiz kalır.",
+    "examples": [
+      {
+        "de": "Ich finde den Film langweilig.",
+        "tr": "Filmi sıkıcı buluyorum."
+      },
+      {
+        "de": "Ich finde die Wohnung sehr schön.",
+        "tr": "Daireyi çok güzel buluyorum."
+      },
+      {
+        "de": "Ich finde das Essen lecker.",
+        "tr": "Yemeği lezzetli buluyorum."
+      },
+      {
+        "de": "Ich finde die Prüfung schwer.",
+        "tr": "Sınavı zor buluyorum."
+      },
+      {
+        "de": "Ich finde deine Idee gut.",
+        "tr": "Fikrini iyi buluyorum."
+      }
+    ]
+  },
+  {
+    "id": "a2-gefaellt-mir",
+    "level": "A2",
+    "priority": 19,
+    "pattern": "… gefällt mir / … gefallen mir",
+    "meaning": "… hoşuma gidiyor",
+    "note": "gefallen Dativ ister: beğenen kişi mir, dir, ihm olur; beğenilen şey özne olur. Çoğulda gefallen.",
+    "examples": [
+      {
+        "de": "Die Wohnung gefällt mir.",
+        "tr": "Daire hoşuma gidiyor."
+      },
+      {
+        "de": "Das Kleid gefällt mir sehr.",
+        "tr": "Elbise çok hoşuma gidiyor."
+      },
+      {
+        "de": "Die Schuhe gefallen mir nicht.",
+        "tr": "Ayakkabılar hoşuma gitmiyor."
+      },
+      {
+        "de": "Wie gefällt dir die Stadt?",
+        "tr": "Şehri nasıl buluyorsun?"
+      },
+      {
+        "de": "Das Konzert hat mir gut gefallen.",
+        "tr": "Konser hoşuma gitti."
+      }
+    ]
+  },
+  {
+    "id": "a2-mir-ist",
+    "level": "A2",
+    "priority": 20,
+    "pattern": "Mir ist … (Adjektiv)",
+    "meaning": "… hissediyorum (üşümek, bulantı vb.)",
+    "note": "Bedensel duyguları anlatır: mir (Dativ) + ist + sıfat. Soru: Ist dir kalt?",
+    "examples": [
+      {
+        "de": "Mir ist kalt.",
+        "tr": "Üşüyorum."
+      },
+      {
+        "de": "Mir ist warm.",
+        "tr": "Sıcakladım."
+      },
+      {
+        "de": "Mir ist schlecht.",
+        "tr": "Midem bulanıyor."
+      },
+      {
+        "de": "Mir ist langweilig.",
+        "tr": "Canım sıkılıyor."
+      },
+      {
+        "de": "Mir ist schwindelig.",
+        "tr": "Başım dönüyor."
+      }
+    ]
+  },
+  {
+    "id": "a2-komparativ",
+    "level": "A2",
+    "priority": 21,
+    "pattern": "… ist (Komparativ) als …",
+    "meaning": "… …'den daha …",
+    "note": "Sıfat + -er, ardından als. Bazı sıfatlarda ses değişir: groß-größer, gut-besser, viel-mehr.",
+    "examples": [
+      {
+        "de": "Mein Bruder ist größer als ich.",
+        "tr": "Erkek kardeşim benden daha uzun."
+      },
+      {
+        "de": "Der Zug ist schneller als der Bus.",
+        "tr": "Tren otobüsten daha hızlı."
+      },
+      {
+        "de": "Im Sommer ist es wärmer als im Frühling.",
+        "tr": "Yazın hava ilkbahardan daha sıcak."
+      },
+      {
+        "de": "Dieses Handy ist teurer als das andere.",
+        "tr": "Bu telefon diğerinden daha pahalı."
+      },
+      {
+        "de": "Mein Zimmer ist kleiner als dein Zimmer.",
+        "tr": "Odam seninkinden daha küçük."
+      }
+    ]
+  },
+  {
+    "id": "a2-superlativ",
+    "level": "A2",
+    "priority": 22,
+    "pattern": "… ist am (Superlativ)",
+    "meaning": "… en …",
+    "note": "am + sıfat + -sten. Düzensizler: am besten, am liebsten, am meisten.",
+    "examples": [
+      {
+        "de": "Im Juli ist es am heißesten.",
+        "tr": "Temmuzda hava en sıcak."
+      },
+      {
+        "de": "Mein Bruder ist am größten.",
+        "tr": "Erkek kardeşim en uzun boylu."
+      },
+      {
+        "de": "Dieses Hotel ist am billigsten.",
+        "tr": "Bu otel en ucuzu."
+      },
+      {
+        "de": "Ich esse am liebsten Pizza.",
+        "tr": "En çok pizza yemeyi severim."
+      },
+      {
+        "de": "Meine Oma kocht am besten.",
+        "tr": "Büyükannem en iyi yemek yapar."
+      }
+    ]
+  },
+  {
+    "id": "a2-ich-war",
+    "level": "A2",
+    "priority": 23,
+    "pattern": "Ich war … (Ort / Zustand)",
+    "meaning": "… idim / … 'deydim",
+    "note": "sein'ın Präteritum hâli (war) konuşmada Perfekt yerine tercih edilir: ich war, du warst, wir waren.",
+    "examples": [
+      {
+        "de": "Ich war gestern beim Arzt.",
+        "tr": "Dün doktordaydım."
+      },
+      {
+        "de": "Ich war letztes Jahr in Spanien.",
+        "tr": "Geçen yıl İspanya'daydım."
+      },
+      {
+        "de": "Ich war am Wochenende krank.",
+        "tr": "Hafta sonu hastaydım."
+      },
+      {
+        "de": "Gestern war ich im Kino.",
+        "tr": "Dün sinemadaydım."
+      },
+      {
+        "de": "Ich war vor drei Jahren in der Türkei.",
+        "tr": "Üç yıl önce Türkiye'deydim."
+      }
+    ]
+  },
+  {
+    "id": "a2-liegt-in",
+    "level": "A2",
+    "priority": 24,
+    "pattern": "… liegt / steht / hängt in / auf / an … (Dativ)",
+    "meaning": "… … 'de duruyor (yer)",
+    "note": "Wo? sorusu Dativ ister: auf dem Tisch, in der Tasche, an der Wand. liegen yatık, stehen dik, hängen asılı durumu anlatır.",
+    "examples": [
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "tr": "Kitap masanın üstünde duruyor."
+      },
+      {
+        "de": "Die Flasche steht im Kühlschrank.",
+        "tr": "Şişe buzdolabında duruyor."
+      },
+      {
+        "de": "Das Bild hängt an der Wand.",
+        "tr": "Resim duvarda asılı."
+      },
+      {
+        "de": "Meine Schlüssel liegen in der Tasche.",
+        "tr": "Anahtarlarım çantada."
+      },
+      {
+        "de": "Das Auto steht vor dem Haus.",
+        "tr": "Araba evin önünde duruyor."
+      }
+    ]
+  },
+  {
+    "id": "a2-ich-stelle",
+    "level": "A2",
+    "priority": 25,
+    "pattern": "Ich stelle / lege … in / auf / an … (Akkusativ)",
+    "meaning": "… 'e koyuyorum",
+    "note": "Wohin? sorusu Akkusativ ister: auf den Tisch, in die Tasche. stellen dik, legen yatık koymak, hängen asmak demektir.",
+    "examples": [
+      {
+        "de": "Ich stelle die Flasche auf den Tisch.",
+        "tr": "Şişeyi masanın üstüne koyuyorum."
+      },
+      {
+        "de": "Ich lege das Buch in die Tasche.",
+        "tr": "Kitabı çantaya koyuyorum."
+      },
+      {
+        "de": "Ich stelle das Fahrrad vor das Haus.",
+        "tr": "Bisikleti evin önüne koyuyorum."
+      },
+      {
+        "de": "Ich lege die Schlüssel auf den Schrank.",
+        "tr": "Anahtarları dolabın üstüne koyuyorum."
+      },
+      {
+        "de": "Ich hänge das Bild an die Wand.",
+        "tr": "Resmi duvara asıyorum."
+      }
+    ]
+  },
+  {
+    "id": "a2-zuerst-dann",
+    "level": "A2",
+    "priority": 26,
+    "pattern": "Zuerst …, dann …, danach …",
+    "meaning": "Önce …, sonra …, ondan sonra …",
+    "note": "Sıra bildiren zarflar başta durunca fiil ikinci sırada kalır, özne fiilden sonra gelir: Dann gehe ich …",
+    "examples": [
+      {
+        "de": "Zuerst frühstücke ich, dann gehe ich zur Arbeit.",
+        "tr": "Önce kahvaltı ederim, sonra işe giderim."
+      },
+      {
+        "de": "Zuerst mache ich Hausaufgaben, danach spiele ich.",
+        "tr": "Önce ödev yaparım, ondan sonra oynarım."
+      },
+      {
+        "de": "Zuerst kaufe ich Brot, dann koche ich Suppe.",
+        "tr": "Önce ekmek alırım, sonra çorba pişiririm."
+      },
+      {
+        "de": "Zuerst dusche ich, danach ziehe ich mich an.",
+        "tr": "Önce duş alırım, ondan sonra giyinirim."
+      },
+      {
+        "de": "Zuerst rufe ich Anna an, dann schreibe ich eine E-Mail.",
+        "tr": "Önce Anna'yı ararım, sonra bir e-posta yazarım."
+      }
+    ]
+  },
+  {
+    "id": "a2-es-tut-mir-leid",
+    "level": "A2",
+    "priority": 27,
+    "pattern": "Es tut mir leid, aber …",
+    "meaning": "Üzgünüm ama …",
+    "note": "Özür ve nazik ret için kullanılır. aber'den sonra normal ana cümle gelir (fiil ikinci sırada). mir Dativ'dir.",
+    "examples": [
+      {
+        "de": "Es tut mir leid, aber ich kann nicht kommen.",
+        "tr": "Üzgünüm ama gelemiyorum."
+      },
+      {
+        "de": "Es tut mir leid, aber das Zimmer ist schon besetzt.",
+        "tr": "Üzgünüm ama oda zaten dolu."
+      },
+      {
+        "de": "Es tut mir leid, aber ich bin heute Abend nicht frei.",
+        "tr": "Üzgünüm ama bu akşam müsait değilim."
+      },
+      {
+        "de": "Es tut mir leid, aber wir haben keine Karten mehr.",
+        "tr": "Üzgünüm ama bilet kalmadı."
+      },
+      {
+        "de": "Es tut mir leid, aber ich habe Ihre Nachricht nicht gelesen.",
+        "tr": "Üzgünüm ama mesajınızı okumadım."
+      }
+    ]
+  },
+  {
+    "id": "a2-seit",
+    "level": "A2",
+    "priority": 28,
+    "pattern": "… seit … (Dativ, Präsens)",
+    "meaning": "… -den beri / … -dır",
+    "note": "seit + Dativ. Hâlâ süren durumda fiil şimdiki zamandadır (Perfekt değil): Ich wohne seit …",
+    "examples": [
+      {
+        "de": "Ich lerne seit einem Jahr Deutsch.",
+        "tr": "Bir yıldır Almanca öğreniyorum."
+      },
+      {
+        "de": "Ich wohne seit drei Monaten in Hamburg.",
+        "tr": "Üç aydır Hamburg'da oturuyorum."
+      },
+      {
+        "de": "Seit Montag bin ich krank.",
+        "tr": "Pazartesiden beri hastayım."
+      },
+      {
+        "de": "Ich arbeite seit 2020 in dieser Firma.",
+        "tr": "2020'den beri bu şirkette çalışıyorum."
+      },
+      {
+        "de": "Er wartet seit einer Stunde auf den Bus.",
+        "tr": "Bir saattir otobüs bekliyor."
+      }
+    ]
+  },
+  {
+    "id": "a2-lust-auf",
+    "level": "A2",
+    "priority": 29,
+    "pattern": "Ich habe Lust auf … (Akkusativ)",
+    "meaning": "… canım istiyor",
+    "note": "Lust haben auf + Akkusativ isim. Olumsuz: keine Lust auf …",
+    "examples": [
+      {
+        "de": "Ich habe Lust auf ein Eis.",
+        "tr": "Canım dondurma istiyor."
+      },
+      {
+        "de": "Ich habe Lust auf einen Spaziergang.",
+        "tr": "Canım yürüyüşe çıkmak istiyor."
+      },
+      {
+        "de": "Ich habe Lust auf Pizza.",
+        "tr": "Canım pizza çekti."
+      },
+      {
+        "de": "Ich habe heute keine Lust auf Arbeit.",
+        "tr": "Bugün canım çalışmak istemiyor."
+      },
+      {
+        "de": "Ich habe Lust auf Kino.",
+        "tr": "Canım sinemaya gitmek istiyor."
+      }
+    ]
+  },
+  {
+    "id": "a2-vor-zeit",
+    "level": "A2",
+    "priority": 30,
+    "pattern": "… vor … (Zeitangabe, Dativ)",
+    "meaning": "… önce (geçmişte)",
+    "note": "vor + Dativ, geçmişte ne kadar önce olduğunu söyler: vor einem Jahr, vor zwei Wochen. Genelde Perfekt ile kullanılır.",
+    "examples": [
+      {
+        "de": "Vor zwei Wochen habe ich einen Kurs begonnen.",
+        "tr": "İki hafta önce bir kursa başladım."
+      },
+      {
+        "de": "Vor einem Jahr bin ich nach Deutschland gezogen.",
+        "tr": "Bir yıl önce Almanya'ya taşındım."
+      },
+      {
+        "de": "Ich habe vor einer Stunde gegessen.",
+        "tr": "Bir saat önce yemek yedim."
+      },
+      {
+        "de": "Vor drei Tagen war ich beim Zahnarzt.",
+        "tr": "Üç gün önce diş hekimindeydim."
+      },
+      {
+        "de": "Meine Schwester hat vor einem Monat geheiratet.",
+        "tr": "Kız kardeşim bir ay önce evlendi."
+      }
+    ]
+  }
+]
