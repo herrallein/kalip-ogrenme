@@ -85,3 +85,15 @@ describe('export / import', () => {
     )).toThrow(/bozuk/);
   });
 });
+
+describe('meta', () => {
+  it('meta korunur ve gidiş dönüşte aynı kalır; yoksa tanımsız', () => {
+    const s = { ...emptyState(), meta: { epoch: 'e', resetAt: 'r', settingsAt: 's', orderAt: 'o' } };
+    expect(importState(exportState(s)).meta).toEqual(s.meta);
+    expect(importState(exportState(emptyState())).meta).toBeUndefined();
+  });
+  it('bozuk meta Türkçe hata verir', () => {
+    const t = JSON.stringify({ version: 1, progress: {}, days: {}, order: [], meta: { epoch: 1 } });
+    expect(() => importState(t)).toThrow(/meta/);
+  });
+});

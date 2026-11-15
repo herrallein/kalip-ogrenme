@@ -1,4 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
+import { sameState, stampChanges } from '../core/merge';
+import { useSync } from '../sync/useSync';
 import { todayStr } from '../core/date';
 import { planDay } from '../core/scheduler';
 import { loadState, saveState } from '../core/storage';
@@ -19,12 +21,22 @@ const TABS: { id: Tab; label: string }[] = [
 
 export function App() {
   const [today, setToday] = useState(() => todayStr());
-  const [state, setState] = useState<AppState>(() => planDay(loadState(), patterns, todayStr()).state);
+  const [state, setRawState] = useState<AppState>(() => planDay(loadState(), patterns, todayStr()).state);
+  // Kullanıcı değişiklikleri: ayar/sıralama değiştiyse eşitleme zaman damgasını bas.
+  const setState = useCallback((next: AppState) => {
+    setRawState((prev) => stampChanges(prev, next));
+  }, []);
+  // Eşitlemeden gelen birleşik durum damgalanmadan uygulanır (damgalar zaten birleştirildi).
+  const normalize = useCallback(
+    (s: AppState) => planDay(s, patterns, todayStr()).state, []);
+  const sync = useSync(state, setRawState, normalize);
   const [tab, setTab] = useState<Tab>('today');
 
   // Gün kaydı yoksa (gün değişti, içe aktarma, sıfırlama) planla.
+  // Eşitleme sonrası mevcut gün kaydı da düzeltilebilir; yalnız sonuç farklıysa uygula (döngü yok).
   useEffect(() => {
-    if (!state.days[today]) setState(planDay(state, patterns, today).state);
+    const planned = planDay(state, patterns, today).state;
+    if (!sameState(planned, state)) setState(planned);
   }, [state, today]);
 
   useEffect(() => { window.scrollTo({ top: 0 }); }, [tab]);
@@ -49,7 +61,7 @@ export function App() {
         {tab === 'today' && <TodayTab state={state} setState={setState} patterns={patterns} today={today} />}
         {tab === 'patterns' && <PatternsTab state={state} setState={setState} patterns={patterns} today={today} />}
         {tab === 'progress' && <ProgressTab state={state} patterns={patterns} today={today} />}
-        {tab === 'settings' && <SettingsTab state={state} setState={setState} today={today} />}
+        {tab === 'settings' && <SettingsTab state={state} setState={setState} today={today} sync={sync} />}
       </main>
       <nav className="tabbar" aria-label="Ana gezinme">
         {TABS.map((t) => (

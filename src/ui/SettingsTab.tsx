@@ -1,11 +1,13 @@
 import { useRef, useState } from 'react';
+import { withNewEpoch } from '../core/merge';
 import { DEFAULT_SETTINGS, emptyState } from '../core/scheduler';
 import { exportState, importState } from '../core/storage';
 import type { AppState, Settings } from '../core/types';
+import type { SyncApi } from '../sync/useSync';
 
-interface Props { state: AppState; setState: (s: AppState) => void; today: string }
+interface Props { state: AppState; setState: (s: AppState) => void; today: string; sync: SyncApi }
 
-export function SettingsTab({ state, setState, today }: Props) {
+export function SettingsTab({ state, setState, today, sync }: Props) {
   const s = state.settings;
   const [draft, setDraft] = useState({
     newPerDay: String(s.newPerDay),
@@ -16,6 +18,9 @@ export function SettingsTab({ state, setState, today }: Props) {
   const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null);
   const [backupMsg, setBackupMsg] = useState<{ ok: boolean; text: string } | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
+  const [token, setToken] = useState('');
+  const [connecting, setConnecting] = useState(false);
+  const [syncMsg, setSyncMsg] = useState<{ ok: boolean; text: string } | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
 
   const syncDraft = (v: Settings) => setDraft({
@@ -72,11 +77,12 @@ export function SettingsTab({ state, setState, today }: Props) {
     if (!file) return;
     try {
       const imported = importState(await file.text());
-      if (!window.confirm('Mevcut ilerlemenin üzerine yazılacak. İçe aktarılsın mı?')) {
+      const also = sync.connected ? ' Eşitleme açık olduğu için diğer cihazlardaki veri de bununla değiştirilecek.' : '';
+      if (!window.confirm(`Mevcut ilerlemenin üzerine yazılacak.${also} İçe aktarılsın mı?`)) {
         setBackupMsg({ ok: false, text: 'İçe aktarma iptal edildi.' });
         return;
       }
-      setState(imported);
+      setState(withNewEpoch(imported));
       syncDraft(imported.settings);
       setBackupMsg({ ok: true, text: 'Yedek içe aktarıldı.' });
     } catch (e) {
@@ -89,9 +95,37 @@ export function SettingsTab({ state, setState, today }: Props) {
   const doReset = () => {
     const fresh = emptyState();
     fresh.settings = state.settings;
-    setState(fresh);
+    setState(withNewEpoch(fresh));
     setConfirmReset(false);
     setBackupMsg({ ok: true, text: 'Tüm ilerleme sıfırlandı.' });
+  };
+
+  const doConnect = async () => {
+    setConnecting(true);
+    setSyncMsg(null);
+    const r = await sync.connect(token);
+    setConnecting(false);
+    if (r.ok) {
+      setToken('');
+      setSyncMsg({ ok: true, text: 'Bağlandı. İlerlemen artık eşitleniyor.' });
+    } else {
+      setSyncMsg({ ok: false, text: r.message ?? 'Bağlanılamadı.' });
+    }
+  };
+
+  const doDisconnect = () => {
+    sync.disconnect();
+    setSyncMsg({ ok: true, text: "Bağlantı bu cihazdan kesildi. GitHub gist'i silinmedi." });
+  };
+
+  const statusLine = () => {
+    const st = sync.status;
+    if (st.kind === 'syncing') return { ok: true, text: 'Eşitleniyor…' };
+    if (st.kind === 'ok') {
+      return { ok: true, text: `Son eşitleme: ${new Date(st.at).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' })}` };
+    }
+    if (st.kind === 'error') return { ok: false, text: st.message };
+    return { ok: true, text: 'Bağlı. Eşitleme bekleniyor.' };
   };
 
   const field = (key: keyof typeof draft, label: string, hint: string, numeric = true) => (
@@ -120,6 +154,49 @@ export function SettingsTab({ state, setState, today }: Props) {
       </div>
       {msg && <p role="status" className={msg.ok ? 'msg ok' : 'msg err'}>{msg.text}</p>}
 
+      <h2>Eşitleme (telefon ↔ PC)</h2>
+      <p className="muted small">
+        İlerlemen gizli bir GitHub gist'inde saklanır; telefon ve PC birbirini bulur, iki taraftaki
+        çalışma birleşir. Anahtar yalnız bu cihazda durur, yedeğe ve gist'e girmez.
+      </p>
+      {!sync.connected ? (
+        <>
+          <p className="small">
+            <a href="https://github.com/settings/tokens/new?scopes=gist&description=Kalip%20Ogrenme" target="_blank" rel="noopener noreferrer">
+              GitHub'da anahtar oluştur (yalnız gist izni)
+            </a>
+          </p>
+          <label className="field">
+            <span>GitHub anahtarı</span>
+            <input
+              type="password"
+              autoComplete="off"
+              autoCapitalize="off"
+              spellCheck={false}
+              value={token}
+              onChange={(e) => setToken(e.target.value)}
+              placeholder="ghp_… veya github_pat_…"
+            />
+          </label>
+          <div className="btn-row">
+            <button type="button" className="btn primary" disabled={connecting || token.trim() === ''} onClick={() => void doConnect()}>
+              {connecting ? 'Bağlanıyor…' : 'Bağla'}
+            </button>
+          </div>
+        </>
+      ) : (
+        <>
+          <p role="status" className={statusLine().ok ? 'msg ok' : 'msg err'}>{statusLine().text}</p>
+          <div className="btn-row">
+            <button type="button" className="btn primary" disabled={sync.status.kind === 'syncing'} onClick={sync.syncNow}>
+              Şimdi eşitle
+            </button>
+            <button type="button" className="btn" onClick={doDisconnect}>Bağlantıyı kes</button>
+          </div>
+        </>
+      )}
+      {syncMsg && <p role="status" className={syncMsg.ok ? 'msg ok' : 'msg err'}>{syncMsg.text}</p>}
+
       <h2>Yedek</h2>
       <div className="btn-row">
         <button type="button" className="btn" onClick={doExport}>Dışa aktar</button>
@@ -141,7 +218,10 @@ export function SettingsTab({ state, setState, today }: Props) {
         </button>
       ) : (
         <div className="confirm">
-          <p>Tüm ilerleme, geçmiş ve kendi cümlelerin silinecek. Bu geri alınamaz. Emin misin?</p>
+          <p>
+            Tüm ilerleme, geçmiş ve kendi cümlelerin silinecek. Bu geri alınamaz.
+            {sync.connected && ' Eşitleme açık olduğu için diğer cihazlardaki veri de silinecek.'} Emin misin?
+          </p>
           <div className="btn-row">
             <button type="button" className="btn danger" onClick={doReset}>Evet, sıfırla</button>
             <button type="button" className="btn" onClick={() => setConfirmReset(false)}>Vazgeç</button>

@@ -270,3 +270,48 @@ describe('emptyState', () => {
     expect(DEFAULT_SETTINGS.reviewIntervals).toEqual([3, 7, 21, 60, 120]);
   });
 });
+
+describe('planDay: eşitleme sonrası gün düzeltmesi', () => {
+  const T = '2026-11-15';
+  const dayWith = (newIds: string[], done: string[] = []): AppState => {
+    const s = emptyState();
+    s.days[T] = { newIds, done };
+    return s;
+  };
+
+  it('başka cihazda önceki günde tanıtılan kalıplar çıkar, yerine yenileri gelir', () => {
+    const s = dayWith(['a1-1', 'a1-2', 'a1-3']);
+    for (const id of ['a1-1', 'a1-2', 'a1-3']) {
+      s.progress[id] = mkProgress(id, { introduced: '2026-11-14', due: '2099-01-01' });
+    }
+    const { state, queue } = planDay(s, A1, T);
+    expect(state.days[T].newIds).toEqual(['a1-4', 'a1-5', 'a1-6']);
+    expect(queue.filter((q) => q.kind === 'new').map((q) => q.id)).toEqual(['a1-4', 'a1-5', 'a1-6']);
+    expect(s.days[T].newIds).toEqual(['a1-1', 'a1-2', 'a1-3']); // girdi değişmez
+  });
+
+  it('bugün bu cihazda tanıtılanlar (introduced = bugün) korunur', () => {
+    const s = dayWith(['a1-1', 'a1-2', 'a1-3'], ['a1-1']);
+    s.progress['a1-1'] = mkProgress('a1-1', { introduced: T });
+    s.progress['a1-2'] = mkProgress('a1-2', { introduced: '2026-11-10' });
+    const { state } = planDay(s, A1, T);
+    expect(state.days[T].newIds).toEqual(['a1-1', 'a1-3', 'a1-4']);
+  });
+
+  it('hiçbiri çıkmazsa gün kaydı aynen kalır', () => {
+    const s = dayWith(['a1-1', 'a1-2']);
+    s.settings.newPerDay = 5;
+    const { state } = planDay(s, A1, T);
+    expect(state.days[T].newIds).toEqual(['a1-1', 'a1-2']);
+  });
+
+  it('tamamlama öğrenme sınırına uyar', () => {
+    const s = dayWith(['a1-1', 'a1-2', 'a1-3']);
+    s.settings.learningCap = 4;
+    for (const id of ['a1-1', 'a1-2', 'a1-3']) {
+      s.progress[id] = mkProgress(id, { introduced: '2026-11-14' });
+    }
+    // L = 3 öğrenme evresinde, sınır 4: yalnız 1 yeni
+    expect(planDay(s, A1, T).state.days[T].newIds).toEqual(['a1-4']);
+  });
+});

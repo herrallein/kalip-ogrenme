@@ -28,8 +28,16 @@ export interface Settings {
   reviewIntervals: number[];    // [3, 7, 21, 60, 120]
 }
 export interface DayRecord { newIds: string[]; done: string[] }
+// Cihazlar arası eşitleme üst verisi (isteğe bağlı; eski yedeklerde yok).
+export interface SyncMeta {
+  epoch: string;       // sıfırlama/içe aktarmada yeni kimlik; '' = hiç sıfırlanmamış
+  resetAt: string;     // epoch'un başladığı an (ISO)
+  settingsAt: string;  // ayarlar son değiştiği an (ISO)
+  orderAt: string;     // sıralama son değiştiği an (ISO)
+}
 export interface AppState {
   version: 1;
+  meta?: SyncMeta;
   settings: Settings;
   progress: Record<string, Progress>;
   days: Record<string, DayRecord>;

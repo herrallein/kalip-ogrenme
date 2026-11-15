@@ -51,6 +51,26 @@ export function planDay(
     const n = Math.max(0, Math.min(next.settings.newPerDay, next.settings.learningCap - L));
     const newIds = ordered.filter((p) => !next.progress[p.id]).slice(0, n).map((p) => p.id);
     next.days[today] = { newIds, done: [] };
+  } else {
+    // Eşitleme sonrası: başka cihazda daha önceki bir günde tanıtılmış kalıpları bugünün
+    // yeni listesinden çıkar ve eksiği tamamla. Hiçbiri çıkmadıysa kayıt aynen kalır.
+    const rec = next.days[today];
+    const doneNow = new Set(rec.done);
+    const kept = rec.newIds.filter((id) => {
+      const pr = next.progress[id];
+      return !(pr && pr.introduced < today && !doneNow.has(id));
+    });
+    if (kept.length !== rec.newIds.length) {
+      const L = Object.values(next.progress)
+        .filter((pr) => pr.phase === 'learning' && known.has(pr.id) && pr.introduced < today).length;
+      const n = Math.max(0, Math.min(next.settings.newPerDay, next.settings.learningCap - L));
+      const have = new Set(kept);
+      for (const p of ordered) {
+        if (kept.length >= n) break;
+        if (!next.progress[p.id] && !have.has(p.id)) { kept.push(p.id); have.add(p.id); }
+      }
+      rec.newIds = kept;
+    }
   }
   const day = next.days[today];
   const done = new Set(day.done);
@@ -71,45 +91,52 @@ export function planDay(
   return { state: next, queue };
 }
 
+// Tek kalıbın tek derecelendirme geçişi (saf). gradePattern ve birleştirme yeniden oynatması aynı kuralı kullanır.
+export function applyGrade(
+  pr: Progress, grade: Grade, date: string, settings: Settings, sentence?: string,
+): Progress {
+  const next = structuredClone(pr);
+  const { easyStreakToGraduate, reviewIntervals } = settings;
+  const last = reviewIntervals.length - 1;
+
+  next.history.push({ date, grade });
+  next.seen += 1;
+  next.lastSeen = date;
+  const text = sentence?.trim();
+  if (text) next.sentences.push({ date, text });
+
+  if (next.phase === 'learning') {
+    if (grade === 'easy') next.easyStreak += 1;
+    else if (grade === 'hard') next.easyStreak = 0;
+    if (next.easyStreak >= easyStreakToGraduate) {
+      next.phase = 'review';
+      next.step = 0;
+      next.due = addDays(date, reviewIntervals[0]);
+    } else {
+      next.due = addDays(date, 1);
+    }
+  } else if (grade === 'hard') {
+    next.phase = 'learning';
+    next.easyStreak = 0;
+    next.lapses += 1;
+    next.due = addDays(date, 1);
+  } else {
+    if (grade === 'easy') next.step = Math.min(next.step + 1, last);
+    next.due = addDays(date, reviewIntervals[next.step]);
+  }
+  return next;
+}
+
 export function gradePattern(
   state: AppState, id: string, grade: Grade, today: string, sentence?: string,
 ): AppState {
   if (state.days[today]?.done.includes(id)) return state;
   const next = structuredClone(state);
-  const { easyStreakToGraduate, reviewIntervals } = next.settings;
-  const last = reviewIntervals.length - 1;
-
   const pr: Progress = next.progress[id] ?? {
     id, phase: 'learning', introduced: today, easyStreak: 0, step: 0,
     due: today, seen: 0, lapses: 0, history: [], sentences: [],
   };
-  pr.history.push({ date: today, grade });
-  pr.seen += 1;
-  pr.lastSeen = today;
-  const text = sentence?.trim();
-  if (text) pr.sentences.push({ date: today, text });
-
-  if (pr.phase === 'learning') {
-    if (grade === 'easy') pr.easyStreak += 1;
-    else if (grade === 'hard') pr.easyStreak = 0;
-    if (pr.easyStreak >= easyStreakToGraduate) {
-      pr.phase = 'review';
-      pr.step = 0;
-      pr.due = addDays(today, reviewIntervals[0]);
-    } else {
-      pr.due = addDays(today, 1);
-    }
-  } else if (grade === 'hard') {
-    pr.phase = 'learning';
-    pr.easyStreak = 0;
-    pr.lapses += 1;
-    pr.due = addDays(today, 1);
-  } else {
-    if (grade === 'easy') pr.step = Math.min(pr.step + 1, last);
-    pr.due = addDays(today, reviewIntervals[pr.step]);
-  }
-
-  next.progress[id] = pr;
+  next.progress[id] = applyGrade(pr, grade, today, next.settings, sentence);
   const day = next.days[today] ?? (next.days[today] = { newIds: [], done: [] });
   day.done.push(id);
   return next;

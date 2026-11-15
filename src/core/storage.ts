@@ -1,5 +1,5 @@
 import { DEFAULT_SETTINGS, emptyState } from './scheduler';
-import type { AppState, Settings } from './types';
+import type { AppState, Settings, SyncMeta } from './types';
 
 export const STORAGE_KEY = 'kalip-ogrenme:v1';
 
@@ -50,19 +50,39 @@ function parseState(raw: unknown): AppState {
       throw new Error(`"${id}" kalıbının ilerleme kaydı bozuk.`);
     }
   }
+  for (const pr of Object.values(raw.progress) as Record<string, unknown>[]) {
+    const h = pr.history as unknown[];
+    const sn = pr.sentences as unknown[];
+    if (!h.every((e) => isObj(e) && typeof e.date === 'string' &&
+          (e.grade === 'hard' || e.grade === 'good' || e.grade === 'easy')) ||
+        !sn.every((e) => isObj(e) && typeof e.date === 'string' && typeof e.text === 'string')) {
+      throw new Error(`"${String(pr.id)}" kalıbının geçmişi bozuk.`);
+    }
+  }
+  let meta: SyncMeta | undefined;
+  if (raw.meta !== undefined) {
+    const m = raw.meta;
+    if (!isObj(m) || typeof m.epoch !== 'string' || typeof m.resetAt !== 'string' ||
+        typeof m.settingsAt !== 'string' || typeof m.orderAt !== 'string') {
+      throw new Error('Yedekte "meta" alanı bozuk.');
+    }
+    meta = { epoch: m.epoch, resetAt: m.resetAt, settingsAt: m.settingsAt, orderAt: m.orderAt };
+  }
   for (const [d, rec] of Object.entries(raw.days)) {
     if (!isObj(rec) || !Array.isArray(rec.newIds) || !Array.isArray(rec.done)) {
       throw new Error(`${d} günü kaydı bozuk.`);
     }
   }
 
-  return {
+  const out: AppState = {
     version: 1,
     settings,
     progress: raw.progress as unknown as AppState['progress'],
     days: raw.days as unknown as AppState['days'],
     order: raw.order as string[],
   };
+  if (meta) out.meta = meta;
+  return out;
 }
 
 function getStore(): Storage | null {
