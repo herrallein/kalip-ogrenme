@@ -748,5 +748,1055 @@
         "tr": "Güçlü argümanlarla ikna edilmedikçe fikrinden dönmez."
       }
     ]
+  },
+  {
+    "id": "b2-aus-geht-hervor",
+    "level": "B2",
+    "priority": 26,
+    "pattern": "Aus … (Dativ) geht hervor, dass … (Verb am Ende)",
+    "meaning": "… -den … olduğu anlaşılıyor / ortaya çıkıyor",
+    "note": "\"hervorgehen aus\" + Dativ; kaynağa (rapor, istatistik, sözleşme) dayanarak çıkarım yapar. Aus ile başlayan cümlede fiil ikinci sırada kalır.",
+    "examples": [
+      {
+        "de": "Aus der Statistik geht hervor, dass immer mehr Menschen online einkaufen.",
+        "tr": "İstatistikten, giderek daha fazla insanın internetten alışveriş yaptığı anlaşılıyor."
+      },
+      {
+        "de": "Aus dem Bericht geht hervor, dass die Firma im letzten Jahr Verluste gemacht hat.",
+        "tr": "Rapordan, şirketin geçen yıl zarar ettiği anlaşılıyor."
+      },
+      {
+        "de": "Aus der Umfrage geht hervor, dass die meisten Schüler lieber in Gruppen lernen.",
+        "tr": "Ankete göre öğrencilerin çoğu grup halinde öğrenmeyi tercih ediyor."
+      },
+      {
+        "de": "Aus dem Vertrag geht eindeutig hervor, dass der Vermieter für die Reparatur zuständig ist.",
+        "tr": "Sözleşmeden, tamirattan ev sahibinin sorumlu olduğu açıkça anlaşılıyor."
+      },
+      {
+        "de": "Aus seinen Worten ging hervor, dass er mit dem Ergebnis unzufrieden war.",
+        "tr": "Sözlerinden sonuçtan memnun olmadığı anlaşılıyordu."
+      }
+    ]
+  },
+  {
+    "id": "b2-anteil-liegt-bei",
+    "level": "B2",
+    "priority": 27,
+    "pattern": "Der Anteil … (Genitiv) liegt bei … Prozent",
+    "meaning": "… oranı yüzde … düzeyinde",
+    "note": "Anteil + Genitiv; ulaşılan değer \"bei\" ile verilir (\"beträgt\" da kullanılır). İstatistik ve grafik anlatımında sık geçer.",
+    "examples": [
+      {
+        "de": "Der Anteil der Frauen im Vorstand liegt bei knapp 30 Prozent.",
+        "tr": "Yönetim kurulunda kadınların oranı yüzde 30'un biraz altında."
+      },
+      {
+        "de": "Der Anteil der Radfahrer liegt in der Innenstadt bei fast 20 Prozent.",
+        "tr": "Şehir merkezinde bisikletlilerin oranı yüzde 20'ye yakın."
+      },
+      {
+        "de": "Der Anteil der Single-Haushalte liegt inzwischen bei über 40 Prozent.",
+        "tr": "Tek kişilik hanelerin oranı artık yüzde 40'ın üzerinde."
+      },
+      {
+        "de": "Der Anteil der erneuerbaren Energien lag im vergangenen Jahr bei etwa 50 Prozent.",
+        "tr": "Yenilenebilir enerjilerin oranı geçen yıl yaklaşık yüzde 50'ydi."
+      },
+      {
+        "de": "Der Anteil der Studierenden aus dem Ausland liegt an unserer Universität bei zwölf Prozent.",
+        "tr": "Üniversitemizde yurt dışından gelen öğrencilerin oranı yüzde 12."
+      }
+    ]
+  },
+  {
+    "id": "b2-um-prozent-gestiegen",
+    "level": "B2",
+    "priority": 28,
+    "pattern": "… ist um … Prozent gestiegen / gesunken",
+    "meaning": "… yüzde … arttı / azaldı",
+    "note": "\"um\" değişim miktarını, \"auf\" ulaşılan değeri verir (um 5 Prozent gestiegen, auf 20 Prozent gestiegen). Perfekt'te yardımcı fiil sein.",
+    "examples": [
+      {
+        "de": "Die Mieten sind in den letzten fünf Jahren um 15 Prozent gestiegen.",
+        "tr": "Kiralar son beş yılda yüzde 15 arttı."
+      },
+      {
+        "de": "Die Zahl der Arbeitslosen ist gegenüber dem Vorjahr um zwei Prozent gesunken.",
+        "tr": "İşsiz sayısı bir önceki yıla göre yüzde 2 azaldı."
+      },
+      {
+        "de": "Der Umsatz ist im dritten Quartal um zehn Prozent gestiegen.",
+        "tr": "Ciro üçüncü çeyrekte yüzde 10 arttı."
+      },
+      {
+        "de": "Der Stromverbrauch ist trotz der Hitze nur um ein Prozent gesunken.",
+        "tr": "Elektrik tüketimi sıcağa rağmen yalnızca yüzde 1 azaldı."
+      },
+      {
+        "de": "Die Preise für Obst sind seit dem Frühjahr um fast ein Drittel gestiegen.",
+        "tr": "Meyve fiyatları ilkbahardan beri neredeyse üçte bir oranında arttı."
+      }
+    ]
+  },
+  {
+    "id": "b2-im-vergleich-zu",
+    "level": "B2",
+    "priority": 29,
+    "pattern": "Im Vergleich zu … (Dativ), …",
+    "meaning": "… ile karşılaştırıldığında, … -e kıyasla",
+    "note": "\"zu\" + Dativ (zum, zur). Başa gelince fiil ikinci sırada kalır. Eş anlamlısı: \"verglichen mit\".",
+    "examples": [
+      {
+        "de": "Im Vergleich zum letzten Jahr hat sich die Lage deutlich verbessert.",
+        "tr": "Geçen yıla kıyasla durum belirgin biçimde iyileşti."
+      },
+      {
+        "de": "Im Vergleich zu Berlin ist das Leben in Leipzig noch relativ günstig.",
+        "tr": "Berlin'e kıyasla Leipzig'de yaşam hâlâ nispeten ucuz."
+      },
+      {
+        "de": "Im Vergleich zu früheren Generationen reisen junge Leute heute viel mehr.",
+        "tr": "Önceki kuşaklara kıyasla gençler bugün çok daha fazla seyahat ediyor."
+      },
+      {
+        "de": "Im Vergleich zu meinem alten Handy ist das neue Modell viel schneller.",
+        "tr": "Eski telefonuma kıyasla yeni model çok daha hızlı."
+      },
+      {
+        "de": "Im Vergleich zur Stadt gibt es auf dem Land weniger Ärzte.",
+        "tr": "Şehre kıyasla kırsalda daha az doktor var."
+      }
+    ]
+  },
+  {
+    "id": "b2-im-gegensatz-zu",
+    "level": "B2",
+    "priority": 30,
+    "pattern": "Im Gegensatz zu … (Dativ), …",
+    "meaning": "… -in aksine, … -den farklı olarak",
+    "note": "\"zu\" + Dativ. Cümle başında fiil ikinci sırada kalır. Tek başına \"Im Gegensatz dazu, …\" da kullanılır.",
+    "examples": [
+      {
+        "de": "Im Gegensatz zu seinem Bruder interessiert sich Max kaum für Sport.",
+        "tr": "Kardeşinin aksine Max spora pek ilgi duymuyor."
+      },
+      {
+        "de": "Im Gegensatz zu früher arbeiten heute viele Menschen von zu Hause aus.",
+        "tr": "Eskiden farklı olarak bugün birçok insan evden çalışıyor."
+      },
+      {
+        "de": "Im Gegensatz zu den Prognosen blieb das Wetter am Wochenende stabil.",
+        "tr": "Tahminlerin aksine hafta sonu hava sabit kaldı."
+      },
+      {
+        "de": "Im Gegensatz zu mir ist meine Schwester sehr ordentlich.",
+        "tr": "Benim aksime kız kardeşim çok düzenlidir."
+      },
+      {
+        "de": "Im Gegensatz zu vielen Kollegen fährt sie jeden Tag mit dem Fahrrad zur Arbeit.",
+        "tr": "Birçok iş arkadaşının aksine o her gün işe bisikletle gidiyor."
+      }
+    ]
+  },
+  {
+    "id": "b2-hingegen-dagegen",
+    "level": "B2",
+    "priority": 31,
+    "pattern": "…, … hingegen / dagegen …",
+    "meaning": "…; … ise / buna karşılık …",
+    "note": "İki karşıt durumu yan yana koyar. \"hingegen/dagegen\" cümle başında ya da fiilden sonra durabilir; başta ise fiil hemen arkasından gelir.",
+    "examples": [
+      {
+        "de": "Mein Bruder liebt die Stadt, ich hingegen fühle mich auf dem Land wohler.",
+        "tr": "Kardeşim şehri sever, bense kırsalda kendimi daha rahat hissederim."
+      },
+      {
+        "de": "Im Sommer ist es hier sehr voll. Im Winter hingegen kommt kaum jemand.",
+        "tr": "Yazın burası çok kalabalık. Kışın ise neredeyse kimse gelmez."
+      },
+      {
+        "de": "Die Preise für Strom steigen. Die Löhne dagegen bleiben gleich.",
+        "tr": "Elektrik fiyatları artıyor. Ücretler ise aynı kalıyor."
+      },
+      {
+        "de": "Der erste Kandidat war sehr erfahren, der zweite dagegen kam frisch von der Uni.",
+        "tr": "İlk aday çok deneyimliydi, ikincisi ise üniversiteden yeni mezundu."
+      },
+      {
+        "de": "Viele Kunden bestellen online, andere hingegen gehen lieber ins Geschäft.",
+        "tr": "Birçok müşteri internetten sipariş veriyor, bazıları ise mağazaya gitmeyi tercih ediyor."
+      }
+    ]
+  },
+  {
+    "id": "b2-dadurch-dass",
+    "level": "B2",
+    "priority": 32,
+    "pattern": "Dadurch, dass … (Verb am Ende), …",
+    "meaning": "… sayesinde / … olduğu için, …",
+    "note": "Sonucun nedenini veya aracını bildirir; \"dass\" cümlesinde fiil sonda. Bu yan cümle başta durursa ana cümle fiille başlar (Dadurch, dass …, wird sein Deutsch …).",
+    "examples": [
+      {
+        "de": "Dadurch, dass er viel übt, wird sein Deutsch immer besser.",
+        "tr": "Çok alıştırma yaptığı için Almancası giderek daha iyi oluyor."
+      },
+      {
+        "de": "Dadurch, dass die Straße gesperrt war, kamen wir zu spät an.",
+        "tr": "Yol kapalı olduğu için geç vardık."
+      },
+      {
+        "de": "Dadurch, dass viele Firmen auf Homeoffice umgestellt haben, ist der Berufsverkehr deutlich zurückgegangen.",
+        "tr": "Birçok şirket evden çalışmaya geçtiği için trafik belirgin biçimde azaldı."
+      },
+      {
+        "de": "Dadurch, dass sie mehrere Sprachen spricht, hat sie gute Berufschancen.",
+        "tr": "Birkaç dil konuştuğu için iş olanakları iyi."
+      },
+      {
+        "de": "Dadurch, dass wir früh angefangen haben, konnten wir das Projekt pünktlich abschließen.",
+        "tr": "Erken başladığımız için projeyi zamanında bitirebildik."
+      }
+    ]
+  },
+  {
+    "id": "b2-es-besteht-die-gefahr",
+    "level": "B2",
+    "priority": 33,
+    "pattern": "Es besteht die Möglichkeit / Gefahr, dass … / … zu (Infinitiv)",
+    "meaning": "… olasılığı / tehlikesi var",
+    "note": "\"Es besteht\" + die Möglichkeit/Gefahr/Notwendigkeit/Hoffnung; ardından dass-Satz veya zu-Infinitiv gelir. Resmî ve yazılı dil.",
+    "examples": [
+      {
+        "de": "Bei Glatteis besteht die Gefahr, dass man ausrutscht.",
+        "tr": "Buzlanmada kayıp düşme tehlikesi var."
+      },
+      {
+        "de": "Es besteht die Möglichkeit, den Kurs online zu besuchen.",
+        "tr": "Kursa çevrimiçi katılma imkânı var."
+      },
+      {
+        "de": "Es besteht die Gefahr, dass die Preise weiter steigen.",
+        "tr": "Fiyatların daha da yükselme tehlikesi var."
+      },
+      {
+        "de": "Es besteht keine Notwendigkeit, sofort zu entscheiden.",
+        "tr": "Hemen karar vermeye gerek yok."
+      },
+      {
+        "de": "Es bestand die Hoffnung, dass sich die Lage bald beruhigt.",
+        "tr": "Durumun yakında sakinleşeceği umudu vardı."
+      }
+    ]
+  },
+  {
+    "id": "b2-eingehen-auf",
+    "level": "B2",
+    "priority": 34,
+    "pattern": "Ich möchte kurz auf … (Akkusativ) eingehen",
+    "meaning": "… konusuna kısaca değinmek istiyorum",
+    "note": "\"eingehen auf\" + Akkusativ; ayrılabilir fiil (gehe … ein). Sunum ve toplantıda bir noktayı ele almak için kullanılır.",
+    "examples": [
+      {
+        "de": "Ich möchte kurz auf die Ergebnisse der Umfrage eingehen.",
+        "tr": "Anketin sonuçlarına kısaca değinmek istiyorum."
+      },
+      {
+        "de": "Darauf möchte ich später noch genauer eingehen.",
+        "tr": "Buna daha sonra daha ayrıntılı değinmek istiyorum."
+      },
+      {
+        "de": "Auf diese Frage kann ich leider nicht näher eingehen.",
+        "tr": "Bu soruya maalesef daha ayrıntılı giremem."
+      },
+      {
+        "de": "Ich möchte noch auf einen wichtigen Punkt eingehen: die Kosten.",
+        "tr": "Önemli bir noktaya daha değinmek istiyorum: maliyetler."
+      },
+      {
+        "de": "Zum Schluss gehe ich kurz auf Ihre Anregungen ein.",
+        "tr": "Sonunda önerilerinize kısaca değineceğim."
+      }
+    ]
+  },
+  {
+    "id": "b2-zusammenfassend",
+    "level": "B2",
+    "priority": 35,
+    "pattern": "Zusammenfassend / Abschließend lässt sich sagen, dass …",
+    "meaning": "Özetle / sonuç olarak şunu söyleyebiliriz: …",
+    "note": "\"lässt sich sagen\" = \"kann man sagen\" (pasif anlamlı). Sunum ve yazılı anlatımın sonunda özet cümlesi olarak kullanılır.",
+    "examples": [
+      {
+        "de": "Zusammenfassend lässt sich sagen, dass das Projekt ein Erfolg war.",
+        "tr": "Özetle, projenin başarılı olduğu söylenebilir."
+      },
+      {
+        "de": "Zusammenfassend lässt sich festhalten, dass beide Lösungen Vor- und Nachteile haben.",
+        "tr": "Özetle her iki çözümün de artıları ve eksileri olduğunu belirtmek gerekir."
+      },
+      {
+        "de": "Zusammenfassend kann man sagen, dass sich der Aufwand gelohnt hat.",
+        "tr": "Özetle, emeğe değdiği söylenebilir."
+      },
+      {
+        "de": "Zusammenfassend lässt sich sagen, dass die Stadt für Familien sehr attraktiv ist.",
+        "tr": "Özetle, şehrin ailelere çok cazip geldiği söylenebilir."
+      },
+      {
+        "de": "Abschließend lässt sich sagen, dass wir unser Ziel fast erreicht haben.",
+        "tr": "Sonuç olarak hedefimize neredeyse ulaştığımızı söyleyebiliriz."
+      }
+    ]
+  },
+  {
+    "id": "b2-was-betrifft",
+    "level": "B2",
+    "priority": 36,
+    "pattern": "Was … (Akkusativ) betrifft / angeht, …",
+    "meaning": "… konusuna gelince, … açısından …",
+    "note": "\"Was\" ile başlayan yan cümlede fiil sonda (betrifft/angeht); ana cümlede fiil ikinci sırada, istenirse başına \"so\" konur. Yeni bir konuya geçişi belirtir.",
+    "examples": [
+      {
+        "de": "Was die Kosten betrifft, so haben wir noch keine genauen Zahlen.",
+        "tr": "Maliyetlere gelince, henüz kesin rakamlarımız yok."
+      },
+      {
+        "de": "Was meine Arbeit angeht, bin ich zurzeit sehr zufrieden.",
+        "tr": "İşime gelince, şu an çok memnunum."
+      },
+      {
+        "de": "Was das Wetter betrifft, kann man im April nie sicher sein.",
+        "tr": "Havaya gelince, nisanda hiçbir zaman emin olunamaz."
+      },
+      {
+        "de": "Was den Termin angeht, schlage ich Mittwoch vor.",
+        "tr": "Randevuya gelince, çarşambayı öneriyorum."
+      },
+      {
+        "de": "Was mich betrifft, so komme ich gern mit.",
+        "tr": "Bana gelince, ben seve seve gelirim."
+      }
+    ]
+  },
+  {
+    "id": "b2-ich-bitte-sie-zu",
+    "level": "B2",
+    "priority": 37,
+    "pattern": "Ich bitte Sie, … zu (Infinitiv)",
+    "meaning": "Sizden … -menizi rica ediyorum",
+    "note": "\"bitten\" + Akkusativ + zu-Infinitiv; ayrılabilir fiillerde zu araya girer (zuzuschicken). Resmî ve kibar bir rica kalıbıdır.",
+    "examples": [
+      {
+        "de": "Ich bitte Sie, mir die Unterlagen bis Freitag zuzuschicken.",
+        "tr": "Belgeleri cumaya kadar bana göndermenizi rica ediyorum."
+      },
+      {
+        "de": "Ich bitte Sie, Ihre Entscheidung noch einmal zu überdenken.",
+        "tr": "Kararınızı bir kez daha gözden geçirmenizi rica ediyorum."
+      },
+      {
+        "de": "Wir bitten alle Gäste, ihre Handys auszuschalten.",
+        "tr": "Tüm konuklarımızdan telefonlarını kapatmalarını rica ediyoruz."
+      },
+      {
+        "de": "Der Lehrer bat die Schüler, leise zu sein.",
+        "tr": "Öğretmen öğrencilerden sessiz olmalarını istedi."
+      },
+      {
+        "de": "Ich bitte Sie, den Termin auf nächste Woche zu verschieben.",
+        "tr": "Randevuyu önümüzdeki haftaya ertelemenizi rica ediyorum."
+      }
+    ]
+  },
+  {
+    "id": "b2-ich-waere-dankbar",
+    "level": "B2",
+    "priority": 38,
+    "pattern": "Ich wäre Ihnen dankbar, wenn Sie … könnten / würden",
+    "meaning": "… -ebilirseniz / … -erseniz minnettar olurum",
+    "note": "Konjunktiv II ile çok kibar bir rica; wenn-cümlesinde fiil sonda (könnten, würden). Resmî e-postalarda sık kullanılır.",
+    "examples": [
+      {
+        "de": "Ich wäre Ihnen dankbar, wenn Sie mir die Unterlagen bis morgen schicken könnten.",
+        "tr": "Belgeleri yarına kadar bana gönderebilirseniz minnettar olurum."
+      },
+      {
+        "de": "Ich wäre Ihnen sehr dankbar, wenn Sie mir einen Termin anbieten würden.",
+        "tr": "Bana bir randevu verirseniz çok minnettar olurum."
+      },
+      {
+        "de": "Wir wären Ihnen dankbar, wenn Sie uns kurz Bescheid geben könnten.",
+        "tr": "Bize kısaca haber verebilirseniz minnettar oluruz."
+      },
+      {
+        "de": "Ich wäre dir dankbar, wenn du mich morgen früh anrufen könntest.",
+        "tr": "Yarın sabah beni arayabilirsen çok sevinirim."
+      },
+      {
+        "de": "Ich wäre Ihnen dankbar, wenn Sie die Rechnung noch einmal prüfen würden.",
+        "tr": "Faturayı bir kez daha kontrol ederseniz minnettar olurum."
+      }
+    ]
+  },
+  {
+    "id": "b2-bezueglich",
+    "level": "B2",
+    "priority": 39,
+    "pattern": "Bezüglich … (Genitiv) …",
+    "meaning": "… ile ilgili olarak, … hakkında",
+    "note": "\"bezüglich\" + Genitiv; resmî yazışmalarda konuyu açmak için kullanılır. Benzer kalıp: \"Bezug nehmend auf + Akkusativ\".",
+    "examples": [
+      {
+        "de": "Bezüglich Ihrer Anfrage möchte ich Ihnen mitteilen, dass das Zimmer frei ist.",
+        "tr": "Talebinizle ilgili olarak odanın boş olduğunu bildirmek isterim."
+      },
+      {
+        "de": "Bezüglich des Liefertermins haben wir noch einige Fragen.",
+        "tr": "Teslim tarihiyle ilgili hâlâ birkaç sorumuz var."
+      },
+      {
+        "de": "Bezüglich der Kosten würde ich gern noch einmal mit Ihnen sprechen.",
+        "tr": "Maliyetlerle ilgili sizinle bir kez daha konuşmak isterim."
+      },
+      {
+        "de": "Bezüglich meiner Bewerbung hätte ich eine kurze Frage.",
+        "tr": "Başvurumla ilgili kısa bir sorum olacaktı."
+      },
+      {
+        "de": "Bezüglich des Wohnungsangebots melde ich mich in den nächsten Tagen bei Ihnen.",
+        "tr": "Daire teklifiyle ilgili önümüzdeki günlerde size dönüş yapacağım."
+      }
+    ]
+  },
+  {
+    "id": "b2-wuerde-es-ihnen-etwas-ausmachen",
+    "level": "B2",
+    "priority": 40,
+    "pattern": "Würde es Ihnen etwas ausmachen, wenn ich … (Verb am Ende)?",
+    "meaning": "… -mamın sizin için sakıncası olur mu?",
+    "note": "\"etwas ausmachen\" = sorun/rahatsızlık olmak. Çok kibar izin isteme kalıbı; wenn-cümlesinde fiil sonda. Yanıt: \"Nein, überhaupt nicht.\" (olumsuz = sakınca yok).",
+    "examples": [
+      {
+        "de": "Würde es Ihnen etwas ausmachen, wenn ich das Fenster öffne?",
+        "tr": "Pencereyi açmamın sizin için sakıncası olur mu?"
+      },
+      {
+        "de": "Würde es dir etwas ausmachen, wenn ich später komme?",
+        "tr": "Daha geç gelsem sorun olur mu?"
+      },
+      {
+        "de": "Würde es Ihnen etwas ausmachen, wenn wir den Termin verschieben?",
+        "tr": "Randevuyu ertelesek sizin için sakıncası olur mu?"
+      },
+      {
+        "de": "Macht es Ihnen etwas aus, wenn ich mich kurz setze?",
+        "tr": "Kısaca oturmamın bir sakıncası var mı?"
+      },
+      {
+        "de": "Würde es Ihnen etwas ausmachen, wenn ich kurz telefoniere?",
+        "tr": "Kısa bir telefon görüşmesi yapmamın sizin için sakıncası olur mu?"
+      }
+    ]
+  },
+  {
+    "id": "b2-ich-bin-mir-sicher",
+    "level": "B2",
+    "priority": 41,
+    "pattern": "Ich bin mir (nicht) sicher, ob / dass … (Verb am Ende)",
+    "meaning": "… -diğinden (emin) değilim / eminim",
+    "note": "\"sich (Dativ) sicher sein\": mir/dir/uns. \"ob\" belirsizliği, \"dass\" kesinliği anlatır. Yan cümlede fiil sonda.",
+    "examples": [
+      {
+        "de": "Ich bin mir nicht sicher, ob ich morgen Zeit habe.",
+        "tr": "Yarın vaktim olup olmadığından emin değilim."
+      },
+      {
+        "de": "Ich bin mir sicher, dass sie die Prüfung bestehen wird.",
+        "tr": "Sınavı geçeceğinden eminim."
+      },
+      {
+        "de": "Bist du dir sicher, dass der Zug um acht fährt?",
+        "tr": "Trenin sekizde kalktığından emin misin?"
+      },
+      {
+        "de": "Wir sind uns noch nicht sicher, ob wir das Angebot annehmen sollen.",
+        "tr": "Teklifi kabul edip etmeyeceğimizden henüz emin değiliz."
+      },
+      {
+        "de": "Ich bin mir ziemlich sicher, dass ich den Schlüssel auf den Tisch gelegt habe.",
+        "tr": "Anahtarı masanın üzerine koyduğumdan hemen hemen eminim."
+      }
+    ]
+  },
+  {
+    "id": "b2-scheinen-zu",
+    "level": "B2",
+    "priority": 42,
+    "pattern": "… scheint … zu (Infinitiv)",
+    "meaning": "… gibi görünüyor, … -iyor gibi",
+    "note": "\"scheinen\" + zu-Infinitiv bir tahmini ya da izlenimi dile getirir. Zu, Infinitiv'in hemen önünde durur; \"zu haben / zu sein\" cümle sonunda yer alır.",
+    "examples": [
+      {
+        "de": "Das Problem scheint ernster zu sein, als wir dachten.",
+        "tr": "Sorun, düşündüğümüzden daha ciddi görünüyor."
+      },
+      {
+        "de": "Er scheint sich im neuen Job wohlzufühlen.",
+        "tr": "Yeni işinde kendini rahat hissediyor gibi görünüyor."
+      },
+      {
+        "de": "Die Kunden scheinen mit dem neuen Angebot zufrieden zu sein.",
+        "tr": "Müşteriler yeni tekliften memnun görünüyor."
+      },
+      {
+        "de": "Der Chef scheint schlechte Laune zu haben.",
+        "tr": "Patronun keyfi yok gibi görünüyor."
+      },
+      {
+        "de": "Sie scheint die Nachricht noch nicht gelesen zu haben.",
+        "tr": "Mesajı henüz okumamış gibi görünüyor."
+      }
+    ]
+  },
+  {
+    "id": "b2-man-sollte-bedenken",
+    "level": "B2",
+    "priority": 43,
+    "pattern": "Man sollte bedenken, dass … (Verb am Ende)",
+    "meaning": "… olduğunu göz önünde bulundurmak gerekir",
+    "note": "Tartışmada karşı bir noktayı hatırlatır. Dass-cümlesinde fiil sonda; \"sollte\" yerine \"muss\" da kullanılır.",
+    "examples": [
+      {
+        "de": "Man sollte bedenken, dass nicht jeder dieselben Möglichkeiten hat.",
+        "tr": "Herkesin aynı olanaklara sahip olmadığı göz önünde bulundurulmalı."
+      },
+      {
+        "de": "Man sollte auch bedenken, dass die Umstellung Zeit braucht.",
+        "tr": "Geçişin zaman aldığı da düşünülmeli."
+      },
+      {
+        "de": "Man muss bedenken, dass die Preise in den Großstädten höher sind.",
+        "tr": "Büyük şehirlerde fiyatların daha yüksek olduğu unutulmamalı."
+      },
+      {
+        "de": "Man sollte bedenken, dass ein Studium im Ausland viel Geld kostet.",
+        "tr": "Yurt dışında okumanın çok paraya mal olduğu göz önünde bulundurulmalı."
+      },
+      {
+        "de": "Man sollte allerdings bedenken, dass diese Methode nicht für alle geeignet ist.",
+        "tr": "Ancak bu yöntemin herkese uygun olmadığı da hesaba katılmalı."
+      }
+    ]
+  },
+  {
+    "id": "b2-es-spricht-dafuer",
+    "level": "B2",
+    "priority": 44,
+    "pattern": "Es spricht vieles dafür / dagegen, dass … (Verb am Ende)",
+    "meaning": "… lehine / aleyhine birçok şey var",
+    "note": "\"sprechen für/gegen\" kalıbında da- + dass birleşir. Argümanları tartarken kullanılır; \"Dafür spricht, dass …\" biçimi de yaygındır.",
+    "examples": [
+      {
+        "de": "Es spricht vieles dafür, dass der Plan funktioniert.",
+        "tr": "Planın işleyeceği yönünde birçok şey var."
+      },
+      {
+        "de": "Es spricht einiges dagegen, dass wir jetzt ein Haus kaufen.",
+        "tr": "Şimdi ev almamızın aleyhine bazı şeyler var."
+      },
+      {
+        "de": "Dafür spricht, dass die Mitarbeiter dann motivierter sind.",
+        "tr": "Bunun lehine olan şey, çalışanların o zaman daha motive olması."
+      },
+      {
+        "de": "Es spricht nichts dagegen, dass du früher gehst.",
+        "tr": "Senin erken ayrılmana engel hiçbir şey yok."
+      },
+      {
+        "de": "Es spricht viel dafür, dass sich die Preise bald stabilisieren.",
+        "tr": "Fiyatların yakında dengeleneceğini gösteren çok şey var."
+      }
+    ]
+  },
+  {
+    "id": "b2-haette-ich-ohne-wenn",
+    "level": "B2",
+    "priority": 45,
+    "pattern": "Hätte / Wäre ich …, (dann) … (Konditionalsatz ohne wenn)",
+    "meaning": "… olsaydı, … (wenn'siz koşul)",
+    "note": "\"wenn\" düşürülünce Konjunktiv II fiili cümlenin başına geçer (Hätte ich …, Wäre er …). Ana cümlede istenirse \"dann\" kullanılır.",
+    "examples": [
+      {
+        "de": "Hätte ich mehr Zeit, würde ich öfter ins Kino gehen.",
+        "tr": "Daha çok vaktim olsaydı daha sık sinemaya giderdim."
+      },
+      {
+        "de": "Wäre das Wetter besser gewesen, wären wir länger geblieben.",
+        "tr": "Hava daha iyi olsaydı daha uzun kalırdık."
+      },
+      {
+        "de": "Hätte ich das gewusst, hätte ich dir sofort geholfen.",
+        "tr": "Bunu bilseydim sana hemen yardım ederdim."
+      },
+      {
+        "de": "Wüsste ich seine Nummer, würde ich ihn anrufen.",
+        "tr": "Numarasını bilseydim onu arardım."
+      },
+      {
+        "de": "Wäre er pünktlich gekommen, hätten wir den Zug nicht verpasst.",
+        "tr": "O zamanında gelseydi treni kaçırmazdık."
+      }
+    ]
+  },
+  {
+    "id": "b2-sollte-ohne-wenn",
+    "level": "B2",
+    "priority": 46,
+    "pattern": "Sollten Sie … (Infinitiv), …",
+    "meaning": "Eğer … olursa, …",
+    "note": "\"falls/wenn\" yerine resmî ve kibar bir koşul: Konjunktiv II \"sollte\" cümle başında, fiil Infinitiv sonda. Ana cümlede sıklıkla Imperativ veya Präsens gelir.",
+    "examples": [
+      {
+        "de": "Sollten Sie Fragen haben, melden Sie sich bitte jederzeit.",
+        "tr": "Sorularınız olursa lütfen her zaman bize ulaşın."
+      },
+      {
+        "de": "Sollte der Zug Verspätung haben, rufe ich dich an.",
+        "tr": "Tren rötar yaparsa seni ararım."
+      },
+      {
+        "de": "Sollten Sie das Paket nicht erhalten, wenden Sie sich bitte an unseren Kundenservice.",
+        "tr": "Paketi almazsanız lütfen müşteri hizmetlerimize başvurun."
+      },
+      {
+        "de": "Sollte es morgen regnen, findet das Fest in der Halle statt.",
+        "tr": "Yarın yağmur yağarsa şenlik salonda yapılacak."
+      },
+      {
+        "de": "Sollten noch Probleme auftreten, informieren wir Sie umgehend.",
+        "tr": "Başka bir sorun çıkarsa sizi hemen bilgilendiririz."
+      }
+    ]
+  },
+  {
+    "id": "b2-im-falle",
+    "level": "B2",
+    "priority": 47,
+    "pattern": "Im Falle (eines / einer) … (Genitiv), …",
+    "meaning": "… durumunda, … halinde",
+    "note": "\"Im Falle\" + Genitiv; kural, uyarı ve sözleşme dilinde yaygın. Konuşma dilinde \"Im Falle von + Dativ\" da kullanılır.",
+    "examples": [
+      {
+        "de": "Im Falle eines Feuers verlassen Sie bitte sofort das Gebäude.",
+        "tr": "Yangın durumunda lütfen binayı hemen terk edin."
+      },
+      {
+        "de": "Im Falle einer Verspätung informieren wir Sie per E-Mail.",
+        "tr": "Gecikme olması hâlinde sizi e-postayla bilgilendiririz."
+      },
+      {
+        "de": "Im Falle eines Unfalls ist sofort die Polizei zu rufen.",
+        "tr": "Kaza durumunda hemen polis çağrılmalıdır."
+      },
+      {
+        "de": "Im Falle von Regen findet die Veranstaltung drinnen statt.",
+        "tr": "Yağmur yağarsa etkinlik içeride yapılır."
+      },
+      {
+        "de": "Im Falle einer Krankheit benötigen Sie ein ärztliches Attest.",
+        "tr": "Hastalık durumunda doktor raporu gerekir."
+      }
+    ]
+  },
+  {
+    "id": "b2-dank",
+    "level": "B2",
+    "priority": 48,
+    "pattern": "Dank … (Genitiv / Dativ), …",
+    "meaning": "… sayesinde, …",
+    "note": "Olumlu bir nedeni belirtir (olumsuz için \"wegen\"). Çoğunlukla Genitiv, kişilerle ve bazı isimlerle Dativ de kullanılır.",
+    "examples": [
+      {
+        "de": "Dank der guten Vorbereitung verlief die Prüfung problemlos.",
+        "tr": "İyi hazırlık sayesinde sınav sorunsuz geçti."
+      },
+      {
+        "de": "Dank deiner Hilfe habe ich die Wohnung gefunden.",
+        "tr": "Senin yardımın sayesinde daireyi buldum."
+      },
+      {
+        "de": "Dank des milden Winters sind die Heizkosten niedriger.",
+        "tr": "Ilık geçen kış sayesinde ısınma giderleri daha düşük."
+      },
+      {
+        "de": "Dank moderner Technik können Ärzte heute viele Krankheiten früher erkennen.",
+        "tr": "Modern teknoloji sayesinde doktorlar bugün birçok hastalığı daha erken teşhis edebiliyor."
+      },
+      {
+        "de": "Dank ihres Einsatzes konnte das Projekt gerettet werden.",
+        "tr": "Onun gayreti sayesinde proje kurtarılabildi."
+      }
+    ]
+  },
+  {
+    "id": "b2-angesichts",
+    "level": "B2",
+    "priority": 49,
+    "pattern": "Angesichts … (Genitiv), …",
+    "meaning": "… göz önüne alındığında, … karşısında",
+    "note": "\"Angesichts\" + Genitiv; bir durum karşısında alınan karar veya yapılan değerlendirmeyi gerekçelendirir. Resmî yazı dilidir.",
+    "examples": [
+      {
+        "de": "Angesichts der steigenden Preise überlegen viele, weniger zu kaufen.",
+        "tr": "Yükselen fiyatlar karşısında birçok kişi daha az almayı düşünüyor."
+      },
+      {
+        "de": "Angesichts der aktuellen Lage ist Vorsicht geboten.",
+        "tr": "Mevcut durum göz önüne alındığında dikkatli olmak gerekir."
+      },
+      {
+        "de": "Angesichts der vielen Bewerbungen konnten wir nicht allen persönlich antworten.",
+        "tr": "Çok sayıda başvuru olduğu için hepsine tek tek yanıt veremedik."
+      },
+      {
+        "de": "Angesichts seiner Erfahrung ist er für die Stelle bestens geeignet.",
+        "tr": "Deneyimi düşünüldüğünde bu pozisyon için çok uygun."
+      },
+      {
+        "de": "Angesichts des Klimawandels muss die Stadt mehr Bäume pflanzen.",
+        "tr": "İklim değişikliği karşısında şehrin daha çok ağaç dikmesi gerekiyor."
+      }
+    ]
+  },
+  {
+    "id": "b2-es-geht-darum",
+    "level": "B2",
+    "priority": 50,
+    "pattern": "Es geht darum, … zu (Infinitiv) / dass …",
+    "meaning": "Mesele … -mek / Önemli olan …",
+    "note": "\"Es geht um + Akkusativ\" ismin, \"es geht darum\" ise zu-Infinitiv veya dass-cümlesinin önüne gelir. Bir konunun amacını veya özünü belirtir.",
+    "examples": [
+      {
+        "de": "Es geht darum, eine Lösung zu finden, die allen hilft.",
+        "tr": "Mesele, herkese yarayacak bir çözüm bulmak."
+      },
+      {
+        "de": "Bei diesem Treffen geht es darum, die nächsten Schritte zu planen.",
+        "tr": "Bu toplantının amacı, sonraki adımları planlamak."
+      },
+      {
+        "de": "Es geht nicht darum, wer schuld ist, sondern darum, wie wir das Problem lösen.",
+        "tr": "Mesele kimin suçlu olduğu değil, sorunu nasıl çözeceğimiz."
+      },
+      {
+        "de": "In dem Kurs geht es darum, frei vor Publikum zu sprechen.",
+        "tr": "Kursta amaç, seyirci önünde serbestçe konuşabilmek."
+      },
+      {
+        "de": "Es geht darum, dass wir gemeinsam Verantwortung übernehmen.",
+        "tr": "Önemli olan, birlikte sorumluluk almamız."
+      }
+    ]
+  },
+  {
+    "id": "b2-gehoert-zu-den",
+    "level": "B2",
+    "priority": 51,
+    "pattern": "… gehört zu den … (Superlativ) …",
+    "meaning": "… en … …lerden biridir",
+    "note": "\"zu den\" + Superlativ + çoğul (Dativ Plural, -n sonu). Tekil özne, çoğul bir gruba ait olarak sunulur.",
+    "examples": [
+      {
+        "de": "Berlin gehört zu den beliebtesten Reisezielen Europas.",
+        "tr": "Berlin, Avrupa'nın en gözde seyahat noktalarından biridir."
+      },
+      {
+        "de": "Diese Universität gehört zu den besten des Landes.",
+        "tr": "Bu üniversite ülkenin en iyilerinden biridir."
+      },
+      {
+        "de": "Er gehört zu den erfolgreichsten Unternehmern der Region.",
+        "tr": "O, bölgenin en başarılı girişimcilerinden biridir."
+      },
+      {
+        "de": "Das Rheintal gehört zu den schönsten Landschaften Deutschlands.",
+        "tr": "Ren Vadisi, Almanya'nın en güzel manzaralarından biridir."
+      },
+      {
+        "de": "Diese Krankheit gehört zu den häufigsten Ursachen für Fehlzeiten bei der Arbeit.",
+        "tr": "Bu hastalık, işe devamsızlığın en sık nedenlerinden biridir."
+      }
+    ]
+  },
+  {
+    "id": "b2-ich-moechte-ihnen-vorstellen",
+    "level": "B2",
+    "priority": 52,
+    "pattern": "Ich möchte Ihnen heute … (Akkusativ) vorstellen",
+    "meaning": "Bugün size … tanıtmak / sunmak istiyorum",
+    "note": "\"vorstellen\" ayrılabilir fiildir: Ihnen (Dativ), nesne Akkusativ. Sunumu açan standart bir giriş kalıbıdır.",
+    "examples": [
+      {
+        "de": "Ich möchte Ihnen heute unser neues Konzept vorstellen.",
+        "tr": "Bugün size yeni konseptimizi sunmak istiyorum."
+      },
+      {
+        "de": "Ich möchte Ihnen heute die wichtigsten Ergebnisse der Studie vorstellen.",
+        "tr": "Bugün size çalışmanın en önemli sonuçlarını sunmak istiyorum."
+      },
+      {
+        "de": "Ich möchte Ihnen heute meine Heimatstadt vorstellen.",
+        "tr": "Bugün size memleketimi tanıtmak istiyorum."
+      },
+      {
+        "de": "Ich möchte Ihnen heute drei Vorschläge zur Kostensenkung vorstellen.",
+        "tr": "Bugün size maliyetleri düşürmek için üç öneri sunmak istiyorum."
+      },
+      {
+        "de": "Ich möchte Ihnen heute das Team der Abteilung vorstellen.",
+        "tr": "Bugün size departmanın ekibini tanıtmak istiyorum."
+      }
+    ]
+  },
+  {
+    "id": "b2-ich-moechte-sie-hinweisen",
+    "level": "B2",
+    "priority": 53,
+    "pattern": "Ich möchte Sie darauf hinweisen, dass … (Verb am Ende)",
+    "meaning": "Sizin … konusunda dikkatinizi çekmek isterim",
+    "note": "\"jdn. auf etwas hinweisen\": Akkusativ + auf. Bu fiilde da- + dass birleşir. Resmî ve kibar bir uyarı kalıbıdır.",
+    "examples": [
+      {
+        "de": "Ich möchte Sie darauf hinweisen, dass die Rechnung bis Freitag bezahlt werden muss.",
+        "tr": "Faturanın cumaya kadar ödenmesi gerektiğine dikkatinizi çekmek isterim."
+      },
+      {
+        "de": "Ich möchte Sie darauf hinweisen, dass das Rauchen hier verboten ist.",
+        "tr": "Burada sigara içmenin yasak olduğunu hatırlatmak isterim."
+      },
+      {
+        "de": "Wir möchten Sie darauf hinweisen, dass sich der Starttermin geändert hat.",
+        "tr": "Başlangıç tarihinin değiştiğini size bildirmek isteriz."
+      },
+      {
+        "de": "Darf ich Sie darauf hinweisen, dass Ihr Ausweis abgelaufen ist?",
+        "tr": "Kimliğinizin süresinin dolduğunu hatırlatabilir miyim?"
+      },
+      {
+        "de": "Ich möchte Sie freundlich darauf hinweisen, dass die Frist morgen endet.",
+        "tr": "Sürenin yarın dolduğunu nazikçe hatırlatmak isterim."
+      }
+    ]
+  },
+  {
+    "id": "b2-egal-ob",
+    "level": "B2",
+    "priority": 54,
+    "pattern": "Egal, ob … oder …, … / Egal, wie / was / wo …, …",
+    "meaning": "… olsun … olsun, … / Ne … -sa …, …",
+    "note": "\"Egal\" + ob/wie/was/wo: yan cümlede fiil sonda; ana cümlede fiil ikinci sırada. Sonucun koşula bağlı olmadığını vurgular.",
+    "examples": [
+      {
+        "de": "Egal, ob es regnet oder schneit, wir gehen jeden Tag spazieren.",
+        "tr": "Yağmur da yağsa kar da, her gün yürüyüşe çıkıyoruz."
+      },
+      {
+        "de": "Egal, was passiert, ich stehe hinter dir.",
+        "tr": "Ne olursa olsun, ben senin yanındayım."
+      },
+      {
+        "de": "Egal, wie schwierig die Aufgabe ist, wir schaffen das zusammen.",
+        "tr": "Görev ne kadar zor olursa olsun, bunu birlikte başarırız."
+      },
+      {
+        "de": "Egal, wo du wohnst, du musst deine Adresse anmelden.",
+        "tr": "Nerede yaşarsan yaşa, adresini kaydettirmen gerekir."
+      },
+      {
+        "de": "Egal, ob man Anfänger ist oder Profi, bei uns lernt jeder etwas Neues.",
+        "tr": "Acemi de olsa profesyonel de olsa, bizde herkes yeni bir şey öğrenir."
+      }
+    ]
+  },
+  {
+    "id": "b2-es-kommt-zu",
+    "level": "B2",
+    "priority": 55,
+    "pattern": "Es kommt zu … (Dativ)",
+    "meaning": "… yaşanıyor / meydana geliyor / … ortaya çıkıyor",
+    "note": "\"kommen zu\" + Dativ (zu einem Unfall, zu Verspätungen). Planlanmamış, olumsuz olayları nesnel biçimde bildirir; haber dilinde çok yaygındır.",
+    "examples": [
+      {
+        "de": "Auf der Autobahn kam es zu einem langen Stau.",
+        "tr": "Otoyolda uzun bir trafik sıkışıklığı yaşandı."
+      },
+      {
+        "de": "Es kommt immer wieder zu Verspätungen bei der Bahn.",
+        "tr": "Trenlerde sürekli gecikmeler yaşanıyor."
+      },
+      {
+        "de": "Bei starkem Regen kann es zu Überschwemmungen kommen.",
+        "tr": "Şiddetli yağmurda sel baskınları yaşanabilir."
+      },
+      {
+        "de": "Gestern kam es in der Innenstadt zu einem Unfall.",
+        "tr": "Dün şehir merkezinde bir kaza meydana geldi."
+      },
+      {
+        "de": "Zwischen den beiden Nachbarn kam es zu einem heftigen Streit.",
+        "tr": "İki komşu arasında şiddetli bir tartışma çıktı."
+      }
+    ]
+  },
+  {
+    "id": "b2-wer-der",
+    "level": "B2",
+    "priority": 56,
+    "pattern": "Wer … (Verb am Ende), (der / den / dem) …",
+    "meaning": "… kim … -se, o …",
+    "note": "\"Wer\" genel bir kişiyi anlatır. Ana cümlede çoğu zaman \"der/den/dem\" ile devam edilir; hâl ana cümledeki göreve göre belirlenir (Wer mir hilft, dem bin ich dankbar).",
+    "examples": [
+      {
+        "de": "Wer viel liest, der lernt auch leichter schreiben.",
+        "tr": "Çok okuyan, yazmayı da daha kolay öğrenir."
+      },
+      {
+        "de": "Wer rechtzeitig bucht, spart viel Geld.",
+        "tr": "Erken rezervasyon yaptıran çok para tasarruf eder."
+      },
+      {
+        "de": "Wer den Test bestehen will, muss regelmäßig üben.",
+        "tr": "Testi geçmek isteyen düzenli çalışmalı."
+      },
+      {
+        "de": "Wer nicht fragt, bekommt keine Antwort.",
+        "tr": "Sormayan, cevap alamaz."
+      },
+      {
+        "de": "Wer mir hilft, dem bin ich sehr dankbar.",
+        "tr": "Bana kim yardım ederse ona çok minnettarım."
+      }
+    ]
+  },
+  {
+    "id": "b2-darueber-hinaus",
+    "level": "B2",
+    "priority": 57,
+    "pattern": "Darüber hinaus / Außerdem … (Verb an Position 2)",
+    "meaning": "Bunun yanı sıra / ayrıca …",
+    "note": "Bir argümana yenisini ekler. \"Darüber hinaus\" ve \"außerdem\" cümle başında yer alınca fiil hemen arkadan, ikinci sırada gelir; \"darüber hinaus\" daha resmîdir.",
+    "examples": [
+      {
+        "de": "Die Stadt hat gute Schulen. Darüber hinaus gibt es viele Freizeitangebote für Kinder.",
+        "tr": "Şehirde iyi okullar var. Bunun yanı sıra çocuklar için birçok boş zaman etkinliği de var."
+      },
+      {
+        "de": "Die Wohnung ist günstig. Außerdem liegt sie direkt neben der U-Bahn.",
+        "tr": "Daire ucuz. Ayrıca metronun hemen yanında."
+      },
+      {
+        "de": "Der Kurs vermittelt Grundlagen. Darüber hinaus bietet er die Möglichkeit zum Austausch mit anderen Teilnehmern.",
+        "tr": "Kurs temel bilgileri veriyor. Bunun yanı sıra diğer katılımcılarla fikir alışverişi yapma imkânı da sunuyor."
+      },
+      {
+        "de": "Wir müssen Kosten sparen. Außerdem sollten wir die Abläufe vereinfachen.",
+        "tr": "Maliyetleri düşürmemiz gerekiyor. Ayrıca süreçleri de basitleştirmeliyiz."
+      },
+      {
+        "de": "Sie spricht fließend Englisch. Darüber hinaus beherrscht sie Spanisch und Italienisch.",
+        "tr": "Akıcı İngilizce konuşuyor. Bunun yanı sıra İspanyolca ve İtalyancayı da çok iyi biliyor."
+      }
+    ]
+  },
+  {
+    "id": "b2-abgesehen-von",
+    "level": "B2",
+    "priority": 58,
+    "pattern": "Abgesehen von … (Dativ), …",
+    "meaning": "… dışında, … bir yana bırakılırsa, …",
+    "note": "\"von\" + Dativ. Bir istisnayı veya göz ardı edilen noktayı belirtir; cümle başında fiil ikinci sırada kalır. Dass-cümlesiyle: \"Abgesehen davon, dass …\".",
+    "examples": [
+      {
+        "de": "Abgesehen von den hohen Kosten ist das Projekt sehr interessant.",
+        "tr": "Yüksek maliyet dışında proje çok ilginç."
+      },
+      {
+        "de": "Abgesehen vom Wetter hat uns der Urlaub gut gefallen.",
+        "tr": "Hava dışında tatili çok beğendik."
+      },
+      {
+        "de": "Abgesehen von ein paar Kleinigkeiten war alles in Ordnung.",
+        "tr": "Birkaç ayrıntı dışında her şey yolundaydı."
+      },
+      {
+        "de": "Abgesehen davon, dass die Wohnung klein ist, gefällt sie mir gut.",
+        "tr": "Dairenin küçük olması bir yana, ben onu beğeniyorum."
+      },
+      {
+        "de": "Abgesehen von meiner Schwester hat niemand die Nachricht gelesen.",
+        "tr": "Kız kardeşim dışında kimse mesajı okumadı."
+      }
+    ]
+  },
+  {
+    "id": "b2-die-tatsache-dass",
+    "level": "B2",
+    "priority": 59,
+    "pattern": "Die Tatsache, dass … (Verb am Ende), …",
+    "meaning": "… olması / … gerçeği …",
+    "note": "\"Die Tatsache\" bir dass-cümlesiyle genişletilir; fiil yan cümlede sonda. Cümlede özne, nesne ya da \"trotz der Tatsache, dass …\" gibi öbeklerin içinde kullanılabilir.",
+    "examples": [
+      {
+        "de": "Die Tatsache, dass viele Menschen allein leben, verändert den Wohnungsmarkt.",
+        "tr": "Birçok insanın yalnız yaşıyor olması konut piyasasını değiştiriyor."
+      },
+      {
+        "de": "Ich ärgere mich nicht über die Tatsache, dass er verloren hat, sondern über seine Reaktion.",
+        "tr": "Beni kızdıran onun kaybetmesi değil, verdiği tepki."
+      },
+      {
+        "de": "Die Tatsache, dass sie so jung ist, spielt keine Rolle.",
+        "tr": "Bu kadar genç olması bir önem taşımaz."
+      },
+      {
+        "de": "Trotz der Tatsache, dass die Preise gestiegen sind, kaufen viele weiterhin online.",
+        "tr": "Fiyatların artmış olmasına rağmen birçok kişi internetten alışverişe devam ediyor."
+      },
+      {
+        "de": "Man darf die Tatsache, dass der Klimawandel real ist, nicht länger ignorieren.",
+        "tr": "İklim değişikliğinin gerçek olduğu gerçeği artık göz ardı edilmemeli."
+      }
+    ]
+  },
+  {
+    "id": "b2-folglich-somit",
+    "level": "B2",
+    "priority": 60,
+    "pattern": "…, folglich / somit / daher … (Verb an Position 2)",
+    "meaning": "…, bu nedenle / dolayısıyla / böylece …",
+    "note": "Konjunktionaladverbien (bağlaç işlevli zarflar): cümle başında durur ve fiili hemen ardından getirir (Folglich müssen wir …). \"weil\" gibi fiili sona atmaz.",
+    "examples": [
+      {
+        "de": "Die Nachfrage steigt. Folglich müssen wir mehr produzieren.",
+        "tr": "Talep artıyor. Dolayısıyla daha çok üretmemiz gerekiyor."
+      },
+      {
+        "de": "Er hat alle Unterlagen eingereicht. Somit ist seine Bewerbung vollständig.",
+        "tr": "Tüm belgeleri teslim etti. Böylece başvurusu tamamlanmış oldu."
+      },
+      {
+        "de": "Die Straße ist gesperrt, daher nehmen wir einen anderen Weg.",
+        "tr": "Yol kapalı, bu yüzden başka bir yoldan gidiyoruz."
+      },
+      {
+        "de": "Der Vertrag läuft Ende Mai aus. Folglich sollten wir jetzt über eine Verlängerung sprechen.",
+        "tr": "Sözleşme mayıs sonunda bitiyor. Dolayısıyla şimdi uzatma konusunu konuşmalıyız."
+      },
+      {
+        "de": "Das Gerät wurde nicht ordnungsgemäß gewartet, somit erlischt die Garantie.",
+        "tr": "Cihazın bakımı usulüne uygun yapılmadı, dolayısıyla garanti geçersiz oluyor."
+      }
+    ]
   }
 ]

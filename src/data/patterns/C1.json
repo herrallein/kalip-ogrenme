@@ -598,5 +598,1205 @@
         "tr": "Gürültüyle uyanınca kalkıp pencereden baktı."
       }
     ]
+  },
+  {
+    "id": "c1-zur-sprache-bringen",
+    "level": "C1",
+    "priority": 21,
+    "pattern": "… zur Sprache bringen",
+    "meaning": "… gündeme getirmek, … dile getirmek",
+    "note": "Funktionsverbgefüge: zur Sprache bringen = ansprechen. Toplantıda ve resmî yazışmada hassas bir konuyu açmak için kullanılır.",
+    "examples": [
+      {
+        "de": "Der Betriebsrat brachte die Überstunden zur Sprache.",
+        "tr": "İşçi temsilciliği fazla mesai konusunu gündeme getirdi."
+      },
+      {
+        "de": "Darf ich noch ein weiteres Problem zur Sprache bringen?",
+        "tr": "Bir sorunu daha gündeme getirebilir miyim?"
+      },
+      {
+        "de": "Sie scheute sich, das heikle Thema zur Sprache zu bringen.",
+        "tr": "Hassas konuyu açmaktan çekindi."
+      },
+      {
+        "de": "Der Abteilungsleiter hat die Sicherheitsmängel in der Sitzung zur Sprache gebracht.",
+        "tr": "Bölüm müdürü güvenlik eksikliklerini toplantıda gündeme getirdi."
+      },
+      {
+        "de": "Warum hast du das nicht schon früher zur Sprache gebracht?",
+        "tr": "Bunu neden daha önce dile getirmedin?"
+      }
+    ]
+  },
+  {
+    "id": "c1-zur-diskussion-stellen",
+    "level": "C1",
+    "priority": 22,
+    "pattern": "… zur Diskussion stellen",
+    "meaning": "… tartışmaya açmak",
+    "note": "Funktionsverbgefüge; „zur Diskussion stehen“ ise „tartışılıyor“ demektir. Sunumlarda ve akademik ortamda sık geçer.",
+    "examples": [
+      {
+        "de": "Der Referent stellte seine These zur Diskussion.",
+        "tr": "Konuşmacı tezini tartışmaya açtı."
+      },
+      {
+        "de": "Wir möchten diesen Vorschlag heute zur Diskussion stellen.",
+        "tr": "Bu öneriyi bugün tartışmaya açmak istiyoruz."
+      },
+      {
+        "de": "Die Regierung stellte den Gesetzentwurf öffentlich zur Diskussion.",
+        "tr": "Hükümet yasa tasarısını kamuoyunda tartışmaya açtı."
+      },
+      {
+        "de": "Ob das Modell tragfähig ist, möchte der Autor zur Diskussion stellen.",
+        "tr": "Yazar, modelin sürdürülebilir olup olmadığını tartışmaya açmak istiyor."
+      },
+      {
+        "de": "Sie stellte ihre Ergebnisse vor und stellte sie anschließend zur Diskussion.",
+        "tr": "Bulgularını sundu, ardından tartışmaya açtı."
+      }
+    ]
+  },
+  {
+    "id": "c1-rechnung-tragen",
+    "level": "C1",
+    "priority": 23,
+    "pattern": "… Rechnung tragen (Dativ)",
+    "meaning": "… göz önünde bulundurmak, …i hesaba katmak",
+    "note": "Rechnung tragen + Dativ: bir duruma veya gerekliliğe uyum sağlamak. Resmî ve yazılı dilde kullanılır.",
+    "examples": [
+      {
+        "de": "Das neue Konzept trägt den Bedürfnissen älterer Menschen Rechnung.",
+        "tr": "Yeni konsept yaşlıların ihtiyaçlarını göz önünde bulunduruyor."
+      },
+      {
+        "de": "Der Vertrag muss der veränderten Rechtslage Rechnung tragen.",
+        "tr": "Sözleşme değişen hukuki durumu dikkate almalı."
+      },
+      {
+        "de": "Mit dieser Maßnahme trägt die Firma dem Umweltschutz Rechnung.",
+        "tr": "Şirket bu önlemle çevre korumasını dikkate alıyor."
+      },
+      {
+        "de": "Wir haben den Einwänden der Kunden Rechnung getragen.",
+        "tr": "Müşterilerin itirazlarını dikkate aldık."
+      },
+      {
+        "de": "Dem wachsenden Druck musste die Leitung schließlich Rechnung tragen.",
+        "tr": "Yönetim sonunda artan baskıyı hesaba katmak zorunda kaldı."
+      }
+    ]
+  },
+  {
+    "id": "c1-unter-beweis-stellen",
+    "level": "C1",
+    "priority": 24,
+    "pattern": "… unter Beweis stellen",
+    "meaning": "… kanıtlamak, …i ortaya koymak",
+    "note": "Funktionsverbgefüge; yetenek, dayanıklılık gibi niteliklerin eylemle gösterilmesi için kullanılır. Nesne Akkusativ’dedir.",
+    "examples": [
+      {
+        "de": "Er hat in der Krise seine Führungsstärke unter Beweis gestellt.",
+        "tr": "Krizde liderlik gücünü kanıtladı."
+      },
+      {
+        "de": "Das Team stellte seine Belastbarkeit unter Beweis.",
+        "tr": "Ekip dayanıklılığını kanıtladı."
+      },
+      {
+        "de": "Jetzt kannst du deine Zuverlässigkeit unter Beweis stellen.",
+        "tr": "Şimdi güvenilirliğini kanıtlayabilirsin."
+      },
+      {
+        "de": "Die junge Pianistin stellte ihr Talent eindrucksvoll unter Beweis.",
+        "tr": "Genç piyanist yeteneğini etkileyici biçimde ortaya koydu."
+      },
+      {
+        "de": "Die Mannschaft wollte ihre Stärke gegen den Meister unter Beweis stellen.",
+        "tr": "Takım, şampiyona karşı gücünü ispatlamak istiyordu."
+      }
+    ]
+  },
+  {
+    "id": "c1-in-anspruch-nehmen",
+    "level": "C1",
+    "priority": 25,
+    "pattern": "… in Anspruch nehmen",
+    "meaning": "… talep etmek, …den yararlanmak; … (zamanı) almak",
+    "note": "Hem bir hizmetten yararlanmayı hem de zaman veya emek almayı anlatır. Resmî dilde yaygındır.",
+    "examples": [
+      {
+        "de": "Viele Eltern nehmen die Kinderbetreuung in Anspruch.",
+        "tr": "Birçok ebeveyn çocuk bakım hizmetinden yararlanıyor."
+      },
+      {
+        "de": "Ich möchte Ihre Zeit nicht länger in Anspruch nehmen.",
+        "tr": "Vaktinizi daha fazla almak istemem."
+      },
+      {
+        "de": "Wer Elternzeit in Anspruch nimmt, muss sie rechtzeitig anmelden.",
+        "tr": "Ebeveyn izni kullanacak kişi bunu zamanında bildirmelidir."
+      },
+      {
+        "de": "Das Projekt nahm uns monatelang voll in Anspruch.",
+        "tr": "Proje aylarca bütün zamanımızı aldı."
+      },
+      {
+        "de": "Sie nahm die Hilfe einer Beratungsstelle in Anspruch.",
+        "tr": "Bir danışma merkezinin yardımından yararlandı."
+      }
+    ]
+  },
+  {
+    "id": "c1-zur-rechenschaft-ziehen",
+    "level": "C1",
+    "priority": 26,
+    "pattern": "… zur Rechenschaft ziehen",
+    "meaning": "… hesap sormak, …i sorumlu tutmak",
+    "note": "Funktionsverbgefüge; bir hata veya yanlış davranış nedeniyle birini sorumlu tutmak için kullanılır. Edilgen: zur Rechenschaft gezogen werden.",
+    "examples": [
+      {
+        "de": "Die Verantwortlichen müssen zur Rechenschaft gezogen werden.",
+        "tr": "Sorumlulardan hesap sorulmalı."
+      },
+      {
+        "de": "Der Minister wurde für die Panne zur Rechenschaft gezogen.",
+        "tr": "Bakandan bu aksaklık için hesap soruldu."
+      },
+      {
+        "de": "Niemand wollte den Vorstand zur Rechenschaft ziehen.",
+        "tr": "Kimse yönetim kurulundan hesap sormak istemedi."
+      },
+      {
+        "de": "Die Presse zieht die Politiker für ihre Versprechen zur Rechenschaft.",
+        "tr": "Basın, siyasetçilerden verdikleri sözlerin hesabını soruyor."
+      },
+      {
+        "de": "Wer gegen die Regeln verstößt, wird zur Rechenschaft gezogen.",
+        "tr": "Kuralları çiğneyenlerden hesap sorulur."
+      }
+    ]
+  },
+  {
+    "id": "c1-es-steht-ausser-frage",
+    "level": "C1",
+    "priority": 27,
+    "pattern": "Es steht außer Frage, dass …",
+    "meaning": "…diği kuşku götürmez, …diğine hiç şüphe yok",
+    "note": "Dass-cümlesi vurgulu bir kesinlik bildirir; fiil sonda durur. Benzer ifade: Es steht außer Zweifel, dass …",
+    "examples": [
+      {
+        "de": "Es steht außer Frage, dass wir mehr Personal brauchen.",
+        "tr": "Daha fazla personele ihtiyacımız olduğu kuşku götürmez."
+      },
+      {
+        "de": "Es steht außer Frage, dass das Projekt scheitern kann.",
+        "tr": "Projenin başarısız olabileceği tartışma götürmez."
+      },
+      {
+        "de": "Es steht für mich außer Frage, dass sie die beste Kandidatin ist.",
+        "tr": "Onun en iyi aday olduğu benim için su götürmez bir gerçek."
+      },
+      {
+        "de": "Es steht außer Frage, dass der Klimawandel das Leben vieler Menschen verändert.",
+        "tr": "İklim değişikliğinin birçok insanın hayatını değiştirdiği kuşku götürmez."
+      },
+      {
+        "de": "Dass er hart gearbeitet hat, steht völlig außer Frage.",
+        "tr": "Çok çalıştığı konusunda hiç kuşku yok."
+      }
+    ]
+  },
+  {
+    "id": "c1-haengt-davon-ab-inwieweit",
+    "level": "C1",
+    "priority": 28,
+    "pattern": "Das hängt davon ab, inwieweit … (Verb am Ende)",
+    "meaning": "Bu, …in ne ölçüde … olduğuna bağlı",
+    "note": "Davon abhängen + dolaylı soru (inwieweit, inwiefern, ob, wie). Ölçüyü ve dereceyi sorgulayan ihtiyatlı bir yanıttır.",
+    "examples": [
+      {
+        "de": "Das hängt davon ab, inwieweit die Mitarbeiter bereit sind, mitzuziehen.",
+        "tr": "Bu, çalışanların ne ölçüde destek vermeye hazır olduğuna bağlı."
+      },
+      {
+        "de": "Das hängt davon ab, inwieweit sich die Lage bis dahin entspannt.",
+        "tr": "Bu, durumun o zamana kadar ne ölçüde yatışacağına bağlı."
+      },
+      {
+        "de": "Der Erfolg hängt davon ab, inwieweit wir die Kunden überzeugen können.",
+        "tr": "Başarı, müşterileri ne ölçüde ikna edebileceğimize bağlı."
+      },
+      {
+        "de": "Ob wir das Budget erhöhen, hängt davon ab, inwieweit die Ziele erreicht werden.",
+        "tr": "Bütçeyi artırıp artırmayacağımız, hedeflere ne ölçüde ulaşıldığına bağlı."
+      },
+      {
+        "de": "Wie schnell es geht, hängt davon ab, inwieweit die Behörden mitspielen.",
+        "tr": "Ne kadar hızlı ilerleyeceği, kurumların ne ölçüde iş birliği yaptığına bağlı."
+      }
+    ]
+  },
+  {
+    "id": "c1-insofern-als",
+    "level": "C1",
+    "priority": 29,
+    "pattern": "…, insofern als … (Verb am Ende)",
+    "meaning": "…, şu bakımdan ki …; …, …mesi ölçüsünde",
+    "note": "Insofern, als … bir ifadenin hangi bakımdan geçerli olduğunu sınırlar. Genellikle virgülle ayrılır; yan cümlede fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Die Studie ist wertvoll, insofern als sie erstmals Langzeitdaten liefert.",
+        "tr": "Araştırma, ilk kez uzun vadeli veri sunması bakımından değerli."
+      },
+      {
+        "de": "Das Gesetz ist umstritten, insofern als es die Pressefreiheit einschränkt.",
+        "tr": "Yasa, basın özgürlüğünü kısıtlaması bakımından tartışmalı."
+      },
+      {
+        "de": "Ihre Kritik ist berechtigt, insofern als die Zahlen tatsächlich veraltet sind.",
+        "tr": "Eleştiriniz, rakamların gerçekten eski olması bakımından haklı."
+      },
+      {
+        "de": "Der Vergleich hinkt, insofern als beide Fälle nicht dieselbe Ausgangslage haben.",
+        "tr": "Karşılaştırma, iki durumun başlangıç koşullarının aynı olmaması bakımından yanlış."
+      },
+      {
+        "de": "Das war ein Fortschritt, insofern als die Gespräche überhaupt wieder begannen.",
+        "tr": "Görüşmelerin en azından yeniden başlaması bakımından bu bir ilerlemeydi."
+      }
+    ]
+  },
+  {
+    "id": "c1-ungeachtet",
+    "level": "C1",
+    "priority": 30,
+    "pattern": "Ungeachtet … (Genitiv), …",
+    "meaning": "…e rağmen, …i hiçe sayarak",
+    "note": "Genitivli resmî edat; trotz ile anlamdaş ama daha yüksek yazı dilindedir. „Ungeachtet dessen, dass …“ biçiminde yan cümleyle de kurulur.",
+    "examples": [
+      {
+        "de": "Ungeachtet der Kritik hielt die Regierung an ihrem Plan fest.",
+        "tr": "Eleştirilere rağmen hükümet planında ısrar etti."
+      },
+      {
+        "de": "Ungeachtet aller Warnungen ging er das Risiko ein.",
+        "tr": "Bütün uyarılara rağmen riski göze aldı."
+      },
+      {
+        "de": "Ungeachtet seines Alters nahm er an dem Marathon teil.",
+        "tr": "Yaşına rağmen maratona katıldı."
+      },
+      {
+        "de": "Ungeachtet dessen, dass die Zeit knapp war, wurde sorgfältig gearbeitet.",
+        "tr": "Zaman az olmasına rağmen titizlikle çalışıldı."
+      },
+      {
+        "de": "Der Vertrag bleibt ungeachtet der Änderungen in Kraft.",
+        "tr": "Sözleşme değişikliklere rağmen yürürlükte kalıyor."
+      }
+    ]
+  },
+  {
+    "id": "c1-nichtsdestoweniger",
+    "level": "C1",
+    "priority": 31,
+    "pattern": "…; nichtsdestoweniger … (Verb an Position 2)",
+    "meaning": "…; yine de …, buna rağmen …",
+    "note": "Nichtsdestoweniger / nichtsdestotrotz bir karşıtlığı vurgulayan yazı dili bağlacıdır; ardından fiil ikinci sırada gelir.",
+    "examples": [
+      {
+        "de": "Die Lage ist schwierig; nichtsdestoweniger geben wir nicht auf.",
+        "tr": "Durum zor; yine de pes etmiyoruz."
+      },
+      {
+        "de": "Das Ergebnis war knapp, nichtsdestoweniger ist es ein Erfolg.",
+        "tr": "Sonuç kıl payıydı, yine de bu bir başarı."
+      },
+      {
+        "de": "Er hatte kaum geschlafen; nichtsdestotrotz hielt er einen glänzenden Vortrag.",
+        "tr": "Neredeyse hiç uyumamıştı, buna rağmen parlak bir konuşma yaptı."
+      },
+      {
+        "de": "Die Methode ist teuer, nichtsdestoweniger setzt sie sich durch.",
+        "tr": "Yöntem pahalı, buna rağmen yaygınlaşıyor."
+      },
+      {
+        "de": "Wir haben viele Fehler gemacht, nichtsdestoweniger haben wir viel gelernt.",
+        "tr": "Çok hata yaptık, yine de çok şey öğrendik."
+      }
+    ]
+  },
+  {
+    "id": "c1-es-bleibt-abzuwarten",
+    "level": "C1",
+    "priority": 32,
+    "pattern": "Es bleibt abzuwarten, ob … (Verb am Ende)",
+    "meaning": "…ip …meyeceği henüz belli değil, …i beklemek gerekecek",
+    "note": "Es bleibt abzuwarten = Es muss abgewartet werden. Temkinli, tarafsız, haber diline özgü bir kalıptır.",
+    "examples": [
+      {
+        "de": "Es bleibt abzuwarten, ob die Maßnahmen Wirkung zeigen.",
+        "tr": "Önlemlerin etkili olup olmayacağı henüz belli değil."
+      },
+      {
+        "de": "Es bleibt abzuwarten, wie die Börse darauf reagiert.",
+        "tr": "Borsanın buna nasıl tepki vereceğini beklemek gerekecek."
+      },
+      {
+        "de": "Es bleibt abzuwarten, ob sich die Hoffnungen erfüllen.",
+        "tr": "Umutların gerçekleşip gerçekleşmeyeceği henüz belli değil."
+      },
+      {
+        "de": "Ob der Plan aufgeht, bleibt abzuwarten.",
+        "tr": "Planın tutup tutmayacağı henüz belli değil."
+      },
+      {
+        "de": "Es bleibt abzuwarten, welche Folgen das Urteil haben wird.",
+        "tr": "Kararın nasıl sonuçlar doğuracağı henüz bilinmiyor."
+      }
+    ]
+  },
+  {
+    "id": "c1-keine-rede-davon",
+    "level": "C1",
+    "priority": 33,
+    "pattern": "Es kann keine Rede davon sein, dass … (Verb am Ende)",
+    "meaning": "…diğinden söz edilemez, …mesi kesinlikle söz konusu değil",
+    "note": "Güçlü bir inkâr ifadesidir; „Davon kann keine Rede sein.“ olarak tek başına da kullanılır.",
+    "examples": [
+      {
+        "de": "Es kann keine Rede davon sein, dass wir die Frist verlängern.",
+        "tr": "Süreyi uzatmamız kesinlikle söz konusu değil."
+      },
+      {
+        "de": "Von Zufriedenheit kann keine Rede sein.",
+        "tr": "Memnuniyetten söz etmek mümkün değil."
+      },
+      {
+        "de": "Es kann keine Rede davon sein, dass er allein verantwortlich ist.",
+        "tr": "Tek sorumlunun o olduğundan söz edilemez."
+      },
+      {
+        "de": "Davon kann keine Rede sein, wir haben alles rechtzeitig gemeldet.",
+        "tr": "Hiç öyle değil, her şeyi zamanında bildirdik."
+      },
+      {
+        "de": "Es kann keine Rede davon sein, dass die Situation unter Kontrolle ist.",
+        "tr": "Durumun kontrol altında olduğundan söz edilemez."
+      }
+    ]
+  },
+  {
+    "id": "c1-nicht-umhin-koennen",
+    "level": "C1",
+    "priority": 34,
+    "pattern": "Man kann nicht umhin, … zu (Infinitiv)",
+    "meaning": "…mekten kendini alamamak, …mek zorunda kalmak",
+    "note": "Nicht umhin können + zu + Infinitiv: bir şeyi yapmaktan kaçınamamak. Yazı dilinde, genellikle bir sonuca varırken kullanılır.",
+    "examples": [
+      {
+        "de": "Man kann nicht umhin, die Leistung des Teams zu bewundern.",
+        "tr": "Ekibin başarısına hayran kalmamak elde değil."
+      },
+      {
+        "de": "Ich kann nicht umhin, ihm zuzustimmen.",
+        "tr": "Ona katılmamak elimde değil."
+      },
+      {
+        "de": "Angesichts der Zahlen konnte der Chef nicht umhin, die Prognose zu korrigieren.",
+        "tr": "Rakamlar karşısında patron tahmini düzeltmek zorunda kaldı."
+      },
+      {
+        "de": "Wir können nicht umhin, auf die Risiken hinzuweisen.",
+        "tr": "Risklere dikkat çekmemek elimizde değil."
+      },
+      {
+        "de": "Sie konnte nicht umhin zu lächeln.",
+        "tr": "Gülümsemeden edemedi."
+      }
+    ]
+  },
+  {
+    "id": "c1-es-mag-sein",
+    "level": "C1",
+    "priority": 35,
+    "pattern": "Es mag sein, dass …, aber …",
+    "meaning": "…diği doğru olabilir, ama …",
+    "note": "Mögen ile verilen bir kabul (Konzession); ardından aber/doch ile karşı argüman gelir. Dass-cümlesinde fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Es mag sein, dass du recht hast, aber der Ton war unangemessen.",
+        "tr": "Haklı olabilirsin, ama üslup uygunsuzdu."
+      },
+      {
+        "de": "Es mag sein, dass die Methode schneller ist, aber sie ist auch ungenauer.",
+        "tr": "Yöntem daha hızlı olabilir, ama daha az da kesin."
+      },
+      {
+        "de": "Es mag sein, dass er sich geirrt hat, doch seine Absicht war gut.",
+        "tr": "Yanılmış olabilir, ama niyeti iyiydi."
+      },
+      {
+        "de": "Es mag sein, dass das stimmt, trotzdem überzeugt mich die Begründung nicht.",
+        "tr": "Bu doğru olabilir, yine de gerekçe beni ikna etmiyor."
+      },
+      {
+        "de": "Es mag sein, dass es früher einfacher war, aber heute geht es nicht mehr so.",
+        "tr": "Eskiden daha kolay olmuş olabilir, ama bugün artık böyle olmuyor."
+      }
+    ]
+  },
+  {
+    "id": "c1-ausser-acht-lassen",
+    "level": "C1",
+    "priority": 36,
+    "pattern": "… außer Acht lassen",
+    "meaning": "…i göz ardı etmek, …i dikkate almamak",
+    "note": "Funktionsverbgefüge; genellikle „Man darf nicht außer Acht lassen, dass …“ biçiminde bir uyarı ya da karşı argüman getirir. Nesne Akkusativ’dedir.",
+    "examples": [
+      {
+        "de": "Man darf nicht außer Acht lassen, dass die Studie nur wenige Teilnehmer hatte.",
+        "tr": "Araştırmaya çok az kişinin katıldığı göz ardı edilmemeli."
+      },
+      {
+        "de": "Bei der Planung wurden die Folgekosten völlig außer Acht gelassen.",
+        "tr": "Planlama sırasında sonraki maliyetler tamamen göz ardı edildi."
+      },
+      {
+        "de": "Wer die Sicherheitsregeln außer Acht lässt, gefährdet andere.",
+        "tr": "Güvenlik kurallarını göz ardı eden başkalarını tehlikeye atar."
+      },
+      {
+        "de": "Wir dürfen dabei die Interessen der Anwohner nicht außer Acht lassen.",
+        "tr": "Bu arada çevre sakinlerinin çıkarlarını da göz ardı etmemeliyiz."
+      },
+      {
+        "de": "Er ließ den Rat seiner Kollegen außer Acht und handelte allein.",
+        "tr": "Meslektaşlarının tavsiyesini dikkate almadan tek başına hareket etti."
+      }
+    ]
+  },
+  {
+    "id": "c1-nichts-anderes-uebrig",
+    "level": "C1",
+    "priority": 37,
+    "pattern": "Es bleibt nichts anderes übrig, als … zu (Infinitiv)",
+    "meaning": "…den başka çare kalmıyor, …mekten başka yol yok",
+    "note": "Als-bağlacıyla kurulan sabit kalıp; zorunluluğu, alternatifsizliği bildirir. Kişi Dativ ile eklenebilir: Mir bleibt nichts anderes übrig, als …",
+    "examples": [
+      {
+        "de": "Es bleibt uns nichts anderes übrig, als die Pläne zu ändern.",
+        "tr": "Planları değiştirmekten başka çaremiz kalmıyor."
+      },
+      {
+        "de": "Mir blieb nichts anderes übrig, als den Vertrag zu kündigen.",
+        "tr": "Sözleşmeyi feshetmekten başka çarem kalmadı."
+      },
+      {
+        "de": "Es bleibt nichts anderes übrig, als abzuwarten.",
+        "tr": "Beklemekten başka yapacak bir şey yok."
+      },
+      {
+        "de": "Angesichts der Lage blieb dem Vorstand nichts anderes übrig, als zurückzutreten.",
+        "tr": "Durum karşısında yönetim kuruluna istifa etmekten başka yol kalmadı."
+      },
+      {
+        "de": "Wenn niemand hilft, bleibt dir nichts anderes übrig, als es selbst zu tun.",
+        "tr": "Kimse yardım etmezse kendin yapmaktan başka çaren kalmaz."
+      }
+    ]
+  },
+  {
+    "id": "c1-anhand",
+    "level": "C1",
+    "priority": 38,
+    "pattern": "Anhand … (Genitiv) lässt sich … zeigen / belegen",
+    "meaning": "…den …i göstermek mümkün, …i örnek alarak …i kanıtlamak",
+    "note": "Anhand + Genitiv: bir görüşü veri veya örnekle kanıtlama. Akademik sunumlarda sık geçer.",
+    "examples": [
+      {
+        "de": "Anhand dieser Daten lässt sich der Trend gut belegen.",
+        "tr": "Bu verilerden eğilim rahatça kanıtlanabilir."
+      },
+      {
+        "de": "Anhand eines Beispiels möchte ich das Problem verdeutlichen.",
+        "tr": "Bir örnekle sorunu açıklamak istiyorum."
+      },
+      {
+        "de": "Anhand der Fingerabdrücke konnte der Täter identifiziert werden.",
+        "tr": "Parmak izlerinden fail tespit edilebildi."
+      },
+      {
+        "de": "Anhand der Grafik lässt sich zeigen, wie stark die Preise gestiegen sind.",
+        "tr": "Grafikten fiyatların ne kadar arttığı gösterilebilir."
+      },
+      {
+        "de": "Die Theorie lässt sich anhand historischer Quellen überprüfen.",
+        "tr": "Teori tarihsel kaynaklar üzerinden sınanabilir."
+      }
+    ]
+  },
+  {
+    "id": "c1-es-stellt-sich-die-frage",
+    "level": "C1",
+    "priority": 39,
+    "pattern": "Es stellt sich die Frage, ob / wie / inwiefern … (Verb am Ende)",
+    "meaning": "…ip …meyeceği sorusu ortaya çıkıyor",
+    "note": "Akademik ve resmî dilde yeni bir soruyu ortaya atmanın tipik ifadesidir. Sich stellen = ortaya çıkmak; dolaylı soruda fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Es stellt sich die Frage, ob das Modell auch auf andere Länder übertragbar ist.",
+        "tr": "Modelin başka ülkelere de uygulanıp uygulanamayacağı sorusu ortaya çıkıyor."
+      },
+      {
+        "de": "Es stellt sich die Frage, wer die Kosten tragen soll.",
+        "tr": "Maliyetleri kimin üstleneceği sorusu ortaya çıkıyor."
+      },
+      {
+        "de": "Damit stellt sich die Frage, inwiefern die Ergebnisse repräsentativ sind.",
+        "tr": "Böylece sonuçların ne ölçüde temsil edici olduğu sorusu ortaya çıkıyor."
+      },
+      {
+        "de": "Es stellt sich die Frage, wie nachhaltig diese Lösung wirklich ist.",
+        "tr": "Bu çözümün gerçekten ne kadar sürdürülebilir olduğu sorusu ortaya çıkıyor."
+      },
+      {
+        "de": "Nach dem Unfall stellte sich die Frage, wer die Schuld trägt.",
+        "tr": "Kazadan sonra kusurun kimde olduğu sorusu gündeme geldi."
+      }
+    ]
+  },
+  {
+    "id": "c1-dem-steht-entgegen",
+    "level": "C1",
+    "priority": 40,
+    "pattern": "Dem steht entgegen, dass …",
+    "meaning": "Buna karşın …, bunun önünde …mesi engel oluşturuyor",
+    "note": "Entgegenstehen = bir şeyin önünde engel olmak; „Dem steht … entgegen“ karşı argüman getirir. Dass-cümlesinde fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Dem steht entgegen, dass die Daten unvollständig sind.",
+        "tr": "Buna karşın veriler eksik."
+      },
+      {
+        "de": "Dem steht entgegen, dass der Vertrag bereits unterschrieben wurde.",
+        "tr": "Bunun önünde, sözleşmenin zaten imzalanmış olması engel oluşturuyor."
+      },
+      {
+        "de": "Einer schnellen Lösung steht entgegen, dass sich beide Seiten misstrauen.",
+        "tr": "Hızlı bir çözümün önünde, iki tarafın birbirine güvenmemesi engeli duruyor."
+      },
+      {
+        "de": "Dem steht jedoch entgegen, dass die Kapazitäten begrenzt sind.",
+        "tr": "Ancak buna kapasitelerin sınırlı olması engel oluyor."
+      },
+      {
+        "de": "Dem Plan steht entgegen, dass es keine Genehmigung gibt.",
+        "tr": "Planın önünde, iznin bulunmaması engeli duruyor."
+      }
+    ]
+  },
+  {
+    "id": "c1-sollte-inversion",
+    "level": "C1",
+    "priority": 41,
+    "pattern": "Sollte …, (so) … (Konditionalsatz ohne „wenn“)",
+    "meaning": "Eğer …, … (resmî koşul cümlesi)",
+    "note": "Sollte + özne başa gelir, wenn düşer. Resmî ve ihtiyatlı bir olasılık bildirir; ana cümlede çoğunlukla emir kipi veya Präsens bulunur.",
+    "examples": [
+      {
+        "de": "Sollten Sie Fragen haben, melden Sie sich bitte.",
+        "tr": "Sorularınız olursa lütfen bize ulaşın."
+      },
+      {
+        "de": "Sollte das Wetter schlecht sein, findet die Feier drinnen statt.",
+        "tr": "Hava kötü olursa kutlama içeride yapılacak."
+      },
+      {
+        "de": "Sollte es zu Verzögerungen kommen, informieren wir Sie umgehend.",
+        "tr": "Gecikme yaşanırsa sizi hemen bilgilendiririz."
+      },
+      {
+        "de": "Sollten die Zahlen nicht stimmen, müssen wir neu rechnen.",
+        "tr": "Rakamlar tutmazsa yeniden hesaplamamız gerekir."
+      },
+      {
+        "de": "Sollte er doch noch kommen, richte ihm bitte meine Grüße aus.",
+        "tr": "Yine de gelirse lütfen ona selamlarımı ilet."
+      }
+    ]
+  },
+  {
+    "id": "c1-wie-dem-auch-sei",
+    "level": "C1",
+    "priority": 42,
+    "pattern": "Wie dem auch sei, …",
+    "meaning": "Her neyse, nasıl olursa olsun, …",
+    "note": "Önceki tartışmayı bir kenara bırakıp asıl noktaya dönmek için kullanılır; ana cümlede fiil ikinci sırada kalır.",
+    "examples": [
+      {
+        "de": "Wie dem auch sei, wir müssen jetzt eine Entscheidung treffen.",
+        "tr": "Her neyse, şimdi bir karar vermemiz gerekiyor."
+      },
+      {
+        "de": "Wie dem auch sei, das Problem bleibt bestehen.",
+        "tr": "Nasıl olursa olsun, sorun duruyor."
+      },
+      {
+        "de": "Wie dem auch sei, ich werde den Vorschlag trotzdem prüfen.",
+        "tr": "Her ne olursa olsun, öneriyi yine de inceleyeceğim."
+      },
+      {
+        "de": "Wie dem auch sei, der Vertrag gilt weiterhin.",
+        "tr": "Ne olursa olsun, sözleşme geçerliliğini koruyor."
+      },
+      {
+        "de": "Wie dem auch sei, wir sollten nach vorn schauen.",
+        "tr": "Her neyse, ileriye bakmalıyız."
+      }
+    ]
+  },
+  {
+    "id": "c1-wie-hervorgeht",
+    "level": "C1",
+    "priority": 43,
+    "pattern": "Wie aus … hervorgeht, …",
+    "meaning": "…den anlaşıldığı üzere, …",
+    "note": "Aus etwas hervorgehen = bir şeyden anlaşılmak, ortaya çıkmak. Rapor ve haberlerde bilginin kaynağını belirtir.",
+    "examples": [
+      {
+        "de": "Wie aus dem Bericht hervorgeht, sind die Umsätze gesunken.",
+        "tr": "Rapordan anlaşıldığı üzere satışlar düşmüş."
+      },
+      {
+        "de": "Wie aus der Studie hervorgeht, schlafen viele Jugendliche zu wenig.",
+        "tr": "Araştırmadan anlaşıldığı üzere birçok genç yeterince uyumuyor."
+      },
+      {
+        "de": "Wie aus dem Schreiben hervorgeht, wurde der Antrag abgelehnt.",
+        "tr": "Yazıdan anlaşıldığı üzere başvuru reddedilmiş."
+      },
+      {
+        "de": "Wie aus den Zahlen klar hervorgeht, ist die Arbeitslosigkeit gestiegen.",
+        "tr": "Rakamlardan açıkça anlaşıldığı üzere işsizlik artmış."
+      },
+      {
+        "de": "Wie aus den Unterlagen hervorgeht, ist die Frist abgelaufen.",
+        "tr": "Belgelerden anlaşıldığı üzere süre dolmuş."
+      }
+    ]
+  },
+  {
+    "id": "c1-es-gilt-zu",
+    "level": "C1",
+    "priority": 44,
+    "pattern": "Es gilt, … zu (Infinitiv)",
+    "meaning": "…mek gerekir, …mek söz konusu",
+    "note": "Gelten + zu + Infinitiv: yapılması gereken bir görevi vurgular. Konuşma ve resmî dilde kullanılır.",
+    "examples": [
+      {
+        "de": "Es gilt, die Ursachen des Problems zu verstehen.",
+        "tr": "Sorunun nedenlerini anlamak gerekiyor."
+      },
+      {
+        "de": "Jetzt gilt es, Ruhe zu bewahren.",
+        "tr": "Şimdi sakin kalmak gerekiyor."
+      },
+      {
+        "de": "Es gilt, Vertrauen zurückzugewinnen.",
+        "tr": "Güveni yeniden kazanmak gerekiyor."
+      },
+      {
+        "de": "Dabei gilt es, einige Regeln zu beachten.",
+        "tr": "Bu sırada bazı kurallara dikkat etmek gerekiyor."
+      },
+      {
+        "de": "Es gilt, die Chancen der Digitalisierung zu nutzen.",
+        "tr": "Dijitalleşmenin fırsatlarından yararlanmak gerekiyor."
+      }
+    ]
+  },
+  {
+    "id": "c1-besteht-darin",
+    "level": "C1",
+    "priority": 45,
+    "pattern": "… besteht darin, … zu (Infinitiv)",
+    "meaning": "…in amacı/görevi …mektir",
+    "note": "Bestehen in + Dativ ya da „darin, … zu“ ile bir şeyin özünü veya amacını tanımlar. Akademik ve teknik metinlerde yaygındır.",
+    "examples": [
+      {
+        "de": "Das Ziel besteht darin, die Kosten zu senken.",
+        "tr": "Amaç maliyetleri düşürmektir."
+      },
+      {
+        "de": "Die Aufgabe des Gutachters besteht darin, die Unterlagen zu prüfen.",
+        "tr": "Bilirkişinin görevi belgeleri incelemektir."
+      },
+      {
+        "de": "Die Schwierigkeit besteht darin, beide Seiten zufriedenzustellen.",
+        "tr": "Asıl zorluk, iki tarafı da memnun etmektir."
+      },
+      {
+        "de": "Unsere Strategie besteht darin, neue Märkte zu erschließen.",
+        "tr": "Stratejimiz yeni pazarlar açmaktır."
+      },
+      {
+        "de": "Der Reiz des Projekts besteht darin, dass es völlig neue Wege geht.",
+        "tr": "Projenin cazibesi, tamamen yeni yollar izlemesidir."
+      }
+    ]
+  },
+  {
+    "id": "c1-gilt-als",
+    "level": "C1",
+    "priority": 46,
+    "pattern": "… gilt als (Adjektiv / Nomen)",
+    "meaning": "…, … olarak kabul edilir, …diye bilinir",
+    "note": "Gelten als + Nominativ: genel kanıyı aktarır. Çoğunlukla belirsiz bir „herkes böyle düşünüyor“ bakış açısı içerir.",
+    "examples": [
+      {
+        "de": "Der Rhein gilt als eine der wichtigsten Wasserstraßen Europas.",
+        "tr": "Ren, Avrupa’nın en önemli su yollarından biri sayılır."
+      },
+      {
+        "de": "Das Projekt gilt als gescheitert.",
+        "tr": "Proje başarısız sayılıyor."
+      },
+      {
+        "de": "Er gilt als Experte für Verkehrsrecht.",
+        "tr": "Trafik hukuku uzmanı olarak bilinir."
+      },
+      {
+        "de": "Die Methode gilt in der Fachwelt als umstritten.",
+        "tr": "Yöntem uzmanlar arasında tartışmalı sayılıyor."
+      },
+      {
+        "de": "Sie galt lange als größte Hoffnung der Partei.",
+        "tr": "Uzun süre partinin en büyük umudu olarak görüldü."
+      }
+    ]
+  },
+  {
+    "id": "c1-bei-naeherer-betrachtung",
+    "level": "C1",
+    "priority": 47,
+    "pattern": "Bei näherer Betrachtung …",
+    "meaning": "Daha yakından bakıldığında …",
+    "note": "Sabit bir ifade; ilk izlenimi düzeltmek için kullanılır. Benzerleri: Bei genauerem Hinsehen, Bei Lichte betrachtet.",
+    "examples": [
+      {
+        "de": "Bei näherer Betrachtung erweist sich das Angebot als teuer.",
+        "tr": "Daha yakından bakıldığında teklifin pahalı olduğu anlaşılıyor."
+      },
+      {
+        "de": "Bei näherer Betrachtung zeigt sich, dass die Zahlen nicht stimmen.",
+        "tr": "Daha yakından bakınca rakamların tutmadığı görülüyor."
+      },
+      {
+        "de": "Bei näherer Betrachtung war der Fehler harmlos.",
+        "tr": "Daha yakından bakınca hatanın zararsız olduğu ortaya çıktı."
+      },
+      {
+        "de": "Bei genauerem Hinsehen entpuppt sich die Lösung als Provisorium.",
+        "tr": "Daha dikkatli bakınca çözümün geçici olduğu anlaşılıyor."
+      },
+      {
+        "de": "Bei näherer Betrachtung stellt sich die Lage differenzierter dar.",
+        "tr": "Daha yakından bakıldığında durum daha karmaşık görünüyor."
+      }
+    ]
+  },
+  {
+    "id": "c1-nicht-zuletzt",
+    "level": "C1",
+    "priority": 48,
+    "pattern": "Nicht zuletzt … (weil / dank / wegen …)",
+    "meaning": "…in da payı büyük, özellikle de …",
+    "note": "Nicht zuletzt bir nedenin önemini vurgular; nedenlerden biri olduğunu ima eder, tek neden demek değildir.",
+    "examples": [
+      {
+        "de": "Der Erfolg ist nicht zuletzt dem Engagement der Mitarbeiter zu verdanken.",
+        "tr": "Başarıda çalışanların özverisinin de payı büyük."
+      },
+      {
+        "de": "Nicht zuletzt deshalb haben wir uns für Berlin entschieden.",
+        "tr": "Berlin’i seçmemizde bunun da payı büyük."
+      },
+      {
+        "de": "Die Stadt ist beliebt, nicht zuletzt wegen ihrer kulturellen Vielfalt.",
+        "tr": "Şehir, özellikle kültürel çeşitliliği nedeniyle seviliyor."
+      },
+      {
+        "de": "Das liegt nicht zuletzt daran, dass die Mieten stark gestiegen sind.",
+        "tr": "Bunun bir nedeni de kiraların çok artmış olması."
+      },
+      {
+        "de": "Nicht zuletzt dank des Wetters wurde das Fest ein voller Erfolg.",
+        "tr": "Havanın da sayesinde bayram tam bir başarı oldu."
+      }
+    ]
+  },
+  {
+    "id": "c1-allem-anschein-nach",
+    "level": "C1",
+    "priority": 49,
+    "pattern": "Allem Anschein nach …",
+    "meaning": "Her şeye bakılırsa …, görünüşe göre …",
+    "note": "Sabit ifade; kesin olmayan ama güçlü bir izlenimi bildirir. Cümle başında durduğunda fiil ikinci sırada kalır.",
+    "examples": [
+      {
+        "de": "Allem Anschein nach ist der Zug ausgefallen.",
+        "tr": "Görünüşe göre tren iptal olmuş."
+      },
+      {
+        "de": "Allem Anschein nach hat er die Nachricht nicht gelesen.",
+        "tr": "Her şeye bakılırsa mesajı okumamış."
+      },
+      {
+        "de": "Allem Anschein nach wird sich die Entscheidung verzögern.",
+        "tr": "Anlaşılan karar gecikecek."
+      },
+      {
+        "de": "Allem Anschein nach war die Warnung nicht ernst gemeint.",
+        "tr": "Görünüşe göre uyarı ciddi değildi."
+      },
+      {
+        "de": "Das Treffen findet allem Anschein nach nicht statt.",
+        "tr": "Toplantı büyük olasılıkla yapılmayacak."
+      }
+    ]
+  },
+  {
+    "id": "c1-es-ist-eben-so",
+    "level": "C1",
+    "priority": 50,
+    "pattern": "Es ist eben / halt / nun mal so, dass …",
+    "meaning": "İşin doğası böyle, …diği bir gerçek",
+    "note": "Eben, halt ve nun mal modal partikelleri, itiraz edilemeyen bir gerçeği kabullenmeyi ifade eder; günlük konuşma dilidir.",
+    "examples": [
+      {
+        "de": "Das ist eben so, daran lässt sich nichts ändern.",
+        "tr": "İşin doğası bu, buna yapacak bir şey yok."
+      },
+      {
+        "de": "Es ist nun mal so, dass man nicht immer gewinnen kann.",
+        "tr": "Hep kazanılamıyor, işin doğası bu."
+      },
+      {
+        "de": "Es ist halt so, dass Veränderungen Zeit brauchen.",
+        "tr": "Değişiklikler zaman alıyor, işin doğası bu."
+      },
+      {
+        "de": "Er ist halt manchmal etwas stur.",
+        "tr": "Biraz inatçı, ne yapalım."
+      },
+      {
+        "de": "Wenn es regnet, wird das Fest eben drinnen gefeiert.",
+        "tr": "Yağmur yağarsa kutlama içeride yapılır, o kadar."
+      }
+    ]
+  },
+  {
+    "id": "c1-es-waere-wuenschenswert",
+    "level": "C1",
+    "priority": 51,
+    "pattern": "Es wäre wünschenswert, wenn … (Konjunktiv II)",
+    "meaning": "…se iyi olurdu, …ması arzu edilir",
+    "note": "Es wäre + sıfat ile Konjunktiv II kullanarak nazik ve örtük bir istek veya eleştiri dile getirilir. Aynı yapı: Es wäre sinnvoll / angebracht, wenn …",
+    "examples": [
+      {
+        "de": "Es wäre wünschenswert, wenn mehr Menschen ehrenamtlich helfen würden.",
+        "tr": "Daha fazla insanın gönüllü yardım etmesi arzu edilir."
+      },
+      {
+        "de": "Es wäre sinnvoll, wenn wir die Termine besser abstimmen würden.",
+        "tr": "Randevuları daha iyi ayarlasak iyi olurdu."
+      },
+      {
+        "de": "Es wäre schön, wenn Sie mir bis Freitag antworten könnten.",
+        "tr": "Cuma gününe kadar yanıt verebilseniz çok iyi olurdu."
+      },
+      {
+        "de": "Es wäre angebracht, wenn sich die Firma öffentlich entschuldigen würde.",
+        "tr": "Şirketin kamuoyundan özür dilemesi yerinde olurdu."
+      },
+      {
+        "de": "Es wäre hilfreich, wenn die Unterlagen früher vorliegen würden.",
+        "tr": "Belgeler daha erken elimizde olsa yardımcı olurdu."
+      }
+    ]
+  },
+  {
+    "id": "c1-subjektsatz-voran",
+    "level": "C1",
+    "priority": 52,
+    "pattern": "Dass …, ist (unbestritten / bekannt / offensichtlich).",
+    "meaning": "…diği (tartışılmaz / bilinen / ortada) bir gerçektir",
+    "note": "Dass-cümlesi özne olarak başa gelir ve vurgulanır; ardından ana cümlede fiil ikinci sırada kalır. Yazı dilinde üslup aracıdır.",
+    "examples": [
+      {
+        "de": "Dass das Projekt Risiken birgt, ist unbestritten.",
+        "tr": "Projenin risk taşıdığı tartışılmaz."
+      },
+      {
+        "de": "Dass er gelogen hat, ist offensichtlich.",
+        "tr": "Yalan söylediği ortada."
+      },
+      {
+        "de": "Dass sich das Klima ändert, ist allgemein bekannt.",
+        "tr": "İklimin değiştiği herkesin bildiği bir gerçek."
+      },
+      {
+        "de": "Dass die Preise steigen würden, war längst klar.",
+        "tr": "Fiyatların artacağı çoktan belliydi."
+      },
+      {
+        "de": "Dass man dabei Fehler macht, ist ganz normal.",
+        "tr": "Bu sırada hata yapılması gayet normal."
+      }
+    ]
+  },
+  {
+    "id": "c1-soweit-mir-bekannt",
+    "level": "C1",
+    "priority": 53,
+    "pattern": "Soweit mir bekannt ist, … / Soweit ich weiß, …",
+    "meaning": "Bildiğim kadarıyla …",
+    "note": "Soweit + bilgi fiili: bilginin kapsamını sınırlar ve ihtiyatlı bir ifade sağlar. Yan cümlede fiil sonda, ardından gelen ana cümlede ikinci sırada durur.",
+    "examples": [
+      {
+        "de": "Soweit mir bekannt ist, wurde die Sitzung verschoben.",
+        "tr": "Bildiğim kadarıyla toplantı ertelendi."
+      },
+      {
+        "de": "Soweit ich weiß, hat sie die Stelle bereits angenommen.",
+        "tr": "Bildiğim kadarıyla o işi çoktan kabul etti."
+      },
+      {
+        "de": "Soweit ich es beurteilen kann, ist der Plan realistisch.",
+        "tr": "Değerlendirebildiğim kadarıyla plan gerçekçi."
+      },
+      {
+        "de": "Soweit ich mich erinnere, war das schon 2019 der Fall.",
+        "tr": "Hatırladığım kadarıyla bu 2019’da da böyleydi."
+      },
+      {
+        "de": "Soweit es in unserer Macht steht, werden wir helfen.",
+        "tr": "Elimizden geldiği ölçüde yardım edeceğiz."
+      }
+    ]
+  },
+  {
+    "id": "c1-vielmehr",
+    "level": "C1",
+    "priority": 54,
+    "pattern": "Nicht …, sondern vielmehr …",
+    "meaning": "…değil, daha çok …, daha doğrusu …",
+    "note": "Vielmehr düzeltici bir karşıtlık getirir; sondern ile birlikte kullanılabilir. Tek başına da „aksine“ anlamında bulunur.",
+    "examples": [
+      {
+        "de": "Das ist kein Fehler, sondern vielmehr eine bewusste Entscheidung.",
+        "tr": "Bu bir hata değil, daha çok bilinçli bir karar."
+      },
+      {
+        "de": "Er wollte nicht kritisieren, sondern vielmehr Verbesserungen anregen.",
+        "tr": "Eleştirmek değil, daha çok iyileştirme önermek istiyordu."
+      },
+      {
+        "de": "Das Ziel ist nicht die Bestrafung, vielmehr geht es um Aufklärung.",
+        "tr": "Amaç cezalandırmak değil, aksine bilgilendirmek."
+      },
+      {
+        "de": "Sie klagte nicht, sondern machte sich vielmehr an die Arbeit.",
+        "tr": "Şikâyet etmedi, aksine işe koyuldu."
+      },
+      {
+        "de": "Das Buch ist weniger eine Biografie als vielmehr ein Zeitbild.",
+        "tr": "Kitap bir biyografiden çok bir dönem tablosu."
+      }
+    ]
+  },
+  {
+    "id": "c1-zurueckzufuehren",
+    "level": "C1",
+    "priority": 55,
+    "pattern": "… ist darauf zurückzuführen, dass …",
+    "meaning": "…, …mesinden kaynaklanıyor",
+    "note": "Zurückführen auf + Akkusativ; sein + zu + Infinitiv ile nedene işaret eden akademik bir ifadedir. Dass-cümlesinde fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Der Anstieg ist darauf zurückzuführen, dass mehr Menschen im Homeoffice arbeiten.",
+        "tr": "Artış, daha çok insanın evden çalışmasından kaynaklanıyor."
+      },
+      {
+        "de": "Der Fehler ist auf ein defektes Bauteil zurückzuführen.",
+        "tr": "Hata, arızalı bir parçadan kaynaklanıyor."
+      },
+      {
+        "de": "Die Verspätung ist darauf zurückzuführen, dass die Strecke gesperrt war.",
+        "tr": "Gecikme, hattın kapalı olmasından kaynaklanıyor."
+      },
+      {
+        "de": "Ihr Erfolg ist nicht zuletzt auf ihre Beharrlichkeit zurückzuführen.",
+        "tr": "Başarısı, özellikle de azminden kaynaklanıyor."
+      },
+      {
+        "de": "Die Krankheit ist darauf zurückzuführen, dass ein Virus die Zellen angreift.",
+        "tr": "Hastalık, bir virüsün hücrelere saldırmasından kaynaklanıyor."
+      }
+    ]
+  },
+  {
+    "id": "c1-zu-verdanken",
+    "level": "C1",
+    "priority": 56,
+    "pattern": "… ist … zu verdanken (Dativ)",
+    "meaning": "…, …in sayesindedir, …e borçluyuz",
+    "note": "Yapı: etwas (Nominativ) ist jemandem/etwas (Dativ) zu verdanken (sein + zu + Infinitiv). Genellikle olumlu sonuçlar için kullanılır; olumsuzlar için „zurückzuführen auf“ tercih edilir.",
+    "examples": [
+      {
+        "de": "Der Erfolg ist vor allem dem Team zu verdanken.",
+        "tr": "Başarı en çok ekip sayesinde."
+      },
+      {
+        "de": "Das haben wir nur seiner Geduld zu verdanken.",
+        "tr": "Bunu yalnızca onun sabrına borçluyuz."
+      },
+      {
+        "de": "Dem schnellen Eingreifen der Feuerwehr ist es zu verdanken, dass niemand verletzt wurde.",
+        "tr": "Kimsenin yaralanmaması itfaiyenin hızlı müdahalesi sayesinde."
+      },
+      {
+        "de": "Ich habe ihr viel zu verdanken.",
+        "tr": "Ona çok şey borçluyum."
+      },
+      {
+        "de": "Die Entdeckung ist einem Zufall zu verdanken.",
+        "tr": "Keşif bir tesadüf sayesinde gerçekleşti."
+      }
+    ]
+  },
+  {
+    "id": "c1-kommt-nicht-in-frage",
+    "level": "C1",
+    "priority": 57,
+    "pattern": "… kommt (nicht) in Frage / infrage",
+    "meaning": "…söz konusu olabilir (olamaz), …mümkün değil",
+    "note": "In Frage kommen = mümkün/uygun olmak; olumsuzda kesin bir ret bildirir. Yeni yazımda „infrage“ da geçerlidir.",
+    "examples": [
+      {
+        "de": "Eine Kündigung kommt für mich nicht in Frage.",
+        "tr": "İşten ayrılmak benim için söz konusu değil."
+      },
+      {
+        "de": "Für diese Stelle kommen nur erfahrene Bewerber in Frage.",
+        "tr": "Bu kadro için yalnızca deneyimli adaylar söz konusu."
+      },
+      {
+        "de": "Eine Preiserhöhung kommt derzeit nicht in Frage.",
+        "tr": "Şu an fiyat artışı söz konusu değil."
+      },
+      {
+        "de": "Welche Lösung kommt aus Ihrer Sicht in Frage?",
+        "tr": "Sizce hangi çözüm mümkün görünüyor?"
+      },
+      {
+        "de": "Dass du allein fährst, kommt gar nicht in Frage!",
+        "tr": "Tek başına gitmen kesinlikle olmaz!"
+      }
+    ]
+  },
+  {
+    "id": "c1-geht-einher",
+    "level": "C1",
+    "priority": 58,
+    "pattern": "… geht mit … (Dativ) einher",
+    "meaning": "…, …ile birlikte gelir, …e eşlik eder",
+    "note": "Einhergehen mit + Dativ: iki olgunun birlikte ortaya çıktığını anlatır. Akademik ve gazete dilinde yaygındır.",
+    "examples": [
+      {
+        "de": "Die Digitalisierung geht mit tiefgreifenden Veränderungen einher.",
+        "tr": "Dijitalleşme köklü değişiklikleri de beraberinde getiriyor."
+      },
+      {
+        "de": "Hohe Verantwortung geht oft mit hohem Stress einher.",
+        "tr": "Büyük sorumluluk çoğu zaman yoğun stresle birlikte gelir."
+      },
+      {
+        "de": "Die Krankheit geht mit starken Kopfschmerzen einher.",
+        "tr": "Hastalığa şiddetli baş ağrısı eşlik ediyor."
+      },
+      {
+        "de": "Der Ausbau der Bahn ging mit Protesten der Anwohner einher.",
+        "tr": "Demiryolunun genişletilmesine çevre sakinlerinin protestoları eşlik etti."
+      },
+      {
+        "de": "Mehr Freiheit geht immer auch mit mehr Verantwortung einher.",
+        "tr": "Daha fazla özgürlük her zaman daha fazla sorumluluğu da beraberinde getirir."
+      }
+    ]
+  },
+  {
+    "id": "c1-im-zusammenhang-mit",
+    "level": "C1",
+    "priority": 59,
+    "pattern": "… steht im Zusammenhang mit … (Dativ)",
+    "meaning": "…, …ile bağlantılıdır, …ile ilgilidir",
+    "note": "Im Zusammenhang mit + Dativ: bir konunun başka bir konuyla ilişkisini belirtir. Resmî ve haber dilinde cümle başında edat grubu olarak da kullanılır.",
+    "examples": [
+      {
+        "de": "Der Rücktritt steht im Zusammenhang mit den jüngsten Vorwürfen.",
+        "tr": "İstifa, son suçlamalarla bağlantılı."
+      },
+      {
+        "de": "Im Zusammenhang mit dem Vorfall wurden zwei Personen festgenommen.",
+        "tr": "Olayla bağlantılı olarak iki kişi gözaltına alındı."
+      },
+      {
+        "de": "Die Probleme stehen im Zusammenhang mit der neuen Software.",
+        "tr": "Sorunlar yeni yazılımla bağlantılı."
+      },
+      {
+        "de": "Ob das im Zusammenhang mit seiner Kündigung steht, weiß ich nicht.",
+        "tr": "Bunun işten ayrılmasıyla ilgili olup olmadığını bilmiyorum."
+      },
+      {
+        "de": "Im Zusammenhang mit dieser Studie sind noch viele Fragen offen.",
+        "tr": "Bu çalışmayla bağlantılı olarak birçok soru hâlâ açık."
+      }
+    ]
+  },
+  {
+    "id": "c1-zur-folge-haben",
+    "level": "C1",
+    "priority": 60,
+    "pattern": "… zur Folge haben",
+    "meaning": "…ile sonuçlanmak, …e yol açmak",
+    "note": "Funktionsverbgefüge; bir eylemin veya olayın sonucunu bildirir. Özne sebeptir, nesne (Akkusativ) sonuçtur.",
+    "examples": [
+      {
+        "de": "Der Streik hatte erhebliche Verspätungen zur Folge.",
+        "tr": "Grev ciddi gecikmelere yol açtı."
+      },
+      {
+        "de": "Diese Entscheidung wird weitreichende Konsequenzen zur Folge haben.",
+        "tr": "Bu karar geniş kapsamlı sonuçlar doğuracak."
+      },
+      {
+        "de": "Unvorsichtiges Verhalten kann schwere Verletzungen zur Folge haben.",
+        "tr": "Dikkatsiz davranış ağır yaralanmalara yol açabilir."
+      },
+      {
+        "de": "Der Sparkurs hatte zur Folge, dass viele Stellen gestrichen wurden.",
+        "tr": "Tasarruf politikası birçok kadronun kaldırılmasına yol açtı."
+      },
+      {
+        "de": "Ein solcher Fehler hätte unabsehbare Konsequenzen zur Folge gehabt.",
+        "tr": "Böyle bir hata öngörülemez sonuçlara yol açardı."
+      }
+    ]
   }
 ]

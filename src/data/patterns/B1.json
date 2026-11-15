@@ -898,5 +898,1205 @@
         "tr": "O işi alsaydı Hamburg'a taşınırdı."
       }
     ]
+  },
+  {
+    "id": "b1-denken-an",
+    "level": "B1",
+    "priority": 31,
+    "pattern": "Ich denke an … (Akkusativ)",
+    "meaning": "…ı / …ı düşünüyorum",
+    "note": "\"denken an\" + Akkusativ. Soru: Woran? (şey), An wen? (kişi).",
+    "examples": [
+      {
+        "de": "Ich denke oft an meine Großeltern.",
+        "tr": "Sık sık büyükanne ve büyükbabamı düşünüyorum."
+      },
+      {
+        "de": "Denkst du noch an unseren Urlaub in Spanien?",
+        "tr": "İspanya'daki tatilimizi hâlâ düşünüyor musun?"
+      },
+      {
+        "de": "Er denkt schon an die nächste Prüfung.",
+        "tr": "O şimdiden bir sonraki sınavı düşünüyor."
+      },
+      {
+        "de": "Wir müssen auch an die Kinder denken.",
+        "tr": "Çocukları da düşünmemiz gerekiyor."
+      },
+      {
+        "de": "Daran habe ich gar nicht gedacht.",
+        "tr": "Bunu hiç düşünmemiştim."
+      }
+    ]
+  },
+  {
+    "id": "b1-sich-erinnern-an",
+    "level": "B1",
+    "priority": 32,
+    "pattern": "Ich erinnere mich an … (Akkusativ)",
+    "meaning": "…ı hatırlıyorum",
+    "note": "\"sich erinnern an\" + Akkusativ. Reflexivpronomen özneye göre değişir: ich erinnere mich, du erinnerst dich.",
+    "examples": [
+      {
+        "de": "Ich erinnere mich gut an meinen ersten Schultag.",
+        "tr": "İlk okul günümü iyi hatırlıyorum."
+      },
+      {
+        "de": "Erinnerst du dich noch an Herrn Weber?",
+        "tr": "Bay Weber'i hâlâ hatırlıyor musun?"
+      },
+      {
+        "de": "Sie erinnert sich nicht mehr an den Namen des Hotels.",
+        "tr": "Otelin adını artık hatırlamıyor."
+      },
+      {
+        "de": "Daran erinnere ich mich leider nicht.",
+        "tr": "Ne yazık ki bunu hatırlamıyorum."
+      },
+      {
+        "de": "Wir erinnern uns gern an die Zeit am Meer.",
+        "tr": "Deniz kenarında geçirdiğimiz günleri hep sevgiyle anarız."
+      }
+    ]
+  },
+  {
+    "id": "b1-angst-vor",
+    "level": "B1",
+    "priority": 33,
+    "pattern": "Ich habe Angst vor … (Dativ)",
+    "meaning": "…dan korkuyorum",
+    "note": "\"Angst haben vor\" + Dativ. \"vor dem Fliegen\" gibi isimleşmiş fiille de kullanılır.",
+    "examples": [
+      {
+        "de": "Ich habe Angst vor Hunden.",
+        "tr": "Köpeklerden korkuyorum."
+      },
+      {
+        "de": "Meine Tochter hat Angst vor der Dunkelheit.",
+        "tr": "Kızım karanlıktan korkuyor."
+      },
+      {
+        "de": "Hast du Angst vor der Prüfung?",
+        "tr": "Sınavdan korkuyor musun?"
+      },
+      {
+        "de": "Er hat keine Angst vor dem Fliegen.",
+        "tr": "Uçmaktan korkmuyor."
+      },
+      {
+        "de": "Viele Menschen haben Angst vor Veränderungen.",
+        "tr": "Birçok insan değişimlerden korkar."
+      }
+    ]
+  },
+  {
+    "id": "b1-sich-beschweren-ueber",
+    "level": "B1",
+    "priority": 34,
+    "pattern": "Ich beschwere mich über … (Akkusativ)",
+    "meaning": "…dan şikâyet ediyorum",
+    "note": "\"sich beschweren über\" + Akkusativ; şikâyet edilen kişi \"bei\" ile söylenir: sich beim Chef beschweren.",
+    "examples": [
+      {
+        "de": "Ich beschwere mich über den Lärm im Haus.",
+        "tr": "Evdeki gürültüden şikâyet ediyorum."
+      },
+      {
+        "de": "Die Gäste haben sich über das kalte Essen beschwert.",
+        "tr": "Misafirler soğuk yemekten şikâyet etti."
+      },
+      {
+        "de": "Du beschwerst dich ständig über das Wetter.",
+        "tr": "Sürekli havadan şikâyet ediyorsun."
+      },
+      {
+        "de": "Worüber möchten Sie sich beschweren?",
+        "tr": "Neyden şikâyet etmek istiyorsunuz?"
+      },
+      {
+        "de": "Er hat sich beim Chef über die Arbeitszeiten beschwert.",
+        "tr": "Çalışma saatleri hakkında patrona şikâyette bulundu."
+      }
+    ]
+  },
+  {
+    "id": "b1-halten-fuer",
+    "level": "B1",
+    "priority": 35,
+    "pattern": "Ich halte … für … (Akkusativ + Adjektiv/Nomen)",
+    "meaning": "…ı … olarak görüyorum / … sanıyorum",
+    "note": "\"halten für\" + Akkusativ; görüş bildirirken veya yanlış sanıyı anlatırken kullanılır.",
+    "examples": [
+      {
+        "de": "Ich halte das für eine gute Idee.",
+        "tr": "Bunu iyi bir fikir olarak görüyorum."
+      },
+      {
+        "de": "Viele halten ihn für einen Experten.",
+        "tr": "Birçok kişi onu uzman sanıyor."
+      },
+      {
+        "de": "Hältst du es für richtig, so früh anzufangen?",
+        "tr": "Bu kadar erken başlamayı doğru buluyor musun?"
+      },
+      {
+        "de": "Ich halte das Risiko für zu hoch.",
+        "tr": "Riski çok yüksek buluyorum."
+      },
+      {
+        "de": "Wir hielten sie zuerst für die neue Lehrerin.",
+        "tr": "Onu önce yeni öğretmen sandık."
+      }
+    ]
+  },
+  {
+    "id": "b1-sich-entscheiden-fuer",
+    "level": "B1",
+    "priority": 36,
+    "pattern": "Ich entscheide mich für … (Akkusativ)",
+    "meaning": "…ı seçiyorum / …a karar veriyorum",
+    "note": "\"sich entscheiden für\" + Akkusativ. Perfekt: Ich habe mich für … entschieden.",
+    "examples": [
+      {
+        "de": "Wir haben uns für ein kleines Hotel entschieden.",
+        "tr": "Küçük bir otelde karar kıldık."
+      },
+      {
+        "de": "Für welchen Kurs entscheidest du dich?",
+        "tr": "Hangi kursu seçeceksin?"
+      },
+      {
+        "de": "Sie entscheidet sich für ein Studium in Wien.",
+        "tr": "Viyana'da okumaya karar veriyor."
+      },
+      {
+        "de": "Ich kann mich nicht für eine Farbe entscheiden.",
+        "tr": "Bir renge karar veremiyorum."
+      },
+      {
+        "de": "Am Ende haben wir uns für die Bahn entschieden.",
+        "tr": "Sonunda tren yolculuğunu seçtik."
+      }
+    ]
+  },
+  {
+    "id": "b1-zufrieden-mit",
+    "level": "B1",
+    "priority": 37,
+    "pattern": "Ich bin mit … zufrieden (Dativ)",
+    "meaning": "…dan memnunum",
+    "note": "\"zufrieden sein mit\" + Dativ. Soru: Womit? / Mit wem?",
+    "examples": [
+      {
+        "de": "Ich bin mit meiner neuen Wohnung sehr zufrieden.",
+        "tr": "Yeni dairemden çok memnunum."
+      },
+      {
+        "de": "Der Chef ist mit deiner Arbeit zufrieden.",
+        "tr": "Patron senin işinden memnun."
+      },
+      {
+        "de": "Sind Sie mit dem Service zufrieden?",
+        "tr": "Servisten memnun musunuz?"
+      },
+      {
+        "de": "Wir sind mit dem Ergebnis nicht zufrieden.",
+        "tr": "Sonuçtan memnun değiliz."
+      },
+      {
+        "de": "Womit bist du denn nicht zufrieden?",
+        "tr": "Peki neden memnun değilsin?"
+      }
+    ]
+  },
+  {
+    "id": "b1-wo-praeposition",
+    "level": "B1",
+    "priority": 38,
+    "pattern": "Wor… / Wo… + Präposition …? (Woran, Worauf, Womit …)",
+    "meaning": "Neye / neyle / ne hakkında …? (şey sorusu)",
+    "note": "Şeyler için \"wo(r) + edat\": woran, worauf, womit. Edat sesli harfle başlıyorsa araya \"r\" girer. Kişiler için: an wen, mit wem.",
+    "examples": [
+      {
+        "de": "Worauf freust du dich am meisten?",
+        "tr": "En çok neye seviniyorsun?"
+      },
+      {
+        "de": "Wofür interessiert sich dein Bruder?",
+        "tr": "Kardeşin neyle ilgileniyor?"
+      },
+      {
+        "de": "Woran denkst du gerade?",
+        "tr": "Şu an ne düşünüyorsun?"
+      },
+      {
+        "de": "Womit fährst du zur Arbeit?",
+        "tr": "İşe neyle gidiyorsun?"
+      },
+      {
+        "de": "Worüber habt ihr gestern gesprochen?",
+        "tr": "Dün ne hakkında konuştunuz?"
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-hoffe-zu",
+    "level": "B1",
+    "priority": 39,
+    "pattern": "Ich hoffe, … zu (Infinitiv)",
+    "meaning": "…mayı umuyorum",
+    "note": "Ana ve yan cümlenin öznesi aynıysa \"dass\" yerine zu-Infinitiv kullanılır. Ayrılabilir fiillerde \"zu\" araya girer: wiederzusehen.",
+    "examples": [
+      {
+        "de": "Ich hoffe, bald eine neue Arbeit zu finden.",
+        "tr": "Yakında yeni bir iş bulmayı umuyorum."
+      },
+      {
+        "de": "Wir hoffen, euch im Sommer zu sehen.",
+        "tr": "Sizi yazın görmeyi umuyoruz."
+      },
+      {
+        "de": "Sie hofft, die Prüfung zu bestehen.",
+        "tr": "Sınavı geçmeyi umuyor."
+      },
+      {
+        "de": "Er hofft, nächstes Jahr nach Deutschland zu ziehen.",
+        "tr": "Seneye Almanya'ya taşınmayı umuyor."
+      },
+      {
+        "de": "Ich hoffe, dich bald wiederzusehen.",
+        "tr": "Seni yakında yeniden görmeyi umuyorum."
+      }
+    ]
+  },
+  {
+    "id": "b1-keine-lust-zu",
+    "level": "B1",
+    "priority": 40,
+    "pattern": "Ich habe keine Lust, … zu (Infinitiv)",
+    "meaning": "…mak istemiyorum / canım … istemiyor",
+    "note": "\"Lust haben\" ifadesi zu-Infinitiv ister; virgül konur. Ayrılabilir fiilde \"zu\" araya girer: aufzustehen.",
+    "examples": [
+      {
+        "de": "Ich habe keine Lust, heute Abend zu kochen.",
+        "tr": "Bu akşam yemek yapmak istemiyorum."
+      },
+      {
+        "de": "Hast du Lust, mit uns ins Kino zu gehen?",
+        "tr": "Bizimle sinemaya gitmek ister misin?"
+      },
+      {
+        "de": "Er hat keine Lust, früh aufzustehen.",
+        "tr": "Erken kalkmak istemiyor."
+      },
+      {
+        "de": "Wir haben heute keine Lust, die Wohnung aufzuräumen.",
+        "tr": "Bugün evi toplamak hiç içimizden gelmiyor."
+      },
+      {
+        "de": "Ich hatte keine Lust, bei diesem Wetter spazieren zu gehen.",
+        "tr": "Bu havada yürüyüşe çıkmaya canım istemedi."
+      }
+    ]
+  },
+  {
+    "id": "b1-vergiss-nicht-zu",
+    "level": "B1",
+    "priority": 41,
+    "pattern": "Vergiss nicht, … zu (Infinitiv)",
+    "meaning": "…mayı unutma",
+    "note": "\"vergessen\" ve emir kipi ile zu-Infinitiv kullanılır; ayrılabilir fiillerde \"zu\" araya girer: abzuschließen.",
+    "examples": [
+      {
+        "de": "Vergiss nicht, die Tür abzuschließen.",
+        "tr": "Kapıyı kilitlemeyi unutma."
+      },
+      {
+        "de": "Ich habe vergessen, die Rechnung zu bezahlen.",
+        "tr": "Faturayı ödemeyi unuttum."
+      },
+      {
+        "de": "Vergessen Sie nicht, sich anzumelden.",
+        "tr": "Kayıt olmayı unutmayın."
+      },
+      {
+        "de": "Er vergisst oft, seine Medikamente zu nehmen.",
+        "tr": "İlaçlarını almayı sık sık unutuyor."
+      },
+      {
+        "de": "Bitte vergiss nicht, mich morgen anzurufen.",
+        "tr": "Lütfen yarın beni aramayı unutma."
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-finde-es-dass",
+    "level": "B1",
+    "priority": 42,
+    "pattern": "Ich finde es …, dass … (Verb am Ende)",
+    "meaning": "…ması bence …",
+    "note": "\"es\" yer tutucudur; asıl görüş \"dass\" cümlesindedir. Adjektiv: schade, toll, wichtig, unfair …",
+    "examples": [
+      {
+        "de": "Ich finde es schade, dass du nicht mitkommst.",
+        "tr": "Gelmemene üzülüyorum."
+      },
+      {
+        "de": "Ich finde es toll, dass ihr uns besucht.",
+        "tr": "Bizi ziyaret etmeniz bence harika."
+      },
+      {
+        "de": "Wir finden es unfair, dass er mehr verdient.",
+        "tr": "Onun daha çok kazanmasını haksızlık buluyoruz."
+      },
+      {
+        "de": "Sie findet es wichtig, dass die Kinder früh schlafen.",
+        "tr": "Çocukların erken uyumasını önemli buluyor."
+      },
+      {
+        "de": "Findest du es richtig, dass die Preise steigen?",
+        "tr": "Fiyatların artmasını doğru buluyor musun?"
+      }
+    ]
+  },
+  {
+    "id": "b1-vorteil-nachteil",
+    "level": "B1",
+    "priority": 43,
+    "pattern": "Ein Vorteil / Nachteil ist, dass … (Verb am Ende)",
+    "meaning": "Bir avantajı / dezavantajı …mesidir",
+    "note": "Artı ve eksileri sıralarken kullanılır. \"dass\" cümlesinde fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Ein Vorteil ist, dass man in der Stadt kein Auto braucht.",
+        "tr": "Bir avantajı, şehirde arabaya ihtiyaç duyulmamasıdır."
+      },
+      {
+        "de": "Der große Nachteil ist, dass die Mieten so hoch sind.",
+        "tr": "Büyük dezavantaj, kiraların çok yüksek olmasıdır."
+      },
+      {
+        "de": "Ein weiterer Vorteil ist, dass man viele Leute kennenlernt.",
+        "tr": "Bir diğer avantajı, çok insanla tanışılmasıdır."
+      },
+      {
+        "de": "Ein Nachteil von Online-Kursen ist, dass man allein lernen muss.",
+        "tr": "Çevrimiçi kursların bir dezavantajı, insanın tek başına öğrenmek zorunda kalmasıdır."
+      },
+      {
+        "de": "Der Vorteil ist, dass es viel billiger ist.",
+        "tr": "Avantajı, çok daha ucuz olmasıdır."
+      }
+    ]
+  },
+  {
+    "id": "b1-haengt-ab-von",
+    "level": "B1",
+    "priority": 44,
+    "pattern": "Das hängt von … ab (Dativ)",
+    "meaning": "Bu …a bağlı",
+    "note": "\"abhängen von\" ayrılabilir fiildir; \"ab\" sona gider. Şu kalıp da kullanılır: Das hängt davon ab, ob/wie … (Verb am Ende).",
+    "examples": [
+      {
+        "de": "Das hängt vom Wetter ab.",
+        "tr": "Bu havaya bağlı."
+      },
+      {
+        "de": "Ob wir kommen, hängt von der Uhrzeit ab.",
+        "tr": "Gelip gelmeyeceğimiz saate bağlı."
+      },
+      {
+        "de": "Mein Urlaub hängt von meinem Chef ab.",
+        "tr": "Tatilim patronuma bağlı."
+      },
+      {
+        "de": "Wovon hängt der Preis ab?",
+        "tr": "Fiyat neye bağlı?"
+      },
+      {
+        "de": "Das hängt davon ab, wie viel Zeit ich habe.",
+        "tr": "Bu ne kadar zamanım olduğuna bağlı."
+      }
+    ]
+  },
+  {
+    "id": "b1-stimme-zu",
+    "level": "B1",
+    "priority": 45,
+    "pattern": "Ich stimme … zu (Dativ), aber …",
+    "meaning": "Sana / size katılıyorum, ama …",
+    "note": "\"zustimmen\" Dativ ister ve ayrılabilir: Ich stimme dir zu. Katılmamak için: Ich stimme dir nicht zu.",
+    "examples": [
+      {
+        "de": "Da stimme ich dir völlig zu.",
+        "tr": "Bu konuda sana tamamen katılıyorum."
+      },
+      {
+        "de": "Ich stimme Ihnen zu, aber wir haben nicht genug Geld.",
+        "tr": "Size katılıyorum, ama yeterli paramız yok."
+      },
+      {
+        "de": "Dem Vorschlag stimmen wir gern zu.",
+        "tr": "Öneriye seve seve katılıyoruz."
+      },
+      {
+        "de": "Stimmst du mir da zu?",
+        "tr": "Bu konuda bana katılıyor musun?"
+      },
+      {
+        "de": "Sie stimmt ihm nicht zu.",
+        "tr": "O ona katılmıyor."
+      }
+    ]
+  },
+  {
+    "id": "b1-hier-spricht",
+    "level": "B1",
+    "priority": 46,
+    "pattern": "Hier spricht … Kann ich bitte mit … sprechen?",
+    "meaning": "Ben … Rica etsem … ile görüşebilir miyim?",
+    "note": "Telefonda \"Hier ist …\" yerine \"Hier spricht …\" denir. \"mit\" + Dativ.",
+    "examples": [
+      {
+        "de": "Guten Tag, hier spricht Kaya. Kann ich bitte mit Frau Becker sprechen?",
+        "tr": "İyi günler, ben Kaya. Rica etsem Bayan Becker ile görüşebilir miyim?"
+      },
+      {
+        "de": "Hier spricht Martin. Kann ich bitte mit Lena sprechen?",
+        "tr": "Ben Martin. Rica etsem Lena ile görüşebilir miyim?"
+      },
+      {
+        "de": "Guten Morgen, hier spricht Ali Kaya. Kann ich bitte mit dem Personalbüro sprechen?",
+        "tr": "Günaydın, ben Ali Kaya. Rica etsem personel bürosuyla görüşebilir miyim?"
+      },
+      {
+        "de": "Hier spricht die Praxis Dr. Braun. Kann ich bitte mit Herrn Koç sprechen?",
+        "tr": "Burası Dr. Braun muayenehanesi. Rica etsem Bay Koç ile görüşebilir miyim?"
+      },
+      {
+        "de": "Hier spricht Ihre Nachbarin. Kann ich bitte mit Ihrem Mann sprechen?",
+        "tr": "Ben komşunuz. Rica etsem eşinizle görüşebilir miyim?"
+      }
+    ]
+  },
+  {
+    "id": "b1-schreibe-wegen",
+    "level": "B1",
+    "priority": 47,
+    "pattern": "Ich schreibe Ihnen wegen … (Genitiv)",
+    "meaning": "Size … hakkında yazıyorum",
+    "note": "Resmî mektup ve e-postada açılış cümlesi. \"wegen\" yazı dilinde Genitiv, günlük dilde Dativ alır.",
+    "examples": [
+      {
+        "de": "Ich schreibe Ihnen wegen Ihrer Anzeige in der Zeitung.",
+        "tr": "Size gazetedeki ilanınızla ilgili yazıyorum."
+      },
+      {
+        "de": "Ich schreibe Ihnen wegen meiner Bestellung vom 5. Mai.",
+        "tr": "Size 5 Mayıs tarihli siparişimle ilgili yazıyorum."
+      },
+      {
+        "de": "Ich schreibe Ihnen wegen des Termins am Montag.",
+        "tr": "Size pazartesi günkü randevuyla ilgili yazıyorum."
+      },
+      {
+        "de": "Ich schreibe dir wegen unseres Treffens am Samstag.",
+        "tr": "Sana cumartesi günkü buluşmamızla ilgili yazıyorum."
+      },
+      {
+        "de": "Ich schreibe Ihnen wegen einer Rechnung, die ich nicht verstehe.",
+        "tr": "Size anlamadığım bir faturayla ilgili yazıyorum."
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-wuerde-mich-freuen-wenn",
+    "level": "B1",
+    "priority": 48,
+    "pattern": "Ich würde mich freuen, wenn … (Verb am Ende)",
+    "meaning": "…rsan / …rseniz sevinirim",
+    "note": "Kibar bir dilek ve rica kalıbı (Konjunktiv II). Yan cümlede fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Ich würde mich freuen, wenn du mich besuchen würdest.",
+        "tr": "Beni ziyaret edersen sevinirim."
+      },
+      {
+        "de": "Wir würden uns freuen, wenn Sie bald antworten könnten.",
+        "tr": "Yakında cevap verebilirseniz seviniriz."
+      },
+      {
+        "de": "Ich würde mich sehr freuen, wenn ihr kommen könntet.",
+        "tr": "Gelebilirseniz çok sevinirim."
+      },
+      {
+        "de": "Ich würde mich freuen, wenn es morgen nicht regnen würde.",
+        "tr": "Yarın yağmur yağmazsa sevinirim."
+      },
+      {
+        "de": "Meine Mutter würde sich freuen, wenn wir öfter anrufen würden.",
+        "tr": "Annem daha sık arasak sevinir."
+      }
+    ]
+  },
+  {
+    "id": "b1-es-stoert-mich",
+    "level": "B1",
+    "priority": 49,
+    "pattern": "Es stört mich, dass / wenn … (Verb am Ende)",
+    "meaning": "…ması beni rahatsız ediyor",
+    "note": "\"stören\" Akkusativ alır: Es stört mich. İsimle de kullanılır: Der Lärm stört mich.",
+    "examples": [
+      {
+        "de": "Es stört mich, dass die Nachbarn so laut sind.",
+        "tr": "Komşuların bu kadar gürültülü olması beni rahatsız ediyor."
+      },
+      {
+        "de": "Es stört mich, dass es auf der Straße so laut ist.",
+        "tr": "Sokağın bu kadar gürültülü olması beni rahatsız ediyor."
+      },
+      {
+        "de": "Stört es Sie, wenn ich das Fenster öffne?",
+        "tr": "Pencereyi açarsam sizi rahatsız eder mi?"
+      },
+      {
+        "de": "Es stört uns nicht, dass der Zug Verspätung hat.",
+        "tr": "Trenin rötarlı olması bizi rahatsız etmiyor."
+      },
+      {
+        "de": "Es stört mich, wenn Kollegen im Büro rauchen.",
+        "tr": "İş arkadaşlarının ofiste sigara içmesi beni rahatsız ediyor."
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-rate-dir-zu",
+    "level": "B1",
+    "priority": 50,
+    "pattern": "Ich rate dir, … zu (Infinitiv)",
+    "meaning": "Sana … tavsiye ederim",
+    "note": "\"raten\" ve \"empfehlen\" kişiyi Dativ ile alır: dir, Ihnen. Öneri zu-Infinitiv ile gelir.",
+    "examples": [
+      {
+        "de": "Ich rate dir, früher ins Bett zu gehen.",
+        "tr": "Sana daha erken yatmanı tavsiye ederim."
+      },
+      {
+        "de": "Ich empfehle Ihnen, einen Arzt aufzusuchen.",
+        "tr": "Bir doktora gitmenizi tavsiye ederim."
+      },
+      {
+        "de": "Der Lehrer rät uns, jeden Tag zu lesen.",
+        "tr": "Öğretmen bize her gün okumamızı öneriyor."
+      },
+      {
+        "de": "Ich würde dir raten, nicht so viel Kaffee zu trinken.",
+        "tr": "Sana bu kadar çok kahve içmemeni tavsiye ederdim."
+      },
+      {
+        "de": "Meine Freundin hat mir geraten, den Job anzunehmen.",
+        "tr": "Arkadaşım bu işi kabul etmemi tavsiye etti."
+      }
+    ]
+  },
+  {
+    "id": "b1-es-liegt-an",
+    "level": "B1",
+    "priority": 51,
+    "pattern": "Das liegt an … (Dativ)",
+    "meaning": "Bunun nedeni …",
+    "note": "\"liegen an\" ile neden belirtilir. Soru: Woran liegt das?",
+    "examples": [
+      {
+        "de": "Das liegt am schlechten Wetter.",
+        "tr": "Bunun nedeni kötü hava."
+      },
+      {
+        "de": "Woran liegt es, dass der Bus so spät kommt?",
+        "tr": "Otobüsün bu kadar geç gelmesinin nedeni ne?"
+      },
+      {
+        "de": "Es liegt an dir, ob wir fahren oder bleiben.",
+        "tr": "Gidip gitmeyeceğimiz sana kalmış."
+      },
+      {
+        "de": "Die Probleme liegen an der alten Technik.",
+        "tr": "Sorunların nedeni eski teknoloji."
+      },
+      {
+        "de": "Es liegt nicht an mir, dass wir nicht fertig sind.",
+        "tr": "İşi bitirememiş olmamız benim yüzümden değil."
+      }
+    ]
+  },
+  {
+    "id": "b1-vorgenommen",
+    "level": "B1",
+    "priority": 52,
+    "pattern": "Ich habe mir vorgenommen, … zu (Infinitiv)",
+    "meaning": "…mayı kafama koydum",
+    "note": "\"sich (Dativ) vornehmen\" ayrılabilir fiildir; Perfekt'te \"vorgenommen\" kullanılır, plan zu-Infinitiv ile söylenir.",
+    "examples": [
+      {
+        "de": "Ich habe mir vorgenommen, jeden Tag Deutsch zu lernen.",
+        "tr": "Her gün Almanca çalışmayı kafama koydum."
+      },
+      {
+        "de": "Er hat sich vorgenommen, weniger zu rauchen.",
+        "tr": "Daha az sigara içmeyi kafasına koydu."
+      },
+      {
+        "de": "Wir haben uns vorgenommen, im Sommer ans Meer zu fahren.",
+        "tr": "Yazın denize gitmeyi planladık."
+      },
+      {
+        "de": "Was hast du dir für das neue Jahr vorgenommen?",
+        "tr": "Yeni yıl için ne planladın?"
+      },
+      {
+        "de": "Sie hat sich fest vorgenommen, ihren Führerschein zu machen.",
+        "tr": "Ehliyetini almayı kesin olarak kafasına koydu."
+      }
+    ]
+  },
+  {
+    "id": "b1-es-geht-um",
+    "level": "B1",
+    "priority": 53,
+    "pattern": "Es geht um … (Akkusativ)",
+    "meaning": "Mesele …, konu …",
+    "note": "\"gehen um\" + Akkusativ. Soru: Worum geht es? Kişi öznesi yoktur, \"es\" sabittir.",
+    "examples": [
+      {
+        "de": "Worum geht es in dem Film?",
+        "tr": "Film ne hakkında?"
+      },
+      {
+        "de": "Es geht um meine Wohnung.",
+        "tr": "Mesele benim dairemle ilgili."
+      },
+      {
+        "de": "In dem Gespräch ging es um die Arbeitszeiten.",
+        "tr": "Görüşmede konu çalışma saatleriydi."
+      },
+      {
+        "de": "Es geht nicht um das Geld, sondern um das Prinzip.",
+        "tr": "Mesele para değil, ilke."
+      },
+      {
+        "de": "Heute geht es um das Thema Umwelt.",
+        "tr": "Bugünkü konu çevre."
+      }
+    ]
+  },
+  {
+    "id": "b1-kann-mir-vorstellen",
+    "level": "B1",
+    "priority": 54,
+    "pattern": "Ich kann mir … vorstellen",
+    "meaning": "…ı hayal edebiliyorum / …ı düşünebiliyorum",
+    "note": "\"sich (Dativ) vorstellen\": \"mir\" Dativ, hayal edilen şey Akkusativ. Zu-Infinitiv veya dass-cümlesi de gelebilir.",
+    "examples": [
+      {
+        "de": "Ich kann mir gut vorstellen, in Berlin zu leben.",
+        "tr": "Berlin'de yaşamayı çok iyi hayal edebiliyorum."
+      },
+      {
+        "de": "Das kann ich mir nicht vorstellen.",
+        "tr": "Bunu hayal edemiyorum."
+      },
+      {
+        "de": "Kannst du dir eine Welt ohne Handys vorstellen?",
+        "tr": "Cep telefonsuz bir dünya hayal edebiliyor musun?"
+      },
+      {
+        "de": "Sie kann sich nicht vorstellen, ohne Musik zu leben.",
+        "tr": "Müziksiz yaşamayı hayal edemiyor."
+      },
+      {
+        "de": "Ich kann mir vorstellen, dass er recht hat.",
+        "tr": "Haklı olabileceğini düşünebiliyorum."
+      }
+    ]
+  },
+  {
+    "id": "b1-sich-gewoehnen-an",
+    "level": "B1",
+    "priority": 55,
+    "pattern": "Ich gewöhne mich an … (Akkusativ)",
+    "meaning": "…a alışıyorum",
+    "note": "\"sich gewöhnen an\" + Akkusativ. Alışılmış durum için: Ich bin an … gewöhnt.",
+    "examples": [
+      {
+        "de": "Ich gewöhne mich langsam an das Klima.",
+        "tr": "İklime yavaş yavaş alışıyorum."
+      },
+      {
+        "de": "Hast du dich schon an die neue Arbeit gewöhnt?",
+        "tr": "Yeni işe alıştın mı artık?"
+      },
+      {
+        "de": "Die Kinder haben sich an die Schule gewöhnt.",
+        "tr": "Çocuklar okula alıştı."
+      },
+      {
+        "de": "Daran kann ich mich nicht gewöhnen.",
+        "tr": "Buna alışamıyorum."
+      },
+      {
+        "de": "Er muss sich an das frühe Aufstehen gewöhnen.",
+        "tr": "Erken kalkmaya alışması gerekiyor."
+      }
+    ]
+  },
+  {
+    "id": "b1-trotzdem",
+    "level": "B1",
+    "priority": 56,
+    "pattern": "…, trotzdem … (Verb an Position 2)",
+    "meaning": "…, yine de …",
+    "note": "\"trotzdem\" bağlaç değil zarftır; cümle başına gelince fiil hemen ardından (2. sırada) gelir. \"obwohl\"da fiil sondadır.",
+    "examples": [
+      {
+        "de": "Es regnet, trotzdem gehen wir spazieren.",
+        "tr": "Yağmur yağıyor, yine de yürüyüşe çıkıyoruz."
+      },
+      {
+        "de": "Er ist krank, trotzdem geht er zur Arbeit.",
+        "tr": "Hasta, yine de işe gidiyor."
+      },
+      {
+        "de": "Das Hotel war teuer, trotzdem war das Essen schlecht.",
+        "tr": "Otel pahalıydı, yine de yemek kötüydü."
+      },
+      {
+        "de": "Ich habe wenig Zeit, trotzdem helfe ich dir gern.",
+        "tr": "Az zamanım var, yine de sana seve seve yardım ederim."
+      },
+      {
+        "de": "Sie hat viel gelernt, trotzdem hat sie die Prüfung nicht bestanden.",
+        "tr": "Çok çalıştı, yine de sınavı geçemedi."
+      }
+    ]
+  },
+  {
+    "id": "b1-erstens-zweitens",
+    "level": "B1",
+    "priority": 57,
+    "pattern": "Erstens …, zweitens …",
+    "meaning": "Birincisi …, ikincisi …",
+    "note": "Görüş savunurken gerekçeleri sıralamak için kullanılır. Cümle başında fiil 2. sırada kalır.",
+    "examples": [
+      {
+        "de": "Ich möchte nicht umziehen. Erstens ist die Wohnung zu teuer, zweitens gefällt mir das Viertel nicht.",
+        "tr": "Taşınmak istemiyorum. Birincisi, daire çok pahalı; ikincisi, semti beğenmiyorum."
+      },
+      {
+        "de": "Erstens habe ich keine Zeit, zweitens habe ich kein Geld.",
+        "tr": "Birincisi zamanım yok, ikincisi param yok."
+      },
+      {
+        "de": "Man sollte öfter Rad fahren. Erstens ist es gesund, zweitens schont es die Umwelt.",
+        "tr": "Daha sık bisiklete binmeli. Birincisi sağlıklı, ikincisi çevreyi korur."
+      },
+      {
+        "de": "Ich lerne Deutsch. Erstens brauche ich es für die Arbeit, zweitens mag ich die Sprache.",
+        "tr": "Almanca öğreniyorum. Birincisi iş için gerekiyor, ikincisi dili seviyorum."
+      },
+      {
+        "de": "Wir bleiben zu Hause. Erstens ist es zu spät, zweitens bin ich müde.",
+        "tr": "Evde kalıyoruz. Birincisi çok geç oldu, ikincisi yorgunum."
+      }
+    ]
+  },
+  {
+    "id": "b1-es-heisst-dass",
+    "level": "B1",
+    "priority": 58,
+    "pattern": "Es heißt, dass … (Verb am Ende)",
+    "meaning": "…diği söyleniyor, …diye duydum",
+    "note": "Kaynağı belirsiz söylentileri veya yazılı duyuruları aktarır. Özne \"es\" sabittir.",
+    "examples": [
+      {
+        "de": "Es heißt, dass die Prüfung schwer ist.",
+        "tr": "Sınavın zor olduğu söyleniyor."
+      },
+      {
+        "de": "Es heißt, dass es im Winter viel schneien soll.",
+        "tr": "Kışın çok kar yağacağı söyleniyor."
+      },
+      {
+        "de": "Hier heißt es, dass wir die Anmeldung bis Freitag abgeben müssen.",
+        "tr": "Burada kaydı cumaya kadar teslim etmemiz gerektiği yazıyor."
+      },
+      {
+        "de": "Im Internet heißt es, dass das Café umzieht.",
+        "tr": "İnternette kafenin taşınacağı yazıyor."
+      },
+      {
+        "de": "In der Zeitung hieß es, dass die Straße gesperrt wird.",
+        "tr": "Gazetede yolun kapatılacağı yazıyordu."
+      }
+    ]
+  },
+  {
+    "id": "b1-eindruck",
+    "level": "B1",
+    "priority": 59,
+    "pattern": "Ich habe den Eindruck, dass … (Verb am Ende)",
+    "meaning": "…diği izlenimine sahibim, bana öyle geliyor ki …",
+    "note": "Kesin olmayan bir izlenimi bildirir. \"Eindruck\" Akkusativ alır: den Eindruck.",
+    "examples": [
+      {
+        "de": "Ich habe den Eindruck, dass er sich nicht wohlfühlt.",
+        "tr": "Kendini rahat hissetmediği izlenimine sahibim."
+      },
+      {
+        "de": "Hast du auch den Eindruck, dass es hier lauter geworden ist?",
+        "tr": "Sen de buranın daha gürültülü olduğunu düşünüyor musun?"
+      },
+      {
+        "de": "Wir haben den Eindruck, dass der Kurs zu schnell ist.",
+        "tr": "Kursun çok hızlı olduğunu düşünüyoruz."
+      },
+      {
+        "de": "Ich hatte den Eindruck, dass sie mich nicht verstanden hat.",
+        "tr": "Beni anlamadığı izlenimine kapıldım."
+      },
+      {
+        "de": "Sie hat den Eindruck, dass niemand ihr zuhört.",
+        "tr": "Kimsenin onu dinlemediği izlenimine sahip."
+      }
+    ]
+  },
+  {
+    "id": "b1-vielen-dank-fuer",
+    "level": "B1",
+    "priority": 60,
+    "pattern": "Vielen Dank für … (Akkusativ)",
+    "meaning": "…için çok teşekkürler",
+    "note": "\"Dank für\" + Akkusativ. E-postalarda başlangıç ve bitiş cümlesi olarak sık kullanılır.",
+    "examples": [
+      {
+        "de": "Vielen Dank für Ihre schnelle Antwort.",
+        "tr": "Hızlı cevabınız için çok teşekkürler."
+      },
+      {
+        "de": "Vielen Dank für die Einladung zu deinem Geburtstag.",
+        "tr": "Doğum günü davetin için çok teşekkürler."
+      },
+      {
+        "de": "Vielen Dank für Ihre Hilfe.",
+        "tr": "Yardımınız için çok teşekkürler."
+      },
+      {
+        "de": "Vielen Dank für die schönen Blumen.",
+        "tr": "O güzel çiçekler için çok teşekkürler."
+      },
+      {
+        "de": "Vielen Dank für deine Nachricht.",
+        "tr": "Mesajın için çok teşekkürler."
+      }
+    ]
+  },
+  {
+    "id": "b1-futur",
+    "level": "B1",
+    "priority": 61,
+    "pattern": "Ich werde … (Infinitiv am Ende)",
+    "meaning": "…acağım (plan, tahmin)",
+    "note": "Futur I: werden + Infinitiv. Plan, söz ve tahmin için kullanılır; günlük dilde çoğu zaman Präsens + zaman ifadesi tercih edilir.",
+    "examples": [
+      {
+        "de": "Ich werde nächstes Jahr einen Deutschkurs machen.",
+        "tr": "Seneye bir Almanca kursuna gideceğim."
+      },
+      {
+        "de": "Morgen wird es wahrscheinlich regnen.",
+        "tr": "Yarın muhtemelen yağmur yağacak."
+      },
+      {
+        "de": "Wirst du mich besuchen?",
+        "tr": "Beni ziyaret edecek misin?"
+      },
+      {
+        "de": "Wir werden dich nie vergessen.",
+        "tr": "Seni asla unutmayacağız."
+      },
+      {
+        "de": "Er wird bald fertig sein.",
+        "tr": "Yakında işini bitirmiş olacak."
+      }
+    ]
+  },
+  {
+    "id": "b1-was-haeltst-du-von",
+    "level": "B1",
+    "priority": 62,
+    "pattern": "Was hältst du von … ? (Dativ)",
+    "meaning": "…hakkında ne düşünüyorsun?",
+    "note": "\"halten von\" + Dativ. Cevap: Ich halte viel / nicht viel von …",
+    "examples": [
+      {
+        "de": "Was hältst du von meinem Vorschlag?",
+        "tr": "Önerim hakkında ne düşünüyorsun?"
+      },
+      {
+        "de": "Was halten Sie von dem neuen Chef?",
+        "tr": "Yeni müdür hakkında ne düşünüyorsunuz?"
+      },
+      {
+        "de": "Was haltet ihr von einem Ausflug am Wochenende?",
+        "tr": "Hafta sonu bir geziye ne dersiniz?"
+      },
+      {
+        "de": "Ich halte nicht viel von diesem Film.",
+        "tr": "Bu filmi pek beğenmiyorum."
+      },
+      {
+        "de": "Er hält viel von ihrer Arbeit.",
+        "tr": "Onun çalışmasına çok değer veriyor."
+      }
+    ]
+  },
+  {
+    "id": "b1-bitten-um",
+    "level": "B1",
+    "priority": 63,
+    "pattern": "Ich bitte Sie um … (Akkusativ)",
+    "meaning": "Sizden …ı rica ediyorum",
+    "note": "\"bitten um\" + Akkusativ; rica edilen kişi Akkusativ'dadır: Ich bitte dich um Hilfe.",
+    "examples": [
+      {
+        "de": "Ich bitte Sie um Verständnis.",
+        "tr": "Anlayışınızı rica ediyorum."
+      },
+      {
+        "de": "Darf ich Sie um einen Gefallen bitten?",
+        "tr": "Sizden bir iyilik rica edebilir miyim?"
+      },
+      {
+        "de": "Er hat mich um Hilfe gebeten.",
+        "tr": "Benden yardım istedi."
+      },
+      {
+        "de": "Ich möchte um einen Termin bitten.",
+        "tr": "Bir randevu rica etmek istiyorum."
+      },
+      {
+        "de": "Wir bitten um Ihre Antwort bis Freitag.",
+        "tr": "Cevabınızı cumaya kadar rica ediyoruz."
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-frage-mich",
+    "level": "B1",
+    "priority": 64,
+    "pattern": "Ich frage mich, ob / warum / wie … (Verb am Ende)",
+    "meaning": "Merak ediyorum, acaba …",
+    "note": "\"sich fragen\" ile içinden geçen soru anlatılır; dolaylı soru olduğundan fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Ich frage mich, ob er wirklich kommt.",
+        "tr": "Acaba gerçekten gelecek mi diye merak ediyorum."
+      },
+      {
+        "de": "Wir fragen uns, warum der Zug so spät ist.",
+        "tr": "Trenin neden bu kadar geciktiğini merak ediyoruz."
+      },
+      {
+        "de": "Sie fragt sich, wie sie das schaffen soll.",
+        "tr": "Bunu nasıl başaracağını düşünüp duruyor."
+      },
+      {
+        "de": "Ich frage mich manchmal, was meine alten Freunde machen.",
+        "tr": "Bazen eski arkadaşlarımın ne yaptığını merak ediyorum."
+      },
+      {
+        "de": "Fragst du dich nicht, wer die Rechnung bezahlt hat?",
+        "tr": "Faturayı kimin ödediğini merak etmiyor musun?"
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-bin-gespannt",
+    "level": "B1",
+    "priority": 65,
+    "pattern": "Ich bin gespannt, ob / wie / was … (Verb am Ende)",
+    "meaning": "Merakla bekliyorum, …",
+    "note": "\"gespannt sein\" sonrası dolaylı soru gelir; virgül konur ve fiil sonda durur.",
+    "examples": [
+      {
+        "de": "Ich bin gespannt, ob die Prüfung schwer wird.",
+        "tr": "Sınavın zor olup olmayacağını merakla bekliyorum."
+      },
+      {
+        "de": "Wir sind gespannt, wie dir die Stadt gefällt.",
+        "tr": "Şehri nasıl bulacağını merakla bekliyoruz."
+      },
+      {
+        "de": "Sie ist gespannt, was sie zum Geburtstag bekommt.",
+        "tr": "Doğum günü için ne alacağını merakla bekliyor."
+      },
+      {
+        "de": "Ich bin gespannt, wann der neue Film anläuft.",
+        "tr": "Yeni filmin ne zaman vizyona gireceğini merak ediyorum."
+      },
+      {
+        "de": "Er war gespannt, wer die Stelle bekommen würde.",
+        "tr": "İşi kimin alacağını merakla bekliyordu."
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-erkundige-mich-nach",
+    "level": "B1",
+    "priority": 66,
+    "pattern": "Ich erkundige mich nach … (Dativ)",
+    "meaning": "…ı soruyorum, …hakkında bilgi alıyorum",
+    "note": "\"sich erkundigen nach\" + Dativ; telefonda ve resmî yazışmada bilgi isterken sık kullanılır.",
+    "examples": [
+      {
+        "de": "Ich erkundige mich nach den Öffnungszeiten.",
+        "tr": "Çalışma saatlerini soruyorum."
+      },
+      {
+        "de": "Ich möchte mich nach einem Sprachkurs erkundigen.",
+        "tr": "Bir dil kursu hakkında bilgi almak istiyorum."
+      },
+      {
+        "de": "Er hat sich beim Hotel nach einem freien Zimmer erkundigt.",
+        "tr": "Otelden boş oda olup olmadığını sordu."
+      },
+      {
+        "de": "Wir erkundigen uns nach dem Preis für die Reise.",
+        "tr": "Gezinin fiyatını soruyoruz."
+      },
+      {
+        "de": "Sie hat sich nach dem Weg zum Museum erkundigt.",
+        "tr": "Müzenin yolunu sordu."
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-traeume-davon-zu",
+    "level": "B1",
+    "priority": 67,
+    "pattern": "Ich träume davon, … zu (Infinitiv)",
+    "meaning": "…mayı hayal ediyorum",
+    "note": "Da-Wort (davon) ana cümlede, asıl içerik zu-Infinitiv ile gelir. Yan cümlenin öznesi aynıdır.",
+    "examples": [
+      {
+        "de": "Ich träume davon, ein eigenes Haus zu kaufen.",
+        "tr": "Kendi evimi almayı hayal ediyorum."
+      },
+      {
+        "de": "Sie träumt davon, als Ärztin zu arbeiten.",
+        "tr": "Doktor olarak çalışmayı hayal ediyor."
+      },
+      {
+        "de": "Wir träumen davon, einmal um die Welt zu reisen.",
+        "tr": "Bir gün dünyayı dolaşmayı hayal ediyoruz."
+      },
+      {
+        "de": "Er träumt davon, ein Buch zu schreiben.",
+        "tr": "Bir kitap yazmayı hayal ediyor."
+      },
+      {
+        "de": "Träumst du auch davon, nicht mehr arbeiten zu müssen?",
+        "tr": "Sen de artık çalışmak zorunda kalmamayı hayal ediyor musun?"
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-bin-dabei-zu",
+    "level": "B1",
+    "priority": 68,
+    "pattern": "Ich bin gerade dabei, … zu (Infinitiv)",
+    "meaning": "Şu an tam …mak üzereyim / …makla meşgulüm",
+    "note": "\"dabei sein\" ile o anda süren bir eylem anlatılır; zu-Infinitiv cümle sonunda gelir.",
+    "examples": [
+      {
+        "de": "Ich bin gerade dabei, das Abendessen zu kochen.",
+        "tr": "Şu an akşam yemeğini pişirmekle meşgulüm."
+      },
+      {
+        "de": "Wir sind dabei, eine neue Wohnung zu suchen.",
+        "tr": "Yeni bir daire arıyoruz şu sıralar."
+      },
+      {
+        "de": "Sie war gerade dabei, einen Brief zu schreiben.",
+        "tr": "Tam o sırada bir mektup yazıyordu."
+      },
+      {
+        "de": "Er ist dabei, seinen Koffer zu packen.",
+        "tr": "Valizini hazırlamakla meşgul."
+      },
+      {
+        "de": "Bist du schon dabei, dich auf die Prüfung vorzubereiten?",
+        "tr": "Sınava hazırlanmaya başladın mı artık?"
+      }
+    ]
+  },
+  {
+    "id": "b1-ich-bin-froh-dass",
+    "level": "B1",
+    "priority": 69,
+    "pattern": "Ich bin froh, dass … (Verb am Ende)",
+    "meaning": "…mesine sevindim, …ması iyi oldu",
+    "note": "\"froh sein, dass\" ile duygu bildirilir; yan cümlede fiil sonda durur. Aynı özne için zu-Infinitiv de olur: Ich bin froh, dich zu sehen.",
+    "examples": [
+      {
+        "de": "Ich bin froh, dass du gekommen bist.",
+        "tr": "Geldiğin için çok sevindim."
+      },
+      {
+        "de": "Wir sind froh, dass das Wetter so schön ist.",
+        "tr": "Havanın bu kadar güzel olmasına sevindik."
+      },
+      {
+        "de": "Sie ist froh, dass sie die Prüfung bestanden hat.",
+        "tr": "Sınavı geçtiği için mutlu."
+      },
+      {
+        "de": "Ich bin ehrlich froh, dass wir umgezogen sind.",
+        "tr": "Taşındığımıza gerçekten memnunum."
+      },
+      {
+        "de": "Bist du nicht froh, dass morgen Wochenende ist?",
+        "tr": "Yarın hafta sonu olduğu için sevinmiyor musun?"
+      }
+    ]
+  },
+  {
+    "id": "b1-enttaeuscht-von",
+    "level": "B1",
+    "priority": 70,
+    "pattern": "Ich bin von … enttäuscht (Dativ)",
+    "meaning": "… beni hayal kırıklığına uğrattı / … konusunda hayal kırıklığına uğradım",
+    "note": "\"enttäuscht sein von\" + Dativ. Soru: Wovon? / Von wem? Gerekçe için \"dass\" cümlesi de gelebilir.",
+    "examples": [
+      {
+        "de": "Ich bin von dem Film sehr enttäuscht.",
+        "tr": "Film beni çok hayal kırıklığına uğrattı."
+      },
+      {
+        "de": "Sie ist von ihrem Freund enttäuscht.",
+        "tr": "Erkek arkadaşı onu hayal kırıklığına uğrattı."
+      },
+      {
+        "de": "Wir waren vom Hotel ziemlich enttäuscht.",
+        "tr": "Otel bizi epey hayal kırıklığına uğrattı."
+      },
+      {
+        "de": "Der Trainer ist von der Leistung der Mannschaft enttäuscht.",
+        "tr": "Takımın performansı antrenörü hayal kırıklığına uğrattı."
+      },
+      {
+        "de": "Bist du vom Ergebnis nicht enttäuscht?",
+        "tr": "Sonuç seni hayal kırıklığına uğratmadı mı?"
+      }
+    ]
   }
 ]
