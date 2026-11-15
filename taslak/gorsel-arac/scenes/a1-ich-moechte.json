@@ -1,0 +1,5 @@
+{"id":"a1-ich-moechte","bg":"cafe","keyword":"möchte",
+ "alt":"Kafede duran kişinin düşünce balonunda kahve ve kruvasan",
+ "people":[{"pose":"RestingBW","face":"Smile","hair":"ShortCurly","x":82,"skin":"medium","dark":"navy"}],
+ "bubble":{"type":"thought","from":0,"emoji":["☕","🥐"]},
+ "cue":"Tezgâhta kafandaki kahve bulutu 'möchte' diyor; istediğin şey (mastar) en sona gider: Ich möchte … trinken."}

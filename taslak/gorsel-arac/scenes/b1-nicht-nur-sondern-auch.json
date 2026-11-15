@@ -1,0 +1,37 @@
+{
+  "id": "b1-nicht-nur-sondern-auch",
+  "bg": "classroom",
+  "keyword": "nicht nur … sondern auch",
+  "alt": "İki bayrak ve artı işaretiyle çok dilli kişi",
+  "people": [
+    {
+      "pose": "bust:Explaining",
+      "face": "SmileBig",
+      "hair": "Twists",
+      "x": 80,
+      "skin": "dark",
+      "shirt": "purple"
+    }
+  ],
+  "objects": [
+    {
+      "emoji": "🇩🇪",
+      "x": 185,
+      "y": 90,
+      "size": 50
+    },
+    {
+      "emoji": "➕",
+      "x": 225,
+      "y": 90,
+      "size": 34
+    },
+    {
+      "emoji": "🇪🇸",
+      "x": 265,
+      "y": 90,
+      "size": 50
+    }
+  ],
+  "cue": "Bir bayrak yetmez, yanına ikincisi gelir: nicht nur Deutsch, sondern auch Spanisch."
+}

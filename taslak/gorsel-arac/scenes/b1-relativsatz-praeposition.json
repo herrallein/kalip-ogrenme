@@ -1,0 +1,40 @@
+{
+ "id": "b1-relativsatz-praeposition",
+ "bg": "office",
+ "keyword": "mit der",
+ "alt": "İki iş arkadaşı bilgisayar başında el sıkışıyor",
+ "people": [
+  {
+   "pose": "bust:BlazerBlackTee",
+   "face": "Smile",
+   "hair": "LongBangs",
+   "x": 65,
+   "skin": "brown",
+   "shirt": "navy"
+  },
+  {
+   "pose": "bust:ShirtFilled",
+   "face": "Calm",
+   "hair": "Short",
+   "x": 255,
+   "skin": "light",
+   "shirt": "teal",
+   "flip": true
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🤝",
+   "x": 160,
+   "y": 125,
+   "size": 60
+  },
+  {
+   "emoji": "💻",
+   "x": 160,
+   "y": 65,
+   "size": 40
+  }
+ ],
+ "cue": "Tokalaşan iş arkadaşın: edat önce, artikel ilgi zamiri olur: die Kollegin, mit der ich arbeite."
+}

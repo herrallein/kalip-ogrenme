@@ -1,0 +1,43 @@
+{
+ "id": "a2-wenn",
+ "bg": "street",
+ "keyword": "wenn",
+ "alt": "Yağmur bulutu ve şemsiye; şart ve sonuç",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Concerned",
+   "hair": "ShortCurly",
+   "x": 86,
+   "skin": "brown",
+   "shirt": "orange"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🌧️",
+   "x": 196,
+   "y": 56,
+   "size": 52
+  },
+  {
+   "emoji": "☂️",
+   "x": 256,
+   "y": 128,
+   "size": 50
+  }
+ ],
+ "arrow": {
+  "from": [
+   200,
+   86
+  ],
+  "to": [
+   246,
+   108
+  ],
+  "bend": 22,
+  "style": "dotted"
+ },
+ "cue": "Bulut yağdırırsa (şart) şemsiye açılır (sonuç): Wenn es regnet, bleibe ich … Şart önce, fiil şart cümlesinin sonunda."
+}

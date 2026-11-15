@@ -1,0 +1,31 @@
+{
+ "id": "a2-gefaellt-mir",
+ "bg": "home",
+ "keyword": "gefällt mir",
+ "alt": "Yeni daireyi görüp kalpli gözlerle bakan kişi",
+ "people": [
+  {
+   "pose": "bust:ButtonShirt",
+   "face": "LoveGrin",
+   "hair": "Long",
+   "x": 84,
+   "skin": "dark",
+   "shirt": "orange"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🏠",
+   "x": 214,
+   "y": 96,
+   "size": 60
+  },
+  {
+   "emoji": "❤️",
+   "x": 268,
+   "y": 56,
+   "size": 44
+  }
+ ],
+ "cue": "Daireyi görünce gözlerinde kalp: Die Wohnung gefällt MIR. Beğenen sensin, o yüzden \"mir\" (Dativ)."
+}

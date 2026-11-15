@@ -1,0 +1,39 @@
+{
+ "id": "b1-vergiss-nicht-zu",
+ "bg": "home",
+ "keyword": "vergiss nicht",
+ "alt": "Kapıyı kilitlemeyi hatırlatan kişi",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Serious",
+   "hair": "Beanie",
+   "x": 70,
+   "skin": "light",
+   "shirt": "red"
+  }
+ ],
+ "props": [
+  {
+   "type": "door",
+   "x": 250,
+   "y": 182,
+   "scale": 1.1
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🔒",
+   "x": 250,
+   "y": 100,
+   "size": 40
+  },
+  {
+   "emoji": "❗",
+   "x": 170,
+   "y": 70,
+   "size": 44
+  }
+ ],
+ "cue": "Parmak havada: kapı kilitli mi? Emir hatırlatma: Vergiss nicht, die Tür abzuschließen."
+}

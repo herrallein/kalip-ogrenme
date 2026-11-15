@@ -1,0 +1,33 @@
+{
+ "id": "b2-sollte-ohne-wenn",
+ "bg": "office",
+ "keyword": "Sollten Sie",
+ "alt": "Telefonu işaret eden yönetici; balonda soru işareti",
+ "people": [
+  {
+   "pose": "bust:BlazerBlackTee",
+   "face": "Smile",
+   "hair": "MediumShade",
+   "x": 88,
+   "skin": "medium",
+   "shirt": "brown",
+   "dark": "navy"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "❓"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "☎️",
+   "x": 236,
+   "y": 114,
+   "size": 56
+  }
+ ],
+ "cue": "Sorunuz olursa: telefon yanında, resmî nezaket: Sollten Sie Fragen haben, rufen Sie an."
+}

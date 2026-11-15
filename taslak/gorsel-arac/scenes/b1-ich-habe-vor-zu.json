@@ -1,0 +1,31 @@
+{
+  "id": "b1-ich-habe-vor-zu",
+  "bg": "home",
+  "keyword": "vor",
+  "alt": "Taşınma kolilerine ve takvime bakan kararlı kişi",
+  "people": [
+    {
+      "pose": "bust:Gaming",
+      "face": "Driven",
+      "hair": "Medium",
+      "x": 88,
+      "skin": "medium",
+      "shirt": "orange"
+    }
+  ],
+  "objects": [
+    {
+      "emoji": "🗓️",
+      "x": 240,
+      "y": 80,
+      "size": 56
+    },
+    {
+      "emoji": "📦",
+      "x": 255,
+      "y": 150,
+      "size": 46
+    }
+  ],
+  "cue": "Takvimde işaretli gün, yanında koliler: bir planın var: Ich habe vor, nächstes Jahr umzuziehen."
+}

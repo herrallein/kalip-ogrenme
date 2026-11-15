@@ -1,0 +1,25 @@
+{
+ "id": "a2-ich-wuerde-gern",
+ "bg": "sky",
+ "keyword": "würde gern",
+ "alt": "Düşünce balonunda İtalya bayrağı ve plaj; hayal kuran kişi",
+ "people": [
+  {
+   "pose": "bust:Coffee",
+   "face": "LoveGrin",
+   "hair": "Bun",
+   "x": 84,
+   "skin": "light",
+   "shirt": "pink"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🇮🇹",
+   "🏖️"
+  ]
+ },
+ "cue": "Yazın İtalya hayali: \"Ich würde gern … fahren\" = gitsem ne güzel olurdu; yumuşak dilek, fiil mastar olarak sonda."
+}

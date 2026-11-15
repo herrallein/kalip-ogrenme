@@ -1,0 +1,25 @@
+{
+ "id": "b1-denken-an",
+ "bg": "home",
+ "keyword": "denken an",
+ "alt": "Büyükanne ve büyükbabayı düşünen kişi",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Smile",
+   "hair": "GrayMedium",
+   "x": 88,
+   "skin": "light",
+   "shirt": "brown"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "👵",
+   "👴"
+  ]
+ },
+ "cue": "Düşünce balonunda dede ile nine: \"denken an\" + Akkusativ: Ich denke oft an meine Großeltern."
+}

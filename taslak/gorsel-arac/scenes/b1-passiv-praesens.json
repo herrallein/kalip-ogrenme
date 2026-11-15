@@ -1,0 +1,31 @@
+{
+ "id": "b1-passiv-praesens",
+ "bg": "street",
+ "keyword": "wird … -t",
+ "alt": "Yapım halindeki bina, vinç ve izleyen kişi",
+ "people": [
+  {
+   "pose": "bust:Coffee",
+   "face": "Calm",
+   "hair": "Medium",
+   "x": 70,
+   "skin": "brown",
+   "shirt": "yellow"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🏗️",
+   "x": 230,
+   "y": 100,
+   "size": 64
+  },
+  {
+   "emoji": "🚧",
+   "x": 285,
+   "y": 160,
+   "size": 34
+  }
+ ],
+ "cue": "Bina yapılıyor ama kimse görünmüyor: edilgende iş önemli, yapan değil: Das Haus wird renoviert."
+}

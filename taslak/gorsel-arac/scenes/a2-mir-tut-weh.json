@@ -1,0 +1,31 @@
+{
+ "id": "a2-mir-tut-weh",
+ "bg": "doctor",
+ "keyword": "weh",
+ "alt": "Başını tutan ağrılı kişi",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Concerned",
+   "hair": "Bun",
+   "x": 86,
+   "skin": "light",
+   "shirt": "orange"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🤕",
+   "x": 208,
+   "y": 74,
+   "size": 48
+  },
+  {
+   "emoji": "💥",
+   "x": 266,
+   "y": 126,
+   "size": 44
+  }
+ ],
+ "cue": "Başın zonkluyor: Mir tut der KOPF weh. Ağrıyan yer özne, ağrıyan sen mir."
+}

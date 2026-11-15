@@ -1,0 +1,33 @@
+{
+ "id": "a2-wie-waere-es-mit",
+ "bg": "park",
+ "keyword": "Wie wäre es mit",
+ "alt": "Bankın yanında yürüyüş önerisi yapan yaşlı kişi",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Smile",
+   "hair": "GrayBun",
+   "x": 80,
+   "skin": "light",
+   "shirt": "orange"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🚶",
+   "🌳"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "🌷",
+   "x": 250,
+   "y": 140,
+   "size": 40
+  }
+ ],
+ "cue": "Parkı gösterip \"Yürüyüşe ne dersin?\" diyorsun: Wie wäre es mit einem Spaziergang? \"mit\" arkasından Dativ."
+}

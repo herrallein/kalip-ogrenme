@@ -1,0 +1,33 @@
+{
+ "id": "b1-wenn-haette-wuerde",
+ "bg": "sky",
+ "keyword": "würde",
+ "alt": "Bulutlarda para ve uçak hayal eden gülümseyen kadın",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Smile",
+   "hair": "Long",
+   "x": 90,
+   "skin": "light",
+   "shirt": "pink"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "💰",
+   "✈️"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "🏝️",
+   "x": 255,
+   "y": 140,
+   "size": 44
+  }
+ ],
+ "cue": "Para yok ama bulutta var: \"hätte\" gerçek dışı koşul, \"würde\" + sondaki mastar: Wenn ich Geld hätte, würde ich reisen."
+}

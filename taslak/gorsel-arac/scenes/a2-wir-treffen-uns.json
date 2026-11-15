@@ -1,0 +1,39 @@
+{
+ "id": "a2-wir-treffen-uns",
+ "bg": "street",
+ "keyword": "treffen uns",
+ "alt": "Saat ve sinema önünde buluşan iki arkadaş",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "SmileBig",
+   "hair": "Short",
+   "x": 66,
+   "skin": "light",
+   "shirt": "blue"
+  },
+  {
+   "pose": "bust:Dress",
+   "face": "SmileBig",
+   "hair": "Long",
+   "x": 232,
+   "skin": "brown",
+   "shirt": "red"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🕗",
+   "x": 148,
+   "y": 72,
+   "size": 42
+  },
+  {
+   "emoji": "🎬",
+   "x": 150,
+   "y": 128,
+   "size": 40
+  }
+ ],
+ "cue": "Saat 8, sinemanın önü: Wir treffen UNS um acht Uhr VOR dem Kino. Buluşma = sich treffen (uns)."
+}

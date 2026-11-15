@@ -1,9 +1,10 @@
 // Elle yazılmış servis çalışanı.
 // - Gezinme ve index.html: ağ önce, ağ yoksa önbellek (çevrimdışı çalışır).
 // - /assets/ (hash'li, değişmez): önbellek önce.
+// - /visuals/ (görseller): önbellek önce, ilk istekte önbelleğe alınır.
 // - Diğer aynı kaynaklı GET: önbellek önce, arkada tazele.
 // Yeni sürümde VERSION'ı artır; eski önbellekler activate'te silinir.
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE = `kalip-ogrenme-${VERSION}`;
 
 self.addEventListener('install', (event) => {
@@ -37,7 +38,7 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
 
   const isPage = req.mode === 'navigate' || url.pathname.endsWith('/index.html');
-  const isAsset = url.pathname.includes('/assets/');
+  const isAsset = url.pathname.includes('/assets/') || url.pathname.includes('/visuals/');
 
   if (isPage) {
     event.respondWith(

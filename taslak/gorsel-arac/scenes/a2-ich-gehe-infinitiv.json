@@ -1,0 +1,31 @@
+{
+ "id": "a2-ich-gehe-infinitiv",
+ "bg": "shop",
+ "keyword": "gehe",
+ "alt": "Alışveriş poşetiyle sevinçli kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Smile",
+   "hair": "Short",
+   "x": 86,
+   "skin": "light",
+   "shirt": "pink"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🛍️",
+   "x": 216,
+   "y": 100,
+   "size": 52
+  },
+  {
+   "emoji": "🛒",
+   "x": 268,
+   "y": 130,
+   "size": 42
+  }
+ ],
+ "cue": "Sepet hazır: Ich gehe EINKAUFEN. \"gehen + mastar\" = -meye gitmek; mastar cümle sonunda."
+}

@@ -1,0 +1,50 @@
+{
+ "id": "b1-es-liegt-an",
+ "bg": "station",
+ "keyword": "liegt an",
+ "alt": "Tren gecikmesinin sebebini araştıran kişi",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "Suspicious",
+   "hair": "MediumLong",
+   "x": 80,
+   "skin": "dark",
+   "shirt": "yellow",
+   "accessory": "GlassRound"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🚆",
+   "x": 180,
+   "y": 90,
+   "size": 40
+  },
+  {
+   "emoji": "🌧️",
+   "x": 270,
+   "y": 70,
+   "size": 50
+  },
+  {
+   "emoji": "🔍",
+   "x": 220,
+   "y": 145,
+   "size": 38
+  }
+ ],
+ "arrow": {
+  "from": [
+   200,
+   95
+  ],
+  "to": [
+   250,
+   75
+  ],
+  "bend": -22,
+  "style": "solid"
+ },
+ "cue": "Tren neden geç? Büyüteçle arıyorsun, ok sebebe uzanıyor: Das liegt am schlechten Wetter."
+}

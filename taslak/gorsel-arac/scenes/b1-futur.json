@@ -1,0 +1,37 @@
+{
+ "id": "b1-futur",
+ "bg": "sky",
+ "keyword": "werde",
+ "alt": "Kristal küreye bakıp geleceği planlayan kişi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Driven",
+   "hair": "Medium",
+   "x": 80,
+   "skin": "dark",
+   "shirt": "purple"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🔮",
+   "x": 235,
+   "y": 85,
+   "size": 62
+  }
+ ],
+ "arrow": {
+  "from": [
+   130,
+   155
+  ],
+  "to": [
+   295,
+   155
+  ],
+  "bend": 0,
+  "marker": "timeline"
+ },
+ "cue": "Kristal küre geleceği gösteriyor, ok ileriye gidiyor: \"werde\" + sondaki mastar: Ich werde Deutsch lernen."
+}

@@ -1,0 +1,31 @@
+{
+ "id": "a2-ich-finde",
+ "bg": "home",
+ "keyword": "finde",
+ "alt": "Televizyon izlerken sıkılan kişi, başparmak aşağı",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "Contempt",
+   "hair": "Medium",
+   "x": 86,
+   "skin": "light",
+   "shirt": "red"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📺",
+   "x": 226,
+   "y": 108,
+   "size": 56
+  },
+  {
+   "emoji": "👎",
+   "x": 268,
+   "y": 56,
+   "size": 40
+  }
+ ],
+ "cue": "Film sıkıcı, başparmak aşağı: Ich finde den Film langweilig. Görüşünü \"finde + sıfat\" ile söylersin."
+}

@@ -1,0 +1,26 @@
+{
+ "id": "b2-davon-ueberzeugt",
+ "bg": "meeting",
+ "keyword": "überzeugt",
+ "alt": "Kendinden emin, parmak kaldıran kişi; balonda yüz puan",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Driven",
+   "hair": "BunCurly",
+   "x": 92,
+   "skin": "brown",
+   "shirt": "pink",
+   "dark": "navy",
+   "facialHair": "Full"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "💯"
+  ]
+ },
+ "cue": "Yüz puanlık kesin inanç! Ich bin davon überzeugt, dass … ve fiil cümlenin sonuna gider."
+}

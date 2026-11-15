@@ -1,0 +1,31 @@
+{
+ "id": "b1-zufrieden-mit",
+ "bg": "home",
+ "keyword": "zufrieden mit",
+ "alt": "Yeni evinin anahtarıyla mutlu kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "SmileBig",
+   "hair": "ShortWavy",
+   "x": 88,
+   "skin": "light",
+   "shirt": "yellow"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🏡",
+   "x": 230,
+   "y": 100,
+   "size": 60
+  },
+  {
+   "emoji": "🔑",
+   "x": 270,
+   "y": 160,
+   "size": 36
+  }
+ ],
+ "cue": "Yeni ev, anahtar elinde, gülüyorsun: \"zufrieden mit\" + Dativ: Ich bin mit meiner Wohnung zufrieden."
+}

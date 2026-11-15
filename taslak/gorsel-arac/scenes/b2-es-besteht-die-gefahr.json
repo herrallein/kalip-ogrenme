@@ -1,0 +1,32 @@
+{
+ "id": "b2-es-besteht-die-gefahr",
+ "bg": "street",
+ "keyword": "Gefahr",
+ "alt": "Eve yaklaşan dalga; korkmuş kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Fear",
+   "hair": "MediumStraight",
+   "x": 160,
+   "skin": "dark",
+   "shirt": "green",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🌊",
+   "x": 48,
+   "y": 128,
+   "size": 70
+  },
+  {
+   "emoji": "🏡",
+   "x": 276,
+   "y": 140,
+   "size": 52
+  }
+ ],
+ "cue": "Dev dalga eve doğru geliyor: Es besteht die Gefahr einer Überschwemmung."
+}

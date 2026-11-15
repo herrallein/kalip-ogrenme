@@ -1,0 +1,43 @@
+{
+ "id": "b2-im-gegensatz-zu",
+ "bg": "plain",
+ "keyword": "im Gegensatz zu",
+ "alt": "İki zıt kişi; biri ateş gibi sıcak, öteki buz gibi soğuk",
+ "bgColor": "#eef1f7",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "SmileBig",
+   "hair": "ShortCurly",
+   "x": 90,
+   "skin": "dark",
+   "shirt": "red",
+   "dark": "navy"
+  },
+  {
+   "pose": "bust:Shirt",
+   "face": "Tired",
+   "hair": "Long",
+   "x": 230,
+   "skin": "light",
+   "shirt": "blue",
+   "dark": "navy",
+   "flip": true
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🔥",
+   "x": 160,
+   "y": 56,
+   "size": 46
+  },
+  {
+   "emoji": "❄️",
+   "x": 160,
+   "y": 150,
+   "size": 46
+  }
+ ],
+ "cue": "Ateşli ve buz gibi iki arkadaş yan yana: Im Gegensatz zu Anna ist Ben ruhig. Zıtlık."
+}

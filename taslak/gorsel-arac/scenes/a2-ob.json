@@ -1,0 +1,38 @@
+{
+ "id": "a2-ob",
+ "bg": "plain",
+ "bgColor": "#FFF0C8",
+ "keyword": "ob",
+ "alt": "Evet ve hayır arasında kararsız kişi",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "Suspicious",
+   "hair": "Short",
+   "x": 86,
+   "skin": "medium",
+   "shirt": "gray"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "✅",
+   "x": 196,
+   "y": 60,
+   "size": 42
+  },
+  {
+   "emoji": "❌",
+   "x": 264,
+   "y": 60,
+   "size": 42
+  },
+  {
+   "emoji": "❓",
+   "x": 230,
+   "y": 128,
+   "size": 44
+  }
+ ],
+ "cue": "Evet mi hayır mı? Kararsızsın: Ich weiß nicht, OB er heute kommt. \"ob\" = olup olmadığı, fiil sonda."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "b1-trotzdem",
+ "bg": "park",
+ "keyword": "trotzdem",
+ "alt": "Yağmura rağmen gülen iki yürüyüşçü",
+ "people": [
+  {
+   "pose": "bust:SportyShirt",
+   "face": "SmileLol",
+   "hair": "Buns",
+   "x": 65,
+   "skin": "brown",
+   "shirt": "orange"
+  },
+  {
+   "pose": "bust:Hoodie",
+   "face": "SmileBig",
+   "hair": "Mohawk",
+   "x": 255,
+   "skin": "light",
+   "shirt": "blue",
+   "flip": true
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🌧️",
+   "x": 160,
+   "y": 60,
+   "size": 56
+  },
+  {
+   "emoji": "☂️",
+   "x": 160,
+   "y": 140,
+   "size": 40
+  }
+ ],
+ "cue": "Yağmur yağsın, kahkaha atıyorlar: \"trotzdem\" fiili hemen arkasına, 2. sıraya çeker: Es regnet, trotzdem gehen wir."
+}

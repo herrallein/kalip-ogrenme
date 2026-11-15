@@ -1,0 +1,31 @@
+{
+ "id": "a2-hoffentlich",
+ "bg": "park",
+ "keyword": "Hoffentlich",
+ "alt": "Parmaklarını çaprazlayıp güneş bekleyen kişi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Smile",
+   "hair": "Long",
+   "x": 84,
+   "skin": "brown",
+   "shirt": "yellow"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "☀️",
+   "x": 212,
+   "y": 62,
+   "size": 58
+  },
+  {
+   "emoji": "🤞",
+   "x": 268,
+   "y": 126,
+   "size": 46
+  }
+ ],
+ "cue": "Parmaklar çapraz, gözler güneşte: Hoffentlich scheint morgen die Sonne. Hemen ardından fiil gelir."
+}

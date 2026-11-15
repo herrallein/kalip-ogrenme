@@ -1,0 +1,42 @@
+{
+ "id": "b1-an-deiner-stelle",
+ "bg": "office",
+ "keyword": "An deiner Stelle",
+ "alt": "İki kişi yer değiştiriyor, biri sözleşmeyi reddediyor",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Suspicious",
+   "hair": "Bun",
+   "x": 65,
+   "skin": "light",
+   "shirt": "red"
+  },
+  {
+   "pose": "bust:Paper",
+   "face": "Concerned",
+   "hair": "ShortCurly",
+   "x": 255,
+   "skin": "brown",
+   "shirt": "blue",
+   "flip": true
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "✍️",
+   "🚫"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "🔄",
+   "x": 160,
+   "y": 130,
+   "size": 56
+  }
+ ],
+ "cue": "Yerler değişiyor: sen onun yerinde olsan imzalamazdın: An deiner Stelle würde ich …"
+}

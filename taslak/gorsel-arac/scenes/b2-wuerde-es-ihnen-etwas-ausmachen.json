@@ -1,0 +1,26 @@
+{
+ "id": "b2-wuerde-es-ihnen-etwas-ausmachen",
+ "bg": "home",
+ "keyword": "Würde es Ihnen etwas ausmachen",
+ "alt": "Pencereyi açmak için nazikçe soran kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Concerned",
+   "hair": "LongBangs",
+   "x": 88,
+   "skin": "brown",
+   "shirt": "purple",
+   "dark": "navy"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🪟",
+   "❓"
+  ]
+ },
+ "cue": "Pencere sıcak, ama izin lazım: kibarca soruyor, Würde es Ihnen etwas ausmachen, wenn ich … öffne?"
+}

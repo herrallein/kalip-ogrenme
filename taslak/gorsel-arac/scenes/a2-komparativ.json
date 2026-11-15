@@ -1,0 +1,39 @@
+{
+ "id": "a2-komparativ",
+ "bg": "street",
+ "keyword": "als",
+ "alt": "Uzun boylu ve kısa boylu iki kişi; ok uzun olana",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Smile",
+   "hair": "FlatTop",
+   "x": 72,
+   "skin": "brown",
+   "shirt": "blue",
+   "scale": 1.3
+  },
+  {
+   "pose": "bust:Dress",
+   "face": "Smile",
+   "hair": "Bun",
+   "x": 236,
+   "skin": "light",
+   "shirt": "red",
+   "scale": 0.9
+  }
+ ],
+ "arrow": {
+  "from": [
+   146,
+   60
+  ],
+  "to": [
+   96,
+   24
+  ],
+  "bend": -18,
+  "style": "dotted"
+ },
+ "cue": "Abin kardeşinden uzun, ok yükseğe çıkıyor: Mein Bruder ist GRÖßER ALS ich. -er sonekiyle \"als\"."
+}

@@ -1,0 +1,32 @@
+{
+ "id": "a2-es-tut-mir-leid",
+ "bg": "plain",
+ "bgColor": "#E8E0F5",
+ "keyword": "leid",
+ "alt": "Üzgün kişi ve kırık kalp",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Concerned",
+   "hair": "Medium",
+   "x": 86,
+   "skin": "medium",
+   "shirt": "gray"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "💔",
+   "x": 214,
+   "y": 92,
+   "size": 62
+  },
+  {
+   "emoji": "😔",
+   "x": 268,
+   "y": 56,
+   "size": 38
+  }
+ ],
+ "cue": "Kırık kalp, mahcup yüz: Es tut mir leid, ABER … özürden sonra asıl kötü haber \"aber\" ile gelir."
+}

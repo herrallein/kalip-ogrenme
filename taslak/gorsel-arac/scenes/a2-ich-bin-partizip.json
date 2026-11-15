@@ -1,0 +1,5 @@
+{"id":"a2-ich-bin-partizip","bg":"street","keyword":"bin",
+ "alt":"Ayak izlerini bırakarak yürüyüp eve varan kişi",
+ "people":[{"pose":"WalkingWB","face":"Smile","hair":"Short","x":196,"skin":"medium","shirt":"orange"}],
+ "objects":[{"emoji":"🏠","x":282,"y":104,"size":58},{"emoji":"👣","x":30,"y":160,"size":26,"rot":90},{"emoji":"👣","x":72,"y":158,"size":26,"rot":90},{"emoji":"👣","x":114,"y":160,"size":26,"rot":90},{"emoji":"👣","x":156,"y":158,"size":26,"rot":90}],
+ "cue":"Ayak izleri evin kapısında bitiyor: yer değiştirdin, o yüzden 'bin': Ich bin nach Hause gegangen."}

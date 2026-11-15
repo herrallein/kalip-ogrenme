@@ -1,0 +1,34 @@
+{
+ "id": "b2-haette-ich-ohne-wenn",
+ "bg": "home",
+ "keyword": "Hätte ich",
+ "alt": "Geçmişe bakıp pişman kişi; balonda uçak ve palmiye, boş para",
+ "people": [
+  {
+   "pose": "bust:Hoodie",
+   "face": "Concerned",
+   "hair": "Mohawk",
+   "x": 90,
+   "skin": "light",
+   "shirt": "yellow",
+   "dark": "navy"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "✈️",
+   "🌴"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "💸",
+   "x": 240,
+   "y": 110,
+   "size": 52
+  }
+ ],
+ "cue": "Param olsaydı tatildeydim: cebi boş, kafası palmiyede; Hätte ich Geld, wäre ich …"
+}

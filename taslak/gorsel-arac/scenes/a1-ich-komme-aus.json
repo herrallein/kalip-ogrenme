@@ -1,0 +1,6 @@
+{"id":"a1-ich-komme-aus","bg":"park","keyword":"aus",
+ "alt":"Türk bayrağından valizle yola çıkıp gelen gülümseyen kişi",
+ "people":[{"pose":"WalkingBW","face":"Smile","hair":"Bun","x":246,"skin":"brown","dark":"navy","flip":true}],
+ "objects":[{"emoji":"🇹🇷","x":64,"y":66,"size":60},{"emoji":"🧳","x":196,"y":150,"size":34}],
+ "arrow":{"from":[104,70],"to":[196,86],"bend":-28},
+ "cue":"Bayrak memleketin, ok seni oradan valizinle getiriyor; 'aus' = -den: Ich komme AUS der Türkei."}

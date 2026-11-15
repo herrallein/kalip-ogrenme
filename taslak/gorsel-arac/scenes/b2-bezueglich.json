@@ -1,0 +1,34 @@
+{
+ "id": "b2-bezueglich",
+ "bg": "office",
+ "keyword": "bezüglich",
+ "alt": "Zarf ve ataç: konu başlıklı yazı",
+ "people": [
+  {
+   "pose": "bust:Paper",
+   "face": "Calm",
+   "hair": "Pomp",
+   "x": 84,
+   "skin": "medium",
+   "shirt": "teal",
+   "dark": "navy",
+   "accessory": "GlassButterfly"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "✉️",
+   "x": 230,
+   "y": 96,
+   "size": 66
+  },
+  {
+   "emoji": "📎",
+   "x": 268,
+   "y": 138,
+   "size": 38,
+   "rot": 25
+  }
+ ],
+ "cue": "Zarfa ataç takıldı, konu başlığı belli: Bezüglich Ihrer Anfrage … diye başlarız."
+}

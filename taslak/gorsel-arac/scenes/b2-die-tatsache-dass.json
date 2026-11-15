@@ -1,0 +1,26 @@
+{
+ "id": "b2-die-tatsache-dass",
+ "bg": "office",
+ "keyword": "Tatsache",
+ "alt": "Taş duvar gibi değişmez gerçek; kollar kavuşuk ciddi kişi",
+ "people": [
+  {
+   "pose": "bust:ArmsCrossed",
+   "face": "Serious",
+   "hair": "FlatTopLong",
+   "x": 86,
+   "skin": "brown",
+   "shirt": "purple",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🧱",
+   "x": 232,
+   "y": 126,
+   "size": 80
+  }
+ ],
+ "cue": "Gerçek taş duvar gibi: Die Tatsache, dass … (fiil sonda) bu değişmez."
+}

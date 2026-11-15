@@ -1,0 +1,37 @@
+{
+ "id": "b1-sich-erinnern-an",
+ "bg": "classroom",
+ "keyword": "erinnere mich",
+ "alt": "İlk okul günü anısını hatırlayan kişi, geri saran ok",
+ "people": [
+  {
+   "pose": "bust:ButtonShirt",
+   "face": "CalmNM",
+   "hair": "Short",
+   "x": 88,
+   "skin": "brown",
+   "shirt": "blue"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🎒",
+   "✏️"
+  ]
+ },
+ "arrow": {
+  "from": [
+   275,
+   140
+  ],
+  "to": [
+   190,
+   140
+  ],
+  "bend": -18,
+  "marker": "rewind"
+ },
+ "cue": "İlk okul günü film gibi geri sarılıyor: \"mich erinnern an\" + Akkusativ: Ich erinnere mich an meinen ersten Schultag."
+}

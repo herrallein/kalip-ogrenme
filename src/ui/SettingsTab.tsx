@@ -245,6 +245,11 @@ export function SettingsTab({ state, setState, today, sync }: Props) {
           </div>
         </div>
       )}
+      <h2>Görseller</h2>
+      <p className="muted small credits">
+        Figürler: <a href="https://www.openpeeps.com" target="_blank" rel="noopener noreferrer">Open Peeps</a> (Pablo Stanley, CC0).
+        {' '}Nesneler: <a href="https://github.com/jdecked/twemoji" target="_blank" rel="noopener noreferrer">Twemoji</a> (CC-BY 4.0).
+      </p>
     </section>
   );
 }

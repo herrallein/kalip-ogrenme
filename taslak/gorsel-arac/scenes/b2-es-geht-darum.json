@@ -1,0 +1,39 @@
+{
+ "id": "b2-es-geht-darum",
+ "bg": "street",
+ "keyword": "es geht darum",
+ "alt": "Bitiş bayrağına doğru yürüyen kişi",
+ "people": [
+  {
+   "pose": "WalkingWB",
+   "face": "Driven",
+   "hair": "Afro",
+   "x": 84,
+   "skin": "medium",
+   "shirt": "red",
+   "dark": "navy",
+   "scale": 1.05
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🏁",
+   "x": 250,
+   "y": 100,
+   "size": 70
+  }
+ ],
+ "arrow": {
+  "from": [
+   120,
+   60
+  ],
+  "to": [
+   200,
+   66
+  ],
+  "bend": -14,
+  "style": "solid"
+ },
+ "cue": "Önemli olan hedef: bitiş bayrağına yürü! Es geht darum, … zu + mastar."
+}

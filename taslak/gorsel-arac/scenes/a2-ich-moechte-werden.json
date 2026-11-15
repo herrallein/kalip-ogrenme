@@ -1,0 +1,25 @@
+{
+ "id": "a2-ich-moechte-werden",
+ "bg": "classroom",
+ "keyword": "werden",
+ "alt": "Doktor olmayı hayal eden kişi",
+ "people": [
+  {
+   "pose": "bust:Hoodie",
+   "face": "Driven",
+   "hair": "LongBangs",
+   "x": 86,
+   "skin": "dark",
+   "shirt": "white"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🩺",
+   "🏥"
+  ]
+ },
+ "cue": "Balonda gelecekteki sen, steteskoplu: Ich möchte Ärztin WERDEN. Meslek için \"werden\", sonda."
+}

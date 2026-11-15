@@ -1,0 +1,33 @@
+{
+ "id": "b1-enttaeuscht-von",
+ "bg": "street",
+ "keyword": "enttäuscht von",
+ "alt": "Kötü filmden hayal kırıklığına uğrayan kişi",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Contempt",
+   "hair": "ShortScratch",
+   "x": 88,
+   "skin": "light",
+   "shirt": "brown"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🎬",
+   "👎"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "🍿",
+   "x": 255,
+   "y": 140,
+   "size": 44
+  }
+ ],
+ "cue": "Film kötü çıktı, patlamış mısır elde kaldı: \"enttäuscht von\" + Dativ: Ich bin von dem Film enttäuscht."
+}

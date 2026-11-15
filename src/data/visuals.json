@@ -1,0 +1,1202 @@
+{
+ "a1-am-wochentag": {
+  "cue": "Takvimde pazartesi kutusuna tik atıyorsun: gün adları 'am' ile gelir, Am Montag habe ich Unterricht.",
+  "alt": "Takvimde bir günü işaretleyen kişi"
+ },
+ "a1-darf-ich": {
+  "cue": "Kapıda durup yavaşça soruyorsun: 'Darf ich herein?' İzin istiyorsan 'darf ich' ile başlarsın.",
+  "alt": "Kapıda duran kişi içeri girmek için izin istiyor"
+ },
+ "a1-das-ist": {
+  "cue": "Parmağınla masadaki kitabı gösteriyorsun: 'Das ist ein Buch', bu bir …; tanıtmanın en kısa yolu.",
+  "alt": "Kişi parmağıyla bir kitabı işaret ediyor"
+ },
+ "a1-das-ist-adjektiv": {
+  "cue": "Çorbayla dilin yandı: 'Die Suppe ist HEISS'; sıfat 'ist' ardından, değişmeden gelir.",
+  "alt": "Kişi sıcak çorbadan ağzını yakıyor"
+ },
+ "a1-es-gibt": {
+  "cue": "Rehber gibi etrafı sayıyorsun: 'Es GIBT einen Park, ein Museum…' var olanı Akkusativ ile sıralarsın.",
+  "alt": "Şehirde park, müze ve durağı gösteren kişi"
+ },
+ "a1-gibt-es-hier": {
+  "cue": "Yabancı sokakta etrafı tarıyorsun: 'Gibt es hier einen Bankautomaten?' diye soruyorsun.",
+  "alt": "Sokakta etrafa bakınıp ATM arayan kişi"
+ },
+ "a1-haben-sie": {
+  "cue": "Satıcıya dönüp 'Haben Sie Milch?' diye soruyorsun; var mı sorusunda fiil en başta.",
+  "alt": "Kasadaki kişi satıcıya süt olup olmadığını soruyor"
+ },
+ "a1-haeufigkeit": {
+  "cue": "Her akşam aynı koltukta kitap: 'Ich lese OFT / manchmal / nie'; sıklık zarfı fiilden sonra.",
+  "alt": "Kitap okuyan kişi, yanında tekrar simgesi"
+ },
+ "a1-heute-ist-es": {
+  "cue": "Güneş gözlüğünü taktın, gökyüzü açık: 'Heute ist es SONNIG'; hava 'es ist' ile söylenir.",
+  "alt": "Güneşli gökyüzü altında güneş gözlüklü kişi"
+ },
+ "a1-hier-ist": {
+  "cue": "Gişede biletini uzatıp 'HIER ist mein Ticket!' diyorsun: işte burada.",
+  "alt": "Kişi biletini uzatıp işte diye gösteriyor"
+ },
+ "a1-ich-arbeite-als": {
+  "cue": "Mesleğin çantanda: 'Ich arbeite ALS Lehrerin', meslek adı 'als' ardından gelir, artikelsiz.",
+  "alt": "Ofis çalışanı, yanında çanta ve bilgisayar"
+ },
+ "a1-ich-bin-adjektiv": {
+  "cue": "Gözler yarı kapalı, kafada 'zzz': 'Ich BIN müde'; hâller 'sein' ile kurulur.",
+  "alt": "Yorgun kişi esniyor, yanında uyku simgeleri"
+ },
+ "a1-ich-bin-jahre-alt": {
+  "cue": "Pastadaki mumlar yaşın: Almancada 'yaşındayım' derken 'Ich bin 30 Jahre alt' dersin.",
+  "alt": "Doğum günü pastası ve balonlarla gülen kişi"
+ },
+ "a1-ich-brauche": {
+  "cue": "Ateşin var, aklında tek şey ilaç: 'Ich BRAUCHE Medizin', ihtiyacın olan şey Akkusativ ile gelir.",
+  "alt": "Hasta kişi, ihtiyaç duyduğu ilaç balonda"
+ },
+ "a1-ich-esse-gern": {
+  "cue": "Pizza dilimi ağızda: 'Ich ESSE GERN Pizza'; sevdiğin yiyecek Akkusativ, 'gern' fiilin yanında.",
+  "alt": "Pizza yiyen mutlu kişi"
+ },
+ "a1-ich-fahre-nach": {
+  "cue": "Valizinle trende Berlin'e gidiyorsun: 'Ich fahre NACH Berlin'; şehir ve ülke 'nach' ile.",
+  "alt": "Valizli kişi, ok şehir simgesine"
+ },
+ "a1-ich-gehe-zum": {
+  "cue": "Ok seni okulun kapısına götürüyor: 'Ich gehe ZUM Arzt / ZUR Schule', gidilen yer 'zum/zur' ile.",
+  "alt": "Yürüyerek okula giden kişi, ok okul binasına"
+ },
+ "a1-ich-gern": {
+  "cue": "Bisiklete binerken yüzün gülüyor, kalp uçuşuyor: 'Ich fahre GERN Rad', 'gern' fiilden sonra gelir.",
+  "alt": "Parkta bisiklet sürmekten keyif alan kişi, kalp"
+ },
+ "a1-ich-habe-hunger": {
+  "cue": "Karnın guruldadı, aklın burgerde: 'Ich habe HUNGER'; Almancada açlık 'sahip olunur'.",
+  "alt": "Karnı aç kişi boş tabağa bakıp burger düşünüyor"
+ },
+ "a1-ich-habe-kein": {
+  "cue": "Cüzdanı açtın, içi bomboş: para yok, 'Ich habe KEIN Geld'; yokluğu 'kein' ile söylersin.",
+  "alt": "Boş cüzdanı gösteren şaşkın kişi"
+ },
+ "a1-ich-haette-gern": {
+  "cue": "Kasada gülümseyip pastayı işaret edersin: 'Ich hätte gern' kibar rica, istediğin şey hemen arkasından gelir.",
+  "alt": "Kafede kibarca bir dilim pasta isteyen kişi, konuşma balonunda pasta"
+ },
+ "a1-ich-heisse": {
+  "cue": "Yakandaki isim kartı konuşuyor: 'Ich HEISSE Anna' diyerek el sallıyorsun; fiil 'heiße' hemen ikinci sırada!",
+  "alt": "Gülümseyen kişi kendini tanıtıyor; konuşma balonunda adı, yanında el sallama ve kimlik kartı"
+ },
+ "a1-ich-kann": {
+  "cue": "Spotların altında gitar çalıyorsun, becerin var: 'Ich KANN Gitarre spielen', mastar sona gider.",
+  "alt": "Sahnede gitar çalan gururlu kişi"
+ },
+ "a1-ich-komme-aus": {
+  "cue": "Bayrak memleketin, ok seni oradan valizinle getiriyor; 'aus' = -den: Ich komme AUS der Türkei.",
+  "alt": "Türk bayrağından valizle yola çıkıp gelen gülümseyen kişi"
+ },
+ "a1-ich-mag": {
+  "cue": "Kucağında kedi, etrafında kalpler: 'Ich MAG Katzen' sevdiğin şeye bağlar, ardından Akkusativ gelir.",
+  "alt": "Kedisini seven kişi"
+ },
+ "a1-ich-moechte": {
+  "cue": "Tezgâhta kafandaki kahve bulutu 'möchte' diyor; istediğin şey (mastar) en sona gider: Ich möchte … trinken.",
+  "alt": "Kafede duran kişinin düşünce balonunda kahve ve kruvasan"
+ },
+ "a1-ich-muss": {
+  "cue": "Yığın kitap ve kum saati: zorundasın! 'Ich MUSS lernen', yapılacak iş (mastar) sona gider.",
+  "alt": "Yorgun kişi, masada iş yığını"
+ },
+ "a1-ich-nehme": {
+  "cue": "Elini uzatıp elmayı sepete atıyorsun: 'Ich NEHME den Apfel' = alayım; aldığın şey Akkusativ.",
+  "alt": "Raftan bir elmayı alan kişi, ok elmadan kişiye"
+ },
+ "a1-ich-spiele": {
+  "cue": "Topu ağlara doğru tekmeliyorsun: 'Ich SPIELE Fußball'; spor ve oyun için 'spielen'.",
+  "alt": "Futbol topuyla oynayan kişi"
+ },
+ "a1-ich-suche": {
+  "cue": "Büyüteçle anahtarı arıyorsun: 'Ich SUCHE meinen Schlüssel'; aranan şey Akkusativ.",
+  "alt": "Büyüteçle bir şey arayan kişi"
+ },
+ "a1-ich-verstehe-nicht": {
+  "cue": "Tahtada anlamadığın yazı, kafanda soru işaretleri: 'Ich verstehe das NICHT'; 'nicht' sona gelir.",
+  "alt": "Tahtaya bakıp kafası karışmış kişi"
+ },
+ "a1-ich-wohne-in": {
+  "cue": "Haritadaki pin evinin tam üstünde: yaşadığın yer 'in' ile gelir, Ich WOHNE in Berlin.",
+  "alt": "Evinin önünde mutlu duran kişi, yanında ev ve konum işareti"
+ },
+ "a1-im-monat": {
+  "cue": "Kar yağıyor, atkını sardın: aylar ve mevsimler 'im' ile gelir: IM Winter, IM Januar.",
+  "alt": "Kar yağarken atkılı kişi, yanında kardan adam"
+ },
+ "a1-imperativ-bitte": {
+  "cue": "Elini kaldırıp 'Bitte' diyorsun: 'Bitte KOMMEN Sie herein!' Emir fiili cümlenin başında.",
+  "alt": "Kişi elini kaldırıp nazikçe rica ediyor"
+ },
+ "a1-kannst-du": {
+  "cue": "Elin kolide dolu, arkadaşından 'Kannst du mir helfen?' diye yardım istiyorsun; fiil başa gelir.",
+  "alt": "Bir kişi diğerinden yardım istiyor, ağır koli var"
+ },
+ "a1-mit-dem": {
+  "cue": "Bilet elinde, trene biniyorsun: 'Ich fahre MIT DEM Zug', araç 'mit' ile Dativ alır.",
+  "alt": "Treni gösteren kişi, yanında bilet"
+ },
+ "a1-spreche": {
+  "cue": "Ağzından Alman bayrağı çıkıyor: 'Ich SPRECHE Deutsch', konuştuğun dil artikelsiz fiilin ardından gelir.",
+  "alt": "Konuşma balonunda Alman bayrağı olan, dil bilen kişi"
+ },
+ "a1-trennbares-verb": {
+  "cue": "Alarm çalıyor, yukarı kalkıyorsun: 'Ich stehe um 7 Uhr AUF', 'auf' kopup cümlenin sonuna uçar.",
+  "alt": "Sabah alarmla kalkan kişi, yukarı ok"
+ },
+ "a1-um-uhr": {
+  "cue": "Çalar saat 9'u gösteriyor: saat 'um … Uhr' ile söylenir, Um 9 Uhr beginnt die Arbeit.",
+  "alt": "Büyük bir çalar saat ve toplantıya hazır kişi"
+ },
+ "a1-wann": {
+  "cue": "Hem takvim hem saat aklında: 'WANN beginnt das Meeting?' Zaman sorusunda fiil hemen ikinci.",
+  "alt": "Takvim ve saate bakıp toplantı zamanını soran kişi"
+ },
+ "a1-was-kostet": {
+  "cue": "Çantanın etiketine bakıp 'kaç euro?' diye soruyorsun: Was KOSTET die Tasche? Fiil sorudan hemen sonra.",
+  "alt": "Fiyat etiketli çantaya bakıp merak eden kişi"
+ },
+ "a1-was-machst-du": {
+  "cue": "Arkadaşını arayıp 'Was MACHST du heute?' diye ne yaptığını, planını soruyorsun.",
+  "alt": "Telefonla konuşan kişi, balonunda film ve soru işareti"
+ },
+ "a1-welcher": {
+  "cue": "İki gömlek arasında kaldın: 'WELCHES Hemd?' diye hangisini seçeceğini sorarsın; çekim isme uyar.",
+  "alt": "Kişi iki gömlek arasında düşünüyor"
+ },
+ "a1-wer-ist": {
+  "cue": "Tanımadığın biri kapıda: 'WER ist das?' diye kim olduğunu sorarsın.",
+  "alt": "Kişi karanlık siluete bakıp kim olduğunu soruyor"
+ },
+ "a1-wie-geht-es": {
+  "cue": "Parkta arkadaşını görüp el sallıyorsun: 'Wie GEHT es dir?' diye halini hatırını soruyorsun.",
+  "alt": "İki arkadaş parkta karşılaşıp selamlaşıyor"
+ },
+ "a1-wie-heisst": {
+  "cue": "Elmayı gösterip 'Wie HEISST das auf Deutsch?' diye adını soruyorsun; 'heißt' ikinci sırada.",
+  "alt": "Kişi bir elmanın adını soruyor"
+ },
+ "a1-wie-komme-ich": {
+  "cue": "Haritada kıvrımlı yol çiziyorsun: 'Wie komme ich zum Bahnhof?' yolu sormanın kalıbı.",
+  "alt": "Telefona bakıp yol soran kişi, kıvrımlı ok"
+ },
+ "a1-wie-viel": {
+  "cue": "Elmaları teker teker sayıyorsun: 'Wie VIELE Äpfel?' sayılabilene, 'Wie VIEL Zucker?' sayılamayana sorulur.",
+  "alt": "Elmaları sayıp soran kişi"
+ },
+ "a1-wo-ist": {
+  "cue": "Kaybolmuş kişi dükkânı soruyor: 'WO ist die Bäckerei?' Yer sorusu, 'wo' başta, fiil ikinci.",
+  "alt": "Büyük soru işareti ve dükkânı arayan kişi"
+ },
+ "a1-wohin": {
+  "cue": "Ok gidilen yönü gösteriyor: 'WOHIN fährst du?' hareketin yönünü sorar; 'wo' duruşu sorar.",
+  "alt": "Perondaki kişi gidilecek yönü soruyor, ok ve soru işareti"
+ },
+ "a2-anmelden-fuer": {
+  "cue": "Formu dolduruyorsun: Ich möchte MICH für den Deutschkurs ANMELDEN. Kendini yazdırırsın (mich), ek parça sonda.",
+  "alt": "Kayıt formunu dolduran kişi"
+ },
+ "a2-dass": {
+  "cue": "Düşünce balonu \"dass\" cümlesidir: ne düşündüğün balonun içinde, fiil en sonda: …, dass das Wetter schön IST.",
+  "alt": "Düşünen kişinin balonunda güneş ve takvim"
+ },
+ "a2-denn": {
+  "cue": "Evdesin çünkü hastasın, balon açıklıyor: …, denn ich BIN krank. \"denn\"den sonra düz sıra, fiil ikinci.",
+  "alt": "Hasta kişi, termometre; açıklama balonu"
+ },
+ "a2-deshalb": {
+  "cue": "Çalar saat çalmadı, bu yüzden tren kaçtı: ok nedenden sonuca. \"deshalb\" geldi mi fiil hemen yanında: …, deshalb nehme ich …",
+  "alt": "Çalmayan çalar saat ve kaçan tren; telaşlı kişi"
+ },
+ "a2-es-tut-mir-leid": {
+  "cue": "Kırık kalp, mahcup yüz: Es tut mir leid, ABER … özürden sonra asıl kötü haber \"aber\" ile gelir.",
+  "alt": "Üzgün kişi ve kırık kalp"
+ },
+ "a2-funktioniert-nicht": {
+  "cue": "Telefon donmuş, çarpı yanıyor: Mein Handy FUNKTIONIERT NICHT. Bozuk = funktioniert nicht / ist kaputt.",
+  "alt": "Telefonu çalışmayan kızgın kişi"
+ },
+ "a2-gefaellt-mir": {
+  "cue": "Daireyi görünce gözlerinde kalp: Die Wohnung gefällt MIR. Beğenen sensin, o yüzden \"mir\" (Dativ).",
+  "alt": "Yeni daireyi görüp kalpli gözlerle bakan kişi"
+ },
+ "a2-genauso-wie": {
+  "cue": "Aranda eşittir: Mein Bruder ist SO groß WIE ich. Eşitlikte sıfat yalın kalır: so + sıfat + wie.",
+  "alt": "Eşit boydaki iki kişi arasında eşittir işareti"
+ },
+ "a2-hast-du-schon-mal": {
+  "cue": "Çubuk, suşi, soru işareti: Hast du schon mal Sushi GEGESSEN? Hiç denedin mi? Partizip sonda.",
+  "alt": "Suşi yiyip yemediğini soran kişi"
+ },
+ "a2-hoffentlich": {
+  "cue": "Parmaklar çapraz, gözler güneşte: Hoffentlich scheint morgen die Sonne. Hemen ardından fiil gelir.",
+  "alt": "Parmaklarını çaprazlayıp güneş bekleyen kişi"
+ },
+ "a2-ich-bin-partizip": {
+  "cue": "Ayak izleri evin kapısında bitiyor: yer değiştirdin, o yüzden 'bin': Ich bin nach Hause gegangen.",
+  "alt": "Ayak izlerini bırakarak yürüyüp eve varan kişi"
+ },
+ "a2-ich-finde": {
+  "cue": "Film sıkıcı, başparmak aşağı: Ich finde den Film langweilig. Görüşünü \"finde + sıfat\" ile söylersin.",
+  "alt": "Televizyon izlerken sıkılan kişi, başparmak aşağı"
+ },
+ "a2-ich-freue-mich-auf": {
+  "cue": "Takvimde cumartesiye daire çizdin, içinde konfeti: Ich freue mich AUF das Wochenende. Gelecek için \"auf\".",
+  "alt": "Takvimdeki hafta sonunu dört gözle bekleyen sevinçli kişi"
+ },
+ "a2-ich-fuehle-mich": {
+  "cue": "Göz kapakların düşüyor, yatak çağırıyor: Ich fühle MICH müde. Kendi durumunu mich + sıfatla söylersin.",
+  "alt": "Yorgun kişi, yanında yatak ve uyku işareti"
+ },
+ "a2-ich-gebe-dir": {
+  "cue": "Kartı sana uzatıyorum, ok elden ele: Ich gebe DIR meine Nummer. Kime = dir (Dativ), neyi = Akkusativ.",
+  "alt": "Birine kartvizit uzatan kişi"
+ },
+ "a2-ich-gehe-infinitiv": {
+  "cue": "Sepet hazır: Ich gehe EINKAUFEN. \"gehen + mastar\" = -meye gitmek; mastar cümle sonunda.",
+  "alt": "Alışveriş poşetiyle sevinçli kişi"
+ },
+ "a2-ich-glaube": {
+  "cue": "Balonda ev: sanırım evde. Ich glaube, er IST schon zu Hause. \"dass\" yok, fiil hâlâ ikinci sırada.",
+  "alt": "Düşünen kişinin balonunda ev ve bir insan"
+ },
+ "a2-ich-habe-partizip": {
+  "cue": "Boş tabak, dolu mide: dün pizzayı yedin. 'habe' hazır, 'gegessen' en sonda: Ich habe gestern gegessen.",
+  "alt": "Pizzayı bitirmiş, karnı tok kişi; masada boş tabak, pizzadan tabağa doğru geri saran ok"
+ },
+ "a2-ich-habe-vergessen": {
+  "cue": "Anahtar içeride kaldı: Ich habe meinen Schlüssel VERGESSEN. \"habe\" + Partizip sonda.",
+  "alt": "Anahtarını unutan şaşkın kişi"
+ },
+ "a2-ich-hatte": {
+  "cue": "Dün gece başın ağrıyordu, saat geri sarıyor: Ich HATTE Kopfschmerzen. Haben fiilinin geçmişi: hatte.",
+  "alt": "Dün gece başı ağrıyan kişi; geri saran ok"
+ },
+ "a2-ich-helfe-dir": {
+  "cue": "Ödevinde yanındayım: Ich helfe DIR bei den Hausaufgaben. \"helfen\" hep Dativ ister: dir, ona, mir.",
+  "alt": "Ödevinde arkadaşına yardım eden kişi"
+ },
+ "a2-ich-interessiere-mich": {
+  "cue": "Müzik seni içine çekiyor: Ich interessiere MICH FÜR Musik. İlgi kendine döner (mich), konu için \"für\" gelir.",
+  "alt": "Kulaklıkla müzik dinleyen, gözleri parlayan kişi"
+ },
+ "a2-ich-moechte-werden": {
+  "cue": "Balonda gelecekteki sen, steteskoplu: Ich möchte Ärztin WERDEN. Meslek için \"werden\", sonda.",
+  "alt": "Doktor olmayı hayal eden kişi"
+ },
+ "a2-ich-spreche-ueber": {
+  "cue": "Patronla masadasın, konu tatil: Ich spreche MIT meinem Chef ÜBER meinen Urlaub. Kiminle = mit, ne hakkında = über.",
+  "alt": "Toplantıda patronla izin hakkında konuşan iki kişi"
+ },
+ "a2-ich-stelle": {
+  "cue": "Şişeyi alıp masaya KOYUYORSUN, ok hareketi gösteriyor: Ich stelle die Flasche AUF DEN Tisch. Nereye? = Akkusativ.",
+  "alt": "Elindeki şişeyi masaya koyan kişi, aşağı ok"
+ },
+ "a2-ich-war": {
+  "cue": "Saat geriye sarıyor: dün doktordaydın. Ich WAR beim Arzt; \"sein\" fiilinin geçmişi war.",
+  "alt": "Doktor odasında bekleyen kişi; geri saran ok"
+ },
+ "a2-ich-warte-auf": {
+  "cue": "Duraktasın, saate bakıyorsun: Ich warte AUF den Bus. Beklemek = warten auf + Akkusativ.",
+  "alt": "Durakta saate bakıp otobüs bekleyen kişi"
+ },
+ "a2-ich-wasche-mir": {
+  "cue": "Kendi ellerini yıkıyorsun: Ich wasche MIR die Hände. Vücut parçası varsa kendine mir, parçanın önünde \"die\".",
+  "alt": "Ellerini sabunlayan kişi; sabun ve köpük"
+ },
+ "a2-ich-wollte": {
+  "cue": "Dün sinemayı düşünüyordun: Ich WOLLTE ins Kino GEHEN. wollte ikinci sırada, asıl fiil mastar olarak sonda.",
+  "alt": "Sinemaya gitmek isteyen ama gidemeyen kişi; geri saran ok"
+ },
+ "a2-ich-wuerde-gern": {
+  "cue": "Yazın İtalya hayali: \"Ich würde gern … fahren\" = gitsem ne güzel olurdu; yumuşak dilek, fiil mastar olarak sonda.",
+  "alt": "Düşünce balonunda İtalya bayrağı ve plaj; hayal kuran kişi"
+ },
+ "a2-koennen-sie-mir-sagen": {
+  "cue": "Yabancıya \"Gar nerede?\" diye soruyorsun: Können Sie mir sagen, wo der Bahnhof IST? Fiil en sonda.",
+  "alt": "Yolcu garı soruyor"
+ },
+ "a2-koennten-sie": {
+  "cue": "Ellerini birleştirip kibarca rica ediyorsun: \"Könnten Sie mir bitte helfen?\" Sie ile saygı, mastar en sonda.",
+  "alt": "Nazikçe yardım isteyen kişi, balonunda dua eden eller"
+ },
+ "a2-komparativ": {
+  "cue": "Abin kardeşinden uzun, ok yükseğe çıkıyor: Mein Bruder ist GRÖßER ALS ich. -er sonekiyle \"als\".",
+  "alt": "Uzun boylu ve kısa boylu iki kişi; ok uzun olana"
+ },
+ "a2-lass-uns": {
+  "cue": "Arkadaşının koluna girip çekiyorsun: Lass uns ins Café GEHEN! \"Hadi\" demek; mastar sona.",
+  "alt": "Arkadaşını kafeye çağıran heyecanlı kişi"
+ },
+ "a2-lieber-als": {
+  "cue": "Çay kalbini kazandı, kahve ikinci: Ich trinke LIEBER Tee ALS Kaffee. Tercih = lieber … als.",
+  "alt": "Çay ve kahve arasında çayı seçen kişi; çayda kalp"
+ },
+ "a2-liegt-in": {
+  "cue": "Kitap masanın üstünde yatıyor, kıpırdamıyor: Das Buch LIEGT auf DEM Tisch. Nerede? sorusu = Dativ.",
+  "alt": "Masanın üstündeki kitabı gösteren kişi"
+ },
+ "a2-lust-auf": {
+  "cue": "Canın dondurma çekti, balonda dondurma dönüyor: Ich habe Lust AUF ein Eis. İstek = Lust auf + Akkusativ.",
+  "alt": "Dondurma canı çeken, gözleri parlayan kişi"
+ },
+ "a2-man-darf-nicht": {
+  "cue": "Kırmızı çizgili sigara: yasak! Kollar kavuşuk görevli diyor ki: Man darf hier nicht RAUCHEN.",
+  "alt": "Kollarını kavuşturmuş görevli ve sigara yasağı işareti"
+ },
+ "a2-man-kann-hier": {
+  "cue": "Yeşil tik: burada yemek serbest! Man kann hier gut ESSEN: olanak ve izin, fiil mastar olarak en sonda.",
+  "alt": "Kafede yemek yiyen mutlu kişi; yeşil onay işareti"
+ },
+ "a2-mir-ist": {
+  "cue": "Dişlerin takırdıyor, kar yağıyor: Mir ist KALT. \"Ben\" değil \"bana\" soğuk gelir; hissi mir + sıfat verir.",
+  "alt": "Karlı gecede titreyen, bere takmış kişi"
+ },
+ "a2-mir-tut-weh": {
+  "cue": "Başın zonkluyor: Mir tut der KOPF weh. Ağrıyan yer özne, ağrıyan sen mir.",
+  "alt": "Başını tutan ağrılı kişi"
+ },
+ "a2-noch-nie": {
+  "cue": "Balığa hiç dokunmadın, yasak işareti: Ich habe NOCH NIE Fisch GEGESSEN. \"noch nie\" = hiç … -medim.",
+  "alt": "Balığa uzak duran kişi; balığın üstünde yasak işareti"
+ },
+ "a2-ob": {
+  "cue": "Evet mi hayır mı? Kararsızsın: Ich weiß nicht, OB er heute kommt. \"ob\" = olup olmadığı, fiil sonda.",
+  "alt": "Evet ve hayır arasında kararsız kişi"
+ },
+ "a2-reservieren": {
+  "cue": "Telefonda \"dört kişilik masa\" diyorsun: Ich möchte einen Tisch für vier Personen RESERVIEREN.",
+  "alt": "Telefonla dört kişilik masa ayırtan kişi"
+ },
+ "a2-seit": {
+  "cue": "Bir yıl önce başladın, hâlâ sürüyor: çizgi bugüne uzanıyor. Ich lerne SEIT einem Jahr Deutsch (şimdiki zaman!).",
+  "alt": "Almanca çalışan kişi; bir yıldan bugüne uzanan zaman çizgisi"
+ },
+ "a2-soll-ich": {
+  "cue": "Eliyle pencereyi gösterip soruyorsun: Soll ich das Fenster ÖFFNEN? Yardım teklifi, mastar sonda.",
+  "alt": "Pencereyi açmayı teklif eden, gülen kişi"
+ },
+ "a2-sondern": {
+  "cue": "Kahve çarpı, çay doğru: Ich trinke KEINEN Kaffee, SONDERN Tee. Olumsuzdan sonra doğru olan gelir.",
+  "alt": "Üstü çarpılı kahve ve seçilen çay"
+ },
+ "a2-superlativ": {
+  "cue": "Kupayı kaldıran birinci sensin: Im Juli ist es AM heißesten. En üstünlük = am + -sten.",
+  "alt": "Kupa kaldıran birinci kişi, altın madalya"
+ },
+ "a2-termin-bei": {
+  "cue": "Takvimde diş çizili: Ich habe einen Termin BEIM Zahnarzt. Kimin yanında? = bei + Dativ.",
+  "alt": "Diş hekimi randevusu: takvim ve diş"
+ },
+ "a2-vor-zeit": {
+  "cue": "Saat iki hafta geri sarıyor, kursa o zaman başladın: Vor zwei Wochen habe ich … begonnen. \"vor\" = önce.",
+  "alt": "Geri saran ok ve takvim; iki hafta öncesi"
+ },
+ "a2-weil": {
+  "cue": "Ateşin var, ok seni eve itiyor: neden → sonuç. \"weil\" fiili cümle sonuna atar: …, weil ich krank BIN.",
+  "alt": "Hasta, yorgun kişi; ateş emojisinden eve doğru ok"
+ },
+ "a2-wenn": {
+  "cue": "Bulut yağdırırsa (şart) şemsiye açılır (sonuç): Wenn es regnet, bleibe ich … Şart önce, fiil şart cümlesinin sonunda.",
+  "alt": "Yağmur bulutu ve şemsiye; şart ve sonuç"
+ },
+ "a2-wie-lange": {
+  "cue": "Kronometre, tren, süre çizgisi: yol ne kadar sürer? Wie lange DAUERT die Fahrt nach Berlin?",
+  "alt": "Kronometre ve tren: yolculuk süresi sorusu"
+ },
+ "a2-wie-sagt-man": {
+  "cue": "Kruvasanı gösterip soruyorsun: bunun Almancası ne? Wie sagt man „Kruvasan“ AUF Deutsch? Bayrak = Almanca.",
+  "alt": "Kruvasanı gösterip Almancasını soran öğrenci"
+ },
+ "a2-wie-waere-es-mit": {
+  "cue": "Parkı gösterip \"Yürüyüşe ne dersin?\" diyorsun: Wie wäre es mit einem Spaziergang? \"mit\" arkasından Dativ.",
+  "alt": "Bankın yanında yürüyüş önerisi yapan yaşlı kişi"
+ },
+ "a2-wir-treffen-uns": {
+  "cue": "Saat 8, sinemanın önü: Wir treffen UNS um acht Uhr VOR dem Kino. Buluşma = sich treffen (uns).",
+  "alt": "Saat ve sinema önünde buluşan iki arkadaş"
+ },
+ "a2-wollen-wir": {
+  "cue": "Arkadaşına dönüp \"Sinemaya gidelim mi?\" diyorsun: Wollen wir ins Kino GEHEN? Soru fiille başlar, mastar sonda.",
+  "alt": "İki arkadaş; sinema önerisi balonunda film ve patlamış mısır"
+ },
+ "a2-zeitangabe-inversion": {
+  "cue": "Zaman başa geçince fiil ikinci sıraya sıçrar: MORGEN GEHE ich zum Arzt. Özne fiilin arkasında kalır.",
+  "alt": "Takvimde yarın; doktora giden kişi"
+ },
+ "a2-zu-adjektiv": {
+  "cue": "Fiyat etiketi fırladı: Die Wohnung ist MIR ZU teuer. \"zu\" = fazla, sıfat hemen arkasından.",
+  "alt": "Fiyat etiketine şaşıran kişi, uçan paralar"
+ },
+ "a2-zuerst-dann": {
+  "cue": "Üç basamak: 1 kahvaltı, 2 iş, 3 otobüs. Zuerst frühstücke ich, DANN gehe ich … sıra sözcüğünden sonra fiil hemen gelir.",
+  "alt": "Kahvaltı, iş ve otobüs: birden üçe sıralı adımlar"
+ },
+ "b1-als-vergangenheit": {
+  "cue": "Düşünce balonunda çocukluğun: geçmişte tek bir dönem/olay 'als' ile açılır, fiil sona gider: Als ich Kind war…",
+  "alt": "Düşünce balonunda balonlu çocukluk anısı olan, gülümseyen yetişkin"
+ },
+ "b1-an-deiner-stelle": {
+  "cue": "Yerler değişiyor: sen onun yerinde olsan imzalamazdın: An deiner Stelle würde ich …",
+  "alt": "İki kişi yer değiştiriyor, biri sözleşmeyi reddediyor"
+ },
+ "b1-angst-vor": {
+  "cue": "Kocaman köpek, küçücük sen: \"Angst haben vor\" + Dativ: Ich habe Angst vor Hunden.",
+  "alt": "Büyük köpekten korkan kişi"
+ },
+ "b1-bevor": {
+  "cue": "İşe çıkmadan önce kahve: \"bevor\" sonraya kalan olayı bağlar, fiil sona: Bevor ich gehe, trinke ich Kaffee.",
+  "alt": "Kahve içen kişi, kapıda iş çantası bekliyor"
+ },
+ "b1-bitten-um": {
+  "cue": "Gözler büyük, eller birleşik: rica ederken \"bitten um\" + Akkusativ: Ich bitte Sie um Verständnis.",
+  "alt": "Yardım dileyen, elleri birleştirmiş kişi"
+ },
+ "b1-damit": {
+  "cue": "Notu yazıyorsun ki unutmasın: \"damit\" = diye (amaç); fiil sona: …, damit du es nicht vergisst.",
+  "alt": "Bir kişi not yazıp diğerine uzatıyor"
+ },
+ "b1-darueber-dass": {
+  "cue": "Tren yine geç: kızgınlığın bir sebebe bağlı, \"darüber\" bir \"dass\" cümlesini işaret eder.",
+  "alt": "Gecikmeli tren yüzünden kızgın kişi"
+ },
+ "b1-denken-an": {
+  "cue": "Düşünce balonunda dede ile nine: \"denken an\" + Akkusativ: Ich denke oft an meine Großeltern.",
+  "alt": "Büyükanne ve büyükbabayı düşünen kişi"
+ },
+ "b1-du-solltest": {
+  "cue": "Ampulü yakan arkadaş sana tavsiye veriyor: \"solltest/könntest\" + mastar sonda: Du solltest mehr schlafen.",
+  "alt": "Bir kişi parmak kaldırıp tavsiye veriyor, diğeri kararsız"
+ },
+ "b1-eindruck": {
+  "cue": "Gözlerin onda: üzgün görünüyor, izlenimin bu: Ich habe den Eindruck, dass er sich nicht wohlfühlt.",
+  "alt": "Karşısındaki üzgün kişiyi gözleyen iki kişi"
+ },
+ "b1-enttaeuscht-von": {
+  "cue": "Film kötü çıktı, patlamış mısır elde kaldı: \"enttäuscht von\" + Dativ: Ich bin von dem Film enttäuscht.",
+  "alt": "Kötü filmden hayal kırıklığına uğrayan kişi"
+ },
+ "b1-entweder-oder": {
+  "cue": "Tek tabak seçebilirsin: ya pizza ya salata. \"entweder … oder\" iki yolu karşı karşıya koyar.",
+  "alt": "İki yemek arasında kararsız kalan kişi"
+ },
+ "b1-erstens-zweitens": {
+  "cue": "Birinci sebep para, ikinci sebep semt: madalyalar sırayla geliyor: Erstens …, zweitens …",
+  "alt": "Madalyalarla iki neden sayan kişi"
+ },
+ "b1-es-faellt-mir-schwer": {
+  "cue": "Sabah alarm çalıyor ama yataktan kalkmak taş gibi ağır: Es fällt mir schwer, früh aufzustehen.",
+  "alt": "Çalar saate rağmen kalkamayan yorgun kişi, yanında kaya"
+ },
+ "b1-es-geht-um": {
+  "cue": "Tahtadaki raptiyeli konu: mesele ne? \"Es geht um\" + Akkusativ: Es geht um meine Wohnung.",
+  "alt": "Toplantıda konuyu işaret eden kişi"
+ },
+ "b1-es-heisst-dass": {
+  "cue": "Kulaktan kulağa: kaynak belirsiz, \"es heißt\" ile duyduğunu aktarırsın: Es heißt, dass die Prüfung schwer ist.",
+  "alt": "Kulağına fısıldanan söylentiyi dinleyen kişi"
+ },
+ "b1-es-ist-wichtig-zu": {
+  "cue": "Kocaman ünlem: önemli olan şey \"zu\" ile mastar halinde sona gelir: Es ist wichtig, jeden Tag zu sprechen.",
+  "alt": "Almanca konuşmanın önemini vurgulayan büyük ünlem"
+ },
+ "b1-es-kommt-darauf-an": {
+  "cue": "Hava güneşli mi yağmurlu mu? Omuz silkip \"bağlı\" dersin: Es kommt darauf an, ob …",
+  "alt": "Omuz silken kişi, güneş ve yağmur arasında soru işareti"
+ },
+ "b1-es-liegt-an": {
+  "cue": "Tren neden geç? Büyüteçle arıyorsun, ok sebebe uzanıyor: Das liegt am schlechten Wetter.",
+  "alt": "Tren gecikmesinin sebebini araştıran kişi"
+ },
+ "b1-es-lohnt-sich": {
+  "cue": "Beş yıldızlı kale: gitmeye değer! \"Es lohnt sich\" + zu + mastar: Es lohnt sich, die Altstadt zu besuchen.",
+  "alt": "Eski şehir kalesinin önünde yıldızları gösteren turist"
+ },
+ "b1-es-stoert-mich": {
+  "cue": "Duvardan gelen müzik: kulağın tırmalanıyor: Es stört mich, dass die Nachbarn so laut sind.",
+  "alt": "Gürültüden rahatsız olan komşu"
+ },
+ "b1-futur": {
+  "cue": "Kristal küre geleceği gösteriyor, ok ileriye gidiyor: \"werde\" + sondaki mastar: Ich werde Deutsch lernen.",
+  "alt": "Kristal küreye bakıp geleceği planlayan kişi"
+ },
+ "b1-haengt-ab-von": {
+  "cue": "Karar saate bağlı: ok saatten gelir: Ob wir kommen, hängt von der Uhrzeit ab.",
+  "alt": "Saate bakıp kararını bekleyen kişi"
+ },
+ "b1-halten-fuer": {
+  "cue": "Ampul yandı: bu iyi fikir diye düşünüyorsun: Ich halte das für eine gute Idee.",
+  "alt": "Parlak fikre onay veren kişi"
+ },
+ "b1-hier-spricht": {
+  "cue": "Ahizeyi kaldır, adını söyle: \"Hier spricht Kaya\" — telefonda \"ich bin\" demezsin.",
+  "alt": "Telefonla kendini tanıtan kişi"
+ },
+ "b1-ich-bin-dabei-zu": {
+  "cue": "Tam o anda tencere kaynıyor: \"dabei sein\" = şu an işin içinde: Ich bin gerade dabei, zu kochen.",
+  "alt": "Ocakta yemek yaparken meşgul kişi"
+ },
+ "b1-ich-bin-froh-dass": {
+  "cue": "Balonlar, hediye, kapıda arkadaş: ferahlıkla \"Ich bin froh, dass du gekommen bist.\"",
+  "alt": "Misafirinin gelmesine sevinen ev sahibi"
+ },
+ "b1-ich-bin-gespannt": {
+  "cue": "Perde aralanıyor, nefes tutulu: \"gespannt sein\" + ob/wie/was, fiil sona: Ich bin gespannt, ob …",
+  "alt": "Perde açılmadan heyecanla bekleyen kişi"
+ },
+ "b1-ich-erkundige-mich-nach": {
+  "cue": "Tezgâhta bilgi alıyorsun: \"sich erkundigen nach\" + Dativ: Ich erkundige mich nach den Öffnungszeiten.",
+  "alt": "Çalışma saatlerini soran müşteri"
+ },
+ "b1-ich-finde-es-dass": {
+  "cue": "Biletler hazır ama arkadaş yok: duygu sıfatı + dass: Ich finde es schade, dass du nicht mitkommst.",
+  "alt": "Arkadaşı gelmediği için üzülen kişi, sinema biletleri"
+ },
+ "b1-ich-frage-mich": {
+  "cue": "Kendi kendine soru: gelecek mi? Dolaylı soruda fiil sona: Ich frage mich, ob er wirklich kommt.",
+  "alt": "Kapıya bakıp kendi kendine soran kişi"
+ },
+ "b1-ich-habe-vor-zu": {
+  "cue": "Takvimde işaretli gün, yanında koliler: bir planın var: Ich habe vor, nächstes Jahr umzuziehen.",
+  "alt": "Taşınma kolilerine ve takvime bakan kararlı kişi"
+ },
+ "b1-ich-hoffe-zu": {
+  "cue": "Parmakların çapraz, evrak yolda: \"hoffen\" + zu + mastar: Ich hoffe, bald eine Arbeit zu finden.",
+  "alt": "İş başvurusu yaptıktan sonra parmak çaprazlayan kişi"
+ },
+ "b1-ich-rate-dir-zu": {
+  "cue": "Doktor parmağını kaldırıyor: erken yat! \"raten/empfehlen\" + zu + mastar: Ich rate dir, früher zu schlafen.",
+  "alt": "Doktor erken yatmayı öneriyor"
+ },
+ "b1-ich-traeume-davon-zu": {
+  "cue": "Ay yukarıda, kafanda hayalin: \"träumen davon\" + zu + mastar: Ich träume davon, ein Haus zu kaufen.",
+  "alt": "Uyurken evini düşleyen kişi, ay ve yıldızlar"
+ },
+ "b1-ich-wuenschte": {
+  "cue": "Cin lambadan çıksa: gerçek olmayan dilek \"hätte/wäre\" ile kurulur: Ich wünschte, ich hätte mehr Zeit.",
+  "alt": "Bir cin ve sandık önünde dilek tutan kişi"
+ },
+ "b1-ich-wuerde-mich-freuen-wenn": {
+  "cue": "Kapıyı çalacak misafiri bekliyorsun: nazik dilek: Ich würde mich freuen, wenn du mich besuchen würdest.",
+  "alt": "Kapıda ziyaretçi bekleyen sevinçli kişi"
+ },
+ "b1-kann-mir-vorstellen": {
+  "cue": "Gözler kapalı, kafada Berlin: \"sich vorstellen\" ile hayal ediyorsun: Ich kann mir vorstellen, in Berlin zu leben.",
+  "alt": "Gözleri kapalı, Berlin yaşamını hayal eden kişi"
+ },
+ "b1-keine-lust-zu": {
+  "cue": "Kanepeden kalkasın yok, tava yasak: \"keine Lust\" + zu + mastar: Ich habe keine Lust, zu kochen.",
+  "alt": "Kanepede yatan, yemek yapmak istemeyen kişi"
+ },
+ "b1-meinung": {
+  "cue": "Dünyayı kalbine alıp görüşünü söylüyorsun: \"Meinung\" sonrası dass, fiil sonda: Ich bin der Meinung, dass …",
+  "alt": "Dünya ve yeşil kalple konuşan kişi"
+ },
+ "b1-nachdem": {
+  "cue": "Önce tabak boşalır, sonra yürüyüş: \"nachdem\" geçmiş olan ilk olaya bakar: Nachdem ich gegessen hatte…",
+  "alt": "Yemekten sonra yürüyüşe çıkan memnun kişi"
+ },
+ "b1-nicht-nur-sondern-auch": {
+  "cue": "Bir bayrak yetmez, yanına ikincisi gelir: nicht nur Deutsch, sondern auch Spanisch.",
+  "alt": "İki bayrak ve artı işaretiyle çok dilli kişi"
+ },
+ "b1-obwohl": {
+  "cue": "Ateşin 39, ama çantanı kapıp gidiyorsun: \"obwohl\" = yine de; fiil sona gider: …, obwohl ich krank bin.",
+  "alt": "Hasta ama işe giden kişi, yanında ateş ölçer ve evrak çantası"
+ },
+ "b1-passiv-praesens": {
+  "cue": "Bina yapılıyor ama kimse görünmüyor: edilgende iş önemli, yapan değil: Das Haus wird renoviert.",
+  "alt": "Yapım halindeki bina, vinç ve izleyen kişi"
+ },
+ "b1-passiv-praeteritum": {
+  "cue": "Yıllar önce yapılmış tarihi bina: \"wurde\" + Partizip II geçmiş edilgeni kurar: Das Rathaus wurde 1890 gebaut.",
+  "alt": "Eski bir bina yapılırken sepya renkli sahne"
+ },
+ "b1-plusquamperfekt": {
+  "cue": "Tren sen gelmeden gitmişti: geçmişin de geçmişi, \"war/hatte\" + Partizip II: Der Zug war schon abgefahren.",
+  "alt": "Tren kalkmış, kaçıran şaşkın kişi; ok geriye sarıyor"
+ },
+ "b1-relativsatz": {
+  "cue": "\"Der\" iki cümleyi zincirler: aynı adam, bağlaç gibi: Das ist der Mann, der neben uns wohnt.",
+  "alt": "Yanındaki komşuyu işaret eden kişi"
+ },
+ "b1-relativsatz-praeposition": {
+  "cue": "Tokalaşan iş arkadaşın: edat önce, artikel ilgi zamiri olur: die Kollegin, mit der ich arbeite.",
+  "alt": "İki iş arkadaşı bilgisayar başında el sıkışıyor"
+ },
+ "b1-schreibe-wegen": {
+  "cue": "İlan gazetede, mektup yolda: \"wegen\" + Genitiv: Ich schreibe Ihnen wegen Ihrer Anzeige.",
+  "alt": "Gazete ilanı için mektup yazan kişi"
+ },
+ "b1-seitdem": {
+  "cue": "Berlin'e taşındığın günden bugüne bisiklet: \"seitdem\" geçmişten şimdiye uzanan çizgidir.",
+  "alt": "Bisiklete binen mutlu kişi, geçmişten bugüne zaman çizgisi"
+ },
+ "b1-sich-beschweren-ueber": {
+  "cue": "Çorba buz gibi: garsona bağırıyorsun: \"sich beschweren über\" + Akkusativ: Ich beschwere mich über das Essen.",
+  "alt": "Soğuk çorbadan şikâyet eden müşteri"
+ },
+ "b1-sich-entscheiden-fuer": {
+  "cue": "İki otel arasından küçüğüne tik koyuyorsun: \"sich entscheiden für\" + Akkusativ.",
+  "alt": "Büyük otel yerine küçük oteli seçen kişi"
+ },
+ "b1-sich-erinnern-an": {
+  "cue": "İlk okul günü film gibi geri sarılıyor: \"mich erinnern an\" + Akkusativ: Ich erinnere mich an meinen ersten Schultag.",
+  "alt": "İlk okul günü anısını hatırlayan kişi, geri saran ok"
+ },
+ "b1-sich-gewoehnen-an": {
+  "cue": "Önce bunalıyorsun, sonra gözlük takıp rahatlıyorsun: \"sich gewöhnen an\" + Akkusativ.",
+  "alt": "Sıcak iklime yavaş yavaş alışan kişi"
+ },
+ "b1-sobald": {
+  "cue": "Tren gelir gelmez ⚡ harekete geçersin: \"sobald\" = ...ir etmez, fiil sona: Sobald der Bus kommt, steigen wir ein.",
+  "alt": "Tren gelir gelmez bineceği için sevinen kişi, arada şimşek"
+ },
+ "b1-sodass": {
+  "cue": "Telefon evde kaldı → arama yok: ok sebepten sonuca gider: …, sodass ich dich nicht anrufen konnte.",
+  "alt": "Telefonunu evde unutan, endişeli kişi; telefon kanepede"
+ },
+ "b1-stimme-zu": {
+  "cue": "Başparmak yukarı ama sonunda bir \"aber\": Da stimme ich dir zu, aber …",
+  "alt": "Bir kişi onaylıyor, diğeri \"aber\" diyor"
+ },
+ "b1-trotzdem": {
+  "cue": "Yağmur yağsın, kahkaha atıyorlar: \"trotzdem\" fiili hemen arkasına, 2. sıraya çeker: Es regnet, trotzdem gehen wir.",
+  "alt": "Yağmura rağmen gülen iki yürüyüşçü"
+ },
+ "b1-um-zu": {
+  "cue": "Ok hedefe varıyor: \"um\" amacı açar, \"zu\" mastarın önüne girer: Ich fahre nach Berlin, um sie zu besuchen.",
+  "alt": "Koşan kişi hedef tahtasına doğru gidiyor"
+ },
+ "b1-vergiss-nicht-zu": {
+  "cue": "Parmak havada: kapı kilitli mi? Emir hatırlatma: Vergiss nicht, die Tür abzuschließen.",
+  "alt": "Kapıyı kilitlemeyi hatırlatan kişi"
+ },
+ "b1-vielen-dank-fuer": {
+  "cue": "Elinde buket, yüzünde gülümseme: \"Vielen Dank für\" + Akkusativ: Vielen Dank für die Einladung.",
+  "alt": "Çiçek ve davetle teşekkür eden kişi"
+ },
+ "b1-vorgenommen": {
+  "cue": "Yeni yıl kararı: kolunu kıvırıyorsun: Ich habe mir vorgenommen, jeden Tag Deutsch zu lernen.",
+  "alt": "Almanca çalışmaya karar vermiş kararlı kişi"
+ },
+ "b1-vorteil-nachteil": {
+  "cue": "Terazinin bir kefesinde metro, diğerinde kira: avantaj/dezavantaj + dass: Ein Vorteil ist, dass …",
+  "alt": "Terazide metro ve pahalı kira"
+ },
+ "b1-waehrend": {
+  "cue": "İki iş aynı anda: sen kızartırken o müzik dinliyor, \"während\" ikisini yan yana tutar.",
+  "alt": "Biri yemek yaparken diğeri müzik dinliyor"
+ },
+ "b1-was-haeltst-du-von": {
+  "cue": "Kâğıdı uzatıp \"ne dersin?\" diyorsun: \"halten von\" + Dativ: Was hältst du von meinem Vorschlag?",
+  "alt": "Belge gösterip fikir soran kişi, dinleyici düşünceli"
+ },
+ "b1-was-relativ": {
+  "cue": "Beynindekilerin hepsi bu kadar: \"alles/nichts\" sonrası \"was\" gelir: Das ist alles, was ich weiß.",
+  "alt": "Bildiği her şeyi düşünen kişi, kafasında beyin ve yüz puan"
+ },
+ "b1-wenn-gehabt-haette": {
+  "cue": "Zaman geri sarılsa gidecektin ama yetmedi: geçmiş gerçekleşmeyen: Wenn ich Zeit gehabt hätte, hätte ich besucht.",
+  "alt": "Geçmişi düşünen üzgün kişi, geri saran ok"
+ },
+ "b1-wenn-haette-wuerde": {
+  "cue": "Para yok ama bulutta var: \"hätte\" gerçek dışı koşul, \"würde\" + sondaki mastar: Wenn ich Geld hätte, würde ich reisen.",
+  "alt": "Bulutlarda para ve uçak hayal eden gülümseyen kadın"
+ },
+ "b1-wo-praeposition": {
+  "cue": "Hediye kutusu için \"Worauf?\": ne için sevindiğini soruyorsun; edat wo- ile birleşir: Worauf freust du dich?",
+  "alt": "Hediye kutusu soran kişi; soru işareti"
+ },
+ "b1-zufrieden-mit": {
+  "cue": "Yeni ev, anahtar elinde, gülüyorsun: \"zufrieden mit\" + Dativ: Ich bin mit meiner Wohnung zufrieden.",
+  "alt": "Yeni evinin anahtarıyla mutlu kişi"
+ },
+ "b2-abgesehen-von": {
+  "cue": "Üç kırmızı elma tamam, yeşil olan hariç: Abgesehen von … (Dativ).",
+  "alt": "Üç kırmızı elma ve bir yeşil elma kenara ayrılmış"
+ },
+ "b2-angesichts": {
+  "cue": "Önünde kocaman bir dağ: Angesichts der Lage … durup düşünüyorsun.",
+  "alt": "Devasa dağın önünde küçük kalan şaşkın kişi"
+ },
+ "b2-anteil-liegt-bei": {
+  "cue": "Pizza dilimi bütünün payı: Der Anteil liegt bei 30 Prozent.",
+  "alt": "Dilimi alınmış pizza ve yüzde otuz; işaret eden kişi"
+ },
+ "b2-aufgrund": {
+  "cue": "Kar (neden) → ok → gecikmiş tren saati (sonuç): Aufgrund des Schnees verspätet sich der Zug.",
+  "alt": "Kar yüzünden gecikme; karlı hava ve saat işareti, endişeli kişi"
+ },
+ "b2-aus-geht-hervor": {
+  "cue": "Grafiğe büyüteç tut: Aus der Grafik geht hervor, dass … sonuç ortaya çıkıyor.",
+  "alt": "Büyüteçle grafiğe bakan sunucu"
+ },
+ "b2-bezueglich": {
+  "cue": "Zarfa ataç takıldı, konu başlığı belli: Bezüglich Ihrer Anfrage … diye başlarız.",
+  "alt": "Zarf ve ataç: konu başlıklı yazı"
+ },
+ "b2-dadurch-dass": {
+  "cue": "Pedal çevirdikçe kaslar çıkıyor: Dadurch, dass ich Rad fahre, bin ich fit; yol sonucu doğurur.",
+  "alt": "Bisikletle giden kişiden güçlü kola ok"
+ },
+ "b2-dank": {
+  "cue": "Yardım eli sayesinde kupa kaldırıldı: Dank deiner Hilfe habe ich gewonnen!",
+  "alt": "El sıkışma ile kupa; sevinçli kişi"
+ },
+ "b2-darueber-hinaus": {
+  "cue": "Paket tamam, üstüne bir de hediye: darüber hinaus (bunun ötesinde), fiil 2. sırada.",
+  "alt": "Kutunun ötesinde artı işareti ve ek hediye"
+ },
+ "b2-davon-ueberzeugt": {
+  "cue": "Yüz puanlık kesin inanç! Ich bin davon überzeugt, dass … ve fiil cümlenin sonuna gider.",
+  "alt": "Kendinden emin, parmak kaldıran kişi; balonda yüz puan"
+ },
+ "b2-die-tatsache-dass": {
+  "cue": "Gerçek taş duvar gibi: Die Tatsache, dass … (fiil sonda) bu değişmez.",
+  "alt": "Taş duvar gibi değişmez gerçek; kollar kavuşuk ciddi kişi"
+ },
+ "b2-egal-ob": {
+  "cue": "Otobüs de olur bisiklet de: omuz silkip egal ob … oder …",
+  "alt": "Otobüs ya da bisiklet fark etmez; omuz silken kişi"
+ },
+ "b2-einerseits-andererseits": {
+  "cue": "İki kapı: birinde para, ötekinde zaman. Bir yandan (einerseits) bu, öte yandan (andererseits) şu.",
+  "alt": "İki kapı arasında kararsız kalan kişi; solda para, sağda saat"
+ },
+ "b2-eingehen-auf": {
+  "cue": "Slaytta tek bir noktaya iğne: kısaca ona değiniyorum, Ich möchte kurz auf … eingehen.",
+  "alt": "Sunumda konuya iğne batıran kişi, ekranda iğne"
+ },
+ "b2-es-besteht-die-gefahr": {
+  "cue": "Dev dalga eve doğru geliyor: Es besteht die Gefahr einer Überschwemmung.",
+  "alt": "Eve yaklaşan dalga; korkmuş kişi"
+ },
+ "b2-es-geht-darum": {
+  "cue": "Önemli olan hedef: bitiş bayrağına yürü! Es geht darum, … zu + mastar.",
+  "alt": "Bitiş bayrağına doğru yürüyen kişi"
+ },
+ "b2-es-handelt-sich-um": {
+  "cue": "Doktor sireni gösterip konuyu açıyor: Es handelt sich um einen Notfall.",
+  "alt": "Doktor acil durumu işaret ediyor; siren ve ambulans"
+ },
+ "b2-es-kommt-zu": {
+  "cue": "Tak! İki araba çarpıştı: Es kommt zu einem Unfall; olay meydana geliyor (zu + Dativ).",
+  "alt": "İki arabanın çarpışması"
+ },
+ "b2-es-sei-denn": {
+  "cue": "Partiye gideceksin, es sei denn … hasta olursan: yüz hasta, parti kalır.",
+  "alt": "Hasta kişi parti davetine gidemiyor; hasta balonu"
+ },
+ "b2-es-spricht-dafuer": {
+  "cue": "Terazi bir yana yatıyor, kefede üç onay: Es spricht vieles dafür, dass …",
+  "alt": "Terazinin bir kefesi onaylarla ağır basıyor"
+ },
+ "b2-falls-sofern": {
+  "cue": "Bulutlara bak: Falls es regnet, şemsiye al! Koşul bağlacı, fiil sonda.",
+  "alt": "Sağanak yağmura karşı şemsiye düşünen kişi"
+ },
+ "b2-folglich-somit": {
+  "cue": "Alarm çalmadı → otobüs kaçtı: Der Wecker klingelte nicht, somit verpasste ich den Bus.",
+  "alt": "Çalmayan alarm saati, kaçan otobüs"
+ },
+ "b2-gehoert-zu-den": {
+  "cue": "Altın madalya en iyiler arasında: gehört zu den besten … (Superlativ).",
+  "alt": "Madalya sıralamasında altın başta; sahnedeki sevinçli kişi"
+ },
+ "b2-haben-zu": {
+  "cue": "Memur parmağıyla formu gösteriyor: Sie haben das Formular auszufüllen; resmî zorunluluk.",
+  "alt": "Resmî evrağı doldurmalı; form ve imza kalemi"
+ },
+ "b2-haette-ich-ohne-wenn": {
+  "cue": "Param olsaydı tatildeydim: cebi boş, kafası palmiyede; Hätte ich Geld, wäre ich …",
+  "alt": "Geçmişe bakıp pişman kişi; balonda uçak ve palmiye, boş para"
+ },
+ "b2-hingegen-dagegen": {
+  "cue": "Kedi sessiz uyuyor, köpek hingegen bağırıyor: iki zıt cümle yan yana.",
+  "alt": "Sessiz kedi ve gürültülü köpek"
+ },
+ "b2-ich-bin-mir-sicher": {
+  "cue": "Kafasında soru işareti: Ich bin mir nicht sicher, ob … (ob + fiil sonda).",
+  "alt": "Emin olamayan, düşünen kişi; balonda düşünen yüz ve soru işareti"
+ },
+ "b2-ich-bitte-sie-zu": {
+  "cue": "Müdür ellerini kavuşturup nazikçe istiyor: Ich bitte Sie, … zu + mastar.",
+  "alt": "Kibarca ricada bulunan yönetici; balonda dua eden eller"
+ },
+ "b2-ich-moechte-ihnen-vorstellen": {
+  "cue": "Spot ışığı, perde açılıyor: Bugün size yeni ürünü tanıtıyorum, Ich möchte Ihnen … vorstellen.",
+  "alt": "Sahnede yeni ürünü tanıtan kişi; Yeni tabelası ve telefon"
+ },
+ "b2-ich-moechte-sie-hinweisen": {
+  "cue": "Parmak levhayı gösteriyor, dikkat: Ich möchte Sie darauf hinweisen, dass …",
+  "alt": "Yol çalışması levhasını gösteren kişi"
+ },
+ "b2-ich-waere-dankbar": {
+  "cue": "Parmaklar çapraz, e-posta yolda: Ich wäre Ihnen dankbar, wenn Sie … könnten.",
+  "alt": "Parmakları çaprazlanmış kişi e-posta gönderiyor"
+ },
+ "b2-im-falle": {
+  "cue": "Yangın çıktı, söndürücü hazır: Im Falle eines Brandes … (isim + Genitiv).",
+  "alt": "Yangın ve yangın söndürücü; acil durum"
+ },
+ "b2-im-gegensatz-zu": {
+  "cue": "Ateşli ve buz gibi iki arkadaş yan yana: Im Gegensatz zu Anna ist Ben ruhig. Zıtlık.",
+  "alt": "İki zıt kişi; biri ateş gibi sıcak, öteki buz gibi soğuk"
+ },
+ "b2-im-vergleich-zu": {
+  "cue": "Gökdelen yanında kulübe gibi kalan ev: Im Vergleich zu … kıyas.",
+  "alt": "Yan yana büyük gökdelen ve küçük ev"
+ },
+ "b2-je-desto": {
+  "cue": "Kitap yığını büyüdükçe yıldız yükseliyor: je mehr … desto besser; ikisi de karşılaştırma (-er).",
+  "alt": "Kitap yığını büyüdükçe yükselen yıldız; yukarı doğru ok"
+ },
+ "b2-je-nachdem": {
+  "cue": "Yarın ne yapacaksın? Omuz silkiyor: hava güneşliyse piknik, yağmurluysa sinema; je nachdem, ob …",
+  "alt": "Güneş mi yağmur mu, omuz silken kişi"
+ },
+ "b2-konjunktiv-i": {
+  "cue": "Biri anlatıyor, öteki defterine geçiyor: sözü aktarırken fiil Konjunktiv I: Er sagt, er habe Zeit.",
+  "alt": "Megafonla konuşan kişiyi not alarak dinleyen diğer kişi"
+ },
+ "b2-laesst-sich": {
+  "cue": "Kilit tek hamlede açılıyor, kolay iş: Die Tür lässt sich leicht öffnen.",
+  "alt": "Kolayca açılan kilit; baş parmak onayı"
+ },
+ "b2-lassen": {
+  "cue": "Makası kendin tutmuyorsun, berber yapıyor: Ich lasse mir die Haare schneiden.",
+  "alt": "Berberde tıraş olan gülümseyen kişi; makas ve berber tabelası"
+ },
+ "b2-laut": {
+  "cue": "Elinde gazete: kaynağı gösteriyor, Laut Zeitung (…e göre) …",
+  "alt": "Gazete tutan kişi; balonda gazete"
+ },
+ "b2-man-sollte-bedenken": {
+  "cue": "Beyni açıp dikkat çekiyor: Man sollte bedenken, dass … diyerek hatırlatır.",
+  "alt": "Parmak kaldırıp düşünmeyi öğütleyen kişi; beyin ve ünlem"
+ },
+ "b2-meiner-meinung-nach": {
+  "cue": "Toplantıda parmak kaldıran kişi kendi ampulünü gösteriyor: bu benim görüşüm, \"Meiner Meinung nach …\"",
+  "alt": "Toplantıda parmağını kaldırıp fikrini söyleyen kişi; balonda ampul"
+ },
+ "b2-nominalisierung": {
+  "cue": "Zaman çizgisinde önce tabak, sonra diş fırçası: Nach dem Essen putze ich die Zähne (isim kullan, fiil değil).",
+  "alt": "Yemekten sonra diş fırçalamak: tabaktan fırçaya zaman çizgisi"
+ },
+ "b2-ohne-zu": {
+  "cue": "El sallayıp veda etmeden çekip gidiyor: ohne sich zu verabschieden, fiil zu ile mastarda.",
+  "alt": "Veda etmeden uzaklaşan kişi; el sallama yasak işaretli"
+ },
+ "b2-partizip-i": {
+  "cue": "Yatakta uyuyan bebek, uyku hâlâ sürüyor: das schlafende Kind; fiil + -end sıfat olur.",
+  "alt": "Yatakta uyuyan bebek, üstünde horlama simgesi"
+ },
+ "b2-partizip-ii-attribut": {
+  "cue": "Kapı kapandı, kilit tamam: die geschlossene Tür; biten eylem sıfat olur (ge…en/-t).",
+  "alt": "Kapalı kapı ve kilit; kapıya bakan kişi"
+ },
+ "b2-passiv-modalverb": {
+  "cue": "Arabayı tamirciye göster: tamir edilmeli! Modal fiil başta, \"repariert werden\" sonda: Das Auto muss repariert werden.",
+  "alt": "Bozuk arabayı parmağıyla gösteren kişi; araba ve tamir anahtarı"
+ },
+ "b2-scheinen-zu": {
+  "cue": "Yan masadaki yorgun gibi görünüyor: Er scheint müde zu sein; kesin değil, izlenim.",
+  "alt": "Yorgun kişiyi gözleyen şüpheli bakışlı kişi"
+ },
+ "b2-sein-zu": {
+  "cue": "Uyarı levhası: yapılması gereken şey! Die Regel ist zu beachten (-meli, -ilmeli).",
+  "alt": "Dikkat işareti ve kural kâğıdı; kuralı gösteren ciddi kişi"
+ },
+ "b2-sollte-ohne-wenn": {
+  "cue": "Sorunuz olursa: telefon yanında, resmî nezaket: Sollten Sie Fragen haben, rufen Sie an.",
+  "alt": "Telefonu işaret eden yönetici; balonda soru işareti"
+ },
+ "b2-sowohl-als-auch": {
+  "cue": "İki meyve de sepette, ikisinin üstünde de tik: sowohl elma als auch muz.",
+  "alt": "İki meyve de onaylı; her ikisinin üstünde yeşil tik"
+ },
+ "b2-statt-zu": {
+  "cue": "Çalışmak yerine masada horlamak: Statt zu lernen, schläft er; kitap duruyor, uyku kazanıyor.",
+  "alt": "Kitaplar dururken uyuyan öğrenci"
+ },
+ "b2-trotz": {
+  "cue": "Başında kara bulut, yüzünde kocaman gülümseme: Trotz des Regens spielt er Fußball.",
+  "alt": "Yağmura rağmen gülerek top oynayan kişi"
+ },
+ "b2-um-prozent-gestiegen": {
+  "cue": "Grafik tavana vuruyor: Der Umsatz ist um 20 Prozent gestiegen; ok yukarı!",
+  "alt": "Yukarı çıkan grafik ve sevinen kişi"
+ },
+ "b2-was-betrifft": {
+  "cue": "Gündemde tek hedef var, parmak onu gösteriyor: Was das Budget betrifft, …",
+  "alt": "Hedef tahtasını işaret eden kişi"
+ },
+ "b2-weder-noch": {
+  "cue": "Kahveye de çaya da çarpı: weder … noch; ikisini de istemiyor.",
+  "alt": "Ne kahve ne çay isteyen kişi; iki içeceğin üstünde kırmızı çarpı"
+ },
+ "b2-wer-der": {
+  "cue": "Fidanı eken meyveyi toplar: Wer sät, der erntet; wer … (fiil sonda), der …",
+  "alt": "Tohumdan ağaca: ekeni meyve bekler"
+ },
+ "b2-wuerde-es-ihnen-etwas-ausmachen": {
+  "cue": "Pencere sıcak, ama izin lazım: kibarca soruyor, Würde es Ihnen etwas ausmachen, wenn ich … öffne?",
+  "alt": "Pencereyi açmak için nazikçe soran kişi"
+ },
+ "b2-zusammenfassend": {
+  "cue": "Koca kitap yığını tek sayfaya sığdı: Zusammenfassend lässt sich sagen, dass …",
+  "alt": "Kitap yığını tek sayfalık özete dönüyor"
+ },
+ "b2-zwar-aber": {
+  "cue": "Pasta güzel, doğru (zwar), ama fiyatı cüzdanı uçuruyor (aber): önce övgü, sonra itiraz.",
+  "alt": "Kafede pastaya bakıp fiyata şaşıran kişi; balonda pasta ve uçan para"
+ },
+ "c1-allem-anschein-nach": {
+  "cue": "Her şey bir yağmura işaret ediyor, görünüşe göre: allem Anschein nach.",
+  "alt": "Geceyi izleyip tahmin yürüten kişi"
+ },
+ "c1-anhand": {
+  "cue": "Tahtadaki örnek ya da grafik kanıtın dayanağı: anhand + Genitiv.",
+  "alt": "Tahtada örnek grafik, öğretmen belgeyi gösteriyor"
+ },
+ "c1-ausser-acht-lassen": {
+  "cue": "Önündeki önemli not yan tarafta kalıyor, bakmıyorsun: außer Acht lassen.",
+  "alt": "Önemli notu görmeyip başka yere bakan kişi"
+ },
+ "c1-bei-naeherer-betrachtung": {
+  "cue": "Büyüteci yaklaştırınca asıl ayrıntı çıkıyor: bei näherer Betrachtung.",
+  "alt": "Büyüteçle ayrıntıya yakın bakan kişi"
+ },
+ "c1-besteht-darin": {
+  "cue": "Görevin özü hedefin tam ortası: besteht darin, ... zu + mastar.",
+  "alt": "Hedef tahtasını gösteren kişi"
+ },
+ "c1-davon-auszugehen": {
+  "cue": "Tahtadaki grafik yükselmeye devam ediyor; sen \"Es ist davon auszugehen, dass…\" diyerek tahmini bildiriyorsun.",
+  "alt": "Toplantıda tahtadaki yükselen grafiğe bakıp parmak kaldıran kişi"
+ },
+ "c1-dem-steht-entgegen": {
+  "cue": "Yolun önünde kırmızı bir engel var: dem steht entgegen = buna ters düşüyor.",
+  "alt": "Yola engel duvara dayanan kişi"
+ },
+ "c1-duerfte": {
+  "cue": "Saat neredeyse tamam, tren herhalde gelir: dürfte = büyük olasılık.",
+  "alt": "Tren saatine bakıp \"herhalde gelir\" diyen kişi"
+ },
+ "c1-erweitertes-partizip": {
+  "cue": "Kutunun üstü uzun bir etiketle dolu: sıfat, isme gelene kadar bilgiyi sırtında taşır.",
+  "alt": "Uzun etiketli kutuyu uzatan kişi"
+ },
+ "c1-es-bleibt-abzuwarten": {
+  "cue": "Tren gelecek mi? Saat işliyor, sadece beklemek kalıyor: bleibt abzuwarten.",
+  "alt": "Peronda kum saatiyle bekleyen kişi"
+ },
+ "c1-es-gilt-zu": {
+  "cue": "Masada yapılacak liste duruyor, şimdi hepsi yapılmak zorunda: es gilt ... zu.",
+  "alt": "Yapılacaklar listesini gösteren kişi"
+ },
+ "c1-es-ist-eben-so": {
+  "cue": "Güneş her gün batar, değiştiremezsin: es ist eben/halt/nun mal so.",
+  "alt": "Omuz silken kişi, güneş batıyor"
+ },
+ "c1-es-laesst-sich-nicht-leugnen": {
+  "cue": "Önünde kanıt ortada; \"hayır\" diye sallanan elini indiriyorsun: lässt sich nicht leugnen.",
+  "alt": "Elini kaldıran, önünde yasak işareti olan ciddi kişi"
+ },
+ "c1-es-mag-sein": {
+  "cue": "Omzunu silkip \"olabilir\" diyorsun ama bir \"aber\" geliyor: Es mag sein, aber.",
+  "alt": "Omuz silken kişi, yanında terazi"
+ },
+ "c1-es-steht-ausser-frage": {
+  "cue": "Soru işini kocaman çarpıyla çizdin: artık şüphe dışı, außer Frage.",
+  "alt": "Çarpılmış soru işi, parmak yukarı kişi"
+ },
+ "c1-es-stellt-sich-die-frage": {
+  "cue": "Aniden başının üstünde bir soru işareti belirdi: es stellt sich die Frage.",
+  "alt": "Kişinin başında soru işaretleri, tahtada soru işi"
+ },
+ "c1-es-waere-wuenschenswert": {
+  "cue": "Yıldıza dilek tutuyorsun: es wäre wünschenswert, wenn ... (Konjunktiv II).",
+  "alt": "Yıldıza dilek tutan gülen kişi"
+ },
+ "c1-geht-einher": {
+  "cue": "İkisi hep birlikte yürür: ...geht mit ... einher = eşlik eder.",
+  "alt": "İki kişi yan yana yürüyor, aralarında bağ"
+ },
+ "c1-geschweige-denn": {
+  "cue": "Küçük şeyi bile yapamazsın, dağı bırak! \"geschweige denn\" büyüğü ekler.",
+  "alt": "Küçük taşı bile kaldıramayan kişi, yanında koca dağ"
+ },
+ "c1-gilt-als": {
+  "cue": "Başındaki tacı herkes görüyor: ...gilt als = diye bilinir, kabul edilir.",
+  "alt": "Başında taç, sahnede alkışlanan kişi"
+ },
+ "c1-haengt-davon-ab-inwieweit": {
+  "cue": "Düğmeyi ne kadar çevirirsen o kadar: \"ne ölçüde\" bağlı, hängt davon ab, inwieweit.",
+  "alt": "Kaydırıcı düğme, bir yanda güneş bir yanda bulut"
+ },
+ "c1-haette-sollen": {
+  "cue": "Otobüs gitti, zamanı geri sarmak istiyorsun: hätte sollen = yapmadım ama yapmalıydım.",
+  "alt": "Kişi geri sarma okuyla kaçırdığı otobüse bakıyor"
+ },
+ "c1-im-hinblick-auf": {
+  "cue": "Dürbünle hedefe bakıyorsun: \"Im Hinblick auf\" = o hedefi göz önünde tutarak, sonra virgül.",
+  "alt": "Masadaki kişi, bir hedef tahtasına dürbünle bakıyor"
+ },
+ "c1-im-zusammenhang-mit": {
+  "cue": "İki parça birbirine uyuyor, bağlantı kurdun: im Zusammenhang mit.",
+  "alt": "İki yapboz parçasını birleştiren kişi"
+ },
+ "c1-in-anspruch-nehmen": {
+  "cue": "Doktordan hizmeti ve zamanı alıyorsun: in Anspruch nehmen.",
+  "alt": "Doktor odasında randevu takvimi ve zaman, hizmet alan kişi"
+ },
+ "c1-in-betracht-ziehen": {
+  "cue": "Masaya üç seçenek kartı serdin, birini yanına çekip tartıyorsun: in Betracht ziehen.",
+  "alt": "Üç seçenek kartına bakıp düşünen kişi"
+ },
+ "c1-in-frage-stellen": {
+  "cue": "Kesin sandığın şeyin üstüne kocaman bir soru işareti koyuyorsun: in Frage stellen.",
+  "alt": "Tahtadaki büyük soru işine bakan şüpheci kişi"
+ },
+ "c1-in-kauf-nehmen": {
+  "cue": "Sepete gül aldın ama dikeni de içinde; kabul edip sepetle gidiyorsun: in Kauf nehmen.",
+  "alt": "Alışveriş sepetinde dikenli bir kaktüs taşıyan, buruk gülen kişi"
+ },
+ "c1-infolgedessen": {
+  "cue": "Bulut yağdı, bu yüzden şemsiye açıldı: ok neden→sonuç, infolgedessen.",
+  "alt": "Yağmurda açılan şemsiye, bulut ve yürüyen kişi ok ile bağlı"
+ },
+ "c1-insofern-als": {
+  "cue": "Sadece kesişen o kısımda haklısın: insofern als = o ölçüde, o bakımdan.",
+  "alt": "İki halkanın kesişimini gösteren kişi"
+ },
+ "c1-keine-rede-davon": {
+  "cue": "Ağzından çıkan sözü elinle durduruyorsun: keine Rede davon, söz konusu bile değil.",
+  "alt": "Elini kaldırıp \"dur\" diyen kişi, konuşma balonu yasaklı"
+ },
+ "c1-kommt-nicht-in-frage": {
+  "cue": "Kollarını kavuşturup kapıyı kapattın: kommt nicht in Frage = mümkün değil.",
+  "alt": "Kollarını kavuşturan kişi, önünde yasak işareti"
+ },
+ "c1-muss-haben": {
+  "cue": "Fincan boş, demek biri gelmiş olmalı: muss ... haben = ipucundan çıkarım.",
+  "alt": "Boş kahve fincanı ve büyüteç, dedektif bakışı"
+ },
+ "c1-nicht-umhin-koennen": {
+  "cue": "Tatlının etrafından dolaşıp geçemiyorsun, elin gidiyor: nicht umhin können.",
+  "alt": "Tatlıya engel olamayıp gülen kişi"
+ },
+ "c1-nicht-zuletzt": {
+  "cue": "Listenin sonundaki ama önemsiz olmayan neden yıldızla parlıyor: nicht zuletzt.",
+  "alt": "Sıralı madalyalar, sonuncusu yıldız gibi parlıyor"
+ },
+ "c1-nichts-anderes-uebrig": {
+  "cue": "Tek bir kapı var, başka yok: es bleibt nichts anderes übrig, als ... zu.",
+  "alt": "Tek kapıya mecbur bakan yorgun kişi"
+ },
+ "c1-nichtsdestoweniger": {
+  "cue": "Engel var; yine de tırmanıyorsun: nichtsdestoweniger = buna rağmen.",
+  "alt": "Engele rağmen bayrağa tırmanan kişi, ok yukarı"
+ },
+ "c1-rechnung-tragen": {
+  "cue": "Kasa fişine bakar gibi etkeni hesaba katıyorsun: Rechnung tragen (Dativ).",
+  "alt": "Fiş ve hesap makinesi, hesaba katan kişi"
+ },
+ "c1-soll-haben": {
+  "cue": "Gazete manşeti \"olmuş\" diyor ama sen emin değilsin: soll ... haben = söylenti.",
+  "alt": "Gazete okuyan şüpheli kişi, yanında söylenti işareti"
+ },
+ "c1-sollte-inversion": {
+  "cue": "Yağmur gelirse (belki), şemsiyeyi açarım: Sollte ..., fiil başa gelir, wenn yok.",
+  "alt": "Bulutlara bakıp şemsiye düşünen kişi"
+ },
+ "c1-soweit-mir-bekannt": {
+  "cue": "Bildiğin kadarını daire içine aldın, ötesini bilmiyorsun: soweit mir bekannt ist.",
+  "alt": "Kişi düşünce balonunda bildiğini daire içine alıyor"
+ },
+ "c1-subjektsatz-voran": {
+  "cue": "Uzun konu cümlesi öne atlıyor, hemen sonra ist gelir: Dass ..., ist ...",
+  "alt": "Tahtada kutuyu öne iten kişi"
+ },
+ "c1-ungeachtet": {
+  "cue": "Fırtına, yağmur ne olursa, görmezden gelip yürüyorsun: ungeachtet (Genitiv).",
+  "alt": "Fırtınaya rağmen yürüyen kişi"
+ },
+ "c1-unter-beweis-stellen": {
+  "cue": "Başarını sahnede herkese göstermek için kupayı kaldırıyorsun: unter Beweis stellen.",
+  "alt": "Sahnede kupa kaldıran kişi"
+ },
+ "c1-verkuerzter-nebensatz": {
+  "cue": "Uzun yan cümleyi makasla kısalttın: kısaltılmış yan cümle, Partizip II ile.",
+  "alt": "Makasla kısaltma, yanında gülen kişi"
+ },
+ "c1-vielmehr": {
+  "cue": "Önce yanlışı çizip geçiyorsun, doğrusunu öne alıyorsun: nicht ..., sondern vielmehr.",
+  "alt": "Çarpı ile yanlış, tik ile doğru seçenek"
+ },
+ "c1-vorausgesetzt": {
+  "cue": "Sözleşmeyi, şart sağlanırsa imzalarsın: vorausgesetzt = koşul bu.",
+  "alt": "Masada sözleşme, onay işareti ve ciddi kişi"
+ },
+ "c1-wenngleich": {
+  "cue": "Hava yağmurlu, her ne kadar... ama sen gülüyorsun: wenngleich.",
+  "alt": "Yağmurlu havada şemsiye altında gülümseyen kişi"
+ },
+ "c1-wie-dem-auch-sei": {
+  "cue": "Tartışmayı bir tüy gibi üfleyip geçiyorsun: Wie dem auch sei = her neyse.",
+  "alt": "Omuz silken kişi, tartışma baloncuğu uçup gidiyor"
+ },
+ "c1-wie-hervorgeht": {
+  "cue": "Raporun içinden sonuç sanki dışarı çıkıyor: Wie aus ... hervorgeht.",
+  "alt": "Rapordan çıkan sonuç, rapora bakan kişi"
+ },
+ "c1-wohingegen": {
+  "cue": "Biri güneşli yazda, öbürü karlı kışta: wohingegen iki zıt tarafı tek cümlede bağlar.",
+  "alt": "Soldaki kişi güneşte, sağdaki karda; ikisi zıt"
+ },
+ "c1-zu-verdanken": {
+  "cue": "Başarını arkadaki yardımcıya borçlusun, çiçeği ona uzatıyorsun: zu verdanken.",
+  "alt": "Sahnede teşekkür eden kişi, elinde çiçek"
+ },
+ "c1-zum-ausdruck-bringen": {
+  "cue": "İçindeki duyguyu mikrofona üfleyip dışarı çıkarıyorsun: zum Ausdruck bringen.",
+  "alt": "Sahnede mikrofona konuşan kişi, ağzından kalp çıkıyor"
+ },
+ "c1-zumal": {
+  "cue": "Zaten yorgundun, hele ki dışarıda yağmur da var: zumal = bir neden daha.",
+  "alt": "Evde yorgun kişi; dışarıda yağmur ve hasta yüz"
+ },
+ "c1-zur-diskussion-stellen": {
+  "cue": "Tahtadaki fikri ortaya bıraktın, herkesin sesi karışıyor: zur Diskussion stellen.",
+  "alt": "Fikri sınıfa açan kişi ve cevap veren kişi, konuşma balonları"
+ },
+ "c1-zur-folge-haben": {
+  "cue": "İlk blok devrildi, hepsi peşinden: zur Folge haben = sonuç doğurur.",
+  "alt": "Mavi blokların art arda devrilmesi"
+ },
+ "c1-zur-rechenschaft-ziehen": {
+  "cue": "Patron seni masaya çağırıp hesap sormaya başladı: zur Rechenschaft ziehen.",
+  "alt": "Kızgın patron ve korkmuş çalışan"
+ },
+ "c1-zur-sprache-bringen": {
+  "cue": "Konuyu kart gibi masaya koyuyorsun, herkes görsün: zur Sprache bringen.",
+  "alt": "Toplantı masasına konu kartı koyan kişi"
+ },
+ "c1-zur-verfuegung-stehen": {
+  "cue": "Anahtarı karşındakine uzatıyorsun: artık senin emrinde, zur Verfügung.",
+  "alt": "Elinde anahtar uzatan, gülümseyen kişi ve masada laptop"
+ },
+ "c1-zurueckzufuehren": {
+  "cue": "Islak zemini bulut yarattı; oku geri izle: zurückzuführen auf.",
+  "alt": "Yere düşen damlalardan buluta geri dönen ok"
+ }
+}

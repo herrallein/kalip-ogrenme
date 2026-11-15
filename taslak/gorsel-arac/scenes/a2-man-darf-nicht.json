@@ -1,0 +1,25 @@
+{
+ "id": "a2-man-darf-nicht",
+ "bg": "park",
+ "keyword": "darf nicht",
+ "alt": "Kollarını kavuşturmuş görevli ve sigara yasağı işareti",
+ "people": [
+  {
+   "pose": "bust:ArmsCrossed",
+   "face": "Serious",
+   "hair": "ShortVolumed",
+   "x": 84,
+   "skin": "brown",
+   "shirt": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🚭",
+   "x": 236,
+   "y": 90,
+   "size": 74
+  }
+ ],
+ "cue": "Kırmızı çizgili sigara: yasak! Kollar kavuşuk görevli diyor ki: Man darf hier nicht RAUCHEN."
+}

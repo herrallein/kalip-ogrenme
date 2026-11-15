@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { movePattern, orderedPatterns } from '../core/scheduler';
 import type { AppState, Level, Pattern } from '../core/types';
 import { daysBetween, fmtDay } from './util';
+import { PatternVisual } from './PatternVisual';
 
 interface Props {
   state: AppState;
@@ -111,6 +112,7 @@ export function PatternsTab({ state, setState, patterns, today }: Props) {
                     </div>
                     {isOpen && (
                       <div className="row-body">
+                        <PatternVisual id={p.id} size="full" showCue />
                         {p.note && <p className="note">{p.note}</p>}
                         <ul className="examples">
                           {p.examples.map((e, k) => (

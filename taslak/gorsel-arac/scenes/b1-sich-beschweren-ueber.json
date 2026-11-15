@@ -1,0 +1,39 @@
+{
+ "id": "b1-sich-beschweren-ueber",
+ "bg": "cafe",
+ "keyword": "beschwere mich über",
+ "alt": "Soğuk çorbadan şikâyet eden müşteri",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Serious",
+   "hair": "BaldTop",
+   "x": 88,
+   "skin": "medium",
+   "shirt": "red",
+   "facialHair": "Chin"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "📢"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "🍲",
+   "x": 235,
+   "y": 135,
+   "size": 50
+  },
+  {
+   "emoji": "🥶",
+   "x": 280,
+   "y": 90,
+   "size": 36
+  }
+ ],
+ "cue": "Çorba buz gibi: garsona bağırıyorsun: \"sich beschweren über\" + Akkusativ: Ich beschwere mich über das Essen."
+}

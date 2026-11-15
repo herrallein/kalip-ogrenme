@@ -1,0 +1,26 @@
+{
+ "id": "b2-falls-sofern",
+ "bg": "street",
+ "keyword": "falls",
+ "alt": "Sağanak yağmura karşı şemsiye düşünen kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Calm",
+   "hair": "Afro",
+   "x": 88,
+   "skin": "dark",
+   "shirt": "navy",
+   "dark": "navy"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🌧️",
+   "☂️"
+  ]
+ },
+ "cue": "Bulutlara bak: Falls es regnet, şemsiye al! Koşul bağlacı, fiil sonda."
+}

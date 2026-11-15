@@ -1,0 +1,32 @@
+{
+ "id": "b2-eingehen-auf",
+ "bg": "meeting",
+ "keyword": "eingehen auf",
+ "alt": "Sunumda konuya iğne batıran kişi, ekranda iğne",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Explaining",
+   "hair": "ShortScratch",
+   "x": 80,
+   "skin": "dark",
+   "shirt": "pink",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🖥️",
+   "x": 232,
+   "y": 98,
+   "size": 70
+  },
+  {
+   "emoji": "📌",
+   "x": 256,
+   "y": 74,
+   "size": 32
+  }
+ ],
+ "cue": "Slaytta tek bir noktaya iğne: kısaca ona değiniyorum, Ich möchte kurz auf … eingehen."
+}

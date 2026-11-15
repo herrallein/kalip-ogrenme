@@ -1,0 +1,40 @@
+{
+ "id": "b2-egal-ob",
+ "bg": "station",
+ "keyword": "egal ob",
+ "alt": "Otobüs ya da bisiklet fark etmez; omuz silken kişi",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "Calm",
+   "hair": "ShortCurly",
+   "x": 86,
+   "skin": "medium",
+   "shirt": "navy",
+   "dark": "navy",
+   "accessory": "SunglassWayfarer"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🤷"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "🚌",
+   "x": 200,
+   "y": 134,
+   "size": 52
+  },
+  {
+   "emoji": "🚲",
+   "x": 262,
+   "y": 134,
+   "size": 52
+  }
+ ],
+ "cue": "Otobüs de olur bisiklet de: omuz silkip egal ob … oder …"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "a2-ich-fuehle-mich",
+ "bg": "home",
+ "keyword": "fühle mich",
+ "alt": "Yorgun kişi, yanında yatak ve uyku işareti",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Tired",
+   "hair": "Short",
+   "x": 86,
+   "skin": "medium",
+   "shirt": "gray"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "💤",
+   "x": 194,
+   "y": 66,
+   "size": 38
+  }
+ ],
+ "props": [
+  {
+   "type": "bed",
+   "x": 254,
+   "y": 178,
+   "scale": 0.9
+  }
+ ],
+ "cue": "Göz kapakların düşüyor, yatak çağırıyor: Ich fühle MICH müde. Kendi durumunu mich + sıfatla söylersin."
+}

@@ -1,0 +1,26 @@
+{
+ "id": "b1-ich-rate-dir-zu",
+ "bg": "doctor",
+ "keyword": "rate dir",
+ "alt": "Doktor erken yatmayı öneriyor",
+ "people": [
+  {
+   "pose": "DocStethoscope",
+   "face": "Smile",
+   "hair": "DocBouffant",
+   "x": 90,
+   "skin": "medium",
+   "shirt": "white",
+   "scale": 1.15
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🛌",
+   "🌙"
+  ]
+ },
+ "cue": "Doktor parmağını kaldırıyor: erken yat! \"raten/empfehlen\" + zu + mastar: Ich rate dir, früher zu schlafen."
+}

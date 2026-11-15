@@ -1,0 +1,50 @@
+{
+ "id": "b2-zusammenfassend",
+ "bg": "classroom",
+ "keyword": "zusammenfassend",
+ "alt": "Kitap yığını tek sayfalık özete dönüyor",
+ "people": [
+  {
+   "pose": "bust:Paper",
+   "face": "Smile",
+   "hair": "Bun",
+   "x": 84,
+   "skin": "medium",
+   "shirt": "navy",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📚",
+   "x": 172,
+   "y": 120,
+   "size": 62
+  },
+  {
+   "emoji": "📄",
+   "x": 264,
+   "y": 120,
+   "size": 48
+  },
+  {
+   "emoji": "✅",
+   "x": 284,
+   "y": 78,
+   "size": 30
+  }
+ ],
+ "arrow": {
+  "from": [
+   204,
+   108
+  ],
+  "to": [
+   238,
+   112
+  ],
+  "bend": -10,
+  "style": "solid"
+ },
+ "cue": "Koca kitap yığını tek sayfaya sığdı: Zusammenfassend lässt sich sagen, dass …"
+}

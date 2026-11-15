@@ -1,0 +1,38 @@
+{
+ "id": "b1-vorteil-nachteil",
+ "bg": "plain",
+ "keyword": "Vorteil / Nachteil",
+ "alt": "Terazide metro ve pahalı kira",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Calm",
+   "hair": "GrayShort",
+   "x": 80,
+   "skin": "light",
+   "shirt": "brown"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "⚖️",
+   "x": 225,
+   "y": 90,
+   "size": 70
+  },
+  {
+   "emoji": "🚇",
+   "x": 185,
+   "y": 160,
+   "size": 34
+  },
+  {
+   "emoji": "💸",
+   "x": 275,
+   "y": 160,
+   "size": 34
+  }
+ ],
+ "cue": "Terazinin bir kefesinde metro, diğerinde kira: avantaj/dezavantaj + dass: Ein Vorteil ist, dass …",
+ "bgColor": "#f1ead7"
+}

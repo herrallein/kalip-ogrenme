@@ -1,0 +1,38 @@
+{
+ "id": "b1-um-zu",
+ "bg": "street",
+ "keyword": "um … zu",
+ "alt": "Koşan kişi hedef tahtasına doğru gidiyor",
+ "people": [
+  {
+   "pose": "WalkingBW",
+   "face": "Driven",
+   "hair": "ShortScratch",
+   "x": 80,
+   "skin": "brown",
+   "shirt": "orange",
+   "scale": 1.1,
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🎯",
+   "x": 265,
+   "y": 90,
+   "size": 58
+  }
+ ],
+ "arrow": {
+  "from": [
+   130,
+   80
+  ],
+  "to": [
+   225,
+   86
+  ],
+  "bend": -30
+ },
+ "cue": "Ok hedefe varıyor: \"um\" amacı açar, \"zu\" mastarın önüne girer: Ich fahre nach Berlin, um sie zu besuchen."
+}

@@ -1,0 +1,31 @@
+{
+ "id": "a2-anmelden-fuer",
+ "bg": "classroom",
+ "keyword": "anmelden",
+ "alt": "Kayıt formunu dolduran kişi",
+ "people": [
+  {
+   "pose": "bust:Paper",
+   "face": "Smile",
+   "hair": "Short",
+   "x": 84,
+   "skin": "dark",
+   "shirt": "orange"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📝",
+   "x": 216,
+   "y": 92,
+   "size": 52
+  },
+  {
+   "emoji": "✍️",
+   "x": 270,
+   "y": 128,
+   "size": 42
+  }
+ ],
+ "cue": "Formu dolduruyorsun: Ich möchte MICH für den Deutschkurs ANMELDEN. Kendini yazdırırsın (mich), ek parça sonda."
+}

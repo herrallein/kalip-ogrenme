@@ -1,0 +1,27 @@
+{
+ "id": "b2-zwar-aber",
+ "bg": "cafe",
+ "keyword": "zwar … aber",
+ "alt": "Kafede pastaya bakıp fiyata şaşıran kişi; balonda pasta ve uçan para",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "Concerned",
+   "hair": "ShortCurly",
+   "x": 88,
+   "skin": "brown",
+   "shirt": "purple",
+   "dark": "navy",
+   "facialHair": "Goatee"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🍰",
+   "💸"
+  ]
+ },
+ "cue": "Pasta güzel, doğru (zwar), ama fiyatı cüzdanı uçuruyor (aber): önce övgü, sonra itiraz."
+}

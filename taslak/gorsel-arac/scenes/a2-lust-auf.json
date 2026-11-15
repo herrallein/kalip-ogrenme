@@ -1,0 +1,24 @@
+{
+ "id": "a2-lust-auf",
+ "bg": "cafe",
+ "keyword": "Lust auf",
+ "alt": "Dondurma canı çeken, gözleri parlayan kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "LoveGrin",
+   "hair": "BunCurly",
+   "x": 84,
+   "skin": "brown",
+   "shirt": "pink"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🍦"
+  ]
+ },
+ "cue": "Canın dondurma çekti, balonda dondurma dönüyor: Ich habe Lust AUF ein Eis. İstek = Lust auf + Akkusativ."
+}

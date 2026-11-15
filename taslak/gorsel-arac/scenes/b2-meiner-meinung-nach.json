@@ -1,0 +1,26 @@
+{
+ "id": "b2-meiner-meinung-nach",
+ "bg": "meeting",
+ "keyword": "Meinung",
+ "alt": "Toplantıda parmağını kaldırıp fikrini söyleyen kişi; balonda ampul",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Explaining",
+   "hair": "Bun",
+   "x": 90,
+   "skin": "medium",
+   "shirt": "teal",
+   "dark": "navy",
+   "accessory": "GlassRound"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "💡"
+  ]
+ },
+ "cue": "Toplantıda parmak kaldıran kişi kendi ampulünü gösteriyor: bu benim görüşüm, \"Meiner Meinung nach …\""
+}

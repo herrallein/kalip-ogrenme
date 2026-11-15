@@ -1,0 +1,34 @@
+{
+ "id": "b1-was-haeltst-du-von",
+ "bg": "meeting",
+ "keyword": "Was hältst du von",
+ "alt": "Belge gösterip fikir soran kişi, dinleyici düşünceli",
+ "people": [
+  {
+   "pose": "bust:Paper",
+   "face": "Explaining",
+   "hair": "Pomp",
+   "x": 65,
+   "skin": "brown",
+   "shirt": "teal"
+  },
+  {
+   "pose": "bust:Hoodie",
+   "face": "Suspicious",
+   "hair": "Hijab",
+   "x": 255,
+   "skin": "light",
+   "shirt": "gray",
+   "flip": true
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "📄",
+   "❓"
+  ]
+ },
+ "cue": "Kâğıdı uzatıp \"ne dersin?\" diyorsun: \"halten von\" + Dativ: Was hältst du von meinem Vorschlag?"
+}

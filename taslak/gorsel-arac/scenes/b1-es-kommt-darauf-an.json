@@ -1,0 +1,37 @@
+{
+ "id": "b1-es-kommt-darauf-an",
+ "bg": "park",
+ "keyword": "kommt darauf an",
+ "alt": "Omuz silken kişi, güneş ve yağmur arasında soru işareti",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "Calm",
+   "hair": "MediumBangs",
+   "x": 88,
+   "skin": "brown",
+   "shirt": "gray"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "☀️",
+   "x": 190,
+   "y": 60,
+   "size": 46
+  },
+  {
+   "emoji": "🌧️",
+   "x": 275,
+   "y": 60,
+   "size": 46
+  },
+  {
+   "emoji": "❓",
+   "x": 232,
+   "y": 125,
+   "size": 58
+  }
+ ],
+ "cue": "Hava güneşli mi yağmurlu mu? Omuz silkip \"bağlı\" dersin: Es kommt darauf an, ob …"
+}

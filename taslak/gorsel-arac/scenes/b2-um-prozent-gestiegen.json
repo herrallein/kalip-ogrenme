@@ -1,0 +1,38 @@
+{
+ "id": "b2-um-prozent-gestiegen",
+ "bg": "meeting",
+ "keyword": "gestiegen",
+ "alt": "Yukarı çıkan grafik ve sevinen kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "SmileBig",
+   "hair": "Afro",
+   "x": 82,
+   "skin": "medium",
+   "shirt": "brown",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📈",
+   "x": 232,
+   "y": 100,
+   "size": 70
+  }
+ ],
+ "arrow": {
+  "from": [
+   188,
+   150
+  ],
+  "to": [
+   280,
+   60
+  ],
+  "bend": -14,
+  "style": "solid"
+ },
+ "cue": "Grafik tavana vuruyor: Der Umsatz ist um 20 Prozent gestiegen; ok yukarı!"
+}

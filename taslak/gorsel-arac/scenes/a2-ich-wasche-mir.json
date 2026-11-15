@@ -1,0 +1,37 @@
+{
+ "id": "a2-ich-wasche-mir",
+ "bg": "kitchen",
+ "keyword": "wasche mir",
+ "alt": "Ellerini sabunlayan kişi; sabun ve köpük",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "SmileNM",
+   "hair": "Bun",
+   "x": 84,
+   "skin": "light",
+   "shirt": "teal"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🧼",
+   "x": 206,
+   "y": 100,
+   "size": 48
+  },
+  {
+   "emoji": "🫧",
+   "x": 256,
+   "y": 72,
+   "size": 38
+  },
+  {
+   "emoji": "🫧",
+   "x": 276,
+   "y": 120,
+   "size": 30
+  }
+ ],
+ "cue": "Kendi ellerini yıkıyorsun: Ich wasche MIR die Hände. Vücut parçası varsa kendine mir, parçanın önünde \"die\"."
+}

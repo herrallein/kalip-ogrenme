@@ -1,0 +1,43 @@
+{
+ "id": "a2-deshalb",
+ "bg": "station",
+ "keyword": "deshalb",
+ "alt": "Çalmayan çalar saat ve kaçan tren; telaşlı kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Hectic",
+   "hair": "ShortScratch",
+   "x": 90,
+   "skin": "light",
+   "shirt": "red"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "⏰",
+   "x": 196,
+   "y": 64,
+   "size": 50
+  },
+  {
+   "emoji": "🚆",
+   "x": 268,
+   "y": 126,
+   "size": 50
+  }
+ ],
+ "arrow": {
+  "from": [
+   216,
+   72
+  ],
+  "to": [
+   256,
+   106
+  ],
+  "bend": -26,
+  "color": "#d33"
+ },
+ "cue": "Çalar saat çalmadı, bu yüzden tren kaçtı: ok nedenden sonuca. \"deshalb\" geldi mi fiil hemen yanında: …, deshalb nehme ich …"
+}

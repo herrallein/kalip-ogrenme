@@ -1,0 +1,37 @@
+{
+ "id": "b1-ich-bin-dabei-zu",
+ "bg": "kitchen",
+ "keyword": "dabei",
+ "alt": "Ocakta yemek yaparken meşgul kişi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Hectic",
+   "hair": "Short",
+   "x": 88,
+   "skin": "medium",
+   "shirt": "red"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🍲",
+   "x": 235,
+   "y": 140,
+   "size": 52
+  },
+  {
+   "emoji": "🔥",
+   "x": 200,
+   "y": 120,
+   "size": 34
+  },
+  {
+   "emoji": "♨️",
+   "x": 250,
+   "y": 80,
+   "size": 34
+  }
+ ],
+ "cue": "Tam o anda tencere kaynıyor: \"dabei sein\" = şu an işin içinde: Ich bin gerade dabei, zu kochen."
+}

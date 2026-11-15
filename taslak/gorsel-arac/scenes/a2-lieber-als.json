@@ -1,0 +1,37 @@
+{
+ "id": "a2-lieber-als",
+ "bg": "cafe",
+ "keyword": "lieber … als",
+ "alt": "Çay ve kahve arasında çayı seçen kişi; çayda kalp",
+ "people": [
+  {
+   "pose": "bust:Coffee",
+   "face": "Smile",
+   "hair": "Medium",
+   "x": 84,
+   "skin": "light",
+   "shirt": "green"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🍵",
+   "x": 206,
+   "y": 116,
+   "size": 50
+  },
+  {
+   "emoji": "❤️",
+   "x": 206,
+   "y": 64,
+   "size": 34
+  },
+  {
+   "emoji": "☕",
+   "x": 268,
+   "y": 116,
+   "size": 38
+  }
+ ],
+ "cue": "Çay kalbini kazandı, kahve ikinci: Ich trinke LIEBER Tee ALS Kaffee. Tercih = lieber … als."
+}

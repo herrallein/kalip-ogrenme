@@ -1,0 +1,25 @@
+{
+ "id": "a2-ich-glaube",
+ "bg": "home",
+ "keyword": "glaube",
+ "alt": "Düşünen kişinin balonunda ev ve bir insan",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Calm",
+   "hair": "Medium",
+   "x": 86,
+   "skin": "light",
+   "shirt": "gray"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🏠",
+   "🧍"
+  ]
+ },
+ "cue": "Balonda ev: sanırım evde. Ich glaube, er IST schon zu Hause. \"dass\" yok, fiil hâlâ ikinci sırada."
+}

@@ -1,0 +1,33 @@
+{
+ "id": "a2-wollen-wir",
+ "bg": "street",
+ "keyword": "Wollen wir",
+ "alt": "İki arkadaş; sinema önerisi balonunda film ve patlamış mısır",
+ "people": [
+  {
+   "pose": "bust:Hoodie",
+   "face": "SmileBig",
+   "hair": "Afro",
+   "x": 70,
+   "skin": "dark",
+   "shirt": "purple"
+  },
+  {
+   "pose": "bust:Shirt",
+   "face": "Smile",
+   "hair": "Long",
+   "x": 226,
+   "skin": "light",
+   "shirt": "green"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🎬",
+   "🍿"
+  ]
+ },
+ "cue": "Arkadaşına dönüp \"Sinemaya gidelim mi?\" diyorsun: Wollen wir ins Kino GEHEN? Soru fiille başlar, mastar sonda."
+}

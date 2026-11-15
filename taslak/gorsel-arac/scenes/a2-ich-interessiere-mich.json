@@ -1,0 +1,31 @@
+{
+ "id": "a2-ich-interessiere-mich",
+ "bg": "home",
+ "keyword": "interessiere mich",
+ "alt": "Kulaklıkla müzik dinleyen, gözleri parlayan kişi",
+ "people": [
+  {
+   "pose": "bust:Device",
+   "face": "Awe",
+   "hair": "Mohawk",
+   "x": 84,
+   "skin": "dark",
+   "shirt": "purple"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🎧",
+   "x": 206,
+   "y": 74,
+   "size": 50
+  },
+  {
+   "emoji": "🎸",
+   "x": 264,
+   "y": 126,
+   "size": 52
+  }
+ ],
+ "cue": "Müzik seni içine çekiyor: Ich interessiere MICH FÜR Musik. İlgi kendine döner (mich), konu için \"für\" gelir."
+}

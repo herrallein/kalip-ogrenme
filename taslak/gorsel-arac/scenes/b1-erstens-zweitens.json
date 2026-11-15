@@ -1,0 +1,43 @@
+{
+ "id": "b1-erstens-zweitens",
+ "bg": "meeting",
+ "keyword": "erstens … zweitens",
+ "alt": "Madalyalarla iki neden sayan kişi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Serious",
+   "hair": "Long",
+   "x": 80,
+   "skin": "medium",
+   "shirt": "purple"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🥇",
+   "x": 185,
+   "y": 60,
+   "size": 40
+  },
+  {
+   "emoji": "💸",
+   "x": 235,
+   "y": 60,
+   "size": 40
+  },
+  {
+   "emoji": "🥈",
+   "x": 185,
+   "y": 130,
+   "size": 40
+  },
+  {
+   "emoji": "🏙️",
+   "x": 235,
+   "y": 130,
+   "size": 40
+  }
+ ],
+ "cue": "Birinci sebep para, ikinci sebep semt: madalyalar sırayla geliyor: Erstens …, zweitens …"
+}

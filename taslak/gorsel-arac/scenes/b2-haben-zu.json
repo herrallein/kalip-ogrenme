@@ -1,0 +1,35 @@
+{
+ "id": "b2-haben-zu",
+ "bg": "office",
+ "keyword": "hat … zu",
+ "alt": "Resmî evrağı doldurmalı; form ve imza kalemi",
+ "people": [
+  {
+   "pose": "PointingFingerBW",
+   "face": "Serious",
+   "hair": "LongCurly",
+   "x": 76,
+   "skin": "medium",
+   "shirt": "green",
+   "dark": "navy",
+   "scale": 1.25,
+   "facialHair": "MoustacheThin"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📋",
+   "x": 208,
+   "y": 112,
+   "size": 58
+  },
+  {
+   "emoji": "🖊️",
+   "x": 262,
+   "y": 138,
+   "size": 38,
+   "rot": 20
+  }
+ ],
+ "cue": "Memur parmağıyla formu gösteriyor: Sie haben das Formular auszufüllen; resmî zorunluluk."
+}

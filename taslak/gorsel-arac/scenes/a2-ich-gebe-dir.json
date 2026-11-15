@@ -1,0 +1,36 @@
+{
+ "id": "a2-ich-gebe-dir",
+ "bg": "street",
+ "keyword": "gebe dir",
+ "alt": "Birine kartvizit uzatan kişi",
+ "people": [
+  {
+   "pose": "bust:Paper",
+   "face": "Smile",
+   "hair": "MediumShort",
+   "x": 80,
+   "skin": "light",
+   "shirt": "red"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📇",
+   "x": 236,
+   "y": 100,
+   "size": 52
+  }
+ ],
+ "arrow": {
+  "from": [
+   130,
+   110
+  ],
+  "to": [
+   206,
+   102
+  ],
+  "bend": -24
+ },
+ "cue": "Kartı sana uzatıyorum, ok elden ele: Ich gebe DIR meine Nummer. Kime = dir (Dativ), neyi = Akkusativ."
+}

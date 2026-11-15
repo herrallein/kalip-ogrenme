@@ -1,0 +1,55 @@
+{
+ "id": "a2-zuerst-dann",
+ "bg": "kitchen",
+ "keyword": "zuerst · dann",
+ "alt": "Kahvaltı, iş ve otobüs: birden üçe sıralı adımlar",
+ "people": [
+  {
+   "pose": "bust:Coffee",
+   "face": "EatingHappy",
+   "hair": "ShortWavy",
+   "x": 64,
+   "skin": "medium",
+   "shirt": "orange"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "1️⃣",
+   "x": 150,
+   "y": 70,
+   "size": 34
+  },
+  {
+   "emoji": "🍳",
+   "x": 150,
+   "y": 124,
+   "size": 40
+  },
+  {
+   "emoji": "2️⃣",
+   "x": 212,
+   "y": 70,
+   "size": 34
+  },
+  {
+   "emoji": "💼",
+   "x": 212,
+   "y": 124,
+   "size": 40
+  },
+  {
+   "emoji": "3️⃣",
+   "x": 274,
+   "y": 70,
+   "size": 34
+  },
+  {
+   "emoji": "🚌",
+   "x": 274,
+   "y": 124,
+   "size": 40
+  }
+ ],
+ "cue": "Üç basamak: 1 kahvaltı, 2 iş, 3 otobüs. Zuerst frühstücke ich, DANN gehe ich … sıra sözcüğünden sonra fiil hemen gelir."
+}

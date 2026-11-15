@@ -1,0 +1,42 @@
+{
+ "id": "a2-zeitangabe-inversion",
+ "bg": "street",
+ "keyword": "Morgen",
+ "alt": "Takvimde yarın; doktora giden kişi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Calm",
+   "hair": "Medium",
+   "x": 80,
+   "skin": "medium",
+   "shirt": "blue"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📅",
+   "x": 206,
+   "y": 70,
+   "size": 52
+  },
+  {
+   "emoji": "🩺",
+   "x": 268,
+   "y": 126,
+   "size": 46
+  }
+ ],
+ "arrow": {
+  "from": [
+   216,
+   96
+  ],
+  "to": [
+   258,
+   112
+  ],
+  "bend": -14
+ },
+ "cue": "Zaman başa geçince fiil ikinci sıraya sıçrar: MORGEN GEHE ich zum Arzt. Özne fiilin arkasında kalır."
+}

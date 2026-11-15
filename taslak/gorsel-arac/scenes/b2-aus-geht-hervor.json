@@ -1,0 +1,33 @@
+{
+ "id": "b2-aus-geht-hervor",
+ "bg": "meeting",
+ "keyword": "geht hervor",
+ "alt": "Büyüteçle grafiğe bakan sunucu",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Explaining",
+   "hair": "LongCurly",
+   "x": 84,
+   "skin": "dark",
+   "shirt": "navy",
+   "dark": "navy",
+   "accessory": "GlassRound"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📊",
+   "x": 222,
+   "y": 100,
+   "size": 64
+  },
+  {
+   "emoji": "🔍",
+   "x": 270,
+   "y": 138,
+   "size": 44
+  }
+ ],
+ "cue": "Grafiğe büyüteç tut: Aus der Grafik geht hervor, dass … sonuç ortaya çıkıyor."
+}

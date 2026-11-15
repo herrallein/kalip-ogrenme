@@ -1,0 +1,11 @@
+const R=require('../../../node_modules/react'),S=require('../../../node_modules/react-dom/server');
+const L='../indir/pkg/package/lib/peeps/';
+const Head=require(L+'head').default;
+const St=require(L+'pose/standing/z_options').StandingPose,Si=require(L+'pose/sitting/z_options').SittingPose,Bu=require(L+'pose/bust/z_options').BustPose;
+const Hair=require(L+'hair/z_options').Hair,Face=require(L+'face/z_options').Face,Acc=require(L+'accessories/z_options').Accessories,FH=require(L+'facialHair/z_options').FacialHair;
+exports.POSES={standing:Object.keys(St),sitting:Object.keys(Si),bust:Object.keys(Bu)};
+exports.HAIR=Object.keys(Hair);exports.FACE=Object.keys(Face);exports.ACC=Object.keys(Acc).filter(x=>x!=='None');exports.FH=Object.keys(FH).filter(x=>x!=='None');
+const ALL={...St,...Si,...Bu};
+exports.kindOf=n=>St[n]?'standing':Si[n]?'sitting':Bu[n]?'bust':null;
+exports.pose=(n,stroke,bg)=>S.renderToStaticMarkup(R.createElement(ALL[n],{strokeColor:stroke,backgroundColor:bg}));
+exports.head=(o)=>S.renderToStaticMarkup(R.createElement(Head,{hairPiece:o.hair,facePiece:o.face,facialHairPiece:o.facialHair,accessoryPiece:o.accessory,strokeColor:o.stroke,backgroundColor:o.skin}));

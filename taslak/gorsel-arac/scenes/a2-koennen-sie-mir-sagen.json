@@ -1,0 +1,25 @@
+{
+ "id": "a2-koennen-sie-mir-sagen",
+ "bg": "station",
+ "keyword": "sagen, wo",
+ "alt": "Yolcu garı soruyor",
+ "people": [
+  {
+   "pose": "bust:Paper",
+   "face": "Suspicious",
+   "hair": "ShortCurly",
+   "x": 86,
+   "skin": "brown",
+   "shirt": "orange"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🚉",
+   "❓"
+  ]
+ },
+ "cue": "Yabancıya \"Gar nerede?\" diye soruyorsun: Können Sie mir sagen, wo der Bahnhof IST? Fiil en sonda."
+}

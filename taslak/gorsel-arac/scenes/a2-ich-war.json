@@ -1,0 +1,43 @@
+{
+ "id": "a2-ich-war",
+ "bg": "doctor",
+ "keyword": "war",
+ "alt": "Doktor odasında bekleyen kişi; geri saran ok",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Tired",
+   "hair": "Medium",
+   "x": 84,
+   "skin": "light",
+   "shirt": "green"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🩺",
+   "x": 244,
+   "y": 110,
+   "size": 50
+  },
+  {
+   "emoji": "⏪",
+   "x": 176,
+   "y": 56,
+   "size": 36
+  }
+ ],
+ "arrow": {
+  "from": [
+   210,
+   58
+  ],
+  "to": [
+   166,
+   64
+  ],
+  "bend": -14,
+  "marker": "rewind"
+ },
+ "cue": "Saat geriye sarıyor: dün doktordaydın. Ich WAR beim Arzt; \"sein\" fiilinin geçmişi war."
+}

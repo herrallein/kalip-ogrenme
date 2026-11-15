@@ -1,0 +1,32 @@
+{
+ "id": "b2-laesst-sich",
+ "bg": "kitchen",
+ "keyword": "lässt sich",
+ "alt": "Kolayca açılan kilit; baş parmak onayı",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Smile",
+   "hair": "MediumBangs",
+   "x": 86,
+   "skin": "light",
+   "shirt": "orange",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🔓",
+   "x": 200,
+   "y": 100,
+   "size": 60
+  },
+  {
+   "emoji": "👌",
+   "x": 266,
+   "y": 100,
+   "size": 44
+  }
+ ],
+ "cue": "Kilit tek hamlede açılıyor, kolay iş: Die Tür lässt sich leicht öffnen."
+}

@@ -1,0 +1,44 @@
+{
+ "id": "b2-weder-noch",
+ "bg": "cafe",
+ "keyword": "weder … noch",
+ "alt": "Ne kahve ne çay isteyen kişi; iki içeceğin üstünde kırmızı çarpı",
+ "people": [
+  {
+   "pose": "bust:ArmsCrossed",
+   "face": "Serious",
+   "hair": "FlatTop",
+   "x": 84,
+   "skin": "brown",
+   "shirt": "orange",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "☕",
+   "x": 178,
+   "y": 128,
+   "size": 50
+  },
+  {
+   "emoji": "🍵",
+   "x": 252,
+   "y": 128,
+   "size": 50
+  },
+  {
+   "emoji": "❌",
+   "x": 178,
+   "y": 128,
+   "size": 56
+  },
+  {
+   "emoji": "❌",
+   "x": 252,
+   "y": 128,
+   "size": 56
+  }
+ ],
+ "cue": "Kahveye de çaya da çarpı: weder … noch; ikisini de istemiyor."
+}

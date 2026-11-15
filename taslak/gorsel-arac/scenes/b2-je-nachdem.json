@@ -1,0 +1,27 @@
+{
+ "id": "b2-je-nachdem",
+ "bg": "park",
+ "keyword": "je nachdem",
+ "alt": "Güneş mi yağmur mu, omuz silken kişi",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "Calm",
+   "hair": "ShortCurly",
+   "x": 88,
+   "skin": "light",
+   "shirt": "pink",
+   "dark": "navy"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "☀️",
+   "❓",
+   "🌧️"
+  ]
+ },
+ "cue": "Yarın ne yapacaksın? Omuz silkiyor: hava güneşliyse piknik, yağmurluysa sinema; je nachdem, ob …"
+}

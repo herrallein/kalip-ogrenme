@@ -1,0 +1,33 @@
+{
+ "id": "b1-ich-frage-mich",
+ "bg": "street",
+ "keyword": "frage mich",
+ "alt": "Kapıya bakıp kendi kendine soran kişi",
+ "people": [
+  {
+   "pose": "bust:Turtleneck",
+   "face": "Suspicious",
+   "hair": "MediumShort",
+   "x": 88,
+   "skin": "light",
+   "shirt": "navy"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🚪",
+   "❓"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "🕐",
+   "x": 255,
+   "y": 70,
+   "size": 36
+  }
+ ],
+ "cue": "Kendi kendine soru: gelecek mi? Dolaylı soruda fiil sona: Ich frage mich, ob er wirklich kommt."
+}

@@ -1,0 +1,35 @@
+{
+ "id": "b2-partizip-ii-attribut",
+ "bg": "home",
+ "keyword": "geschlossen",
+ "alt": "Kapalı kapı ve kilit; kapıya bakan kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Calm",
+   "hair": "ShortWavy",
+   "x": 84,
+   "skin": "brown",
+   "shirt": "purple",
+   "dark": "navy"
+  }
+ ],
+ "props": [
+  {
+   "type": "door",
+   "x": 240,
+   "y": 180,
+   "scale": 1.1,
+   "color": "brown"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🔒",
+   "x": 240,
+   "y": 110,
+   "size": 44
+  }
+ ],
+ "cue": "Kapı kapandı, kilit tamam: die geschlossene Tür; biten eylem sıfat olur (ge…en/-t)."
+}

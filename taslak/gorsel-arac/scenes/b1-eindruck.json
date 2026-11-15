@@ -1,0 +1,34 @@
+{
+ "id": "b1-eindruck",
+ "bg": "home",
+ "keyword": "Eindruck",
+ "alt": "Karşısındaki üzgün kişiyi gözleyen iki kişi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Suspicious",
+   "hair": "MediumBangs",
+   "x": 65,
+   "skin": "light",
+   "shirt": "blue"
+  },
+  {
+   "pose": "bust:Sweater",
+   "face": "Tired",
+   "hair": "GrayShort",
+   "x": 255,
+   "skin": "brown",
+   "shirt": "gray",
+   "flip": true
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "👀",
+   "x": 160,
+   "y": 110,
+   "size": 56
+  }
+ ],
+ "cue": "Gözlerin onda: üzgün görünüyor, izlenimin bu: Ich habe den Eindruck, dass er sich nicht wohlfühlt."
+}

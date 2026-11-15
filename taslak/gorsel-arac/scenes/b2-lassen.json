@@ -1,0 +1,33 @@
+{
+ "id": "b2-lassen",
+ "bg": "shop",
+ "keyword": "lasse",
+ "alt": "Berberde tıraş olan gülümseyen kişi; makas ve berber tabelası",
+ "people": [
+  {
+   "pose": "bust:ShirtFilled",
+   "face": "Smile",
+   "hair": "Short",
+   "x": 88,
+   "skin": "light",
+   "shirt": "yellow",
+   "dark": "navy"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "✂️"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "💈",
+   "x": 232,
+   "y": 110,
+   "size": 56
+  }
+ ],
+ "cue": "Makası kendin tutmuyorsun, berber yapıyor: Ich lasse mir die Haare schneiden."
+}

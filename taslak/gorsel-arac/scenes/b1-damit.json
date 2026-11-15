@@ -1,0 +1,45 @@
+{
+ "id": "b1-damit",
+ "bg": "cafe",
+ "keyword": "damit",
+ "alt": "Bir kişi not yazıp diğerine uzatıyor",
+ "people": [
+  {
+   "pose": "bust:Paper",
+   "face": "Calm",
+   "hair": "Bun",
+   "x": 60,
+   "skin": "medium",
+   "shirt": "blue"
+  },
+  {
+   "pose": "bust:Hoodie",
+   "face": "Smile",
+   "hair": "ShortWavy",
+   "x": 260,
+   "skin": "dark",
+   "shirt": "red",
+   "flip": true
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📝",
+   "x": 160,
+   "y": 120,
+   "size": 52
+  }
+ ],
+ "arrow": {
+  "from": [
+   90,
+   70
+  ],
+  "to": [
+   232,
+   70
+  ],
+  "bend": -26
+ },
+ "cue": "Notu yazıyorsun ki unutmasın: \"damit\" = diye (amaç); fiil sona: …, damit du es nicht vergisst."
+}

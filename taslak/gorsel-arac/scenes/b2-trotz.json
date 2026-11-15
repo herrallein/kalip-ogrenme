@@ -1,0 +1,33 @@
+{
+ "id": "b2-trotz",
+ "bg": "park",
+ "keyword": "trotz",
+ "alt": "Yağmura rağmen gülerek top oynayan kişi",
+ "people": [
+  {
+   "pose": "WalkingBW",
+   "face": "SmileLol",
+   "hair": "Bangs",
+   "x": 92,
+   "skin": "medium",
+   "shirt": "red",
+   "dark": "navy",
+   "scale": 1.25
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🌧️",
+   "x": 190,
+   "y": 48,
+   "size": 64
+  },
+  {
+   "emoji": "⚽",
+   "x": 238,
+   "y": 150,
+   "size": 36
+  }
+ ],
+ "cue": "Başında kara bulut, yüzünde kocaman gülümseme: Trotz des Regens spielt er Fußball."
+}

@@ -1,0 +1,26 @@
+{
+ "id": "b2-laut",
+ "bg": "office",
+ "keyword": "laut",
+ "alt": "Gazete tutan kişi; balonda gazete",
+ "people": [
+  {
+   "pose": "bust:Paper",
+   "face": "Explaining",
+   "hair": "GrayShort",
+   "x": 90,
+   "skin": "brown",
+   "shirt": "yellow",
+   "dark": "navy",
+   "accessory": "GlassClubmaster"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "📰"
+  ]
+ },
+ "cue": "Elinde gazete: kaynağı gösteriyor, Laut Zeitung (…e göre) …"
+}

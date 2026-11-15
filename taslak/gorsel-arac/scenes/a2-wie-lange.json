@@ -1,0 +1,43 @@
+{
+ "id": "a2-wie-lange",
+ "bg": "station",
+ "keyword": "Wie lange",
+ "alt": "Kronometre ve tren: yolculuk süresi sorusu",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Suspicious",
+   "hair": "Short",
+   "x": 86,
+   "skin": "light",
+   "shirt": "orange"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "⏱️",
+   "x": 214,
+   "y": 72,
+   "size": 52
+  },
+  {
+   "emoji": "🚆",
+   "x": 272,
+   "y": 126,
+   "size": 48
+  }
+ ],
+ "arrow": {
+  "from": [
+   180,
+   156
+  ],
+  "to": [
+   300,
+   156
+  ],
+  "bend": 0,
+  "marker": "timeline"
+ },
+ "cue": "Kronometre, tren, süre çizgisi: yol ne kadar sürer? Wie lange DAUERT die Fahrt nach Berlin?"
+}

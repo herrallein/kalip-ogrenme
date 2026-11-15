@@ -1,0 +1,31 @@
+{
+ "id": "a2-ich-freue-mich-auf",
+ "bg": "home",
+ "keyword": "freue mich auf",
+ "alt": "Takvimdeki hafta sonunu dört gözle bekleyen sevinçli kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "SmileLol",
+   "hair": "ShortCurly",
+   "x": 84,
+   "skin": "brown",
+   "shirt": "yellow"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📅",
+   "x": 214,
+   "y": 80,
+   "size": 56
+  },
+  {
+   "emoji": "🎉",
+   "x": 266,
+   "y": 130,
+   "size": 44
+  }
+ ],
+ "cue": "Takvimde cumartesiye daire çizdin, içinde konfeti: Ich freue mich AUF das Wochenende. Gelecek için \"auf\"."
+}

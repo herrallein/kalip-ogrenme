@@ -1,0 +1,44 @@
+{
+ "id": "b2-nominalisierung",
+ "bg": "kitchen",
+ "keyword": "nach dem Essen",
+ "alt": "Yemekten sonra diş fırçalamak: tabaktan fırçaya zaman çizgisi",
+ "people": [
+  {
+   "pose": "bust:Coffee",
+   "face": "Smile",
+   "hair": "Bangs",
+   "x": 84,
+   "skin": "dark",
+   "shirt": "green",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🍽️",
+   "x": 170,
+   "y": 92,
+   "size": 44
+  },
+  {
+   "emoji": "🪥",
+   "x": 270,
+   "y": 92,
+   "size": 44
+  }
+ ],
+ "arrow": {
+  "from": [
+   196,
+   92
+  ],
+  "to": [
+   248,
+   92
+  ],
+  "bend": 0,
+  "marker": "timeline"
+ },
+ "cue": "Zaman çizgisinde önce tabak, sonra diş fırçası: Nach dem Essen putze ich die Zähne (isim kullan, fiil değil)."
+}

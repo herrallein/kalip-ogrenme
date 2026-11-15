@@ -1,0 +1,32 @@
+{
+ "id": "a2-ich-spreche-ueber",
+ "bg": "meeting",
+ "keyword": "mit … über",
+ "alt": "Toplantıda patronla izin hakkında konuşan iki kişi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Smile",
+   "hair": "Long",
+   "x": 70,
+   "skin": "brown",
+   "shirt": "teal"
+  },
+  {
+   "pose": "bust:ButtonShirt",
+   "face": "Calm",
+   "hair": "BaldSides",
+   "x": 228,
+   "skin": "light",
+   "shirt": "gray"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🏖️"
+  ]
+ },
+ "cue": "Patronla masadasın, konu tatil: Ich spreche MIT meinem Chef ÜBER meinen Urlaub. Kiminle = mit, ne hakkında = über."
+}

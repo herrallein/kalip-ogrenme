@@ -1,0 +1,25 @@
+{
+ "id": "b1-ich-traeume-davon-zu",
+ "bg": "night",
+ "keyword": "träume davon",
+ "alt": "Uyurken evini düşleyen kişi, ay ve yıldızlar",
+ "people": [
+  {
+   "pose": "bust:Hoodie",
+   "face": "EyesClosed",
+   "hair": "ShortWavy",
+   "x": 88,
+   "skin": "light",
+   "shirt": "teal"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🏡",
+   "💤"
+  ]
+ },
+ "cue": "Ay yukarıda, kafanda hayalin: \"träumen davon\" + zu + mastar: Ich träume davon, ein Haus zu kaufen."
+}

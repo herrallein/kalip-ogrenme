@@ -1,0 +1,38 @@
+{
+ "id": "b2-es-kommt-zu",
+ "bg": "street",
+ "keyword": "kommt zu",
+ "alt": "İki arabanın çarpışması",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Fear",
+   "hair": "Short",
+   "x": 60,
+   "skin": "brown",
+   "shirt": "yellow",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🚗",
+   "x": 166,
+   "y": 134,
+   "size": 56
+  },
+  {
+   "emoji": "💥",
+   "x": 216,
+   "y": 126,
+   "size": 66
+  },
+  {
+   "emoji": "🚗",
+   "x": 266,
+   "y": 134,
+   "size": 56
+  }
+ ],
+ "cue": "Tak! İki araba çarpıştı: Es kommt zu einem Unfall; olay meydana geliyor (zu + Dativ)."
+}

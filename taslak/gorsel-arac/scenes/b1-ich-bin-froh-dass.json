@@ -1,0 +1,37 @@
+{
+ "id": "b1-ich-bin-froh-dass",
+ "bg": "home",
+ "keyword": "froh",
+ "alt": "Misafirinin gelmesine sevinen ev sahibi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "SmileLol",
+   "hair": "LongAfro",
+   "x": 88,
+   "skin": "dark",
+   "shirt": "yellow"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🎈",
+   "x": 200,
+   "y": 70,
+   "size": 44
+  },
+  {
+   "emoji": "🎁",
+   "x": 270,
+   "y": 130,
+   "size": 46
+  },
+  {
+   "emoji": "🎈",
+   "x": 245,
+   "y": 50,
+   "size": 36
+  }
+ ],
+ "cue": "Balonlar, hediye, kapıda arkadaş: ferahlıkla \"Ich bin froh, dass du gekommen bist.\""
+}

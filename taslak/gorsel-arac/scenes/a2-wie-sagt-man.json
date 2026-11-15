@@ -1,0 +1,33 @@
+{
+ "id": "a2-wie-sagt-man",
+ "bg": "classroom",
+ "keyword": "Wie sagt man",
+ "alt": "Kruvasanı gösterip Almancasını soran öğrenci",
+ "people": [
+  {
+   "pose": "bust:Paper",
+   "face": "Suspicious",
+   "hair": "Bangs",
+   "x": 84,
+   "skin": "light",
+   "shirt": "blue"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🥐",
+   "🇩🇪"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "❓",
+   "x": 250,
+   "y": 110,
+   "size": 50
+  }
+ ],
+ "cue": "Kruvasanı gösterip soruyorsun: bunun Almancası ne? Wie sagt man „Kruvasan“ AUF Deutsch? Bayrak = Almanca."
+}

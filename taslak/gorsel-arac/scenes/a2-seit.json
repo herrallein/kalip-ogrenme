@@ -1,0 +1,43 @@
+{
+ "id": "a2-seit",
+ "bg": "classroom",
+ "keyword": "seit",
+ "alt": "Almanca çalışan kişi; bir yıldan bugüne uzanan zaman çizgisi",
+ "people": [
+  {
+   "pose": "bust:Paper",
+   "face": "Calm",
+   "hair": "Turban",
+   "x": 84,
+   "skin": "light",
+   "shirt": "teal"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📚",
+   "x": 214,
+   "y": 84,
+   "size": 48
+  },
+  {
+   "emoji": "1️⃣",
+   "x": 272,
+   "y": 84,
+   "size": 38
+  }
+ ],
+ "arrow": {
+  "from": [
+   130,
+   164
+  ],
+  "to": [
+   296,
+   164
+  ],
+  "bend": 0,
+  "marker": "timeline"
+ },
+ "cue": "Bir yıl önce başladın, hâlâ sürüyor: çizgi bugüne uzanıyor. Ich lerne SEIT einem Jahr Deutsch (şimdiki zaman!)."
+}

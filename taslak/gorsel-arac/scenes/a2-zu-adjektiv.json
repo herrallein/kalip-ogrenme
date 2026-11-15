@@ -1,0 +1,31 @@
+{
+ "id": "a2-zu-adjektiv",
+ "bg": "shop",
+ "keyword": "zu",
+ "alt": "Fiyat etiketine şaşıran kişi, uçan paralar",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "Fear",
+   "hair": "Short",
+   "x": 86,
+   "skin": "light",
+   "shirt": "blue"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "💸",
+   "x": 214,
+   "y": 84,
+   "size": 52
+  },
+  {
+   "emoji": "🏷️",
+   "x": 268,
+   "y": 130,
+   "size": 44
+  }
+ ],
+ "cue": "Fiyat etiketi fırladı: Die Wohnung ist MIR ZU teuer. \"zu\" = fazla, sıfat hemen arkasından."
+}

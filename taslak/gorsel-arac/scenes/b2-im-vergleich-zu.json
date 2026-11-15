@@ -1,0 +1,32 @@
+{
+ "id": "b2-im-vergleich-zu",
+ "bg": "street",
+ "keyword": "im Vergleich zu",
+ "alt": "Yan yana büyük gökdelen ve küçük ev",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Calm",
+   "hair": "BunFancy",
+   "x": 80,
+   "skin": "brown",
+   "shirt": "orange",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🏢",
+   "x": 200,
+   "y": 120,
+   "size": 80
+  },
+  {
+   "emoji": "🏠",
+   "x": 268,
+   "y": 142,
+   "size": 36
+  }
+ ],
+ "cue": "Gökdelen yanında kulübe gibi kalan ev: Im Vergleich zu … kıyas."
+}

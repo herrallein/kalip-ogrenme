@@ -1,0 +1,25 @@
+{
+ "id": "b1-ich-finde-es-dass",
+ "bg": "street",
+ "keyword": "finde es",
+ "alt": "Arkadaşı gelmediği için üzülen kişi, sinema biletleri",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Concerned",
+   "hair": "Bun",
+   "x": 88,
+   "skin": "brown",
+   "shirt": "purple"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "😢",
+   "🎟️"
+  ]
+ },
+ "cue": "Biletler hazır ama arkadaş yok: duygu sıfatı + dass: Ich finde es schade, dass du nicht mitkommst."
+}

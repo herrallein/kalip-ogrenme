@@ -1,0 +1,33 @@
+{
+ "id": "b2-es-handelt-sich-um",
+ "bg": "doctor",
+ "keyword": "Es handelt sich um",
+ "alt": "Doktor acil durumu işaret ediyor; siren ve ambulans",
+ "people": [
+  {
+   "pose": "DocStethoscope",
+   "face": "Serious",
+   "hair": "Bun",
+   "x": 90,
+   "skin": "medium",
+   "shirt": "navy",
+   "dark": "navy",
+   "scale": 1.25
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🚨",
+   "x": 210,
+   "y": 84,
+   "size": 54
+  },
+  {
+   "emoji": "🚑",
+   "x": 264,
+   "y": 138,
+   "size": 50
+  }
+ ],
+ "cue": "Doktor sireni gösterip konuyu açıyor: Es handelt sich um einen Notfall."
+}

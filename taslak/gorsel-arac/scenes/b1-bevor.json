@@ -1,0 +1,51 @@
+{
+ "id": "b1-bevor",
+ "bg": "kitchen",
+ "keyword": "bevor",
+ "alt": "Kahve içen kişi, kapıda iş çantası bekliyor",
+ "people": [
+  {
+   "pose": "bust:Coffee",
+   "face": "Calm",
+   "hair": "LongCurly",
+   "x": 80,
+   "skin": "medium",
+   "shirt": "purple"
+  }
+ ],
+ "props": [
+  {
+   "type": "door",
+   "x": 260,
+   "y": 182,
+   "scale": 1
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "☕",
+   "x": 175,
+   "y": 90,
+   "size": 40
+  },
+  {
+   "emoji": "💼",
+   "x": 260,
+   "y": 150,
+   "size": 34
+  }
+ ],
+ "arrow": {
+  "from": [
+   200,
+   84
+  ],
+  "to": [
+   240,
+   100
+  ],
+  "bend": -20,
+  "style": "solid"
+ },
+ "cue": "İşe çıkmadan önce kahve: \"bevor\" sonraya kalan olayı bağlar, fiil sona: Bevor ich gehe, trinke ich Kaffee."
+}

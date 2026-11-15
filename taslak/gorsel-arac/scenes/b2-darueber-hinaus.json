@@ -1,0 +1,38 @@
+{
+ "id": "b2-darueber-hinaus",
+ "bg": "shop",
+ "keyword": "darüber hinaus",
+ "alt": "Kutunun ötesinde artı işareti ve ek hediye",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "SmileBig",
+   "hair": "MediumStraight",
+   "x": 80,
+   "skin": "light",
+   "shirt": "orange",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📦",
+   "x": 180,
+   "y": 130,
+   "size": 52
+  },
+  {
+   "emoji": "➕",
+   "x": 224,
+   "y": 100,
+   "size": 36
+  },
+  {
+   "emoji": "🎁",
+   "x": 268,
+   "y": 100,
+   "size": 52
+  }
+ ],
+ "cue": "Paket tamam, üstüne bir de hediye: darüber hinaus (bunun ötesinde), fiil 2. sırada."
+}

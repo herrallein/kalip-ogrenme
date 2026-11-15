@@ -1,0 +1,32 @@
+{
+ "id": "b2-im-falle",
+ "bg": "office",
+ "keyword": "Im Falle",
+ "alt": "Yangın ve yangın söndürücü; acil durum",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Fear",
+   "hair": "ShortVolumed",
+   "x": 86,
+   "skin": "brown",
+   "shirt": "orange",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🔥",
+   "x": 210,
+   "y": 108,
+   "size": 60
+  },
+  {
+   "emoji": "🧯",
+   "x": 268,
+   "y": 128,
+   "size": 50
+  }
+ ],
+ "cue": "Yangın çıktı, söndürücü hazır: Im Falle eines Brandes … (isim + Genitiv)."
+}

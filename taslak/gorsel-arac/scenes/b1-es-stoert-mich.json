@@ -1,0 +1,37 @@
+{
+ "id": "b1-es-stoert-mich",
+ "bg": "home",
+ "keyword": "stört",
+ "alt": "Gürültüden rahatsız olan komşu",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Contempt",
+   "hair": "Bald",
+   "x": 88,
+   "skin": "light",
+   "shirt": "brown"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🔊",
+   "x": 210,
+   "y": 90,
+   "size": 56
+  },
+  {
+   "emoji": "🎸",
+   "x": 270,
+   "y": 130,
+   "size": 44
+  },
+  {
+   "emoji": "📢",
+   "x": 170,
+   "y": 150,
+   "size": 30
+  }
+ ],
+ "cue": "Duvardan gelen müzik: kulağın tırmalanıyor: Es stört mich, dass die Nachbarn so laut sind."
+}

@@ -1,0 +1,31 @@
+{
+ "id": "a2-lass-uns",
+ "bg": "park",
+ "keyword": "Lass uns",
+ "alt": "Arkadaşını kafeye çağıran heyecanlı kişi",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "SmileBig",
+   "hair": "Short",
+   "x": 80,
+   "skin": "medium",
+   "shirt": "orange"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "☕",
+   "x": 216,
+   "y": 80,
+   "size": 46
+  },
+  {
+   "emoji": "🥐",
+   "x": 266,
+   "y": 120,
+   "size": 40
+  }
+ ],
+ "cue": "Arkadaşının koluna girip çekiyorsun: Lass uns ins Café GEHEN! \"Hadi\" demek; mastar sona."
+}

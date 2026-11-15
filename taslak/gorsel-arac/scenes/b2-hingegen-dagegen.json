@@ -1,0 +1,44 @@
+{
+ "id": "b2-hingegen-dagegen",
+ "bg": "home",
+ "keyword": "hingegen",
+ "alt": "Sessiz kedi ve gürültülü köpek",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Calm",
+   "hair": "Medium",
+   "x": 150,
+   "skin": "medium",
+   "shirt": "red",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🐱",
+   "x": 48,
+   "y": 138,
+   "size": 50
+  },
+  {
+   "emoji": "🔇",
+   "x": 48,
+   "y": 84,
+   "size": 30
+  },
+  {
+   "emoji": "🐶",
+   "x": 266,
+   "y": 138,
+   "size": 56
+  },
+  {
+   "emoji": "🔊",
+   "x": 266,
+   "y": 84,
+   "size": 34
+  }
+ ],
+ "cue": "Kedi sessiz uyuyor, köpek hingegen bağırıyor: iki zıt cümle yan yana."
+}

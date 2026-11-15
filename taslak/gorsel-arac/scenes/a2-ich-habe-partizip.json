@@ -1,0 +1,7 @@
+{"id":"a2-ich-habe-partizip","bg":"kitchen","keyword":"habe",
+ "alt":"Pizzayı bitirmiş, karnı tok kişi; masada boş tabak, pizzadan tabağa doğru geri saran ok",
+ "people":[{"pose":"ShirtPantsWB","face":"EatingHappy","hair":"Medium","x":84,"skin":"light","shirt":"purple","scale":1.1}],
+ "props":[{"type":"table","x":236,"y":176,"scale":1.15}],
+ "objects":[{"emoji":"🍽️","x":236,"y":116,"size":42},{"emoji":"🍕","x":166,"y":98,"size":34,"rot":-15}],
+ "arrow":{"from":[226,92],"to":[188,96],"bend":-16,"marker":"rewind"},
+ "cue":"Boş tabak, dolu mide: dün pizzayı yedin. 'habe' hazır, 'gegessen' en sonda: Ich habe gestern gegessen."}

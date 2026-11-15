@@ -1,0 +1,30 @@
+{
+ "id": "b1-hier-spricht",
+ "bg": "office",
+ "keyword": "Hier spricht",
+ "alt": "Telefonla kendini tanıtan kişi",
+ "people": [
+  {
+   "pose": "bust:Device",
+   "face": "Explaining",
+   "hair": "FlatTop",
+   "x": 88,
+   "skin": "brown",
+   "shirt": "blue"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "word": "Kaya"
+ },
+ "objects": [
+  {
+   "emoji": "☎️",
+   "x": 250,
+   "y": 110,
+   "size": 56
+  }
+ ],
+ "cue": "Ahizeyi kaldır, adını söyle: \"Hier spricht Kaya\" — telefonda \"ich bin\" demezsin."
+}

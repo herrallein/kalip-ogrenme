@@ -1,0 +1,46 @@
+{
+ "id": "b1-waehrend",
+ "bg": "kitchen",
+ "keyword": "während",
+ "alt": "Biri yemek yaparken diğeri müzik dinliyor",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Smile",
+   "hair": "Bun",
+   "x": 60,
+   "skin": "light",
+   "shirt": "red"
+  },
+  {
+   "pose": "bust:Device",
+   "face": "CalmNM",
+   "hair": "Short",
+   "x": 260,
+   "skin": "brown",
+   "shirt": "navy",
+   "flip": true
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🍳",
+   "x": 140,
+   "y": 130,
+   "size": 44
+  },
+  {
+   "emoji": "🎧",
+   "x": 185,
+   "y": 130,
+   "size": 40
+  },
+  {
+   "emoji": "⏱️",
+   "x": 160,
+   "y": 60,
+   "size": 38
+  }
+ ],
+ "cue": "İki iş aynı anda: sen kızartırken o müzik dinliyor, \"während\" ikisini yan yana tutar."
+}

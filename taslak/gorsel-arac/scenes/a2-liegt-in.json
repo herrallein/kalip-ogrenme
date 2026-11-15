@@ -1,0 +1,33 @@
+{
+ "id": "a2-liegt-in",
+ "bg": "home",
+ "keyword": "liegt",
+ "alt": "Masanın üstündeki kitabı gösteren kişi",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Calm",
+   "hair": "Short",
+   "x": 84,
+   "skin": "light",
+   "shirt": "teal"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📖",
+   "x": 232,
+   "y": 128,
+   "size": 44
+  }
+ ],
+ "props": [
+  {
+   "type": "table",
+   "x": 232,
+   "y": 180,
+   "scale": 1.1
+  }
+ ],
+ "cue": "Kitap masanın üstünde yatıyor, kıpırdamıyor: Das Buch LIEGT auf DEM Tisch. Nerede? sorusu = Dativ."
+}

@@ -1,0 +1,33 @@
+{
+ "id": "b2-es-sei-denn",
+ "bg": "home",
+ "keyword": "es sei denn",
+ "alt": "Hasta kişi parti davetine gidemiyor; hasta balonu",
+ "people": [
+  {
+   "pose": "bust:Hoodie",
+   "face": "Tired",
+   "hair": "ShavedSides",
+   "x": 86,
+   "skin": "brown",
+   "shirt": "pink",
+   "dark": "navy"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🤒"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "🎉",
+   "x": 244,
+   "y": 112,
+   "size": 56
+  }
+ ],
+ "cue": "Partiye gideceksin, es sei denn … hasta olursan: yüz hasta, parti kalır."
+}

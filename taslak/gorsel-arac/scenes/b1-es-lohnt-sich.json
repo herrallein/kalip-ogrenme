@@ -1,0 +1,43 @@
+{
+ "id": "b1-es-lohnt-sich",
+ "bg": "street",
+ "keyword": "lohnt sich",
+ "alt": "Eski şehir kalesinin önünde yıldızları gösteren turist",
+ "people": [
+  {
+   "pose": "bust:PocketShirt",
+   "face": "SmileBig",
+   "hair": "Short",
+   "x": 80,
+   "skin": "light",
+   "shirt": "orange"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🏰",
+   "x": 230,
+   "y": 100,
+   "size": 66
+  },
+  {
+   "emoji": "⭐",
+   "x": 185,
+   "y": 45,
+   "size": 30
+  },
+  {
+   "emoji": "⭐",
+   "x": 230,
+   "y": 35,
+   "size": 30
+  },
+  {
+   "emoji": "⭐",
+   "x": 275,
+   "y": 45,
+   "size": 30
+  }
+ ],
+ "cue": "Beş yıldızlı kale: gitmeye değer! \"Es lohnt sich\" + zu + mastar: Es lohnt sich, die Altstadt zu besuchen."
+}

@@ -1,0 +1,38 @@
+{
+ "id": "a2-ich-wollte",
+ "bg": "cafe",
+ "keyword": "wollte",
+ "alt": "Sinemaya gitmek isteyen ama gidemeyen kişi; geri saran ok",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Concerned",
+   "hair": "Short",
+   "x": 84,
+   "skin": "light",
+   "shirt": "blue"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🎬"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "🎟️",
+   "x": 236,
+   "y": 128,
+   "size": 44
+  },
+  {
+   "emoji": "⏪",
+   "x": 270,
+   "y": 66,
+   "size": 36
+  }
+ ],
+ "cue": "Dün sinemayı düşünüyordun: Ich WOLLTE ins Kino GEHEN. wollte ikinci sırada, asıl fiil mastar olarak sonda."
+}

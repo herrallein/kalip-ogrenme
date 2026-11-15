@@ -1,0 +1,56 @@
+{
+ "id": "b2-je-desto",
+ "bg": "classroom",
+ "keyword": "je … desto",
+ "alt": "Kitap yığını büyüdükçe yükselen yıldız; yukarı doğru ok",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "SmileBig",
+   "hair": "Hijab",
+   "x": 80,
+   "skin": "dark",
+   "shirt": "red",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📚",
+   "x": 186,
+   "y": 142,
+   "size": 40
+  },
+  {
+   "emoji": "📚",
+   "x": 222,
+   "y": 130,
+   "size": 48
+  },
+  {
+   "emoji": "📚",
+   "x": 262,
+   "y": 114,
+   "size": 58
+  },
+  {
+   "emoji": "⭐",
+   "x": 270,
+   "y": 52,
+   "size": 40
+  }
+ ],
+ "arrow": {
+  "from": [
+   176,
+   100
+  ],
+  "to": [
+   250,
+   50
+  ],
+  "bend": -12,
+  "style": "solid"
+ },
+ "cue": "Kitap yığını büyüdükçe yıldız yükseliyor: je mehr … desto besser; ikisi de karşılaştırma (-er)."
+}

@@ -1,0 +1,42 @@
+{
+ "id": "b1-schreibe-wegen",
+ "bg": "office",
+ "keyword": "wegen",
+ "alt": "Gazete ilanı için mektup yazan kişi",
+ "people": [
+  {
+   "pose": "bust:Paper",
+   "face": "Calm",
+   "hair": "Medium",
+   "x": 88,
+   "skin": "light",
+   "shirt": "teal"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📰",
+   "x": 190,
+   "y": 100,
+   "size": 48
+  },
+  {
+   "emoji": "✉️",
+   "x": 265,
+   "y": 120,
+   "size": 52
+  }
+ ],
+ "arrow": {
+  "from": [
+   215,
+   95
+  ],
+  "to": [
+   245,
+   110
+  ],
+  "bend": -18
+ },
+ "cue": "İlan gazetede, mektup yolda: \"wegen\" + Genitiv: Ich schreibe Ihnen wegen Ihrer Anzeige."
+}

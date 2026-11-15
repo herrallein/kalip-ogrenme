@@ -1,0 +1,44 @@
+{
+ "id": "b1-es-heisst-dass",
+ "bg": "street",
+ "keyword": "es heißt",
+ "alt": "Kulağına fısıldanan söylentiyi dinleyen kişi",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "Suspicious",
+   "hair": "Short",
+   "x": 80,
+   "skin": "light",
+   "shirt": "brown"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🤫",
+   "📝"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "👂",
+   "x": 250,
+   "y": 100,
+   "size": 60
+  }
+ ],
+ "arrow": {
+  "from": [
+   150,
+   70
+  ],
+  "to": [
+   215,
+   95
+  ],
+  "bend": -24
+ },
+ "cue": "Kulaktan kulağa: kaynak belirsiz, \"es heißt\" ile duyduğunu aktarırsın: Es heißt, dass die Prüfung schwer ist."
+}

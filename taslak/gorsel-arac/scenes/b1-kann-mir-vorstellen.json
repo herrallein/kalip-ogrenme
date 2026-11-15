@@ -1,0 +1,25 @@
+{
+ "id": "b1-kann-mir-vorstellen",
+ "bg": "home",
+ "keyword": "vorstellen",
+ "alt": "Gözleri kapalı, Berlin yaşamını hayal eden kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "EyesClosed",
+   "hair": "ShortCurly",
+   "x": 88,
+   "skin": "dark",
+   "shirt": "orange"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🏙️",
+   "🏠"
+  ]
+ },
+ "cue": "Gözler kapalı, kafada Berlin: \"sich vorstellen\" ile hayal ediyorsun: Ich kann mir vorstellen, in Berlin zu leben."
+}

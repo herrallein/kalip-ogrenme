@@ -1,0 +1,44 @@
+{
+ "id": "b2-wer-der",
+ "bg": "park",
+ "keyword": "Wer … der",
+ "alt": "Tohumdan ağaca: ekeni meyve bekler",
+ "people": [
+  {
+   "pose": "bust:Coffee",
+   "face": "Smile",
+   "hair": "Bangs",
+   "x": 82,
+   "skin": "dark",
+   "shirt": "brown",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🌱",
+   "x": 180,
+   "y": 138,
+   "size": 44
+  },
+  {
+   "emoji": "🍎",
+   "x": 264,
+   "y": 92,
+   "size": 50
+  }
+ ],
+ "arrow": {
+  "from": [
+   196,
+   122
+  ],
+  "to": [
+   248,
+   100
+  ],
+  "bend": -20,
+  "style": "solid"
+ },
+ "cue": "Fidanı eken meyveyi toplar: Wer sät, der erntet; wer … (fiil sonda), der …"
+}

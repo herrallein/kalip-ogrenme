@@ -1,0 +1,51 @@
+{
+ "id": "b2-es-spricht-dafuer",
+ "bg": "meeting",
+ "keyword": "spricht dafür",
+ "alt": "Terazinin bir kefesi onaylarla ağır basıyor",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Calm",
+   "hair": "Hijab",
+   "x": 76,
+   "skin": "dark",
+   "shirt": "navy",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "⚖️",
+   "x": 232,
+   "y": 100,
+   "size": 76,
+   "rot": -14
+  },
+  {
+   "emoji": "👍",
+   "x": 204,
+   "y": 148,
+   "size": 30
+  },
+  {
+   "emoji": "👍",
+   "x": 236,
+   "y": 152,
+   "size": 30
+  },
+  {
+   "emoji": "👍",
+   "x": 266,
+   "y": 150,
+   "size": 26
+  },
+  {
+   "emoji": "👎",
+   "x": 262,
+   "y": 60,
+   "size": 26
+  }
+ ],
+ "cue": "Terazi bir yana yatıyor, kefede üç onay: Es spricht vieles dafür, dass …"
+}

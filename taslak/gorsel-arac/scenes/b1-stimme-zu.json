@@ -1,0 +1,39 @@
+{
+ "id": "b1-stimme-zu",
+ "bg": "meeting",
+ "keyword": "stimme zu",
+ "alt": "Bir kişi onaylıyor, diğeri \"aber\" diyor",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "SmileTeeth",
+   "hair": "Short",
+   "x": 65,
+   "skin": "medium",
+   "shirt": "green"
+  },
+  {
+   "pose": "bust:ArmsCrossed",
+   "face": "Suspicious",
+   "hair": "Hijab",
+   "x": 255,
+   "skin": "light",
+   "shirt": "purple",
+   "flip": true
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 1,
+  "word": "aber"
+ },
+ "objects": [
+  {
+   "emoji": "👍",
+   "x": 150,
+   "y": 130,
+   "size": 52
+  }
+ ],
+ "cue": "Başparmak yukarı ama sonunda bir \"aber\": Da stimme ich dir zu, aber …"
+}

@@ -1,0 +1,32 @@
+{
+ "id": "b2-statt-zu",
+ "bg": "classroom",
+ "keyword": "statt … zu",
+ "alt": "Kitaplar dururken uyuyan öğrenci",
+ "people": [
+  {
+   "pose": "bust:SweaterDots",
+   "face": "EyesClosed",
+   "hair": "Medium",
+   "x": 92,
+   "skin": "light",
+   "shirt": "blue",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📚",
+   "x": 210,
+   "y": 132,
+   "size": 52
+  },
+  {
+   "emoji": "💤",
+   "x": 140,
+   "y": 50,
+   "size": 40
+  }
+ ],
+ "cue": "Çalışmak yerine masada horlamak: Statt zu lernen, schläft er; kitap duruyor, uyku kazanıyor."
+}

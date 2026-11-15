@@ -1,0 +1,32 @@
+{
+ "id": "b2-sein-zu",
+ "bg": "street",
+ "keyword": "ist zu",
+ "alt": "Dikkat işareti ve kural kâğıdı; kuralı gösteren ciddi kişi",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Serious",
+   "hair": "Pomp",
+   "x": 90,
+   "skin": "dark",
+   "shirt": "brown",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "⚠️",
+   "x": 210,
+   "y": 78,
+   "size": 70
+  },
+  {
+   "emoji": "📜",
+   "x": 264,
+   "y": 138,
+   "size": 44
+  }
+ ],
+ "cue": "Uyarı levhası: yapılması gereken şey! Die Regel ist zu beachten (-meli, -ilmeli)."
+}

@@ -1,0 +1,44 @@
+{
+ "id": "b2-dank",
+ "bg": "stage",
+ "keyword": "dank",
+ "alt": "El sıkışma ile kupa; sevinçli kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "SmileLol",
+   "hair": "Long",
+   "x": 80,
+   "skin": "dark",
+   "shirt": "teal",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🤝",
+   "x": 188,
+   "y": 110,
+   "size": 50
+  },
+  {
+   "emoji": "🏆",
+   "x": 264,
+   "y": 100,
+   "size": 60
+  }
+ ],
+ "arrow": {
+  "from": [
+   214,
+   104
+  ],
+  "to": [
+   238,
+   100
+  ],
+  "bend": -10,
+  "style": "solid"
+ },
+ "cue": "Yardım eli sayesinde kupa kaldırıldı: Dank deiner Hilfe habe ich gewonnen!"
+}

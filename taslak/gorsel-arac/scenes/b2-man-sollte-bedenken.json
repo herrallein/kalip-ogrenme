@@ -1,0 +1,28 @@
+{
+ "id": "b2-man-sollte-bedenken",
+ "bg": "meeting",
+ "keyword": "bedenken",
+ "alt": "Parmak kaldırıp düşünmeyi öğütleyen kişi; beyin ve ünlem",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Serious",
+   "hair": "Short",
+   "x": 92,
+   "skin": "brown",
+   "shirt": "pink",
+   "dark": "navy",
+   "accessory": "GlassRound",
+   "facialHair": "FullMedium"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🧠",
+   "❗"
+  ]
+ },
+ "cue": "Beyni açıp dikkat çekiyor: Man sollte bedenken, dass … diyerek hatırlatır."
+}

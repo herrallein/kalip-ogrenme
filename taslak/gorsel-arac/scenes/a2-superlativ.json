@@ -1,0 +1,31 @@
+{
+ "id": "a2-superlativ",
+ "bg": "stage",
+ "keyword": "am",
+ "alt": "Kupa kaldıran birinci kişi, altın madalya",
+ "people": [
+  {
+   "pose": "bust:Thunder",
+   "face": "SmileBig",
+   "hair": "Afro",
+   "x": 100,
+   "skin": "dark",
+   "shirt": "yellow"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🏆",
+   "x": 220,
+   "y": 90,
+   "size": 62
+  },
+  {
+   "emoji": "🥇",
+   "x": 274,
+   "y": 56,
+   "size": 44
+  }
+ ],
+ "cue": "Kupayı kaldıran birinci sensin: Im Juli ist es AM heißesten. En üstünlük = am + -sten."
+}

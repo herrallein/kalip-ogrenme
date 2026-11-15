@@ -1,0 +1,25 @@
+{
+ "id": "b1-angst-vor",
+ "bg": "park",
+ "keyword": "Angst vor",
+ "alt": "Büyük köpekten korkan kişi",
+ "people": [
+  {
+   "pose": "bust:Hoodie",
+   "face": "Fear",
+   "hair": "Bun",
+   "x": 80,
+   "skin": "light",
+   "shirt": "purple"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🐕",
+   "x": 240,
+   "y": 125,
+   "size": 70
+  }
+ ],
+ "cue": "Kocaman köpek, küçücük sen: \"Angst haben vor\" + Dativ: Ich habe Angst vor Hunden."
+}

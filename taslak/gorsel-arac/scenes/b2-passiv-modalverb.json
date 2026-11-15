@@ -1,0 +1,34 @@
+{
+ "id": "b2-passiv-modalverb",
+ "bg": "street",
+ "keyword": "muss … werden",
+ "alt": "Bozuk arabayı parmağıyla gösteren kişi; araba ve tamir anahtarı",
+ "people": [
+  {
+   "pose": "PointingFingerBW",
+   "face": "Serious",
+   "hair": "Medium",
+   "x": 70,
+   "skin": "light",
+   "shirt": "blue",
+   "dark": "navy",
+   "scale": 1.25
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🚗",
+   "x": 212,
+   "y": 138,
+   "size": 58
+  },
+  {
+   "emoji": "🔧",
+   "x": 264,
+   "y": 112,
+   "size": 38,
+   "rot": -20
+  }
+ ],
+ "cue": "Arabayı tamirciye göster: tamir edilmeli! Modal fiil başta, \"repariert werden\" sonda: Das Auto muss repariert werden."
+}

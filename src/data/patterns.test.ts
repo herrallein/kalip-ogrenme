@@ -110,3 +110,19 @@ for (const level of LEVELS) {
     });
   });
 }
+
+import visuals from './visuals.json';
+
+describe('görsel metinleri', () => {
+  const ids = new Set(patterns.map((p) => p.id));
+  const entries = Object.entries(visuals as Record<string, { cue?: string; alt?: string }>);
+  it('her anahtar var olan bir kalıp id\'si', () => {
+    expect(entries.filter(([k]) => !ids.has(k)).map(([k]) => k)).toEqual([]);
+  });
+  it('cue en çok 160 karakter, alt dolu', () => {
+    for (const [k, v] of entries) {
+      if (v.cue !== undefined) expect(v.cue.length, k).toBeLessThanOrEqual(160);
+      expect(nonEmpty(v.alt), k).toBe(true);
+    }
+  });
+});

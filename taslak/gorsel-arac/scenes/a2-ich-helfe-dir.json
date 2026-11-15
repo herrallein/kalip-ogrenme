@@ -1,0 +1,31 @@
+{
+ "id": "a2-ich-helfe-dir",
+ "bg": "classroom",
+ "keyword": "helfe dir",
+ "alt": "Ödevinde arkadaşına yardım eden kişi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Smile",
+   "hair": "Short",
+   "x": 80,
+   "skin": "brown",
+   "shirt": "blue"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📚",
+   "x": 214,
+   "y": 100,
+   "size": 48
+  },
+  {
+   "emoji": "🤝",
+   "x": 268,
+   "y": 60,
+   "size": 44
+  }
+ ],
+ "cue": "Ödevinde yanındayım: Ich helfe DIR bei den Hausaufgaben. \"helfen\" hep Dativ ister: dir, ona, mir."
+}

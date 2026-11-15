@@ -1,0 +1,43 @@
+{
+ "id": "b1-sodass",
+ "bg": "home",
+ "keyword": "sodass",
+ "alt": "Telefonunu evde unutan, endişeli kişi; telefon kanepede",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "ConcernedFear",
+   "hair": "Short",
+   "x": 80,
+   "skin": "light",
+   "shirt": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📱",
+   "x": 185,
+   "y": 135,
+   "size": 36
+  },
+  {
+   "emoji": "📵",
+   "x": 280,
+   "y": 70,
+   "size": 48
+  }
+ ],
+ "arrow": {
+  "from": [
+   200,
+   120
+  ],
+  "to": [
+   265,
+   85
+  ],
+  "bend": -26,
+  "style": "solid"
+ },
+ "cue": "Telefon evde kaldı → arama yok: ok sebepten sonuca gider: …, sodass ich dich nicht anrufen konnte."
+}

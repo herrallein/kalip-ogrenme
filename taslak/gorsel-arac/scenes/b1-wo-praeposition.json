@@ -1,0 +1,30 @@
+{
+ "id": "b1-wo-praeposition",
+ "bg": "park",
+ "keyword": "Worauf?",
+ "alt": "Hediye kutusu soran kişi; soru işareti",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Explaining",
+   "hair": "MediumShort",
+   "x": 88,
+   "skin": "brown",
+   "shirt": "orange"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "word": "Worauf?"
+ },
+ "objects": [
+  {
+   "emoji": "🎁",
+   "x": 250,
+   "y": 120,
+   "size": 56
+  }
+ ],
+ "cue": "Hediye kutusu için \"Worauf?\": ne için sevindiğini soruyorsun; edat wo- ile birleşir: Worauf freust du dich?"
+}

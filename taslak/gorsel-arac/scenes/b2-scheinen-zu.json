@@ -1,0 +1,35 @@
+{
+ "id": "b2-scheinen-zu",
+ "bg": "office",
+ "keyword": "scheint … zu",
+ "alt": "Yorgun kişiyi gözleyen şüpheli bakışlı kişi",
+ "people": [
+  {
+   "pose": "bust:ArmsCrossed",
+   "face": "Suspicious",
+   "hair": "Bun",
+   "x": 70,
+   "skin": "light",
+   "shirt": "blue",
+   "dark": "navy"
+  },
+  {
+   "pose": "bust:Shirt",
+   "face": "Tired",
+   "hair": "ShortMessy",
+   "x": 250,
+   "skin": "medium",
+   "shirt": "green",
+   "dark": "navy",
+   "flip": true
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "😴"
+  ]
+ },
+ "cue": "Yan masadaki yorgun gibi görünüyor: Er scheint müde zu sein; kesin değil, izlenim."
+}

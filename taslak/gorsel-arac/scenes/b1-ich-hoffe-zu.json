@@ -1,0 +1,25 @@
+{
+ "id": "b1-ich-hoffe-zu",
+ "bg": "office",
+ "keyword": "hoffe",
+ "alt": "İş başvurusu yaptıktan sonra parmak çaprazlayan kişi",
+ "people": [
+  {
+   "pose": "bust:Dress",
+   "face": "Smile",
+   "hair": "ShortCurly",
+   "x": 88,
+   "skin": "dark",
+   "shirt": "teal"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "💼",
+   "🤞"
+  ]
+ },
+ "cue": "Parmakların çapraz, evrak yolda: \"hoffen\" + zu + mastar: Ich hoffe, bald eine Arbeit zu finden."
+}

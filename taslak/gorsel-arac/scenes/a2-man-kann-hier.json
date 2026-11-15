@@ -1,0 +1,31 @@
+{
+ "id": "a2-man-kann-hier",
+ "bg": "cafe",
+ "keyword": "Man kann hier",
+ "alt": "Kafede yemek yiyen mutlu kişi; yeşil onay işareti",
+ "people": [
+  {
+   "pose": "bust:Coffee",
+   "face": "EatingHappy",
+   "hair": "ShortWavy",
+   "x": 86,
+   "skin": "medium",
+   "shirt": "orange"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🍝",
+   "x": 208,
+   "y": 128,
+   "size": 48
+  },
+  {
+   "emoji": "✅",
+   "x": 270,
+   "y": 66,
+   "size": 50
+  }
+ ],
+ "cue": "Yeşil tik: burada yemek serbest! Man kann hier gut ESSEN: olanak ve izin, fiil mastar olarak en sonda."
+}

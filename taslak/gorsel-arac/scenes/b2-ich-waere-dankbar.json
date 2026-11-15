@@ -1,0 +1,33 @@
+{
+ "id": "b2-ich-waere-dankbar",
+ "bg": "office",
+ "keyword": "wäre dankbar",
+ "alt": "Parmakları çaprazlanmış kişi e-posta gönderiyor",
+ "people": [
+  {
+   "pose": "bust:Device",
+   "face": "Smile",
+   "hair": "MediumLong",
+   "x": 86,
+   "skin": "light",
+   "shirt": "orange",
+   "dark": "navy"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🤞"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "📧",
+   "x": 240,
+   "y": 110,
+   "size": 64
+  }
+ ],
+ "cue": "Parmaklar çapraz, e-posta yolda: Ich wäre Ihnen dankbar, wenn Sie … könnten."
+}

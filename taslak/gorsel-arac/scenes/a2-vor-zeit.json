@@ -1,0 +1,43 @@
+{
+ "id": "a2-vor-zeit",
+ "bg": "sky",
+ "keyword": "vor",
+ "alt": "Geri saran ok ve takvim; iki hafta öncesi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Calm",
+   "hair": "Medium",
+   "x": 84,
+   "skin": "dark",
+   "shirt": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📆",
+   "x": 216,
+   "y": 70,
+   "size": 54
+  },
+  {
+   "emoji": "2️⃣",
+   "x": 270,
+   "y": 70,
+   "size": 40
+  }
+ ],
+ "arrow": {
+  "from": [
+   270,
+   150
+  ],
+  "to": [
+   166,
+   150
+  ],
+  "bend": 20,
+  "marker": "rewind"
+ },
+ "cue": "Saat iki hafta geri sarıyor, kursa o zaman başladın: Vor zwei Wochen habe ich … begonnen. \"vor\" = önce."
+}

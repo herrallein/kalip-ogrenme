@@ -1,0 +1,26 @@
+{
+ "id": "b2-ich-bitte-sie-zu",
+ "bg": "office",
+ "keyword": "Ich bitte Sie",
+ "alt": "Kibarca ricada bulunan yönetici; balonda dua eden eller",
+ "people": [
+  {
+   "pose": "bust:BlazerBlackTee",
+   "face": "Calm",
+   "hair": "GrayMedium",
+   "x": 90,
+   "skin": "dark",
+   "shirt": "brown",
+   "dark": "navy",
+   "facialHair": "GrayFull"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🙏"
+  ]
+ },
+ "cue": "Müdür ellerini kavuşturup nazikçe istiyor: Ich bitte Sie, … zu + mastar."
+}

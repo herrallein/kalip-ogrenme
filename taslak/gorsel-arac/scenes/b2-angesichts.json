@@ -1,0 +1,28 @@
+{
+ "id": "b2-angesichts",
+ "bg": "park",
+ "keyword": "angesichts",
+ "alt": "Devasa dağın önünde küçük kalan şaşkın kişi",
+ "people": [
+  {
+   "pose": "CrossedArmsBW",
+   "face": "Awe",
+   "hair": "Medium",
+   "x": 70,
+   "skin": "light",
+   "shirt": "purple",
+   "dark": "navy",
+   "scale": 1.2
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🏔️",
+   "x": 230,
+   "y": 110,
+   "size": 110,
+   "layer": "back"
+  }
+ ],
+ "cue": "Önünde kocaman bir dağ: Angesichts der Lage … durup düşünüyorsun."
+}

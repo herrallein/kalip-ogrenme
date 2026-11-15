@@ -1,0 +1,34 @@
+{
+ "id": "b2-ohne-zu",
+ "bg": "street",
+ "keyword": "ohne … zu",
+ "alt": "Veda etmeden uzaklaşan kişi; el sallama yasak işaretli",
+ "people": [
+  {
+   "pose": "WalkingBW",
+   "face": "Blank",
+   "hair": "Hijab",
+   "x": 200,
+   "skin": "dark",
+   "shirt": "teal",
+   "dark": "navy",
+   "scale": 1.25,
+   "flip": true
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "👋",
+   "x": 90,
+   "y": 92,
+   "size": 52
+  },
+  {
+   "emoji": "🚫",
+   "x": 90,
+   "y": 92,
+   "size": 70
+  }
+ ],
+ "cue": "El sallayıp veda etmeden çekip gidiyor: ohne sich zu verabschieden, fiil zu ile mastarda."
+}

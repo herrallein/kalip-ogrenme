@@ -1,0 +1,55 @@
+{
+ "id": "b2-abgesehen-von",
+ "bg": "shop",
+ "keyword": "abgesehen von",
+ "alt": "Üç kırmızı elma ve bir yeşil elma kenara ayrılmış",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Calm",
+   "hair": "ShortWavy",
+   "x": 80,
+   "skin": "medium",
+   "shirt": "teal",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🍎",
+   "x": 166,
+   "y": 120,
+   "size": 42
+  },
+  {
+   "emoji": "🍎",
+   "x": 204,
+   "y": 120,
+   "size": 42
+  },
+  {
+   "emoji": "🍎",
+   "x": 242,
+   "y": 120,
+   "size": 42
+  },
+  {
+   "emoji": "🍏",
+   "x": 288,
+   "y": 70,
+   "size": 44
+  }
+ ],
+ "arrow": {
+  "from": [
+   258,
+   112
+  ],
+  "to": [
+   286,
+   92
+  ],
+  "bend": 20
+ },
+ "cue": "Üç kırmızı elma tamam, yeşil olan hariç: Abgesehen von … (Dativ)."
+}

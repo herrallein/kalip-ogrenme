@@ -1,0 +1,38 @@
+{
+ "id": "b2-gehoert-zu-den",
+ "bg": "stage",
+ "keyword": "gehört zu den",
+ "alt": "Madalya sıralamasında altın başta; sahnedeki sevinçli kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "SmileBig",
+   "hair": "Buns",
+   "x": 70,
+   "skin": "brown",
+   "shirt": "blue",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🥈",
+   "x": 166,
+   "y": 128,
+   "size": 40
+  },
+  {
+   "emoji": "🥇",
+   "x": 216,
+   "y": 104,
+   "size": 58
+  },
+  {
+   "emoji": "🥉",
+   "x": 266,
+   "y": 134,
+   "size": 38
+  }
+ ],
+ "cue": "Altın madalya en iyiler arasında: gehört zu den besten … (Superlativ)."
+}

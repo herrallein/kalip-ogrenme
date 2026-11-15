@@ -1,0 +1,48 @@
+{
+ "id": "b2-einerseits-andererseits",
+ "bg": "office",
+ "keyword": "einerseits – andererseits",
+ "alt": "İki kapı arasında kararsız kalan kişi; solda para, sağda saat",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Concerned",
+   "hair": "Bun",
+   "x": 160,
+   "skin": "medium",
+   "shirt": "green",
+   "dark": "navy"
+  }
+ ],
+ "props": [
+  {
+   "type": "door",
+   "x": 50,
+   "y": 182,
+   "scale": 1.1,
+   "color": "brown"
+  },
+  {
+   "type": "door",
+   "x": 272,
+   "y": 182,
+   "scale": 1.1,
+   "color": "teal"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "💰",
+   "x": 50,
+   "y": 52,
+   "size": 38
+  },
+  {
+   "emoji": "⏰",
+   "x": 272,
+   "y": 52,
+   "size": 38
+  }
+ ],
+ "cue": "İki kapı: birinde para, ötekinde zaman. Bir yandan (einerseits) bu, öte yandan (andererseits) şu."
+}

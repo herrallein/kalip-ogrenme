@@ -3,6 +3,7 @@ import { exampleFor, gradePattern, planDay } from '../core/scheduler';
 import { studyStreak } from '../core/stats';
 import type { AppState, Grade, Pattern, QueueItem } from '../core/types';
 import { loadPrefs } from './prefs';
+import { PatternVisual } from './PatternVisual';
 import { SpeakButtons } from './SpeakButtons';
 import { speak } from './speech';
 import { GRADES, gradePreview } from './util';
@@ -114,6 +115,7 @@ function Card({ item, pattern, state, today, onGrade }: {
     return (
       <>
         <div className="card">
+          <PatternVisual id={pattern.id} size="full" showCue eager />
           <span className="badge new">{kindLabel} · {pattern.level}</span>
           <h2 lang="de" className="pattern">{pattern.pattern}</h2>
           <p className="meaning">{pattern.meaning}</p>
@@ -141,6 +143,7 @@ function Card({ item, pattern, state, today, onGrade }: {
     return (
       <>
         <div className="card">
+          <PatternVisual id={pattern.id} size="small" eager />
           <span className={`badge ${item.kind}`}>{kindLabel} · {pattern.level}</span>
           <p className="prompt-label">Bunu Almanca söyle:</p>
           <p className="prompt">{example.tr}</p>
@@ -183,6 +186,7 @@ function Card({ item, pattern, state, today, onGrade }: {
           <b lang="de">{pattern.pattern}</b>
           <span className="muted"> — {pattern.meaning}</span>
         </p>
+        <PatternVisual id={pattern.id} size="tiny" showCue eager />
         {ownOpen ? (
           <label className="field">
             <span>Kendi cümleni kur (isteğe bağlı, kaydedilir)</span>

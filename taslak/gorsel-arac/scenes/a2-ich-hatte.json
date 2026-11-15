@@ -1,0 +1,37 @@
+{
+ "id": "a2-ich-hatte",
+ "bg": "night",
+ "keyword": "hatte",
+ "alt": "Dün gece başı ağrıyan kişi; geri saran ok",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Tired",
+   "hair": "Medium",
+   "x": 84,
+   "skin": "light",
+   "shirt": "purple"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🤕",
+   "x": 204,
+   "y": 84,
+   "size": 46
+  }
+ ],
+ "arrow": {
+  "from": [
+   262,
+   64
+  ],
+  "to": [
+   214,
+   70
+  ],
+  "bend": -14,
+  "marker": "rewind"
+ },
+ "cue": "Dün gece başın ağrıyordu, saat geri sarıyor: Ich HATTE Kopfschmerzen. Haben fiilinin geçmişi: hatte."
+}

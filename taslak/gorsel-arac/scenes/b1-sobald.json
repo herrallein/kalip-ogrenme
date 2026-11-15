@@ -1,0 +1,31 @@
+{
+ "id": "b1-sobald",
+ "bg": "station",
+ "keyword": "sobald",
+ "alt": "Tren gelir gelmez bineceği için sevinen kişi, arada şimşek",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "SmileBig",
+   "hair": "Afro",
+   "x": 80,
+   "skin": "dark",
+   "shirt": "yellow"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🚌",
+   "x": 255,
+   "y": 120,
+   "size": 56
+  },
+  {
+   "emoji": "⚡",
+   "x": 170,
+   "y": 100,
+   "size": 46
+  }
+ ],
+ "cue": "Tren gelir gelmez ⚡ harekete geçersin: \"sobald\" = ...ir etmez, fiil sona: Sobald der Bus kommt, steigen wir ein."
+}

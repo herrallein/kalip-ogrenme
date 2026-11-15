@@ -1,0 +1,37 @@
+{
+ "id": "b1-sich-entscheiden-fuer",
+ "bg": "street",
+ "keyword": "entscheide mich für",
+ "alt": "Büyük otel yerine küçük oteli seçen kişi",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Driven",
+   "hair": "Mohawk",
+   "x": 80,
+   "skin": "dark",
+   "shirt": "teal"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🏨",
+   "x": 200,
+   "y": 90,
+   "size": 52
+  },
+  {
+   "emoji": "✅",
+   "x": 200,
+   "y": 45,
+   "size": 34
+  },
+  {
+   "emoji": "🏢",
+   "x": 270,
+   "y": 100,
+   "size": 44
+  }
+ ],
+ "cue": "İki otel arasından küçüğüne tik koyuyorsun: \"sich entscheiden für\" + Akkusativ."
+}

@@ -1,0 +1,27 @@
+{
+ "id": "b2-was-betrifft",
+ "bg": "meeting",
+ "keyword": "was … betrifft",
+ "alt": "Hedef tahtasını işaret eden kişi",
+ "people": [
+  {
+   "pose": "PointingFingerWB",
+   "face": "Explaining",
+   "hair": "BunCurly",
+   "x": 72,
+   "skin": "brown",
+   "shirt": "yellow",
+   "dark": "navy",
+   "scale": 1.25
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🎯",
+   "x": 226,
+   "y": 100,
+   "size": 72
+  }
+ ],
+ "cue": "Gündemde tek hedef var, parmak onu gösteriyor: Was das Budget betrifft, …"
+}

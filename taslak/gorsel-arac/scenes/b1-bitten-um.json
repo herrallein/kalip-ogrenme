@@ -1,0 +1,25 @@
+{
+ "id": "b1-bitten-um",
+ "bg": "shop",
+ "keyword": "bitten um",
+ "alt": "Yardım dileyen, elleri birleştirmiş kişi",
+ "people": [
+  {
+   "pose": "bust:Dress",
+   "face": "Cute",
+   "hair": "Twists",
+   "x": 88,
+   "skin": "dark",
+   "shirt": "yellow"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🙏",
+   "❓"
+  ]
+ },
+ "cue": "Gözler büyük, eller birleşik: rica ederken \"bitten um\" + Akkusativ: Ich bitte Sie um Verständnis."
+}

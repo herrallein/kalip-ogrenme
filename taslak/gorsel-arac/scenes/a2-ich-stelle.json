@@ -1,0 +1,44 @@
+{
+ "id": "a2-ich-stelle",
+ "bg": "kitchen",
+ "keyword": "stelle",
+ "alt": "Elindeki şişeyi masaya koyan kişi, aşağı ok",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Smile",
+   "hair": "MediumBangs",
+   "x": 80,
+   "skin": "brown",
+   "shirt": "yellow"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🍾",
+   "x": 190,
+   "y": 70,
+   "size": 46
+  }
+ ],
+ "props": [
+  {
+   "type": "table",
+   "x": 252,
+   "y": 182,
+   "scale": 1.1
+  }
+ ],
+ "arrow": {
+  "from": [
+   192,
+   86
+  ],
+  "to": [
+   246,
+   126
+  ],
+  "bend": -30
+ },
+ "cue": "Şişeyi alıp masaya KOYUYORSUN, ok hareketi gösteriyor: Ich stelle die Flasche AUF DEN Tisch. Nereye? = Akkusativ."
+}

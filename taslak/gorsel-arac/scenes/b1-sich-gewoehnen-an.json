@@ -1,0 +1,43 @@
+{
+ "id": "b1-sich-gewoehnen-an",
+ "bg": "street",
+ "keyword": "gewöhne mich an",
+ "alt": "Sıcak iklime yavaş yavaş alışan kişi",
+ "people": [
+  {
+   "pose": "bust:Hoodie",
+   "face": "Calm",
+   "hair": "ShortScratch",
+   "x": 80,
+   "skin": "light",
+   "shirt": "teal"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🥵",
+   "x": 185,
+   "y": 90,
+   "size": 44
+  },
+  {
+   "emoji": "😎",
+   "x": 280,
+   "y": 90,
+   "size": 44
+  }
+ ],
+ "arrow": {
+  "from": [
+   185,
+   125
+  ],
+  "to": [
+   275,
+   125
+  ],
+  "bend": 0,
+  "marker": "timeline"
+ },
+ "cue": "Önce bunalıyorsun, sonra gözlük takıp rahatlıyorsun: \"sich gewöhnen an\" + Akkusativ."
+}

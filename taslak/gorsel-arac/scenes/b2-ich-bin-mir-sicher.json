@@ -1,0 +1,27 @@
+{
+ "id": "b2-ich-bin-mir-sicher",
+ "bg": "sky",
+ "keyword": "sicher ob",
+ "alt": "Emin olamayan, düşünen kişi; balonda düşünen yüz ve soru işareti",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Suspicious",
+   "hair": "Twists",
+   "x": 90,
+   "skin": "dark",
+   "shirt": "red",
+   "dark": "navy",
+   "accessory": "GlassRoundThick"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🤔",
+   "❓"
+  ]
+ },
+ "cue": "Kafasında soru işareti: Ich bin mir nicht sicher, ob … (ob + fiil sonda)."
+}

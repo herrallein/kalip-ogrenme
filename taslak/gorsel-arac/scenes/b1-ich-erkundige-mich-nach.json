@@ -1,0 +1,33 @@
+{
+ "id": "b1-ich-erkundige-mich-nach",
+ "bg": "shop",
+ "keyword": "erkundige mich nach",
+ "alt": "Çalışma saatlerini soran müşteri",
+ "people": [
+  {
+   "pose": "bust:ButtonShirt",
+   "face": "Calm",
+   "hair": "Bun",
+   "x": 88,
+   "skin": "light",
+   "shirt": "blue"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "ℹ️",
+   "❓"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "🕘",
+   "x": 255,
+   "y": 100,
+   "size": 48
+  }
+ ],
+ "cue": "Tezgâhta bilgi alıyorsun: \"sich erkundigen nach\" + Dativ: Ich erkundige mich nach den Öffnungszeiten."
+}

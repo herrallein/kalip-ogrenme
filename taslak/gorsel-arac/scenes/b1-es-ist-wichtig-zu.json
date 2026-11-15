@@ -1,0 +1,33 @@
+{
+ "id": "b1-es-ist-wichtig-zu",
+ "bg": "classroom",
+ "keyword": "wichtig",
+ "alt": "Almanca konuşmanın önemini vurgulayan büyük ünlem",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Serious",
+   "hair": "Short",
+   "x": 90,
+   "skin": "dark",
+   "shirt": "navy"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🇩🇪",
+   "🗣️"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "❗",
+   "x": 250,
+   "y": 110,
+   "size": 68
+  }
+ ],
+ "cue": "Kocaman ünlem: önemli olan şey \"zu\" ile mastar halinde sona gelir: Es ist wichtig, jeden Tag zu sprechen."
+}

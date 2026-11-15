@@ -1,0 +1,33 @@
+{
+ "id": "b2-ich-moechte-sie-hinweisen",
+ "bg": "street",
+ "keyword": "hinweisen",
+ "alt": "Yol çalışması levhasını gösteren kişi",
+ "people": [
+  {
+   "pose": "PointingFingerBW",
+   "face": "Serious",
+   "hair": "GrayBun",
+   "x": 74,
+   "skin": "light",
+   "shirt": "pink",
+   "dark": "navy",
+   "scale": 1.25
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🚧",
+   "x": 226,
+   "y": 128,
+   "size": 72
+  },
+  {
+   "emoji": "❗",
+   "x": 264,
+   "y": 70,
+   "size": 36
+  }
+ ],
+ "cue": "Parmak levhayı gösteriyor, dikkat: Ich möchte Sie darauf hinweisen, dass …"
+}

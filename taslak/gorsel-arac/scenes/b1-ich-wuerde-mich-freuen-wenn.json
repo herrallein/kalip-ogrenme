@@ -1,0 +1,33 @@
+{
+ "id": "b1-ich-wuerde-mich-freuen-wenn",
+ "bg": "home",
+ "keyword": "würde mich freuen",
+ "alt": "Kapıda ziyaretçi bekleyen sevinçli kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "LoveGrin",
+   "hair": "LongCurly",
+   "x": 80,
+   "skin": "brown",
+   "shirt": "pink"
+  }
+ ],
+ "props": [
+  {
+   "type": "door",
+   "x": 255,
+   "y": 182,
+   "scale": 1.1
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "💐",
+   "x": 255,
+   "y": 110,
+   "size": 40
+  }
+ ],
+ "cue": "Kapıyı çalacak misafiri bekliyorsun: nazik dilek: Ich würde mich freuen, wenn du mich besuchen würdest."
+}

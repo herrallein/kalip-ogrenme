@@ -1,0 +1,38 @@
+{
+ "id": "a2-reservieren",
+ "bg": "cafe",
+ "keyword": "reservieren",
+ "alt": "Telefonla dört kişilik masa ayırtan kişi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Smile",
+   "hair": "Short",
+   "x": 84,
+   "skin": "brown",
+   "shirt": "teal"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "📞"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "4️⃣",
+   "x": 214,
+   "y": 128,
+   "size": 40
+  },
+  {
+   "emoji": "🍽️",
+   "x": 268,
+   "y": 128,
+   "size": 46
+  }
+ ],
+ "cue": "Telefonda \"dört kişilik masa\" diyorsun: Ich möchte einen Tisch für vier Personen RESERVIEREN."
+}

@@ -1,0 +1,44 @@
+{
+ "id": "b2-aufgrund",
+ "bg": "station",
+ "keyword": "aufgrund",
+ "alt": "Kar yüzünden gecikme; karlı hava ve saat işareti, endişeli kişi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Concerned",
+   "hair": "ShortWavy",
+   "x": 80,
+   "skin": "brown",
+   "shirt": "blue",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "❄️",
+   "x": 176,
+   "y": 80,
+   "size": 48
+  },
+  {
+   "emoji": "🕒",
+   "x": 268,
+   "y": 80,
+   "size": 48
+  }
+ ],
+ "arrow": {
+  "from": [
+   200,
+   86
+  ],
+  "to": [
+   246,
+   86
+  ],
+  "bend": -18,
+  "style": "solid"
+ },
+ "cue": "Kar (neden) → ok → gecikmiş tren saati (sonuç): Aufgrund des Schnees verspätet sich der Zug."
+}

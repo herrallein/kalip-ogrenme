@@ -1,0 +1,33 @@
+{
+ "id": "a2-genauso-wie",
+ "bg": "sky",
+ "keyword": "so … wie",
+ "alt": "Eşit boydaki iki kişi arasında eşittir işareti",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Smile",
+   "hair": "Medium",
+   "x": 70,
+   "skin": "light",
+   "shirt": "blue"
+  },
+  {
+   "pose": "bust:Shirt",
+   "face": "Smile",
+   "hair": "ShortCurly",
+   "x": 230,
+   "skin": "dark",
+   "shirt": "pink"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🟰",
+   "x": 150,
+   "y": 100,
+   "size": 50
+  }
+ ],
+ "cue": "Aranda eşittir: Mein Bruder ist SO groß WIE ich. Eşitlikte sıfat yalın kalır: so + sıfat + wie."
+}

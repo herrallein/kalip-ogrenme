@@ -1,0 +1,33 @@
+{
+ "id": "b2-anteil-liegt-bei",
+ "bg": "meeting",
+ "keyword": "Anteil",
+ "alt": "Dilimi alınmış pizza ve yüzde otuz; işaret eden kişi",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Calm",
+   "hair": "FlatTop",
+   "x": 84,
+   "skin": "light",
+   "shirt": "yellow",
+   "dark": "navy",
+   "accessory": "GlassAviator"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🍕",
+   "x": 226,
+   "y": 104,
+   "size": 72
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "word": "30 %",
+  "side": "right"
+ },
+ "cue": "Pizza dilimi bütünün payı: Der Anteil liegt bei 30 Prozent."
+}

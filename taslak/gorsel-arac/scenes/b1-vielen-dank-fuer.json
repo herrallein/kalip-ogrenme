@@ -1,0 +1,33 @@
+{
+ "id": "b1-vielen-dank-fuer",
+ "bg": "home",
+ "keyword": "Vielen Dank",
+ "alt": "Çiçek ve davetle teşekkür eden kişi",
+ "people": [
+  {
+   "pose": "bust:Dress",
+   "face": "Smile",
+   "hair": "Bangs",
+   "x": 88,
+   "skin": "light",
+   "shirt": "red"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🙏",
+   "💐"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "🎉",
+   "x": 260,
+   "y": 110,
+   "size": 44
+  }
+ ],
+ "cue": "Elinde buket, yüzünde gülümseme: \"Vielen Dank für\" + Akkusativ: Vielen Dank für die Einladung."
+}

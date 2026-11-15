@@ -1,0 +1,31 @@
+{
+  "id": "b1-es-faellt-mir-schwer",
+  "bg": "home",
+  "keyword": "fällt schwer",
+  "alt": "Çalar saate rağmen kalkamayan yorgun kişi, yanında kaya",
+  "people": [
+    {
+      "pose": "bust:Hoodie",
+      "face": "Tired",
+      "hair": "Medium",
+      "x": 80,
+      "skin": "light",
+      "shirt": "gray"
+    }
+  ],
+  "objects": [
+    {
+      "emoji": "⏰",
+      "x": 200,
+      "y": 80,
+      "size": 48
+    },
+    {
+      "emoji": "🪨",
+      "x": 265,
+      "y": 130,
+      "size": 56
+    }
+  ],
+  "cue": "Sabah alarm çalıyor ama yataktan kalkmak taş gibi ağır: Es fällt mir schwer, früh aufzustehen."
+}

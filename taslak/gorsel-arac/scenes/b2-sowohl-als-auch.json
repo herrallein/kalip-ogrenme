@@ -1,0 +1,44 @@
+{
+ "id": "b2-sowohl-als-auch",
+ "bg": "kitchen",
+ "keyword": "sowohl … als auch",
+ "alt": "İki meyve de onaylı; her ikisinin üstünde yeşil tik",
+ "people": [
+  {
+   "pose": "bust:Coffee",
+   "face": "SmileBig",
+   "hair": "LongCurly",
+   "x": 82,
+   "skin": "medium",
+   "shirt": "brown",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🍎",
+   "x": 178,
+   "y": 126,
+   "size": 52
+  },
+  {
+   "emoji": "🍌",
+   "x": 252,
+   "y": 126,
+   "size": 52
+  },
+  {
+   "emoji": "✅",
+   "x": 178,
+   "y": 74,
+   "size": 36
+  },
+  {
+   "emoji": "✅",
+   "x": 252,
+   "y": 74,
+   "size": 36
+  }
+ ],
+ "cue": "İki meyve de sepette, ikisinin üstünde de tik: sowohl elma als auch muz."
+}

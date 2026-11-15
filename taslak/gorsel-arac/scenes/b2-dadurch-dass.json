@@ -1,0 +1,38 @@
+{
+ "id": "b2-dadurch-dass",
+ "bg": "park",
+ "keyword": "dadurch, dass",
+ "alt": "Bisikletle giden kişiden güçlü kola ok",
+ "people": [
+  {
+   "pose": "Bike",
+   "face": "SmileBig",
+   "hair": "Beanie",
+   "x": 90,
+   "skin": "brown",
+   "shirt": "orange",
+   "dark": "navy",
+   "scale": 0.95
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "💪",
+   "x": 250,
+   "y": 78,
+   "size": 56
+  }
+ ],
+ "arrow": {
+  "from": [
+   156,
+   100
+  ],
+  "to": [
+   218,
+   80
+  ],
+  "bend": -20
+ },
+ "cue": "Pedal çevirdikçe kaslar çıkıyor: Dadurch, dass ich Rad fahre, bin ich fit; yol sonucu doğurur."
+}

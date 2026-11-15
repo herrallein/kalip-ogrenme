@@ -1,0 +1,43 @@
+{
+ "id": "b1-plusquamperfekt",
+ "bg": "station",
+ "keyword": "hatte / war",
+ "alt": "Tren kalkmış, kaçıran şaşkın kişi; ok geriye sarıyor",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "Fear",
+   "hair": "LongAfro",
+   "x": 80,
+   "skin": "dark",
+   "shirt": "purple"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🚆",
+   "x": 265,
+   "y": 100,
+   "size": 50
+  },
+  {
+   "emoji": "💨",
+   "x": 215,
+   "y": 125,
+   "size": 32
+  }
+ ],
+ "arrow": {
+  "from": [
+   240,
+   70
+  ],
+  "to": [
+   150,
+   70
+  ],
+  "bend": -20,
+  "marker": "rewind"
+ },
+ "cue": "Tren sen gelmeden gitmişti: geçmişin de geçmişi, \"war/hatte\" + Partizip II: Der Zug war schon abgefahren."
+}

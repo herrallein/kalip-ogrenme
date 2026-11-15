@@ -1,0 +1,32 @@
+{
+ "id": "a2-koennten-sie",
+ "bg": "office",
+ "keyword": "Könnten Sie",
+ "alt": "Nazikçe yardım isteyen kişi, balonunda dua eden eller",
+ "people": [
+  {
+   "pose": "bust:ButtonShirt",
+   "face": "Smile",
+   "hair": "Medium",
+   "x": 80,
+   "skin": "medium",
+   "shirt": "teal"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🙏"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "📄",
+   "x": 244,
+   "y": 110,
+   "size": 50
+  }
+ ],
+ "cue": "Ellerini birleştirip kibarca rica ediyorsun: \"Könnten Sie mir bitte helfen?\" Sie ile saygı, mastar en sonda."
+}

@@ -1,0 +1,35 @@
+{
+ "id": "b1-was-relativ",
+ "bg": "plain",
+ "keyword": "was",
+ "alt": "Bildiği her şeyi düşünen kişi, kafasında beyin ve yüz puan",
+ "people": [
+  {
+   "pose": "bust:Geek",
+   "face": "Calm",
+   "hair": "ShortCurly",
+   "x": 88,
+   "skin": "medium",
+   "shirt": "teal",
+   "accessory": "GlassRound"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🧠",
+   "💯"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "📦",
+   "x": 255,
+   "y": 130,
+   "size": 50
+  }
+ ],
+ "cue": "Beynindekilerin hepsi bu kadar: \"alles/nichts\" sonrası \"was\" gelir: Das ist alles, was ich weiß.",
+ "bgColor": "#dfeaf5"
+}

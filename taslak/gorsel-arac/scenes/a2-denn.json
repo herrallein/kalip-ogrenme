@@ -1,0 +1,38 @@
+{
+ "id": "a2-denn",
+ "bg": "home",
+ "keyword": "denn",
+ "alt": "Hasta kişi, termometre; açıklama balonu",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Tired",
+   "hair": "Short",
+   "x": 84,
+   "skin": "light",
+   "shirt": "blue"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🌡️",
+   "x": 204,
+   "y": 84,
+   "size": 50
+  },
+  {
+   "emoji": "🏠",
+   "x": 270,
+   "y": 126,
+   "size": 46
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "🤒"
+  ]
+ },
+ "cue": "Evdesin çünkü hastasın, balon açıklıyor: …, denn ich BIN krank. \"denn\"den sonra düz sıra, fiil ikinci."
+}

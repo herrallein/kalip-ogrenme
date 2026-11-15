@@ -1,0 +1,33 @@
+{
+ "id": "b1-vorgenommen",
+ "bg": "home",
+ "keyword": "vorgenommen",
+ "alt": "Almanca çalışmaya karar vermiş kararlı kişi",
+ "people": [
+  {
+   "pose": "bust:SportyShirt",
+   "face": "Driven",
+   "hair": "ShavedSides",
+   "x": 88,
+   "skin": "light",
+   "shirt": "green"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "💪",
+   "🇩🇪"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "📓",
+   "x": 255,
+   "y": 140,
+   "size": 42
+  }
+ ],
+ "cue": "Yeni yıl kararı: kolunu kıvırıyorsun: Ich habe mir vorgenommen, jeden Tag Deutsch zu lernen."
+}

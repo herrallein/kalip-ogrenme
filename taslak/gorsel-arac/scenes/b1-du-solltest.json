@@ -1,0 +1,41 @@
+{
+ "id": "b1-du-solltest",
+ "bg": "park",
+ "keyword": "solltest",
+ "alt": "Bir kişi parmak kaldırıp tavsiye veriyor, diğeri kararsız",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Explaining",
+   "hair": "Bangs",
+   "x": 70,
+   "skin": "medium",
+   "shirt": "orange"
+  },
+  {
+   "pose": "bust:Hoodie",
+   "face": "Concerned",
+   "hair": "ShortCurly",
+   "x": 250,
+   "skin": "light",
+   "shirt": "gray",
+   "flip": true
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "💡"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "❓",
+   "x": 210,
+   "y": 60,
+   "size": 40
+  }
+ ],
+ "cue": "Ampulü yakan arkadaş sana tavsiye veriyor: \"solltest/könntest\" + mastar sonda: Du solltest mehr schlafen."
+}

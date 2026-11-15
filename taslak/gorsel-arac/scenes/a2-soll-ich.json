@@ -1,0 +1,33 @@
+{
+ "id": "a2-soll-ich",
+ "bg": "home",
+ "keyword": "Soll ich",
+ "alt": "Pencereyi açmayı teklif eden, gülen kişi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Smile",
+   "hair": "LongCurly",
+   "x": 84,
+   "skin": "brown",
+   "shirt": "purple"
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "❓",
+   "🪟"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "💨",
+   "x": 262,
+   "y": 120,
+   "size": 42
+  }
+ ],
+ "cue": "Eliyle pencereyi gösterip soruyorsun: Soll ich das Fenster ÖFFNEN? Yardım teklifi, mastar sonda."
+}

@@ -1,0 +1,31 @@
+{
+ "id": "b1-es-geht-um",
+ "bg": "meeting",
+ "keyword": "geht um",
+ "alt": "Toplantıda konuyu işaret eden kişi",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Explaining",
+   "hair": "Bangs",
+   "x": 88,
+   "skin": "brown",
+   "shirt": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📌",
+   "x": 225,
+   "y": 90,
+   "size": 56
+  },
+  {
+   "emoji": "🏠",
+   "x": 270,
+   "y": 130,
+   "size": 40
+  }
+ ],
+ "cue": "Tahtadaki raptiyeli konu: mesele ne? \"Es geht um\" + Akkusativ: Es geht um meine Wohnung."
+}

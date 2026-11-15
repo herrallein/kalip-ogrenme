@@ -1,0 +1,31 @@
+{
+ "id": "b1-ich-wuenschte",
+ "bg": "home",
+ "keyword": "wünschte",
+ "alt": "Bir cin ve sandık önünde dilek tutan kişi",
+ "people": [
+  {
+   "pose": "bust:Dress",
+   "face": "Cute",
+   "hair": "BunCurly",
+   "x": 80,
+   "skin": "brown",
+   "shirt": "pink"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🧞",
+   "x": 235,
+   "y": 90,
+   "size": 62
+  },
+  {
+   "emoji": "⏳",
+   "x": 285,
+   "y": 160,
+   "size": 34
+  }
+ ],
+ "cue": "Cin lambadan çıksa: gerçek olmayan dilek \"hätte/wäre\" ile kurulur: Ich wünschte, ich hätte mehr Zeit."
+}

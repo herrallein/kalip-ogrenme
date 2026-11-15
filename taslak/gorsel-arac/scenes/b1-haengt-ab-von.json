@@ -1,0 +1,45 @@
+{
+ "id": "b1-haengt-ab-von",
+ "bg": "office",
+ "keyword": "hängt ab von",
+ "alt": "Saate bakıp kararını bekleyen kişi",
+ "people": [
+  {
+   "pose": "bust:Whatever",
+   "face": "Suspicious",
+   "hair": "Pomp",
+   "x": 80,
+   "skin": "light",
+   "shirt": "blue"
+  }
+ ],
+ "props": [
+  {
+   "type": "clock",
+   "x": 225,
+   "y": 60,
+   "scale": 1.4
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🚗",
+   "x": 275,
+   "y": 130,
+   "size": 44
+  }
+ ],
+ "arrow": {
+  "from": [
+   225,
+   95
+  ],
+  "to": [
+   262,
+   115
+  ],
+  "bend": 20,
+  "style": "solid"
+ },
+ "cue": "Karar saate bağlı: ok saatten gelir: Ob wir kommen, hängt von der Uhrzeit ab."
+}

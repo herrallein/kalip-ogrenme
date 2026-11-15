@@ -1,0 +1,40 @@
+{
+ "id": "b2-partizip-i",
+ "bg": "home",
+ "keyword": "-end",
+ "alt": "Yatakta uyuyan bebek, üstünde horlama simgesi",
+ "people": [
+  {
+   "pose": "bust:Shirt",
+   "face": "Calm",
+   "hair": "BunCurly",
+   "x": 70,
+   "skin": "medium",
+   "shirt": "teal",
+   "dark": "navy"
+  }
+ ],
+ "props": [
+  {
+   "type": "bed",
+   "x": 240,
+   "y": 180,
+   "scale": 1
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "👶",
+   "x": 240,
+   "y": 128,
+   "size": 46
+  },
+  {
+   "emoji": "💤",
+   "x": 286,
+   "y": 96,
+   "size": 36
+  }
+ ],
+ "cue": "Yatakta uyuyan bebek, uyku hâlâ sürüyor: das schlafende Kind; fiil + -end sıfat olur."
+}

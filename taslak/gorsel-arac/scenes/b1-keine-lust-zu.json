@@ -1,0 +1,25 @@
+{
+ "id": "b1-keine-lust-zu",
+ "bg": "home",
+ "keyword": "keine Lust",
+ "alt": "Kanepede yatan, yemek yapmak istemeyen kişi",
+ "people": [
+  {
+   "pose": "bust:Hoodie",
+   "face": "Tired",
+   "hair": "LongBangs",
+   "x": 88,
+   "skin": "medium",
+   "shirt": "gray"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🍳",
+   "🚫"
+  ]
+ },
+ "cue": "Kanepeden kalkasın yok, tava yasak: \"keine Lust\" + zu + mastar: Ich habe keine Lust, zu kochen."
+}

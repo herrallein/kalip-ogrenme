@@ -1,0 +1,6 @@
+{"id":"a1-ich-heisse","bg":"plain","bgColor":"#BFE6FF","keyword":"heiße",
+ "alt":"Gülümseyen kişi kendini tanıtıyor; konuşma balonunda adı, yanında el sallama ve kimlik kartı",
+ "people":[{"pose":"bust:Explaining","face":"Smile","hair":"Long","x":86,"skin":"light","shirt":"teal"}],
+ "objects":[{"emoji":"🪪","x":246,"y":128,"size":62,"rot":-6},{"emoji":"👋","x":160,"y":92,"size":36,"rot":-10}],
+ "bubble":{"type":"speech","from":0,"word":"Anna"},
+ "cue":"Yakandaki isim kartı konuşuyor: 'Ich HEISSE Anna' diyerek el sallıyorsun; fiil 'heiße' hemen ikinci sırada!"}

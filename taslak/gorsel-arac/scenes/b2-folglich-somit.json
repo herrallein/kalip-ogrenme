@@ -1,0 +1,50 @@
+{
+ "id": "b2-folglich-somit",
+ "bg": "street",
+ "keyword": "somit",
+ "alt": "Çalmayan alarm saati, kaçan otobüs",
+ "people": [
+  {
+   "pose": "bust:Hoodie",
+   "face": "Tired",
+   "hair": "ShortScratch",
+   "x": 76,
+   "skin": "dark",
+   "shirt": "red",
+   "dark": "navy"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "⏰",
+   "x": 166,
+   "y": 92,
+   "size": 46
+  },
+  {
+   "emoji": "🔕",
+   "x": 190,
+   "y": 64,
+   "size": 28
+  },
+  {
+   "emoji": "🚌",
+   "x": 270,
+   "y": 120,
+   "size": 54
+  }
+ ],
+ "arrow": {
+  "from": [
+   196,
+   96
+  ],
+  "to": [
+   240,
+   112
+  ],
+  "bend": -16,
+  "style": "solid"
+ },
+ "cue": "Alarm çalmadı → otobüs kaçtı: Der Wecker klingelte nicht, somit verpasste ich den Bus."
+}

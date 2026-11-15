@@ -332,3 +332,18 @@ textarea { resize: vertical; }
 @media (prefers-reduced-motion: reduce) {
   .bar-fill { transition: none; }
 }
+
+/* Kalıp hafıza görselleri */
+.pvisual { margin: 0 0 12px; }
+.pvisual img { display: block; border-radius: 12px; height: auto; }
+.pvisual.full img { width: 100%; aspect-ratio: 16 / 10; }
+.pvisual.small img { max-height: 120px; width: auto; max-width: 100%; margin: 0 auto; }
+.pvisual.tiny { display: flex; gap: 10px; align-items: center; }
+.pvisual.tiny img { max-height: 90px; width: auto; max-width: 45%; flex: none; }
+.pvisual .cue {
+  margin-top: 8px; padding: 8px 12px; border-radius: 10px;
+  background: var(--new-bg); font-size: 0.95rem; line-height: 1.4;
+}
+.pvisual.tiny .cue { margin-top: 0; padding: 6px 10px; font-size: 0.85rem; flex: 1; }
+.credits { margin-top: 24px; }
+.credits a { color: var(--primary); }

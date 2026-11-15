@@ -1,0 +1,25 @@
+{
+ "id": "a2-dass",
+ "bg": "office",
+ "keyword": "dass",
+ "alt": "Düşünen kişinin balonunda güneş ve takvim",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Calm",
+   "hair": "LongBangs",
+   "x": 86,
+   "skin": "medium",
+   "shirt": "teal"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "☀️",
+   "📅"
+  ]
+ },
+ "cue": "Düşünce balonu \"dass\" cümlesidir: ne düşündüğün balonun içinde, fiil en sonda: …, dass das Wetter schön IST."
+}

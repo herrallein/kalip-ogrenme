@@ -1,0 +1,42 @@
+{
+ "id": "a2-weil",
+ "bg": "home",
+ "keyword": "weil",
+ "alt": "Hasta, yorgun kişi; ateş emojisinden eve doğru ok",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Tired",
+   "hair": "Medium",
+   "x": 84,
+   "skin": "light",
+   "shirt": "blue"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🤒",
+   "x": 186,
+   "y": 74,
+   "size": 46
+  },
+  {
+   "emoji": "🏠",
+   "x": 270,
+   "y": 126,
+   "size": 54
+  }
+ ],
+ "arrow": {
+  "from": [
+   206,
+   82
+  ],
+  "to": [
+   256,
+   108
+  ],
+  "bend": -24
+ },
+ "cue": "Ateşin var, ok seni eve itiyor: neden → sonuç. \"weil\" fiili cümle sonuna atar: …, weil ich krank BIN."
+}

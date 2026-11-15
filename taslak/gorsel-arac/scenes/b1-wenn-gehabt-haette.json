@@ -1,0 +1,45 @@
+{
+ "id": "b1-wenn-gehabt-haette",
+ "bg": "home",
+ "keyword": "hätte … gehabt",
+ "alt": "Geçmişi düşünen üzgün kişi, geri saran ok",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Concerned",
+   "hair": "Long",
+   "x": 80,
+   "skin": "medium",
+   "shirt": "blue"
+  }
+ ],
+ "bubble": {
+  "type": "thought",
+  "from": 0,
+  "emoji": [
+   "🏠",
+   "🤗"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "⌛",
+   "x": 285,
+   "y": 130,
+   "size": 38
+  }
+ ],
+ "arrow": {
+  "from": [
+   255,
+   100
+  ],
+  "to": [
+   175,
+   100
+  ],
+  "bend": -18,
+  "marker": "rewind"
+ },
+ "cue": "Zaman geri sarılsa gidecektin ama yetmedi: geçmiş gerçekleşmeyen: Wenn ich Zeit gehabt hätte, hätte ich besucht."
+}

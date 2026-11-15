@@ -1,0 +1,40 @@
+{
+ "id": "b1-relativsatz",
+ "bg": "street",
+ "keyword": "der / die",
+ "alt": "Yanındaki komşuyu işaret eden kişi",
+ "people": [
+  {
+   "pose": "bust:PointingUp",
+   "face": "Explaining",
+   "hair": "Pomp",
+   "x": 70,
+   "skin": "light",
+   "shirt": "green"
+  },
+  {
+   "pose": "bust:ButtonShirt",
+   "face": "Smile",
+   "hair": "GrayShort",
+   "x": 250,
+   "skin": "medium",
+   "shirt": "navy",
+   "flip": true
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🔗",
+   "x": 160,
+   "y": 120,
+   "size": 50
+  },
+  {
+   "emoji": "🏠",
+   "x": 160,
+   "y": 60,
+   "size": 40
+  }
+ ],
+ "cue": "\"Der\" iki cümleyi zincirler: aynı adam, bağlaç gibi: Das ist der Mann, der neben uns wohnt."
+}

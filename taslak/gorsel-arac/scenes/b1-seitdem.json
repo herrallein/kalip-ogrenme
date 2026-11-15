@@ -1,0 +1,43 @@
+{
+ "id": "b1-seitdem",
+ "bg": "street",
+ "keyword": "seitdem",
+ "alt": "Bisiklete binen mutlu kişi, geçmişten bugüne zaman çizgisi",
+ "people": [
+  {
+   "pose": "bust:SportyShirt",
+   "face": "Smile",
+   "hair": "Buns",
+   "x": 88,
+   "skin": "light",
+   "shirt": "pink"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "📅",
+   "x": 160,
+   "y": 70,
+   "size": 44
+  },
+  {
+   "emoji": "🚲",
+   "x": 225,
+   "y": 110,
+   "size": 56
+  }
+ ],
+ "arrow": {
+  "from": [
+   95,
+   160
+  ],
+  "to": [
+   300,
+   150
+  ],
+  "bend": 0,
+  "marker": "timeline"
+ },
+ "cue": "Berlin'e taşındığın günden bugüne bisiklet: \"seitdem\" geçmişten şimdiye uzanan çizgidir."
+}

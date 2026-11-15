@@ -1,0 +1,44 @@
+{
+ "id": "b2-konjunktiv-i",
+ "bg": "meeting",
+ "keyword": "er sei / habe",
+ "alt": "Megafonla konuşan kişiyi not alarak dinleyen diğer kişi",
+ "people": [
+  {
+   "pose": "bust:Explaining",
+   "face": "Explaining",
+   "hair": "Hijab",
+   "x": 70,
+   "skin": "dark",
+   "shirt": "red",
+   "dark": "navy"
+  },
+  {
+   "pose": "bust:Shirt",
+   "face": "Suspicious",
+   "hair": "Short",
+   "x": 250,
+   "skin": "light",
+   "shirt": "blue",
+   "dark": "navy",
+   "facialHair": "Full",
+   "flip": true
+  }
+ ],
+ "bubble": {
+  "type": "speech",
+  "from": 0,
+  "emoji": [
+   "📢"
+  ]
+ },
+ "objects": [
+  {
+   "emoji": "📝",
+   "x": 250,
+   "y": 52,
+   "size": 38
+  }
+ ],
+ "cue": "Biri anlatıyor, öteki defterine geçiyor: sözü aktarırken fiil Konjunktiv I: Er sagt, er habe Zeit."
+}

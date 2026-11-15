@@ -1,0 +1,31 @@
+{
+ "id": "a2-noch-nie",
+ "bg": "shop",
+ "keyword": "noch nie",
+ "alt": "Balığa uzak duran kişi; balığın üstünde yasak işareti",
+ "people": [
+  {
+   "pose": "bust:ArmsCrossed",
+   "face": "Contempt",
+   "hair": "Short",
+   "x": 84,
+   "skin": "light",
+   "shirt": "green"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🐟",
+   "x": 212,
+   "y": 84,
+   "size": 52
+  },
+  {
+   "emoji": "🚫",
+   "x": 212,
+   "y": 84,
+   "size": 70
+  }
+ ],
+ "cue": "Balığa hiç dokunmadın, yasak işareti: Ich habe NOCH NIE Fisch GEGESSEN. \"noch nie\" = hiç … -medim."
+}

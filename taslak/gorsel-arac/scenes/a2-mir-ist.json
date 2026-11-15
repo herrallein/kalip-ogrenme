@@ -1,0 +1,31 @@
+{
+ "id": "a2-mir-ist",
+ "bg": "night",
+ "keyword": "Mir ist",
+ "alt": "Karlı gecede titreyen, bere takmış kişi",
+ "people": [
+  {
+   "pose": "bust:Sweater",
+   "face": "Concerned",
+   "hair": "Beanie",
+   "x": 84,
+   "skin": "light",
+   "shirt": "blue"
+  }
+ ],
+ "objects": [
+  {
+   "emoji": "🥶",
+   "x": 196,
+   "y": 70,
+   "size": 46
+  },
+  {
+   "emoji": "❄️",
+   "x": 262,
+   "y": 86,
+   "size": 42
+  }
+ ],
+ "cue": "Dişlerin takırdıyor, kar yağıyor: Mir ist KALT. \"Ben\" değil \"bana\" soğuk gelir; hissi mir + sıfat verir."
+}
