@@ -4,6 +4,8 @@ import { DEFAULT_SETTINGS, emptyState } from '../core/scheduler';
 import { exportState, importState } from '../core/storage';
 import type { AppState, Settings } from '../core/types';
 import type { SyncApi } from '../sync/useSync';
+import { loadPrefs, savePrefs } from './prefs';
+import { canSpeak } from './speech';
 
 interface Props { state: AppState; setState: (s: AppState) => void; today: string; sync: SyncApi }
 
@@ -22,6 +24,7 @@ export function SettingsTab({ state, setState, today, sync }: Props) {
   const [connecting, setConnecting] = useState(false);
   const [syncMsg, setSyncMsg] = useState<{ ok: boolean; text: string } | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
+  const [autoSpeak, setAutoSpeak] = useState(() => loadPrefs().autoSpeak);
 
   const syncDraft = (v: Settings) => setDraft({
     newPerDay: String(v.newPerDay),
@@ -153,6 +156,20 @@ export function SettingsTab({ state, setState, today, sync }: Props) {
         <button type="button" className="btn" onClick={resetDefaults}>Varsayılana dön</button>
       </div>
       {msg && <p role="status" className={msg.ok ? 'msg ok' : 'msg err'}>{msg.text}</p>}
+
+      <h2>Ses</h2>
+      <label className="check">
+        <input
+          type="checkbox"
+          checked={autoSpeak}
+          onChange={(e) => { setAutoSpeak(e.target.checked); savePrefs({ autoSpeak: e.target.checked }); }}
+        />
+        <span>Cevap gösterilince Almancasını otomatik oku</span>
+      </label>
+      <p className="muted small">
+        Bu tercih yalnız bu cihazda durur. iPhone'da ses, sessiz anahtarına ve ses düzeyine bağlıdır.
+        {!canSpeak() && ' Bu tarayıcı sesli okumayı desteklemiyor.'}
+      </p>
 
       <h2>Eşitleme (telefon ↔ PC)</h2>
       <p className="muted small">

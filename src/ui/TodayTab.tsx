@@ -1,7 +1,10 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { exampleFor, gradePattern, planDay } from '../core/scheduler';
 import { studyStreak } from '../core/stats';
 import type { AppState, Grade, Pattern, QueueItem } from '../core/types';
+import { loadPrefs } from './prefs';
+import { SpeakButtons } from './SpeakButtons';
+import { speak } from './speech';
 import { GRADES, gradePreview } from './util';
 
 interface Props {
@@ -41,7 +44,7 @@ export function TodayTab({ state, setState, patterns, today }: Props) {
   };
 
   return (
-    <section>
+    <section className="today">
       <h1>Bugün</h1>
       <p className="lead">Bugün: {reviewCount} tekrar, {newCount} yeni</p>
       <div
@@ -84,6 +87,11 @@ export function TodayTab({ state, setState, patterns, today }: Props) {
 
 type Step = 'intro' | 'practice' | 'answer';
 
+// Her adımın ana eylemi içeriğin altında, sekme çubuğunun hemen üstünde yapışık durur.
+function ActionBar({ children, grades }: { children: ReactNode; grades?: boolean }) {
+  return <div className={grades ? 'actionbar grades' : 'actionbar'}>{children}</div>;
+}
+
 function Card({ item, pattern, state, today, onGrade }: {
   item: QueueItem; pattern: Pattern; state: AppState; today: string;
   onGrade: (item: QueueItem, grade: Grade, sentence: string) => void;
@@ -91,85 +99,125 @@ function Card({ item, pattern, state, today, onGrade }: {
   const [step, setStep] = useState<Step>(item.kind === 'new' ? 'intro' : 'practice');
   const [attempt, setAttempt] = useState('');
   const [own, setOwn] = useState('');
+  const [ownOpen, setOwnOpen] = useState(false);
   useEffect(() => { window.scrollTo({ top: 0 }); }, [item.id, step]);
   const example = exampleFor(pattern, state.progress[item.id]);
   const kindLabel = item.kind === 'new' ? 'Yeni' : item.kind === 'learning' ? 'Öğreniliyor' : 'Kalıcı tekrar';
 
+  // iOS yalnız kullanıcı dokunuşu içinde ses çalmaya izin verir: otomatik okuma tıklama işleyicisinde.
+  const showAnswer = () => {
+    if (loadPrefs().autoSpeak) speak(example.de);
+    setStep('answer');
+  };
+
   if (step === 'intro') {
     return (
-      <div className="card">
-        <span className="badge new">{kindLabel} · {pattern.level}</span>
-        <h2 lang="de" className="pattern">{pattern.pattern}</h2>
-        <p className="meaning">{pattern.meaning}</p>
-        {pattern.note && <p className="note">{pattern.note}</p>}
-        <ul className="examples">
-          {pattern.examples.map((e, i) => (
-            <li key={i}>
-              <span lang="de" className="de">{e.de}</span>
-              <span className="tr">{e.tr}</span>
-            </li>
-          ))}
-        </ul>
-        <button type="button" className="btn primary block" onClick={() => setStep('practice')}>Anladım</button>
-      </div>
+      <>
+        <div className="card">
+          <span className="badge new">{kindLabel} · {pattern.level}</span>
+          <h2 lang="de" className="pattern">{pattern.pattern}</h2>
+          <p className="meaning">{pattern.meaning}</p>
+          {pattern.note && <p className="note">{pattern.note}</p>}
+          <ul className="examples">
+            {pattern.examples.map((e, i) => (
+              <li key={i}>
+                <div className="line">
+                  <span lang="de" className="de">{e.de}</span>
+                  <SpeakButtons text={e.de} />
+                </div>
+                <span className="tr">{e.tr}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <ActionBar>
+          <button type="button" className="btn primary block" onClick={() => setStep('practice')}>Anladım</button>
+        </ActionBar>
+      </>
     );
   }
 
   if (step === 'practice') {
     return (
-      <div className="card">
-        <span className={`badge ${item.kind}`}>{kindLabel} · {pattern.level}</span>
-        <p className="prompt-label">Bunu Almanca söyle:</p>
-        <p className="prompt">{example.tr}</p>
-        <label className="field">
-          <span>Almancasını kur (isteğe bağlı)</span>
-          <textarea
-            lang="de"
-            rows={2}
-            value={attempt}
-            onChange={(e) => setAttempt(e.target.value)}
-            autoCapitalize="off"
-            autoCorrect="off"
-            spellCheck={false}
-          />
-        </label>
-        <button type="button" className="btn primary block" onClick={() => setStep('answer')}>Cevabı göster</button>
-      </div>
+      <>
+        <div className="card">
+          <span className={`badge ${item.kind}`}>{kindLabel} · {pattern.level}</span>
+          <p className="prompt-label">Bunu Almanca söyle:</p>
+          <p className="prompt">{example.tr}</p>
+          <label className="field">
+            <span>Almancasını kur (isteğe bağlı)</span>
+            <textarea
+              lang="de"
+              rows={2}
+              value={attempt}
+              onChange={(e) => setAttempt(e.target.value)}
+              autoCapitalize="off"
+              autoCorrect="off"
+              spellCheck={false}
+            />
+          </label>
+        </div>
+        <ActionBar>
+          <button type="button" className="btn primary block" onClick={() => showAnswer()}>Cevabı göster</button>
+        </ActionBar>
+      </>
     );
   }
 
   return (
-    <div className="card">
-      <span className={`badge ${item.kind}`}>{kindLabel} · {pattern.level}</span>
-      <p className="prompt small-prompt">{example.tr}</p>
-      {attempt.trim() && <p className="attempt"><span className="muted small">Senin cevabın: </span><span lang="de">{attempt}</span></p>}
-      <p lang="de" className="answer">{example.de}</p>
-      <p className="muted small">Kalıp</p>
-      <p lang="de" className="pattern small-pattern">{pattern.pattern}</p>
-      <p className="meaning">{pattern.meaning}</p>
-      <label className="field">
-        <span>Kendi cümleni kur (isteğe bağlı, kaydedilir)</span>
-        <textarea
-          lang="de"
-          rows={2}
-          value={own}
-          onChange={(e) => setOwn(e.target.value)}
-          autoCapitalize="off"
-          autoCorrect="off"
-          spellCheck={false}
-        />
-      </label>
-      <p className="prompt-label">Nasıl geçti?</p>
-      <div className="grades">
-        {GRADES.map((g) => (
-          <div key={g.grade} className="grade-wrap">
-            <button type="button" className={`btn grade ${g.grade}`} onClick={() => onGrade(item, g.grade, own)}>
-              {g.label}
-            </button>
-            <span className="muted small">{gradePreview(state, item.id, g.grade, today)}</span>
-          </div>
-        ))}
+    <>
+      <div className="card">
+        <span className={`badge ${item.kind}`}>{kindLabel} · {pattern.level}</span>
+        <p className="prompt small-prompt">{example.tr}</p>
+        {attempt.trim() && (
+          <p className="attempt">
+            <span className="muted small">Senin cevabın: </span>
+            <span lang="de" className="muted">{attempt}</span>
+          </p>
+        )}
+        <div className="line">
+          <p lang="de" className="answer">{example.de}</p>
+          <SpeakButtons text={example.de} />
+        </div>
+        <p className="pattern-line">
+          <b lang="de">{pattern.pattern}</b>
+          <span className="muted"> — {pattern.meaning}</span>
+        </p>
+        {ownOpen ? (
+          <label className="field">
+            <span>Kendi cümleni kur (isteğe bağlı, kaydedilir)</span>
+            <textarea
+              lang="de"
+              rows={2}
+              value={own}
+              onChange={(e) => setOwn(e.target.value)}
+              autoCapitalize="off"
+              autoCorrect="off"
+              spellCheck={false}
+              autoFocus
+            />
+          </label>
+        ) : (
+          <button type="button" className="link-btn" onClick={() => setOwnOpen(true)}>+ Kendi cümleni yaz</button>
+        )}
       </div>
-    </div>
+      <ActionBar grades>
+        {GRADES.map((g) => {
+          const preview = gradePreview(state, item.id, g.grade, today);
+          return (
+            <button
+              key={g.grade}
+              type="button"
+              className={`btn grade ${g.grade}`}
+              aria-label={`${g.label}: ${preview}`}
+              onClick={() => onGrade(item, g.grade, own)}
+            >
+              <span className="grade-label">{g.short}</span>
+              <span className="grade-hint">{preview}</span>
+            </button>
+          );
+        })}
+      </ActionBar>
+    </>
   );
 }

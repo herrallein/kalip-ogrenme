@@ -25,10 +25,10 @@ export function gradePreview(state: AppState, id: string, grade: Grade, today: s
   return `${n} gün sonra (kalıcı)`;
 }
 
-export const GRADES: { grade: Grade; label: string }[] = [
-  { grade: 'hard', label: 'Zorlandım' },
-  { grade: 'good', label: 'Düşünerek hatırladım' },
-  { grade: 'easy', label: 'Kolay, rahat kurdum' },
+export const GRADES: { grade: Grade; label: string; short: string }[] = [
+  { grade: 'hard', label: 'Zorlandım', short: 'Zor' },
+  { grade: 'good', label: 'Düşünerek hatırladım', short: 'İyi' },
+  { grade: 'easy', label: 'Kolay, rahat kurdum', short: 'Kolay' },
 ];
 
 export function fmtDay(date: string): string {

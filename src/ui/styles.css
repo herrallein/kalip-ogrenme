@@ -147,9 +147,9 @@ ul.plain, ol.plain { list-style: none; margin: 0; padding: 0; }
 }
 .prompt-label { color: var(--muted); font-size: 0.9rem; margin: 12px 0 4px; }
 .prompt { font-size: 1.4rem; font-weight: 600; margin: 0 0 12px; }
-.small-prompt { font-size: 1.05rem; margin-top: 12px; }
-.answer { font-size: 1.3rem; font-weight: 700; color: var(--primary); margin: 4px 0 12px; }
-.attempt { margin: 0 0 4px; }
+.small-prompt { font-size: 0.95rem; color: var(--muted); font-weight: 500; margin: 8px 0 8px; }
+.answer { font-size: 1.4rem; font-weight: 700; color: var(--primary); margin: 4px 0 8px; }
+.attempt { margin: 0 0 4px; font-size: 0.9rem; }
 .examples { list-style: none; margin: 12px 0; padding: 0; display: grid; gap: 10px; }
 .examples li { display: flex; flex-direction: column; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
 .examples li:last-child { border-bottom: 0; }
@@ -171,14 +171,65 @@ input[type="text"], input[type="password"], textarea {
 }
 textarea { resize: vertical; }
 
-/* Notlandırma */
-.grades { display: grid; gap: 12px; }
-.grade-wrap { display: flex; flex-direction: column; gap: 2px; }
-.btn.grade { width: 100%; text-align: left; }
+/* Bugün: içerik + altta yapışık eylem çubuğu.
+   Karar: position:fixed yerine sticky. iOS klavyesi açıkken fixed öğeler görsel
+   görünüm alanıyla kayıp klavyenin altında kalabiliyor; sticky ise akışın içinde olduğu
+   için içerikle birlikte kayar, alta binmez, ek bottom-padding hesabı gerektirmez.
+   Bölüm en az ekran boyunda olduğundan (flex sütun) kısa içerikte de çubuk en alta oturur. */
+.today {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 40px - var(--tabbar-h) - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  min-height: calc(100dvh - 40px - var(--tabbar-h) - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+}
+.actionbar {
+  position: sticky;
+  bottom: calc(var(--tabbar-h) + 1px + env(safe-area-inset-bottom)); /* +1px: sekme çubuğunun üst çizgisi */
+  z-index: 5;
+  margin-top: auto;
+  padding: 8px 0;
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+}
+.actionbar .btn.block { margin-top: 0; }
+.actionbar.grades { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.today > .card { margin-bottom: 8px; }
+.btn.grade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-height: 60px;
+  padding: 6px 4px;
+  text-align: center;
+  line-height: 1.2;
+}
 .btn.grade.hard { background: var(--hard); }
 .btn.grade.good { background: var(--good-bg); }
 .btn.grade.easy { background: var(--easy); }
-.grade-wrap > .small { padding-left: 4px; }
+.grade-label { font-size: 1rem; }
+.grade-hint { font-size: 0.7rem; font-weight: 500; color: var(--muted); overflow-wrap: anywhere; }
+
+/* Sesli okuma ve kompakt cevap adımı */
+.line { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.line > .de, .line > .answer { flex: 1; min-width: 0; }
+.speak { display: inline-flex; gap: 4px; flex: none; }
+.speak-btn { min-width: 40px; min-height: 40px; padding: 0; font-size: 1.05rem; line-height: 1; }
+.pattern-line { margin: 0 0 8px; font-size: 0.95rem; }
+.link-btn {
+  min-height: 40px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--primary);
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.check { display: flex; align-items: center; gap: 10px; min-height: 44px; font-weight: 600; }
+.check input { width: 22px; height: 22px; flex: none; }
 
 /* İlerleme çubukları */
 .bar {
