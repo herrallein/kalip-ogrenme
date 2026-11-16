@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
-import { cleanForSpeech, pickGermanVoice, speak, canSpeak, RATE_NORMAL, RATE_SLOW } from './speech';
+import { cleanForSpeech, pickGermanVoice, speak, canSpeak, RATE_NORMAL, RATE_SLOW, SAFETY_BASE_MS, SAFETY_PER_CHAR_MS } from './speech';
 import { DEFAULT_PREFS, PREFS_KEY, loadPrefs, savePrefs } from './prefs';
 
 afterEach(() => vi.unstubAllGlobals());
@@ -94,5 +94,44 @@ describe('prefs', () => {
     vi.stubGlobal('localStorage', { getItem: () => { throw new Error('x'); }, setItem: () => { throw new Error('x'); } });
     expect(loadPrefs().autoSpeak).toBe(false);
     expect(() => savePrefs({ autoSpeak: true })).not.toThrow();
+  });
+});
+
+describe('speak onEnd', () => {
+  it('bitince bir kez çağrılır (onend sonra onerror olsa da)', () => {
+    const { spoken } = stubSpeech([]);
+    const onEnd = vi.fn();
+    speak('Guten Tag', { onEnd });
+    const u = spoken[0] as unknown as { onend: () => void; onerror: () => void };
+    expect(onEnd).not.toHaveBeenCalled();
+    u.onend();
+    u.onerror();
+    expect(onEnd).toHaveBeenCalledTimes(1);
+  });
+  it('onend gelmezse güvenlik zaman aşımıyla çağrılır', () => {
+    vi.useFakeTimers();
+    try {
+      stubSpeech([]);
+      const onEnd = vi.fn();
+      speak('Hallo', { onEnd });
+      vi.advanceTimersByTime(SAFETY_BASE_MS + 5 * SAFETY_PER_CHAR_MS + 10);
+      expect(onEnd).toHaveBeenCalledTimes(1);
+    } finally { vi.useRealTimers(); }
+  });
+  it('geri çağrı hata fırlatsa speak fırlatmaz', () => {
+    const { spoken } = stubSpeech([]);
+    speak('Hallo', { onEnd: () => { throw new Error('x'); } });
+    expect(() => (spoken[0] as unknown as { onend: () => void }).onend()).not.toThrow();
+  });
+});
+
+describe('prefs checkSentences', () => {
+  it('varsayılan açık; kaydedilince korunur, autoSpeak ile birbirini ezmez', () => {
+    const m = new Map<string, string>();
+    vi.stubGlobal('localStorage', { getItem: (k: string) => m.get(k) ?? null, setItem: (k: string, v: string) => { m.set(k, v); } });
+    expect(loadPrefs().checkSentences).toBe(true);
+    savePrefs({ checkSentences: false });
+    savePrefs({ autoSpeak: true });
+    expect(loadPrefs()).toEqual({ autoSpeak: true, checkSentences: false });
   });
 });

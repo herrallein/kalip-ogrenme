@@ -97,3 +97,13 @@ describe('meta', () => {
     expect(() => importState(t)).toThrow(/meta/);
   });
 });
+
+describe('flags', () => {
+  it('yedekte flags/flagsCleared geri okunur; bozuksa hata', () => {
+    const s = { ...emptyState(), flags: { 'a1-1': '2026-11-15T10:00:00.000Z' }, flagsCleared: { 'a1-2': '2026-11-14T10:00:00.000Z' } };
+    expect(importState(exportState(s))).toEqual(s);
+    expect(() => importState(JSON.stringify({ ...emptyState(), flags: { x: 5 } }))).toThrow(/flags/);
+    expect(() => importState(JSON.stringify({ ...emptyState(), flags: [] }))).toThrow(/flags/);
+    expect('flags' in importState(exportState(emptyState()))).toBe(false);
+  });
+});

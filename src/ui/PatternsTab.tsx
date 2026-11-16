@@ -3,6 +3,7 @@ import { movePattern, orderedPatterns } from '../core/scheduler';
 import type { AppState, Level, Pattern } from '../core/types';
 import { daysBetween, fmtDay } from './util';
 import { PatternVisual } from './PatternVisual';
+import { FlagButton } from './SentenceCheck';
 
 interface Props {
   state: AppState;
@@ -113,6 +114,7 @@ export function PatternsTab({ state, setState, patterns, today }: Props) {
                     {isOpen && (
                       <div className="row-body">
                         <PatternVisual id={p.id} size="full" showCue />
+                        <FlagButton id={p.id} state={state} setState={setState} />
                         {p.note && <p className="note">{p.note}</p>}
                         <ul className="examples">
                           {p.examples.map((e, k) => (

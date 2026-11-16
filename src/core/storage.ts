@@ -6,6 +6,14 @@ export const STORAGE_KEY = 'kalip-ogrenme:v1';
 const isObj = (v: unknown): v is Record<string, unknown> =>
   typeof v === 'object' && v !== null && !Array.isArray(v);
 
+function parseStampMap(v: unknown, name: string): Record<string, string> | undefined {
+  if (v === undefined) return undefined;
+  if (!isObj(v) || !Object.values(v).every((x) => typeof x === 'string')) {
+    throw new Error(`Yedekte "${name}" alanı bozuk.`);
+  }
+  return { ...(v as Record<string, string>) };
+}
+
 // Ham veriyi doğrular; bozuksa Türkçe Error fırlatır. Eksik ayarlar varsayılanla tamamlanır.
 function parseState(raw: unknown): AppState {
   if (!isObj(raw)) throw new Error('Dosya geçerli bir yedek değil: beklenen yapı bir nesne olmalı.');
@@ -74,6 +82,8 @@ function parseState(raw: unknown): AppState {
     }
   }
 
+  const flags = parseStampMap(raw.flags, 'flags');
+  const flagsCleared = parseStampMap(raw.flagsCleared, 'flagsCleared');
   const out: AppState = {
     version: 1,
     settings,
@@ -82,6 +92,8 @@ function parseState(raw: unknown): AppState {
     order: raw.order as string[],
   };
   if (meta) out.meta = meta;
+  if (flags) out.flags = flags;
+  if (flagsCleared) out.flagsCleared = flagsCleared;
   return out;
 }
 

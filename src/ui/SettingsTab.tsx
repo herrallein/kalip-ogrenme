@@ -4,6 +4,8 @@ import { DEFAULT_SETTINGS, emptyState } from '../core/scheduler';
 import { exportState, importState } from '../core/storage';
 import type { AppState, Settings } from '../core/types';
 import type { SyncApi } from '../sync/useSync';
+import { flaggedIds } from '../core/flags';
+import { patterns as allPatterns } from '../data';
 import { loadPrefs, savePrefs } from './prefs';
 import { canSpeak } from './speech';
 
@@ -25,6 +27,29 @@ export function SettingsTab({ state, setState, today, sync }: Props) {
   const [syncMsg, setSyncMsg] = useState<{ ok: boolean; text: string } | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
   const [autoSpeak, setAutoSpeak] = useState(() => loadPrefs().autoSpeak);
+  const [checkSentences, setCheckSentences] = useState(() => loadPrefs().checkSentences);
+  const [copyMsg, setCopyMsg] = useState<string | null>(null);
+  const flagged = flaggedIds(state, allPatterns.map((p) => p.id));
+
+  const copyFlagged = async () => {
+    const text = flagged.join('\n');
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopyMsg('Kopyalandı.');
+    } catch {
+      // Pano API'si yoksa/reddedilirse eski yöntem.
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      let ok = false;
+      try { ok = document.execCommand('copy'); } catch { /* yoksay */ }
+      document.body.removeChild(ta);
+      setCopyMsg(ok ? 'Kopyalandı.' : 'Kopyalanamadı.');
+    }
+  };
 
   const syncDraft = (v: Settings) => setDraft({
     newPerDay: String(v.newPerDay),
@@ -157,7 +182,7 @@ export function SettingsTab({ state, setState, today, sync }: Props) {
       </div>
       {msg && <p role="status" className={msg.ok ? 'msg ok' : 'msg err'}>{msg.text}</p>}
 
-      <h2>Ses</h2>
+      <h2>Alıştırma</h2>
       <label className="check">
         <input
           type="checkbox"
@@ -169,6 +194,28 @@ export function SettingsTab({ state, setState, today, sync }: Props) {
       <p className="muted small">
         Bu tercih yalnız bu cihazda durur. iPhone'da ses, sessiz anahtarına ve ses düzeyine bağlıdır.
         {!canSpeak() && ' Bu tarayıcı sesli okumayı desteklemiyor.'}
+      </p>
+      <label className="check">
+        <input
+          type="checkbox"
+          checked={checkSentences}
+          onChange={(e) => { setCheckSentences(e.target.checked); savePrefs({ checkSentences: e.target.checked }); }}
+        />
+        <span>Yazdığım cümleleri LanguageTool ile denetle</span>
+      </label>
+      <p className="muted small">
+        Cümleler denetim için LanguageTool sunucusuna gönderilir; anahtar gerekmez. Kapalıyken yalnız cihazdaki
+        kelime karşılaştırması gösterilir.
+      </p>
+
+      <h2>Görsel geri bildirimi</h2>
+      <p className="small">İşaretlenen görseller: {flagged.length}</p>
+      <div className="btn-row">
+        <button type="button" className="btn" disabled={flagged.length === 0} onClick={copyFlagged}>Listeyi kopyala</button>
+      </div>
+      {copyMsg && <p role="status" className="muted small">{copyMsg}</p>}
+      <p className="muted small">
+        Kartta "Görsel anlatmıyor" dediğin kalıpların kimlikleri; listeyi kopyalayıp gönder. İşaretler eşitlemeyle telefon ↔ PC arasında taşınır.
       </p>
 
       <h2>Eşitleme (telefon ↔ PC)</h2>

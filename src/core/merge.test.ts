@@ -123,3 +123,29 @@ describe('stampChanges', () => {
     expect(stampChanges(prev, structuredClone(prev), now).meta).toBeUndefined();
   });
 });
+
+describe('mergeStates: görsel işaretleri', () => {
+  const at = (n: number) => `2026-11-0${n}T10:00:00.000Z`;
+  const base = emptyState();
+  it('iki tarafın işaretleri birleşir', () => {
+    const a = { ...base, flags: { p1: at(1) } };
+    const b = { ...base, flags: { p2: at(2) } };
+    expect(mergeStates(a, b).flags).toEqual({ p1: at(1), p2: at(2) });
+    expect(mergeStates(b, a).flags).toEqual({ p1: at(1), p2: at(2) });
+  });
+  it('daha yeni geri alma eski işareti siler, daha yeni işaret geri almayı geçer', () => {
+    const flagged = { ...base, flags: { p1: at(1) } };
+    const cleared = { ...base, flagsCleared: { p1: at(2) } };
+    const m = mergeStates(flagged, cleared);
+    expect(m.flags).toBeUndefined();
+    expect(m.flagsCleared).toEqual({ p1: at(2) });
+    const reflagged = { ...base, flags: { p1: at(3) } };
+    expect(mergeStates(m, reflagged).flags).toEqual({ p1: at(3) });
+    expect(mergeStates(reflagged, m).flagsCleared).toBeUndefined();
+  });
+  it('işaret yoksa alan eklenmez; idempotent', () => {
+    expect('flags' in mergeStates(base, base)).toBe(false);
+    const a = { ...base, flags: { p1: at(1) }, flagsCleared: { p2: at(1) } };
+    expect(mergeStates(a, a)).toEqual(a);
+  });
+});

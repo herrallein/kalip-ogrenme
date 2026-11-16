@@ -42,6 +42,8 @@ export interface AppState {
   progress: Record<string, Progress>;
   days: Record<string, DayRecord>;
   order: string[];              // kullanıcı sıralaması; boşsa düzey + priority
+  flags?: Record<string, string>;        // 'görsel anlatmıyor' işareti: kalıp kimliği -> ISO an
+  flagsCleared?: Record<string, string>; // işaret geri alındı: kalıp kimliği -> ISO an (eşitleme için)
 }
 export type QueueKind = 'new' | 'learning' | 'review';
 export interface QueueItem { id: string; kind: QueueKind }

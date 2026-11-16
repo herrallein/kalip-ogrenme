@@ -347,3 +347,74 @@ textarea { resize: vertical; }
 .pvisual.tiny .cue { margin-top: 0; padding: 6px 10px; font-size: 0.85rem; flex: 1; }
 .credits { margin-top: 24px; }
 .credits a { color: var(--primary); }
+
+/* İlerleme: hafta özeti, zorlandığın kalıplar, cümle defteri */
+.prog-week { display: grid; gap: 6px; }
+.prog-week li { display: grid; grid-template-columns: 2.5rem 1fr auto; align-items: baseline; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--border); }
+.prog-week-n { font-size: 1.3rem; font-weight: 700; text-align: right; }
+.prog-weak-list { display: grid; gap: 8px; }
+.prog-weak { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+.prog-weak-head {
+  display: flex; justify-content: space-between; align-items: center; gap: 8px; width: 100%;
+  padding: 10px 12px; min-height: 48px; background: none; border: 0; color: inherit; font: inherit; text-align: left; cursor: pointer;
+}
+.prog-weak-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.prog-badge { flex: none; white-space: nowrap; }
+.prog-weak-body { padding: 0 12px 12px; }
+.prog-book summary { cursor: pointer; padding: 10px 0; font-weight: 600; min-height: 44px; }
+.prog-search { width: 100%; margin: 4px 0 8px; box-sizing: border-box; }
+.prog-group { margin-bottom: 12px; }
+.prog-sentence { display: flex; justify-content: space-between; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--border); }
+.prog-sentence span:last-child { flex: none; }
+
+/* Gölgeleme (Shadowing) */
+.shadow { margin: 8px 0; }
+.shadow-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.shadow-btn {
+  flex: 1 1 auto; min-height: 40px; padding: 6px 10px;
+  border: 1px solid var(--border); border-radius: 10px;
+  background: var(--surface); color: var(--text);
+  font: inherit; font-size: 0.9rem; cursor: pointer;
+}
+.shadow-btn:disabled { opacity: 0.4; cursor: default; }
+.shadow-btn.rec { border-color: var(--bad); color: var(--bad); font-weight: 600; }
+.shadow-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.shadow-rec { display: flex; align-items: center; gap: 8px; margin-top: 6px; font-size: 0.9rem; color: var(--bad); }
+.shadow-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--bad); animation: shadow-pulse 1s ease-in-out infinite; }
+.shadow-hint { margin-top: 6px; font-size: 0.9rem; color: var(--warn); }
+@keyframes shadow-pulse { 50% { opacity: 0.3; } }
+@media (prefers-reduced-motion: reduce) { .shadow-dot { animation: none; } }
+
+/* Cümle denetimi, fark renkleri, öneri */
+.attempt { line-height: 1.5; }
+.dw-bad { color: var(--bad); font-weight: 600; text-decoration: line-through; text-decoration-thickness: 1px; }
+.dw-near { color: var(--warn); font-weight: 600; }
+.dw-miss { color: var(--good); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.lt-list { margin: 4px 0 0; display: grid; gap: 4px; font-size: 0.85rem; }
+.lt-list li { display: flex; flex-direction: column; }
+.lt-bad { color: var(--bad); }
+.lt-fix { color: var(--good); }
+.lt-msg { color: var(--muted); font-size: 0.75rem; line-height: 1.3; }
+.lt-note { margin: 4px 0 0; font-size: 0.8rem; color: var(--muted); }
+.lt-ok { color: var(--good); }
+.link-btn:disabled { opacity: 0.5; cursor: default; }
+.link-btn.flag { display: block; font-size: 0.85rem; font-weight: 500; color: var(--muted); min-height: 36px; }
+.link-btn.flag.on { color: var(--warn); font-weight: 600; }
+.btn.grade { position: relative; }
+.btn.grade.suggested { outline: 3px solid var(--primary); outline-offset: -1px; }
+.grade-tag {
+  position: absolute; top: -9px; left: 50%; transform: translateX(-50%);
+  padding: 0 6px; border-radius: 8px; font-size: 0.62rem; font-weight: 700; line-height: 16px;
+  background: var(--primary); color: var(--primary-text); white-space: nowrap;
+}
+
+/* "Hangi kalıp?" */
+.choices { display: grid; gap: 8px; margin: 8px 0; }
+.choice {
+  min-height: 48px; padding: 8px 12px; text-align: left; font: inherit; font-weight: 600;
+  color: var(--text); background: var(--surface); border: 2px solid var(--border); border-radius: 10px; cursor: pointer;
+}
+.choice:disabled { cursor: default; }
+.choice.right { border-color: var(--good); background: var(--review-bg); }
+.choice.wrong { border-color: var(--bad); background: var(--hard); }
+.copy-list { white-space: pre-wrap; font-size: 0.85rem; }

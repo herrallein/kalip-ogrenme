@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
+import { addDays } from './date';
 import { emptyState, gradePattern } from './scheduler';
-import { dueCount, levelStats, studyStreak } from './stats';
+import { dueCount, levelStats, sentenceBook, studyStreak, weakPatterns, weekSummary } from './stats';
 import { mkPatterns, mkProgress, withProgress } from './testutil';
 import type { AppState } from './types';
 
@@ -69,5 +70,97 @@ describe('dueCount', () => {
     const s = gradePattern(emptyState(), 'a1-1', 'good', T);
     // newIds henüz yok: gün kaydı gradePattern ile boş newIds ile oluştu
     expect(dueCount(s, pats, T)).toBe(0);
+  });
+});
+
+describe('weekSummary', () => {
+  it('boş durumda hepsi sıfır', () => {
+    const z = { days: 0, graded: 0, introduced: 0, graduated: 0, hard: 0 };
+    expect(weekSummary(emptyState(), T)).toEqual({ current: z, previous: z });
+  });
+  it('pencere sınırları: bugün-6 dahil, bugün-7 geçen haftada, bugün-14 dışarıda', () => {
+    const d = (n: number) => addDays(T, n);
+    const base: AppState = { ...emptyState(), days: {
+      [d(0)]: { newIds: [], done: ['a', 'b'] },
+      [d(-6)]: { newIds: [], done: ['a'] },
+      [d(-7)]: { newIds: [], done: ['a', 'b', 'c'] },
+      [d(-13)]: { newIds: [], done: ['a'] },
+      [d(-14)]: { newIds: [], done: ['a'] },
+      [d(1)]: { newIds: [], done: ['a'] },
+      [d(-2)]: { newIds: [], done: [] },
+    } };
+    const s = withProgress([
+      mkProgress('a', { introduced: d(-6), history: [{ date: d(0), grade: 'hard' }, { date: d(-7), grade: 'hard' }] }),
+      mkProgress('b', { introduced: d(-7) }),
+      mkProgress('c', { introduced: d(-14) }),
+    ], base);
+    const w = weekSummary(s, T);
+    expect(w.current).toMatchObject({ days: 2, graded: 3, introduced: 1, hard: 1 });
+    expect(w.previous).toMatchObject({ days: 2, graded: 4, introduced: 1, hard: 1 });
+  });
+  it('kalıcıya geçişi geçmişten bulur; unutup yeniden öğrenmeyi ayrı sayar', () => {
+    const e = (date: string) => ({ date, grade: 'easy' as const });
+    const hist = [
+      e('2026-11-01'), e('2026-11-02'), e('2026-11-03'),
+      { date: '2026-11-08', grade: 'hard' as const },
+      e('2026-11-10'), e('2026-11-11'), e('2026-11-12'),
+    ];
+    const s = withProgress([mkProgress('a', { history: hist, introduced: '2026-11-01' })]);
+    const w = weekSummary(s, T);
+    expect(w.current.graduated).toBe(1);   // 11-12 (11-09..11-15)
+    expect(w.previous.graduated).toBe(1);  // 11-03 (11-02..11-08)
+    expect(w.previous.hard).toBe(1);
+    expect(w.current.hard).toBe(0);
+  });
+});
+
+describe('weakPatterns', () => {
+  const pats = mkPatterns('A1', 4);
+  it('boş durumda boş', () => {
+    expect(weakPatterns(emptyState(), pats, T, 8)).toEqual([]);
+  });
+  it('puan = unutma*2 + son 14 gün Zor + takılma; 0 puan listelenmez', () => {
+    const s = withProgress([
+      mkProgress('a1-1', { lapses: 1, history: [{ date: addDays(T, -13), grade: 'hard' }, { date: addDays(T, -14), grade: 'hard' }] }),
+      mkProgress('a1-2', { seen: 5 }),
+      mkProgress('a1-3', { seen: 5, phase: 'review' }),
+      mkProgress('a1-4', {}),
+    ]);
+    const r = weakPatterns(s, pats, T, 8);
+    expect(r.map((x) => [x.pattern.id, x.score])).toEqual([['a1-1', 3], ['a1-2', 1]]);
+    expect(r[0]).toMatchObject({ hard: 1, lapses: 1, stuck: false });
+    expect(r[1].stuck).toBe(true);
+  });
+  it('eşitlikte unutması çok olan, sonra liste sırası; n sınırlar', () => {
+    const s = withProgress([
+      mkProgress('a1-1', { history: [{ date: T, grade: 'hard' }, { date: T, grade: 'hard' }] }),
+      mkProgress('a1-2', { lapses: 1 }),
+      mkProgress('a1-3', { lapses: 1 }),
+    ]);
+    expect(weakPatterns(s, pats, T, 8).map((x) => x.pattern.id)).toEqual(['a1-2', 'a1-3', 'a1-1']);
+    expect(weakPatterns(s, pats, T, 2)).toHaveLength(2);
+    expect(weakPatterns(s, pats, T, 0)).toEqual([]);
+  });
+});
+
+describe('sentenceBook', () => {
+  const pats = mkPatterns('A1', 3);
+  it('boş durumda toplam 0', () => {
+    expect(sentenceBook(emptyState(), pats)).toEqual({ total: 0, groups: [] });
+  });
+  it('kalıba göre gruplar, yeniden eskiye; aynı günde sonradan yazılan önce', () => {
+    const s = withProgress([
+      mkProgress('a1-1', { sentences: [{ date: '2026-11-01', text: 'x' }, { date: '2026-11-03', text: 'y1' }, { date: '2026-11-03', text: 'y2' }] }),
+      mkProgress('a1-2', { sentences: [{ date: '2026-11-05', text: 'z' }] }),
+      mkProgress('a1-3', {}),
+    ]);
+    const b = sentenceBook(s, pats);
+    expect(b.total).toBe(4);
+    expect(b.groups.map((g) => g.pattern.id)).toEqual(['a1-2', 'a1-1']);
+    expect(b.groups[1].sentences.map((x) => x.text)).toEqual(['y2', 'y1', 'x']);
+  });
+  it('listede olmayan kalıbın cümleleri atlanır', () => {
+    const s = withProgress([mkProgress('yok', { sentences: [{ date: T, text: 'a' }] })]);
+    expect(sentenceBook(s, pats).total).toBe(0);
   });
 });

@@ -71,6 +71,30 @@ function mergeProgress(a: Progress, b: Progress, settings: AppState['settings'])
   return base;
 }
 
+// 'Görsel anlatmıyor' işaretleri: her kalıpta en yeni işlem (işaretle / geri al) kazanır.
+// Geri alma flagsCleared'a yazılır; böylece bir cihazdaki geri alma diğerindeki eski işareti siler.
+function mergeFlags(a: AppState, b: AppState): { flags?: Record<string, string>; flagsCleared?: Record<string, string> } {
+  const latest = (x?: Record<string, string>, y?: Record<string, string>) => {
+    const o: Record<string, string> = {};
+    for (const src of [x, y]) {
+      for (const [id, at] of Object.entries(src ?? {})) if (!(id in o) || at > o[id]) o[id] = at;
+    }
+    return o;
+  };
+  const set = latest(a.flags, b.flags);
+  const cleared = latest(a.flagsCleared, b.flagsCleared);
+  const flags: Record<string, string> = {};
+  const flagsCleared: Record<string, string> = {};
+  for (const id of new Set([...Object.keys(set), ...Object.keys(cleared)])) {
+    if (id in set && (!(id in cleared) || set[id] > cleared[id])) flags[id] = set[id];
+    else flagsCleared[id] = cleared[id];
+  }
+  return {
+    flags: Object.keys(flags).length ? flags : undefined,
+    flagsCleared: Object.keys(flagsCleared).length ? flagsCleared : undefined,
+  };
+}
+
 export function mergeStates(local: AppState, remote: AppState): AppState {
   const lm = metaOf(local);
   const rm = metaOf(remote);
@@ -102,6 +126,9 @@ export function mergeStates(local: AppState, remote: AppState): AppState {
   }
 
   const out: AppState = { version: 1, settings, progress, days, order: [...orderWin.order] };
+  const fl = mergeFlags(local, remote);
+  if (fl.flags) out.flags = fl.flags;
+  if (fl.flagsCleared) out.flagsCleared = fl.flagsCleared;
   if (local.meta || remote.meta) {
     out.meta = {
       epoch: lm.epoch,

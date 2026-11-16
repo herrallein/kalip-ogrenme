@@ -1,9 +1,15 @@
 // Almanca sesli okuma: window.speechSynthesis üzerinde ince bir sarmalayıcı. Hiçbir şey fırlatmaz.
 
-interface SpeakOptions { slow?: boolean }
+interface SpeakOptions {
+  slow?: boolean;
+  // Okuma bitince (ya da hata/kesilme/güvenlik zaman aşımıyla) en çok bir kez çağrılır.
+  onEnd?: () => void;
+}
 
 export const RATE_NORMAL = 0.95;
 export const RATE_SLOW = 0.6;
+export const SAFETY_BASE_MS = 3000;
+export const SAFETY_PER_CHAR_MS = 250;
 
 // Okunurken kötü duyulan kısımları atar: "…", "..." ve parantez içi ipuçları.
 export function cleanForSpeech(text: string): string {
@@ -56,8 +62,24 @@ export function speak(text: string, opts: SpeakOptions = {}): void {
     u.rate = opts.slow ? RATE_SLOW : RATE_NORMAL;
     const voice = pickGermanVoice(s.getVoices());
     if (voice) u.voice = voice;
+    if (opts.onEnd) {
+      const cb = opts.onEnd;
+      let fired = false;
+      let timer: ReturnType<typeof setTimeout> | undefined;
+      const finish = () => {
+        if (fired) return;
+        fired = true;
+        if (timer !== undefined) clearTimeout(timer);
+        try { cb(); } catch { /* geri çağrı hatası sesi bozmasın */ }
+      };
+      u.onend = finish;
+      u.onerror = finish;
+      // Bazı tarayıcılar onend'i hiç yollamaz: süreye göre güvenlik zaman aşımı.
+      timer = setTimeout(finish, SAFETY_BASE_MS + clean.length * SAFETY_PER_CHAR_MS);
+    }
     s.speak(u);
   } catch {
     /* ses hiçbir zaman uygulamayı bozmamalı */
+    try { opts.onEnd?.(); } catch { /* yoksay */ }
   }
 }
