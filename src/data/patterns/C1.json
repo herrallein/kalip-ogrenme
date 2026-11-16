@@ -1200,32 +1200,32 @@
     ]
   },
   {
-    "id": "c1-sollte-inversion",
+    "id": "c1-es-empfiehlt-sich",
     "level": "C1",
     "priority": 41,
-    "pattern": "Sollte …, (so) … (Konditionalsatz ohne „wenn“)",
-    "meaning": "Eğer …, … (resmî koşul cümlesi)",
-    "note": "Sollte + özne başa gelir, wenn düşer. Resmî ve ihtiyatlı bir olasılık bildirir; ana cümlede çoğunlukla emir kipi veya Präsens bulunur.",
+    "pattern": "Es empfiehlt sich, … zu (Infinitiv)",
+    "meaning": "…mek tavsiye edilir, …mek yerinde olur",
+    "note": "Resmî ve yazılı dilde „sich empfehlen“ ile verilen dolaylı tavsiye; Du solltest … gibi doğrudan öneriden daha nesnel ve kibar durur. Yan cümle de gelebilir: Es empfiehlt sich, dass …",
     "examples": [
       {
-        "de": "Sollten Sie Fragen haben, melden Sie sich bitte.",
-        "tr": "Sorularınız olursa lütfen bize ulaşın."
+        "de": "Es empfiehlt sich, die Unterlagen frühzeitig einzureichen.",
+        "tr": "Belgelerin erkenden teslim edilmesi tavsiye olunur."
       },
       {
-        "de": "Sollte das Wetter schlecht sein, findet die Feier drinnen statt.",
-        "tr": "Hava kötü olursa kutlama içeride yapılacak."
+        "de": "Bei starkem Schneefall empfiehlt es sich, zu Hause zu bleiben.",
+        "tr": "Yoğun kar yağışında evde kalmak yerinde olur."
       },
       {
-        "de": "Sollte es zu Verzögerungen kommen, informieren wir Sie umgehend.",
-        "tr": "Gecikme yaşanırsa sizi hemen bilgilendiririz."
+        "de": "Vor dem Vertragsabschluss empfiehlt es sich, einen Anwalt zu konsultieren.",
+        "tr": "Sözleşme imzalanmadan önce bir avukata danışmak yerinde olur."
       },
       {
-        "de": "Sollten die Zahlen nicht stimmen, müssen wir neu rechnen.",
-        "tr": "Rakamlar tutmazsa yeniden hesaplamamız gerekir."
+        "de": "Es empfiehlt sich dringend, die Daten regelmäßig zu sichern.",
+        "tr": "Verileri düzenli olarak yedeklemek kesinlikle tavsiye edilir."
       },
       {
-        "de": "Sollte er doch noch kommen, richte ihm bitte meine Grüße aus.",
-        "tr": "Yine de gelirse lütfen ona selamlarımı ilet."
+        "de": "Für Wanderungen im Hochgebirge empfiehlt es sich, festes Schuhwerk zu tragen.",
+        "tr": "Yüksek dağ yürüyüşlerinde sağlam ayakkabı giymek tavsiye edilir."
       }
     ]
   },

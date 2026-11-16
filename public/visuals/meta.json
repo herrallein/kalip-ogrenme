@@ -999,6 +999,10 @@
     "cue": "Tren gelecek mi? Saat işliyor, sadece beklemek kalıyor: bleibt abzuwarten.",
     "alt": "Peronda kum saatiyle bekleyen kişi"
   },
+  "c1-es-empfiehlt-sich": {
+    "cue": "Dağa çıkmadan önce rehber sağlam botu işaret ediyor: Es empfiehlt sich, feste Schuhe zu tragen = tavsiye edilir.",
+    "alt": "Dağ yolunda parmağıyla sağlam botları gösteren gezgin"
+  },
   "c1-es-gilt-zu": {
     "cue": "Masada yapılacak liste duruyor, şimdi hepsi yapılmak zorunda: es gilt ... zu.",
     "alt": "Yapılacaklar listesini gösteren kişi"
@@ -1114,10 +1118,6 @@
   "c1-soll-haben": {
     "cue": "Gazete manşeti \"olmuş\" diyor ama sen emin değilsin: soll ... haben = söylenti.",
     "alt": "Gazete okuyan şüpheli kişi, yanında söylenti işareti"
-  },
-  "c1-sollte-inversion": {
-    "cue": "Yağmur gelirse (belki), şemsiyeyi açarım: Sollte ..., fiil başa gelir, wenn yok.",
-    "alt": "Bulutlara bakıp şemsiye düşünen kişi"
   },
   "c1-soweit-mir-bekannt": {
     "cue": "Bildiğin kadarını daire içine aldın, ötesini bilmiyorsun: soweit mir bekannt ist.",

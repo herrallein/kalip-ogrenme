@@ -1,0 +1,6 @@
+{"id":"c1-es-empfiehlt-sich","bg":"park","keyword":"empfiehlt sich",
+ "alt":"Dağ yolunda parmağıyla sağlam botları gösteren gezgin",
+ "people":[{"pose":"bust:PointingUp","face":"Smile","hair":"ShortWavy","x":90,"skin":"brown","shirt":"green"}],
+ "objects":[{"emoji":"🥾","x":232,"y":112,"size":60},{"emoji":"🏔️","x":282,"y":56,"size":46},{"emoji":"👍","x":196,"y":62,"size":34}],
+ "arrow":{"from":[140,112],"to":[200,112],"bend":-14,"style":"solid"},
+ "cue":"Dağa çıkmadan önce rehber sağlam botu işaret ediyor: Es empfiehlt sich, feste Schuhe zu tragen = tavsiye edilir."}
